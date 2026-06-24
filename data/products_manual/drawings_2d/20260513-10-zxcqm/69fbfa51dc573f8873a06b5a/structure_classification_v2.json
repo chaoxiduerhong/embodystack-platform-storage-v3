@@ -1,0 +1,236 @@
+{
+  "schema_version": "pdf_force_fit_v2.3",
+  "entry": "pdf_force_fit_v2",
+  "source": {
+    "product_file_id": "69fbfa51dc573f8873a06b5a",
+    "cid": "7e8e522a2031478dbca10a7df26d519f",
+    "supplier_id": "69f1b877908c95ae5aafdcd0",
+    "category_id": "7daf4091d5b7c33ea3e4942a",
+    "series_id": "af40da733f90435cbf52d7b7e779dc88",
+    "model_id": "6c6a88f659bb4b8eb503a64cd309a931",
+    "source_annotation": "69fbfa51dc573f8873a06b5a---.svg"
+  },
+  "classification_records": [
+    {
+      "product_file_id": "69fbfa51dc573f8873a06b5a",
+      "region_id": "R001",
+      "category_name": "power_connector_pinout",
+      "source": "ai",
+      "action": "updated"
+    },
+    {
+      "product_file_id": "69fbfa51dc573f8873a06b5a",
+      "region_id": "R002",
+      "category_name": "mechanical_dimensions",
+      "source": "ai",
+      "action": "updated"
+    },
+    {
+      "product_file_id": "69fbfa51dc573f8873a06b5a",
+      "region_id": "R003",
+      "category_name": "torque_speed_curve",
+      "source": "ai",
+      "action": "updated"
+    },
+    {
+      "product_file_id": "69fbfa51dc573f8873a06b5a",
+      "region_id": "R004",
+      "category_name": "mechanical_dimensions",
+      "source": "ai",
+      "action": "updated"
+    },
+    {
+      "product_file_id": "69fbfa51dc573f8873a06b5a",
+      "region_id": "R005",
+      "category_name": "torque_speed_curve",
+      "source": "ai",
+      "action": "updated"
+    },
+    {
+      "product_file_id": "69fbfa51dc573f8873a06b5a",
+      "region_id": "R006",
+      "category_name": "mechanical_dimensions",
+      "source": "ai",
+      "action": "updated"
+    },
+    {
+      "product_file_id": "69fbfa51dc573f8873a06b5a",
+      "region_id": "R007",
+      "category_name": "mechanical_dimensions",
+      "source": "ai",
+      "action": "updated"
+    }
+  ],
+  "regions": [
+    {
+      "region_id": "R001",
+      "group_name": "动力线接线定义",
+      "origin_src": "regions/R001_1e90ff.png",
+      "target_src": "",
+      "content_type": "table",
+      "is_structure": false,
+      "has_gb_standard": false,
+      "title": {
+        "title_zh": "动力线颜色功能表",
+        "title_en": "Power Wire Function and Color Table"
+      },
+      "classification": {
+        "category_name": "power_connector_pinout",
+        "title_zh": "动力连接器针脚定义",
+        "title_en": "Power Connector Pinout",
+        "category_basis": "用于识别动力连接器或电源接口的针脚/接线定义，包括动力接口 pinout、引脚编号与针脚功能对应关系、针脚名称、U/V/W/PE、L/N/PE、DC+/DC-、P+/P-、Brake+/Brake-、制动器、电源正负极、保护地、相线、线色、线径、端子号、接线说明、连接器针位图、针脚分配表。\n\n必须同时满足：\n1. 出现连接器针脚、端子或接口信息；\n2. 至少有一个针脚编号与功能、信号名、线色、线序、电源极性、相线、保护地或接线关系对应。\n\n仅有引脚编号，但没有功能定义，不应归入本类。\n仅出现 Power Wire、Housing、Terminal、连接器型号、端子型号、线束走向、连接器安装位置、接插件外形图、插头/插座物料信息时，不应归入本类。\n仅显示 1/2/3/4 等孔位编号和 Housing/Terminal 型号，应归入 connector_housing_terminal 或 connector_structure，不应归入 power_connector_pinout。",
+        "reason": "目标框内为动力线功能与颜色对应表，列出'U相 MOTOR U'、'V相 MOTOR V'、'W相 MOTOR W'及对应线色和线径'BROWN(18AWG)'、'PURPLE(18AWG)'、'BLUE (18AWG)'，体现电机三相动力线的接线定义。",
+        "confidence": 0.94,
+        "source": "ai",
+        "category_type": "base"
+      }
+    },
+    {
+      "region_id": "R002",
+      "group_name": "动力线引出与外形尺寸",
+      "origin_src": "regions/R002_8a2be2.png",
+      "target_src": "regions/R002_8a2be2_trimmed.png",
+      "content_type": "structure",
+      "is_structure": true,
+      "has_gb_standard": false,
+      "title": {
+        "title_zh": "动力线引出结构及尺寸",
+        "title_en": "Power Wire Routing and Dimensions"
+      },
+      "classification": {
+        "category_name": "mechanical_dimensions",
+        "title_zh": "机械尺寸",
+        "title_en": "Mechanical Dimensions",
+        "category_basis": "用于识别机械结构尺寸类图纸，包括电机/零部件外形轮廓、长宽高、轴径、轴长、键槽、法兰、安装孔、孔距、定位尺寸、三视图、剖视图、局部放大视图、公差、形位公差、基准符号、连接器/线缆/插头的物理安装位置或外形位置。若图中仅展示连接器型号、端子型号、线束走向、接口外形位置，但没有明确的引脚编号、针脚功能、线色或接线表，也归入本类。",
+        "reason": "目标框内为电机端面外形图，包含动力线引出位置、线长标注'L≥300'、底部直径尺寸'Ø34'以及线缆处理说明'不套UVW标识管'，未给出针脚编号与功能对应关系，因此归入机械尺寸类。",
+        "confidence": 0.91,
+        "source": "ai",
+        "category_type": "base"
+      }
+    },
+    {
+      "region_id": "R003",
+      "group_name": "Tecnical Data V1.6",
+      "origin_src": "regions/R003_00ced1.png",
+      "target_src": "",
+      "content_type": "table",
+      "is_structure": false,
+      "has_gb_standard": false,
+      "title": {
+        "title_zh": "技术数据表",
+        "title_en": "Tecnical Data V1.6"
+      },
+      "classification": {
+        "category_name": "torque_speed_curve",
+        "title_zh": "扭矩-转速曲线",
+        "title_en": "Torque-Speed Curve",
+        "category_basis": "用于识别电机性能曲线类图纸或图表，包括扭矩-转速曲线、转速-扭矩关系、连续扭矩、峰值扭矩、间歇扭矩、额定扭矩、最大扭矩、转速范围、额定转速、最高转速、工作区间、S1/S2/S3 工作制、短时运行区、连续运行区、功率曲线、效率曲线等。典型特征是坐标轴、曲线、工作区域、转速单位 rpm/r/min、扭矩单位 Nm/N·m。",
+        "reason": "目标框内是电机'Tecnical Data'参数表，列出'Rated Torque T_N (N.m)'、'Maximum torque T_m (N.m)'、'Rated Speed n_N (rpm)'、电流、功率和时间常数等性能数据；虽不是曲线图，但工程含义主要对应电机扭矩、转速及性能参数，较给定类别中最接近扭矩-转速性能类。",
+        "confidence": 0.78,
+        "source": "ai",
+        "category_type": "base"
+      }
+    },
+    {
+      "region_id": "R004",
+      "group_name": "定转子铁芯剖面尺寸",
+      "origin_src": "regions/R004_00ff7f.png",
+      "target_src": "regions/R004_00ff7f_trimmed.png",
+      "content_type": "structure",
+      "is_structure": true,
+      "has_gb_standard": false,
+      "title": {
+        "title_zh": "定转子铁芯剖面尺寸图",
+        "title_en": "Stator and Rotor Core Section Dimensions"
+      },
+      "classification": {
+        "category_name": "mechanical_dimensions",
+        "title_zh": "机械尺寸",
+        "title_en": "Mechanical Dimensions",
+        "category_basis": "用于识别机械结构尺寸类图纸，包括电机/零部件外形轮廓、长宽高、轴径、轴长、键槽、法兰、安装孔、孔距、定位尺寸、三视图、剖视图、局部放大视图、公差、形位公差、基准符号、连接器/线缆/插头的物理安装位置或外形位置。若图中仅展示连接器型号、端子型号、线束走向、接口外形位置，但没有明确的引脚编号、针脚功能、线色或接线表，也归入本类。",
+        "reason": "目标裁剪区域在完整标注源图中对应绿色框内的剖面结构图，包含剖面线、中心线、引出说明和多处尺寸标注，如'φ58.5(Max)'、'φ40.5(Min)'、'13.5(Max)'、'0±0.1(定转子铁芯面间距)'，表达电机定转子铁芯及磁钢相关的几何尺寸和装配间距。",
+        "confidence": 0.98,
+        "source": "ai",
+        "category_type": "base"
+      }
+    },
+    {
+      "region_id": "R005",
+      "group_name": "performance_curve",
+      "origin_src": "regions/R005_ffd700.png",
+      "target_src": "regions/R005_ffd700_trimmed.png",
+      "content_type": "structure",
+      "is_structure": true,
+      "has_gb_standard": false,
+      "title": {
+        "title_zh": "性能曲线",
+        "title_en": "Performance Curve"
+      },
+      "classification": {
+        "category_name": "torque_speed_curve",
+        "title_zh": "扭矩-转速曲线",
+        "title_en": "Torque-Speed Curve",
+        "category_basis": "用于识别电机性能曲线类图纸或图表，包括扭矩-转速曲线、转速-扭矩关系、连续扭矩、峰值扭矩、间歇扭矩、额定扭矩、最大扭矩、转速范围、额定转速、最高转速、工作区间、S1/S2/S3 工作制、短时运行区、连续运行区、功率曲线、效率曲线等。典型特征是坐标轴、曲线、工作区域、转速单位 rpm/r/min、扭矩单位 Nm/N·m。",
+        "reason": "目标裁剪区域在完整标注源图左下方，标题为'Performance Curve'，包含扭矩纵轴'T(N.m)'、转速横轴'n(rpm)'、连续区'Continuous'和间歇区'Intermittent'，并标注0.45、0.55、1.25、3100、3400等扭矩与转速关键值，属于电机扭矩-转速性能曲线。",
+        "confidence": 0.99,
+        "source": "ai",
+        "category_type": "base"
+      }
+    },
+    {
+      "region_id": "R006",
+      "group_name": "技术要求",
+      "origin_src": "regions/R006_1e90ff.png",
+      "target_src": "",
+      "content_type": "text",
+      "is_structure": false,
+      "has_gb_standard": true,
+      "title": {
+        "title_zh": "定子引出线技术要求",
+        "title_en": "Stator Lead Wire Technical Requirements"
+      },
+      "classification": {
+        "category_name": "mechanical_dimensions",
+        "title_zh": "机械尺寸",
+        "title_en": "Mechanical Dimensions",
+        "category_basis": "用于识别机械结构尺寸类图纸，包括电机/零部件外形轮廓、长宽高、轴径、轴长、键槽、法兰、安装孔、孔距、定位尺寸、三视图、剖视图、局部放大视图、公差、形位公差、基准符号、连接器/线缆/插头的物理安装位置或外形位置。若图中仅展示连接器型号、端子型号、线束走向、接口外形位置，但没有明确的引脚编号、针脚功能、线色或接线表，也归入本类。",
+        "reason": "目标框为图纸中的'技术要求'文字说明，内容要求定子三相引出线按GB/T7345-2008承受9N拉力且线芯和绝缘层不得损坏，属于电机引出线的机械可靠性和结构要求；未出现针脚编号与功能对应或反馈信号定义，因此最接近机械尺寸类图纸信息。",
+        "confidence": 0.72,
+        "source": "ai",
+        "category_type": "base"
+      }
+    },
+    {
+      "region_id": "R007",
+      "group_name": "Environmental conditions",
+      "origin_src": "regions/R007_7fff00.png",
+      "target_src": "",
+      "content_type": "table",
+      "is_structure": false,
+      "has_gb_standard": false,
+      "title": {
+        "title_zh": "环境条件",
+        "title_en": "Environmental Conditions"
+      },
+      "classification": {
+        "category_name": "mechanical_dimensions",
+        "title_zh": "机械尺寸",
+        "title_en": "Mechanical Dimensions",
+        "category_basis": "用于识别机械结构尺寸类图纸，包括电机/零部件外形轮廓、长宽高、轴径、轴长、键槽、法兰、安装孔、孔距、定位尺寸、三视图、剖视图、局部放大视图、公差、形位公差、基准符号、连接器/线缆/插头的物理安装位置或外形位置。若图中仅展示连接器型号、端子型号、线束走向、接口外形位置，但没有明确的引脚编号、针脚功能、线色或接线表，也归入本类。",
+        "reason": "目标区域是整张电机外形图标题栏旁的环境条件表格，包含'Temperature'、'Humidity'、'Installation altitude'等整机使用条件说明，不是扭矩转速曲线，也没有动力或反馈连接器针脚功能定义；在给定类别中最接近机械图纸附带参数信息，因此归入机械尺寸类。",
+        "confidence": 0.62,
+        "source": "ai",
+        "category_type": "base"
+      }
+    }
+  ],
+  "quality_control": {
+    "origin_src_is_pre_trim_crop": true,
+    "target_src_is_structure_trimmed_crop": true,
+    "engineering_extraction_skipped": true,
+    "forbidden_engineering_fields_present": [],
+    "json_validated": true,
+    "origin_src_semantics": "5x crop before structure border trim; backend original data image",
+    "target_src_semantics": "structure-only crop after border trim; backend processed data image"
+  }
+}

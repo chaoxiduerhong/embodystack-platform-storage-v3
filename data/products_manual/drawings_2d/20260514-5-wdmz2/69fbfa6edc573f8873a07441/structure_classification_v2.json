@@ -1,0 +1,417 @@
+{
+  "schema_version": "pdf_force_fit_v2.3",
+  "entry": "pdf_force_fit_v2",
+  "source": {
+    "product_file_id": "69fbfa6edc573f8873a07441",
+    "cid": "8d8af24e2aba48a7a074826b1cc92c32",
+    "supplier_id": "69f1b877908c95ae5aafdcd0",
+    "category_id": "269387c73e68d9f93d215b46",
+    "series_id": "4f27dd1698ba42f58d187c7d64e50e27",
+    "model_id": "c454a0abec454248acdd95596bb482cf",
+    "source_annotation": "69fbfa6edc573f8873a07441---.svg"
+  },
+  "classification_records": [
+    {
+      "product_file_id": "69fbfa6edc573f8873a07441",
+      "region_id": "R001",
+      "category_name": "power_connector_pinout",
+      "source": "ai",
+      "action": "updated"
+    },
+    {
+      "product_file_id": "69fbfa6edc573f8873a07441",
+      "region_id": "R002",
+      "category_name": "power_connector_pinout",
+      "source": "ai",
+      "action": "updated"
+    },
+    {
+      "product_file_id": "69fbfa6edc573f8873a07441",
+      "region_id": "R003",
+      "category_name": "feedback_connector_pinout",
+      "source": "ai",
+      "action": "updated"
+    },
+    {
+      "product_file_id": "69fbfa6edc573f8873a07441",
+      "region_id": "R004",
+      "category_name": "power_connector_pinout",
+      "source": "ai",
+      "action": "updated"
+    },
+    {
+      "product_file_id": "69fbfa6edc573f8873a07441",
+      "region_id": "R005",
+      "category_name": "power_connector_pinout",
+      "source": "ai",
+      "action": "updated"
+    },
+    {
+      "product_file_id": "69fbfa6edc573f8873a07441",
+      "region_id": "R006",
+      "category_name": "power_connector_pinout",
+      "source": "ai",
+      "action": "updated"
+    },
+    {
+      "product_file_id": "69fbfa6edc573f8873a07441",
+      "region_id": "R007",
+      "category_name": "mechanical_dimensions",
+      "source": "ai",
+      "action": "updated"
+    },
+    {
+      "product_file_id": "69fbfa6edc573f8873a07441",
+      "region_id": "R008",
+      "category_name": "mechanical_dimensions",
+      "source": "ai",
+      "action": "updated"
+    },
+    {
+      "product_file_id": "69fbfa6edc573f8873a07441",
+      "region_id": "R009",
+      "category_name": "mechanical_dimensions",
+      "source": "ai",
+      "action": "updated"
+    },
+    {
+      "product_file_id": "69fbfa6edc573f8873a07441",
+      "region_id": "R010",
+      "category_name": "mechanical_dimensions",
+      "source": "ai",
+      "action": "updated"
+    },
+    {
+      "product_file_id": "69fbfa6edc573f8873a07441",
+      "region_id": "R011",
+      "category_name": "torque_speed_curve",
+      "source": "ai",
+      "action": "updated"
+    },
+    {
+      "product_file_id": "69fbfa6edc573f8873a07441",
+      "region_id": "R012",
+      "category_name": "mechanical_dimensions",
+      "source": "ai",
+      "action": "updated"
+    },
+    {
+      "product_file_id": "69fbfa6edc573f8873a07441",
+      "region_id": "R013",
+      "category_name": "mechanical_dimensions",
+      "source": "ai",
+      "action": "updated"
+    }
+  ],
+  "regions": [
+    {
+      "region_id": "R001",
+      "group_name": "brake_wire_pinout",
+      "origin_src": "regions/R001_00bfff.png",
+      "target_src": "",
+      "content_type": "table",
+      "is_structure": false,
+      "has_gb_standard": false,
+      "title": {
+        "title_zh": "刹车线接口定义",
+        "title_en": "Brake Wire Pinout"
+      },
+      "classification": {
+        "category_name": "power_connector_pinout",
+        "title_zh": "动力连接器接口定义",
+        "title_en": "Power Connector Pinout",
+        "category_basis": "6-pin 动力接口、U/V/W/PE、线色、接线说明",
+        "reason": "目标图像显示刹车线接口的引脚定义表,包含角号(PIN)、功能定义(FUNCTION)和线色(COLOR)三列,虽然是刹车线而非U/V/W相线,但属于电机动力系统的接线定义,包含引脚号、功能和线色标识,与动力连接器接口定义的工程特征最为接近",
+        "confidence": 0.75,
+        "source": "ai",
+        "category_type": "base"
+      }
+    },
+    {
+      "region_id": "R002",
+      "group_name": "power_connector_pinout_table",
+      "origin_src": "regions/R002_00ff7f.png",
+      "target_src": "",
+      "content_type": "table",
+      "is_structure": false,
+      "has_gb_standard": false,
+      "title": {
+        "title_zh": "动力线接口定义",
+        "title_en": "Power Wire Connector Pinout"
+      },
+      "classification": {
+        "category_name": "power_connector_pinout",
+        "title_zh": "动力接口引脚定义",
+        "title_en": "Power Connector Pinout",
+        "category_basis": "6-pin 动力接口、U/V/W/PE、线色、接线说明",
+        "reason": "该表格定义了4脚动力接口的引脚功能和线色，包含U相、V相、W相及PE接地相，符合电机动力线接口标准定义，属于动力连接器引脚说明",
+        "confidence": 0.95,
+        "source": "ai",
+        "category_type": "base"
+      }
+    },
+    {
+      "region_id": "R003",
+      "group_name": "feedback_connector_pinout_table",
+      "origin_src": "regions/R003_ffd700.png",
+      "target_src": "",
+      "content_type": "table",
+      "is_structure": false,
+      "has_gb_standard": false,
+      "title": {
+        "title_zh": "反馈线接口引脚定义",
+        "title_en": "Feedback Connector Pinout"
+      },
+      "classification": {
+        "category_name": "feedback_connector_pinout",
+        "title_zh": "反馈线接口引脚定义",
+        "title_en": "Feedback Connector Pinout",
+        "category_basis": "17-pin 编码器或反馈接口、VCC、GND、信号脚、NC 脚位",
+        "reason": "该表格明确定义了反馈线接口的6个引脚功能，包含VCC +5V、GND、VB、电池GND电源脚，以及485+/485-通信信号脚，并标注了线色，属于典型的编码器或反馈接口引脚定义表",
+        "confidence": 0.95,
+        "source": "ai",
+        "category_type": "base"
+      }
+    },
+    {
+      "region_id": "R004",
+      "group_name": "power_connector_component_spec",
+      "origin_src": "regions/R004_00bfff.png",
+      "target_src": "",
+      "content_type": "text",
+      "is_structure": false,
+      "has_gb_standard": false,
+      "title": {
+        "title_zh": "动力连接器规格",
+        "title_en": "Power Connector Component Specification"
+      },
+      "classification": {
+        "category_name": "power_connector_pinout",
+        "title_zh": "动力连接器引脚定义",
+        "title_en": "Power Connector Pinout",
+        "category_basis": "6-pin 动力接口、U/V/W/PE、线色、接线说明",
+        "reason": "目标图显示2芯动力连接器的壳体型号H66L6-02P和端子型号T66L6-B，配合连接器图示和编号1/2，属于动力接口组件规格说明，与动力连接器引脚定义类别直接相关",
+        "confidence": 0.88,
+        "source": "ai",
+        "category_type": "base"
+      }
+    },
+    {
+      "region_id": "R005",
+      "group_name": "power_connector_pinout",
+      "origin_src": "regions/R005_00ff7f.png",
+      "target_src": "regions/R005_00ff7f_trimmed.png",
+      "content_type": "structure",
+      "is_structure": true,
+      "has_gb_standard": false,
+      "title": {
+        "title_zh": "动力线接口引脚定义",
+        "title_en": "Power Connector Pinout"
+      },
+      "classification": {
+        "category_name": "power_connector_pinout",
+        "title_zh": "动力线接口引脚定义",
+        "title_en": "Power Connector Pinout",
+        "category_basis": "6-pin 动力接口、U/V/W/PE、线色、接线说明",
+        "reason": "目标图像展示了4针动力连接器(Housing:H66L6-04P, Terminal:T66L6-B)的针脚排列示意图(标注1/2/3/4),包含壳体和端子型号信息,属于动力线接口引脚定义的范畴",
+        "confidence": 0.92,
+        "source": "ai",
+        "category_type": "base"
+      },
+      "ant_status": "未审核"
+    },
+    {
+      "region_id": "R006",
+      "group_name": "power_connector_pinout_sc06",
+      "origin_src": "regions/R006_8a2be2.png",
+      "target_src": "regions/R006_8a2be2_trimmed.png",
+      "content_type": "structure",
+      "is_structure": true,
+      "has_gb_standard": false,
+      "title": {
+        "title_zh": "动力接口 SC-06",
+        "title_en": "Power Connector SC-06"
+      },
+      "classification": {
+        "category_name": "power_connector_pinout",
+        "title_zh": "动力连接器引脚定义",
+        "title_en": "Power Connector Pinout",
+        "category_basis": "6-pin 动力接口、U/V/W/PE、线色、接线说明",
+        "reason": "目标图像显示标准 6-pin 动力连接器 SC-06 的引脚排列图，包含引脚编号 1-6 的物理布局，符合动力接口定义的典型特征",
+        "confidence": 0.95,
+        "source": "ai",
+        "category_type": "base"
+      }
+    },
+    {
+      "region_id": "R007",
+      "group_name": "connector_dimensions",
+      "origin_src": "regions/R007_00ced1.png",
+      "target_src": "regions/R007_00ced1_trimmed.png",
+      "content_type": "structure",
+      "is_structure": true,
+      "has_gb_standard": false,
+      "title": {
+        "title_zh": "连接器接口尺寸",
+        "title_en": "Connector Interface Dimensions"
+      },
+      "classification": {
+        "category_name": "mechanical_dimensions",
+        "title_zh": "机械尺寸",
+        "title_en": "Mechanical Dimensions",
+        "category_basis": "机械外形、安装孔、轴、键槽、法兰、连接器位置、三视图",
+        "reason": "该图显示了电机连接器的机械尺寸和位置信息，包含连接器Housing型号(H66L6-02P、H66L6-04P)、Terminal型号(T66L6-B)、键槽标注(KEY)、电缆型号(SC-06、SM-6P、CM6L15)，以及关键尺寸标注(22、35±1、150±1.5、95MAX等)，这些都是典型的连接器位置和机械外形尺寸信息",
+        "confidence": 0.95,
+        "source": "ai",
+        "category_type": "base"
+      }
+    },
+    {
+      "region_id": "R008",
+      "group_name": "motor_electrical_specifications",
+      "origin_src": "regions/R008_1e90ff.png",
+      "target_src": "",
+      "content_type": "table",
+      "is_structure": false,
+      "has_gb_standard": false,
+      "title": {
+        "title_zh": "电机电气参数",
+        "title_en": "Motor Electrical Parameters"
+      },
+      "classification": {
+        "category_name": "mechanical_dimensions",
+        "title_zh": "机械尺寸",
+        "title_en": "Mechanical Dimensions",
+        "category_basis": "机械外形、安装孔、轴、键槽、法兰、连接器位置、三视图",
+        "reason": "虽然裁剪区域显示的是电气参数表格（静摩擦力、电压、功率），但从完整标注图可见该表格位于机械图纸的技术参数区域，属于机械产品规格说明的一部分。由于现有分类中没有专门的电气参数类别，而该内容来源于机械图纸的整体技术规格栏，因此归入最接近的机械尺寸类别。",
+        "confidence": 0.65,
+        "source": "ai",
+        "category_type": "base"
+      }
+    },
+    {
+      "region_id": "R009",
+      "group_name": "motor_wiring_and_mounting",
+      "origin_src": "regions/R009_7fff00.png",
+      "target_src": "regions/R009_7fff00_trimmed.png",
+      "content_type": "structure",
+      "is_structure": true,
+      "has_gb_standard": false,
+      "title": {
+        "title_zh": "电机接线与安装尺寸",
+        "title_en": "Motor Wiring and Mounting Dimensions"
+      },
+      "classification": {
+        "category_name": "mechanical_dimensions",
+        "title_zh": "机械尺寸",
+        "title_en": "Mechanical Dimensions",
+        "category_basis": "机械外形、安装孔、轴、键槽、法兰、连接器位置、三视图",
+        "reason": "该图为电机前视图，显示了法兰外形尺寸（ø90±0.1）、4个安装孔位置（4×Φ6.5）、轴中心、以及三根接线（Brake Wire、Power Wire、Feedback Wire）的出线位置和长度要求（L≥500），符合机械外形、安装孔、法兰、连接器位置的特征",
+        "confidence": 0.95,
+        "source": "ai",
+        "category_type": "base"
+      }
+    },
+    {
+      "region_id": "R010",
+      "group_name": "motor_technical_parameters",
+      "origin_src": "regions/R010_ff8c00.png",
+      "target_src": "",
+      "content_type": "table",
+      "is_structure": false,
+      "has_gb_standard": false,
+      "title": {
+        "title_zh": "电机技术参数表",
+        "title_en": "Motor Technical Parameters"
+      },
+      "classification": {
+        "category_name": "mechanical_dimensions",
+        "title_zh": "机械尺寸",
+        "title_en": "Mechanical Dimensions",
+        "category_basis": "机械外形、安装孔、轴、键槽、法兰、连接器位置、三视图",
+        "reason": "该表格列出了电机的核心技术参数，包括转动惯量(Jm)、最大径向力(Fr)和最大轴向力(Fa)等与机械负载、安装设计直接相关的物理量；同时包含反馈装置型号、防护等级(IP65)和重量等与电机机械结构和安装相关的信息，属于机械尺寸类别中对电机物理特性和安装要求的参数说明",
+        "confidence": 0.72,
+        "source": "ai",
+        "category_type": "base"
+      }
+    },
+    {
+      "region_id": "R011",
+      "group_name": "Performance Curve",
+      "origin_src": "regions/R011_ff8c00.png",
+      "target_src": "regions/R011_ff8c00_trimmed.png",
+      "content_type": "structure",
+      "is_structure": true,
+      "has_gb_standard": false,
+      "title": {
+        "title_zh": "转矩-转速曲线",
+        "title_en": "Performance Curve"
+      },
+      "classification": {
+        "category_name": "torque_speed_curve",
+        "title_zh": "转矩-转速曲线",
+        "title_en": "Torque-Speed Curve",
+        "category_basis": "连续扭矩、峰值或间歇扭矩、转速区间、工作范围",
+        "reason": "图像显示扭矩(Nm)与转速(rpm)关系曲线,标注连续(Continuous)和间歇(Intermittent)工作区域,峰值扭矩7.17 N.m,连续扭矩2.63 N.m,转速范围0-5000 rpm,完全符合转矩-转速曲线的工程特征",
+        "confidence": 1.0,
+        "source": "ai",
+        "category_type": "base"
+      }
+    },
+    {
+      "region_id": "R012",
+      "group_name": "revision_history_table",
+      "origin_src": "regions/R012_1e90ff.png",
+      "target_src": "",
+      "content_type": "table",
+      "is_structure": false,
+      "has_gb_standard": false,
+      "title": {
+        "title_zh": "版本修订记录表",
+        "title_en": "Revision History Table"
+      },
+      "classification": {
+        "category_name": "mechanical_dimensions",
+        "title_zh": "机械尺寸图",
+        "title_en": "Mechanical Dimensions",
+        "category_basis": "机械外形、安装孔、轴、键槽、法兰、连接器位置、三视图",
+        "reason": "目标裁剪区域为图纸右下角的版本修订记录表，记录了SN码的修改历史。虽然此表格本身不直接展示机械尺寸，但它是机械工程图纸的标准组成部分，用于追溯设计变更。在现有类别中，此类工程文档管理信息最接近mechanical_dimensions类别，因为该类别涵盖机械图纸的整体结构要素。",
+        "confidence": 0.65,
+        "source": "ai",
+        "category_type": "base"
+      }
+    },
+    {
+      "region_id": "R013",
+      "group_name": "tolerance_reference_table",
+      "origin_src": "regions/R013_ff8c00.png",
+      "target_src": "",
+      "content_type": "table",
+      "is_structure": false,
+      "has_gb_standard": true,
+      "title": {
+        "title_zh": "未注公差参考表",
+        "title_en": "Final Tolerance Reference Table"
+      },
+      "classification": {
+        "category_name": "mechanical_dimensions",
+        "title_zh": "机械尺寸",
+        "title_en": "Mechanical Dimensions",
+        "category_basis": "机械外形、安装孔、轴、键槽、法兰、连接器位置、三视图",
+        "reason": "该表格规定了线性尺寸的未注公差标准(GB/T 1804-m)，直接应用于机械外形尺寸、安装孔等几何特征的加工精度控制，是机械尺寸图纸的必要技术说明",
+        "confidence": 0.95,
+        "source": "ai",
+        "category_type": "base"
+      }
+    }
+  ],
+  "quality_control": {
+    "origin_src_is_pre_trim_crop": true,
+    "target_src_is_structure_trimmed_crop": true,
+    "engineering_extraction_skipped": true,
+    "forbidden_engineering_fields_present": [],
+    "json_validated": true,
+    "origin_src_semantics": "5x crop before structure border trim; backend original data image",
+    "target_src_semantics": "structure-only crop after border trim; backend processed data image"
+  }
+}

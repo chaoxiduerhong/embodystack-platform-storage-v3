@@ -1,0 +1,1173 @@
+[
+  {
+    "group_name": "",
+    "group_color": "#00BFFF",
+    "data": [
+      {
+        "title_zh": "角号 / 定义 / 颜色",
+        "title_en": "",
+        "type": "table",
+        "content": "<table><tr><th>角号 PIN</th><th>定义 FUNCTION</th><th>颜色 COLOR</th></tr><tr><td>1</td><td>刹车 BRAKE（+）</td><td>红 RED</td></tr><tr><td>2</td><td>刹车 BRAKE（-）</td><td>兰 BLUE</td></tr></table>",
+        "content_en": "<table><tr><th>PIN</th><th>FUNCTION</th><th>COLOR</th></tr><tr><td>1</td><td>BRAKE(+)</td><td>RED</td></tr><tr><td>2</td><td>BRAKE(-)</td><td>BLUE</td></tr></table>",
+        "text": "角号\n定义\n颜色COLOR\nPIN\nFUNCTION\n1\n刹车 BRAKE\n(+)\n红RED\n2\n刹车BRAKE\nE (-)\n兰BLUE",
+        "origin_src": "regions/00bfff_001.png",
+        "target_src": "",
+        "has_chinese": true,
+        "structure_data": {
+          "source_image": "69fbfa6edc573f8873a07453---.svg",
+          "source_bbox": [
+            46,
+            32,
+            101,
+            51
+          ],
+          "crop_bbox": [
+            141,
+            99,
+            297,
+            147
+          ],
+          "rendered_crop_bbox": [
+            138,
+            96,
+            303,
+            153
+          ],
+          "padding": 0,
+          "source_type": "svg",
+          "render_scale": 3.0,
+          "crop_rotation": 0
+        },
+        "has_gb_standard": false,
+        "standard_mark": ""
+      },
+      {
+        "title_zh": "连接器结构标注",
+        "title_en": "",
+        "type": "structure",
+        "content": "",
+        "content_en": "",
+        "text": "壳体\n本 Housing:H66L6-02P\n针 Terminal:T66L6-B",
+        "origin_src": "regions/00bfff_002.png",
+        "target_src": "regions/00bfff_002_en.png",
+        "has_chinese": true,
+        "structure_data": {
+          "source_image": "69fbfa6edc573f8873a07453---.svg",
+          "source_bbox": [
+            147,
+            33,
+            71,
+            48
+          ],
+          "crop_bbox": [
+            444,
+            102,
+            207,
+            138
+          ],
+          "rendered_crop_bbox": [
+            441,
+            99,
+            213,
+            144
+          ],
+          "padding": 0,
+          "source_type": "svg",
+          "render_scale": 3.0,
+          "crop_rotation": 0,
+          "ocr_items": [
+            {
+              "text": "壳体",
+              "bbox": [
+                6,
+                81,
+                39,
+                23
+              ],
+              "confidence": 0.999772697687149,
+              "has_chinese": true,
+              "text_direction": "horizontal",
+              "text_angle": 0
+            },
+            {
+              "text": "本 Housing:H66L6-02P",
+              "bbox": [
+                32,
+                82,
+                172,
+                24
+              ],
+              "confidence": 0.9787590786030418,
+              "has_chinese": true,
+              "text_direction": "horizontal",
+              "text_angle": 0
+            },
+            {
+              "text": "针 Terminal:T66L6-B",
+              "bbox": [
+                4,
+                112,
+                175,
+                25
+              ],
+              "confidence": 0.9701810114913516,
+              "has_chinese": true,
+              "text_direction": "horizontal",
+              "text_angle": 0
+            }
+          ],
+          "labels": [
+            {
+              "zh": "②",
+              "en": "②",
+              "translation": "②",
+              "target": "②",
+              "target_text": "②"
+            },
+            {
+              "zh": "①",
+              "en": "①",
+              "translation": "①",
+              "target": "①",
+              "target_text": "①"
+            },
+            {
+              "zh": "壳体 Housing:H66L6-02P",
+              "en": "Housing:H66L6-02P",
+              "translation": "Housing:H66L6-02P",
+              "target": "Housing:H66L6-02P",
+              "target_text": "Housing:H66L6-02P"
+            },
+            {
+              "zh": "针 Terminal:T66L6-B",
+              "en": "Terminal:T66L6-B",
+              "translation": "Terminal:T66L6-B",
+              "target": "Terminal:T66L6-B",
+              "target_text": "Terminal:T66L6-B"
+            }
+          ],
+          "translation_choices": [
+            {
+              "source": "壳体",
+              "target": ""
+            },
+            {
+              "source": "本 Housing:H66L6-02P",
+              "target": "Housing:H66L6-02P"
+            },
+            {
+              "source": "针 Terminal:T66L6-B",
+              "target": "Terminal:T66L6-B"
+            }
+          ],
+          "translation_errors": [
+            {
+              "source": "壳体",
+              "error": "JSONDecodeError: Unterminated string starting at: line 22 column 20 (char 4438); original text preserved"
+            }
+          ]
+        },
+        "has_gb_standard": false,
+        "standard_mark": "",
+        "editor_data": {
+          "format": "fabric_json",
+          "value": {}
+        },
+        "edited_at": "2026-05-20T18:03:51.949370"
+      }
+    ]
+  },
+  {
+    "group_name": "",
+    "group_color": "#00CED1",
+    "data": [
+      {
+        "title_zh": "",
+        "title_en": "",
+        "type": "table",
+        "content": "<table><tr><td>极数 No. of poles</td><td>10</td></tr><tr><td>直流母线电压 DC Link Voltage Udc(V)</td><td>48</td></tr><tr><td>额定功率 Rated Power Pn (W)</td><td>750</td></tr><tr><td>额定转矩 Rated Torque Tn (N. m)</td><td>2.39</td></tr><tr><td>额定转速 Rated Speed nn (rpm)</td><td>3000</td></tr><tr><td>额定电流 Rated Current In (A)</td><td>19.9</td></tr><tr><td>最大转矩 Maximum torque Tn (N. m)</td><td>7.17</td></tr><tr><td>连续静态转矩 Standstill torque Ts (N. m)</td><td>2.63</td></tr><tr><td>线电阻 Resistance line-line Rl (Ω)</td><td>0.074</td></tr><tr><td>线电感 Inductance line-line Ll (mH)</td><td>0.3</td></tr><tr><td>电气时间常数 Electrical time constant Te (ms)</td><td>4.05</td></tr><tr><td>机械时间常数 Mechanical time constant Tn (ms)</td><td>0.8</td></tr><tr><td>反电势常数 Voltage constant Ke (V/krpm)</td><td>8</td></tr><tr><td>转矩常数 Torque constant Kt (Nm/A)</td><td>0.124</td></tr><tr><td>转动惯量 Rotor moment of inertia Jm (Kg.cm²)</td><td>1.099</td></tr><tr><td>最大径向力 Max. radial force Fr(N)</td><td>335</td></tr><tr><td>最大轴向力 Max. axial force Fa(N)</td><td>167.5</td></tr><tr><td>反馈装置 Feed back device</td><td>ME16MHM-04</td></tr><tr><td>绝缘等级 Insulation class</td><td>F</td></tr><tr><td>防护等级 Protection level</td><td>IP65</td></tr><tr><td>重量 Weight (Kg)</td><td>3</td></tr></table>",
+        "content_en": "<table><tr><td>No. of poles</td><td>10</td></tr><tr><td>DC Link Voltage Udc(V)</td><td>48</td></tr><tr><td>Rated Power Pn(W)</td><td>750</td></tr><tr><td>Rated Torque Tn(N.m)</td><td>2.39</td></tr><tr><td>Rated Speed nn(rpm)</td><td>3000</td></tr><tr><td>Rated Current In(A)</td><td>19.9</td></tr><tr><td>Maximum Torque Tn(N.m)</td><td>7.17</td></tr><tr><td>Standstill Torque Ts(N.m)</td><td>2.63</td></tr><tr><td>Line-Line Resistance Rl(Ω)</td><td>0.074</td></tr><tr><td>Line-Line Inductance Ll(mH)</td><td>0.3</td></tr><tr><td>Electrical Time Constant Te(ms)</td><td>4.05</td></tr><tr><td>Mechanical Time Constant Tn(ms)</td><td>0.8</td></tr><tr><td>Voltage Constant Ke(V/krpm)</td><td>8</td></tr><tr><td>Torque Constant Kt(Nm/A)</td><td>0.124</td></tr><tr><td>Rotor Moment of Inertia Jm(kg.cm²)</td><td>1.099</td></tr><tr><td>Max. Radial Force Fr(N)</td><td>335</td></tr><tr><td>Max. Axial Force Fa(N)</td><td>167.5</td></tr><tr><td>Feedback Device</td><td>ME16MHM-04</td></tr><tr><td>Insulation Class</td><td>F</td></tr><tr><td>Protection Level</td><td>IP65</td></tr><tr><td>Weight(kg)</td><td>3</td></tr></table>",
+        "text": "极数No.of poles\n10\n直流母线电压 DCLink VoltageUnc(V)\n48\n额定功率 Rated PowerPv (W)\n750\n额定转矩 Rated TorqueTv (N.m)\n2.39\n额定转速 Rated Speednv(rpm)\n3000\n额定电流 Rated CurrentI (A)\n19. 9\n最大转矩 Maximum torqueTn (N.m)\n7. 17\n连续静态转矩 Standstil1 torqueTs(N.m)\n2.63\n线电阻 Resistance line-line R.（Q)\n0. 074\n线电感 Inductance line-line L (mH)\n0.3\n电气时间常数 Electrical time constantT。（ms)\n4. 05\n机械时间常数 Mechanical time constantT。(ms)\n0.8\n反电势常数Voltage constantK。(V/krpm)\n8\n转矩常数Torqueconstant K:(Nm/A)\n0. 124\n转动惯量 Rotor moment of inertia Jm(Kg.cm\")\n1. 099\n最大径向力 Max.radial force Fr(N)\n335\n最大轴向力 Max.axialforce Fa(N)\n167.5\n反馈装置Feedbackdevice\nME16MHM-04\n绝缘等级Insulationclass\nF\n防护等级Protectionlevel\nIP65\n重量 Weight (Kg)\n3",
+        "origin_src": "regions/00ced1_001.png",
+        "target_src": "",
+        "has_chinese": true,
+        "structure_data": {
+          "source_image": "69fbfa6edc573f8873a07453---.svg",
+          "source_bbox": [
+            603,
+            241,
+            218,
+            255
+          ],
+          "crop_bbox": [
+            1812,
+            726,
+            648,
+            759
+          ],
+          "rendered_crop_bbox": [
+            1809,
+            723,
+            654,
+            765
+          ],
+          "padding": 0,
+          "source_type": "svg",
+          "render_scale": 3.0,
+          "crop_rotation": 0
+        },
+        "has_gb_standard": false,
+        "standard_mark": ""
+      }
+    ]
+  },
+  {
+    "group_name": "",
+    "group_color": "#00FA9A",
+    "data": [
+      {
+        "title_zh": "",
+        "title_en": "",
+        "type": "structure",
+        "content": "",
+        "content_en": "",
+        "text": "Brake Wire\nL≥500\nFeedbackWire\nL≥500\nPower Wire\nL≥500\n4X06.5\n090±0.1",
+        "origin_src": "regions/00fa9a_001.png",
+        "target_src": "regions/00fa9a_001_en.png",
+        "has_chinese": true,
+        "structure_data": {
+          "source_image": "69fbfa6edc573f8873a07453---.svg",
+          "source_bbox": [
+            421,
+            142,
+            178,
+            250
+          ],
+          "crop_bbox": [
+            1266,
+            429,
+            528,
+            744
+          ],
+          "rendered_crop_bbox": [
+            1263,
+            426,
+            534,
+            750
+          ],
+          "padding": 0,
+          "source_type": "svg",
+          "render_scale": 3.0,
+          "crop_rotation": 0,
+          "ocr_items": [
+            {
+              "text": "Brake Wire",
+              "bbox": [
+                35,
+                224,
+                95,
+                24
+              ],
+              "confidence": 0.9881198763847351,
+              "has_chinese": false,
+              "text_direction": "horizontal",
+              "text_angle": 0
+            },
+            {
+              "text": "L≥500",
+              "bbox": [
+                54,
+                252,
+                62,
+                26
+              ],
+              "confidence": 0.9742639422416687,
+              "has_chinese": false,
+              "text_direction": "horizontal",
+              "text_angle": 0
+            },
+            {
+              "text": "FeedbackWire",
+              "bbox": [
+                359,
+                245,
+                121,
+                27
+              ],
+              "confidence": 0.9992394844690958,
+              "has_chinese": false,
+              "text_direction": "horizontal",
+              "text_angle": 0
+            },
+            {
+              "text": "L≥500",
+              "bbox": [
+                386,
+                275,
+                60,
+                26
+              ],
+              "confidence": 0.987450921535492,
+              "has_chinese": false,
+              "text_direction": "horizontal",
+              "text_angle": 0
+            },
+            {
+              "text": "Power Wire",
+              "bbox": [
+                66,
+                285,
+                98,
+                22
+              ],
+              "confidence": 0.9682257413864136,
+              "has_chinese": false,
+              "text_direction": "horizontal",
+              "text_angle": 0
+            },
+            {
+              "text": "L≥500",
+              "bbox": [
+                85,
+                309,
+                59,
+                25
+              ],
+              "confidence": 0.9776719331741333,
+              "has_chinese": false,
+              "text_direction": "horizontal",
+              "text_angle": 0
+            },
+            {
+              "text": "4X06.5",
+              "bbox": [
+                402,
+                315,
+                72,
+                24
+              ],
+              "confidence": 0.8765467156966528,
+              "has_chinese": false,
+              "text_direction": "horizontal",
+              "text_angle": 0
+            },
+            {
+              "text": "090±0.1",
+              "bbox": [
+                416,
+                567,
+                82,
+                27
+              ],
+              "confidence": 0.9416350041116986,
+              "has_chinese": false,
+              "text_direction": "horizontal",
+              "text_angle": 0
+            }
+          ],
+          "labels": [
+            {
+              "zh": "Brake Wire",
+              "en": "Brake Wire",
+              "translation": "Brake Wire",
+              "target": "Brake Wire",
+              "target_text": "Brake Wire"
+            },
+            {
+              "zh": "L≥500",
+              "en": "L≥500",
+              "translation": "L≥500",
+              "target": "L≥500",
+              "target_text": "L≥500"
+            },
+            {
+              "zh": "Power Wire",
+              "en": "Power Wire",
+              "translation": "Power Wire",
+              "target": "Power Wire",
+              "target_text": "Power Wire"
+            },
+            {
+              "zh": "L≥500",
+              "en": "L≥500",
+              "translation": "L≥500",
+              "target": "L≥500",
+              "target_text": "L≥500"
+            },
+            {
+              "zh": "Feedback Wire",
+              "en": "Feedback Wire",
+              "translation": "Feedback Wire",
+              "target": "Feedback Wire",
+              "target_text": "Feedback Wire"
+            },
+            {
+              "zh": "L≥500",
+              "en": "L≥500",
+              "translation": "L≥500",
+              "target": "L≥500",
+              "target_text": "L≥500"
+            },
+            {
+              "zh": "刹车",
+              "en": "Brake",
+              "translation": "Brake",
+              "target": "Brake",
+              "target_text": "Brake"
+            },
+            {
+              "zh": "4Xφ6.5",
+              "en": "4Xφ6.5",
+              "translation": "4Xφ6.5",
+              "target": "4Xφ6.5",
+              "target_text": "4Xφ6.5"
+            },
+            {
+              "zh": "45°",
+              "en": "45°",
+              "translation": "45°",
+              "target": "45°",
+              "target_text": "45°"
+            },
+            {
+              "zh": "φ90±0.1",
+              "en": "φ90±0.1",
+              "translation": "φ90±0.1",
+              "target": "φ90±0.1",
+              "target_text": "φ90±0.1"
+            },
+            {
+              "zh": "□80",
+              "en": "□80",
+              "translation": "□80",
+              "target": "□80",
+              "target_text": "□80"
+            }
+          ]
+        },
+        "has_gb_standard": false,
+        "standard_mark": ""
+      }
+    ]
+  },
+  {
+    "group_name": "",
+    "group_color": "#00FF7F",
+    "data": [
+      {
+        "title_zh": "动力线",
+        "title_en": "",
+        "type": "table",
+        "content": "<table><tr><th>角号 PIN</th><th>定义 FUNCTION</th><th>颜色 COLOR</th></tr><tr><td>1</td><td>U相 MOTOR U</td><td>黄 YELLOW</td></tr><tr><td>2</td><td>V相 MOTOR V</td><td>红 RED</td></tr><tr><td>3</td><td>W相 MOTOR W</td><td>黑 BLACK</td></tr><tr><td>4</td><td>PE相 MOTOR PE</td><td>黄绿 YELLOW/GREEN</td></tr><tr><td>5</td><td>NC</td><td>NC</td></tr></table>",
+        "content_en": "<table><tr><th>PIN</th><th>FUNCTION</th><th>COLOR</th></tr><tr><td>1</td><td>MOTOR U</td><td>YELLOW</td></tr><tr><td>2</td><td>MOTOR V</td><td>RED</td></tr><tr><td>3</td><td>MOTOR W</td><td>BLACK</td></tr><tr><td>4</td><td>MOTOR PE</td><td>YELLOW/GREEN</td></tr><tr><td>5</td><td>NC</td><td>NC</td></tr></table>",
+        "text": "角号\n定义\n颜色COLOR\nPIN\nFUNCTION\n1\nU相MOTOR U\n黄YELLOW\n7\nV相MOTORV\n红RED\n3\nW相MOTORW\n黑BLACK\n4\nPE相MOTORPE=\n黄绿YELLOW/GREEN\nNC\nNC\n动力线PowerWire",
+        "origin_src": "regions/00ff7f_001.png",
+        "target_src": "",
+        "has_chinese": true,
+        "structure_data": {
+          "source_image": "69fbfa6edc573f8873a07453---.svg",
+          "source_bbox": [
+            250,
+            26,
+            121,
+            106
+          ],
+          "crop_bbox": [
+            753,
+            81,
+            357,
+            312
+          ],
+          "rendered_crop_bbox": [
+            750,
+            78,
+            363,
+            318
+          ],
+          "padding": 0,
+          "source_type": "svg",
+          "render_scale": 3.0,
+          "crop_rotation": 0
+        },
+        "has_gb_standard": false,
+        "standard_mark": ""
+      }
+    ]
+  },
+  {
+    "group_name": "",
+    "group_color": "#40E0D0",
+    "data": [
+      {
+        "title_zh": "Performance Curve",
+        "title_en": "",
+        "type": "table",
+        "content": "<table><tr><td>Performance Curve</td></tr><tr><td>T(N.m)</td><td>n(rpm)</td></tr><tr><td>12</td><td></td></tr><tr><td>10.5</td><td>0</td></tr><tr><td>10</td><td>1000</td></tr><tr><td>9.54</td><td>3000</td></tr><tr><td>8</td><td></td></tr><tr><td>Intermittent</td><td></td></tr><tr><td>6</td><td></td></tr><tr><td>4</td><td></td></tr><tr><td>3.5</td><td>0</td></tr><tr><td>3.18</td><td>3000</td></tr><tr><td>Continuous</td><td></td></tr><tr><td>0</td><td>3930</td></tr><tr><td></td><td>4000</td></tr><tr><td></td><td>5000</td></tr></table>",
+        "content_en": "<table><tr><td>Performance Curve</td></tr><tr><td>T(N.m)</td><td>n(rpm)</td></tr><tr><td>12</td><td></td></tr><tr><td>10.5</td><td>0</td></tr><tr><td>10</td><td>1000</td></tr><tr><td>9.54</td><td>3000</td></tr><tr><td>8</td><td></td></tr><tr><td>Intermittent</td><td></td></tr><tr><td>6</td><td></td></tr><tr><td>4</td><td></td></tr><tr><td>3.5</td><td>0</td></tr><tr><td>3.18</td><td>3000</td></tr><tr><td>Continuous</td><td></td></tr><tr><td>0</td><td>3930</td></tr><tr><td></td><td>4000</td></tr><tr><td></td><td>5000</td></tr></table>",
+        "text": "Performance Curve\n12\n10.5\n10\n9.54\n8\nIntermittent\n6\n4\n3.18\n3.5\nContinuous\n0\n3930\n0\n1000\n2000\n3000\n4000\n5000\nn(rpm)",
+        "origin_src": "regions/40e0d0_001.png",
+        "target_src": "",
+        "has_chinese": false,
+        "structure_data": {
+          "source_image": "69fbfa6edc573f8873a07453---.svg",
+          "source_bbox": [
+            54,
+            410,
+            232,
+            154
+          ],
+          "crop_bbox": [
+            165,
+            1233,
+            690,
+            456
+          ],
+          "rendered_crop_bbox": [
+            162,
+            1230,
+            696,
+            462
+          ],
+          "padding": 0,
+          "source_type": "svg",
+          "render_scale": 3.0,
+          "crop_rotation": 0
+        },
+        "has_gb_standard": false,
+        "standard_mark": ""
+      }
+    ]
+  },
+  {
+    "group_name": "",
+    "group_color": "#8A2BE2",
+    "data": [
+      {
+        "title_zh": "刹车参数",
+        "title_en": "",
+        "type": "table",
+        "content": "<table><tr><td>刹车参数 Brake Data</td><td></td></tr><tr><td>静摩擦力 Static Friction (N.m)</td><td>3.2N.m</td></tr><tr><td>电压 Voltage (VDC)</td><td>24</td></tr><tr><td>功率 Power (W)</td><td>11.5</td></tr></table>",
+        "content_en": "<table><tr><td>Brake Data</td><td></td></tr><tr><td>Static Friction(N.m)</td><td>3.2N.m</td></tr><tr><td>Voltage(VDC)</td><td>24</td></tr><tr><td>Power(W)</td><td>11.5</td></tr></table>",
+        "text": "刹车参数Brake Data\n静摩擦力 StaticFriction（N.m)\n3. 2N.m\n电压Voltage\ne(VDC)\n24\n功率Power\n(W)\n11.5",
+        "origin_src": "regions/8a2be2_001.png",
+        "target_src": "",
+        "has_chinese": true,
+        "structure_data": {
+          "source_image": "69fbfa6edc573f8873a07453---.svg",
+          "source_bbox": [
+            603,
+            179,
+            218,
+            51
+          ],
+          "crop_bbox": [
+            1812,
+            540,
+            648,
+            147
+          ],
+          "rendered_crop_bbox": [
+            1809,
+            537,
+            654,
+            153
+          ],
+          "padding": 0,
+          "source_type": "svg",
+          "render_scale": 3.0,
+          "crop_rotation": 0
+        },
+        "has_gb_standard": false,
+        "standard_mark": ""
+      }
+    ]
+  },
+  {
+    "group_name": "",
+    "group_color": "#BA55D3",
+    "data": [
+      {
+        "title_zh": "",
+        "title_en": "",
+        "type": "structure",
+        "content": "",
+        "content_en": "",
+        "text": "Housing: H66L6-02P\nTerminal: T66L6-B\nSP2111/P5\nSC-06\nKEY\nKEY\nCM6L15\n21. 5-0.\n35±1\n141±1. 5",
+        "origin_src": "regions/ba55d3_001.png",
+        "target_src": "regions/ba55d3_001_en.png",
+        "has_chinese": false,
+        "structure_data": {
+          "source_image": "69fbfa6edc573f8873a07453---.svg",
+          "source_bbox": [
+            106,
+            137,
+            310,
+            269
+          ],
+          "crop_bbox": [
+            321,
+            414,
+            924,
+            801
+          ],
+          "rendered_crop_bbox": [
+            318,
+            411,
+            930,
+            807
+          ],
+          "padding": 0,
+          "source_type": "svg",
+          "render_scale": 3.0,
+          "crop_rotation": 0,
+          "ocr_items": [
+            {
+              "text": "Housing: H66L6-02P",
+              "bbox": [
+                519,
+                23,
+                155,
+                24
+              ],
+              "confidence": 0.9936804605854882,
+              "has_chinese": false,
+              "text_direction": "horizontal",
+              "text_angle": 0
+            },
+            {
+              "text": "Terminal: T66L6-B",
+              "bbox": [
+                519,
+                53,
+                149,
+                24
+              ],
+              "confidence": 0.9741689247243545,
+              "has_chinese": false,
+              "text_direction": "horizontal",
+              "text_angle": 0
+            },
+            {
+              "text": "SP2111/P5",
+              "bbox": [
+                168,
+                91,
+                88,
+                27
+              ],
+              "confidence": 0.9986159867710538,
+              "has_chinese": false,
+              "text_direction": "horizontal",
+              "text_angle": 0
+            },
+            {
+              "text": "SC-06",
+              "bbox": [
+                485,
+                90,
+                55,
+                25
+              ],
+              "confidence": 0.9969791173934937,
+              "has_chinese": false,
+              "text_direction": "horizontal",
+              "text_angle": 0
+            },
+            {
+              "text": "KEY",
+              "bbox": [
+                171,
+                313,
+                34,
+                29
+              ],
+              "confidence": 0.9972350398699442,
+              "has_chinese": false,
+              "text_direction": "horizontal",
+              "text_angle": 0
+            },
+            {
+              "text": "KEY",
+              "bbox": [
+                177,
+                357,
+                35,
+                28
+              ],
+              "confidence": 0.981519361337026,
+              "has_chinese": false,
+              "text_direction": "horizontal",
+              "text_angle": 0
+            },
+            {
+              "text": "CM6L15",
+              "bbox": [
+                98,
+                460,
+                46,
+                21
+              ],
+              "confidence": 0.9972672561804453,
+              "has_chinese": false,
+              "text_direction": "horizontal",
+              "text_angle": 0
+            },
+            {
+              "text": "21. 5-0.",
+              "bbox": [
+                87,
+                505,
+                37,
+                66
+              ],
+              "confidence": 0.8936648592352867,
+              "has_chinese": false,
+              "text_direction": "vertical",
+              "text_angle": 90
+            },
+            {
+              "text": "35±1",
+              "bbox": [
+                236,
+                753,
+                48,
+                26
+              ],
+              "confidence": 0.9979705959558487,
+              "has_chinese": false,
+              "text_direction": "horizontal",
+              "text_angle": 0
+            },
+            {
+              "text": "141±1. 5",
+              "bbox": [
+                543,
+                754,
+                75,
+                25
+              ],
+              "confidence": 0.9161880314350128,
+              "has_chinese": false,
+              "text_direction": "horizontal",
+              "text_angle": 0
+            }
+          ],
+          "labels": [
+            {
+              "zh": "Housing:H66L6-02P",
+              "en": "Housing:H66L6-02P",
+              "translation": "Housing:H66L6-02P",
+              "target": "Housing:H66L6-02P",
+              "target_text": "Housing:H66L6-02P"
+            },
+            {
+              "zh": "Terminal:T66L6-B",
+              "en": "Terminal:T66L6-B",
+              "translation": "Terminal:T66L6-B",
+              "target": "Terminal:T66L6-B",
+              "target_text": "Terminal:T66L6-B"
+            },
+            {
+              "zh": "SP2111/P5",
+              "en": "SP2111/P5",
+              "translation": "SP2111/P5",
+              "target": "SP2111/P5",
+              "target_text": "SP2111/P5"
+            },
+            {
+              "zh": "SC-06",
+              "en": "SC-06",
+              "translation": "SC-06",
+              "target": "SC-06",
+              "target_text": "SC-06"
+            },
+            {
+              "zh": "KEY",
+              "en": "KEY",
+              "translation": "KEY",
+              "target": "KEY",
+              "target_text": "KEY"
+            },
+            {
+              "zh": "KEY",
+              "en": "KEY",
+              "translation": "KEY",
+              "target": "KEY",
+              "target_text": "KEY"
+            },
+            {
+              "zh": "CM6L15",
+              "en": "CM6L15",
+              "translation": "CM6L15",
+              "target": "CM6L15",
+              "target_text": "CM6L15"
+            },
+            {
+              "zh": "22",
+              "en": "22",
+              "translation": "22",
+              "target": "22",
+              "target_text": "22"
+            },
+            {
+              "zh": "6",
+              "en": "6",
+              "translation": "6",
+              "target": "6",
+              "target_text": "6"
+            },
+            {
+              "zh": "4",
+              "en": "4",
+              "translation": "4",
+              "target": "4",
+              "target_text": "4"
+            },
+            {
+              "zh": "Ø70 0/-0.02",
+              "en": "Ø70 0/-0.02",
+              "translation": "Ø70 0/-0.02",
+              "target": "Ø70 0/-0.02",
+              "target_text": "Ø70 0/-0.02"
+            },
+            {
+              "zh": "21.5 0/-0.13",
+              "en": "21.5 0/-0.13",
+              "translation": "21.5 0/-0.13",
+              "target": "21.5 0/-0.13",
+              "target_text": "21.5 0/-0.13"
+            },
+            {
+              "zh": "Ø19 0/-0.013",
+              "en": "Ø19 0/-0.013",
+              "translation": "Ø19 0/-0.013",
+              "target": "Ø19 0/-0.013",
+              "target_text": "Ø19 0/-0.013"
+            },
+            {
+              "zh": "35±1",
+              "en": "35±1",
+              "translation": "35±1",
+              "target": "35±1",
+              "target_text": "35±1"
+            },
+            {
+              "zh": "9",
+              "en": "9",
+              "translation": "9",
+              "target": "9",
+              "target_text": "9"
+            },
+            {
+              "zh": "141±1.5",
+              "en": "141±1.5",
+              "translation": "141±1.5",
+              "target": "141±1.5",
+              "target_text": "141±1.5"
+            },
+            {
+              "zh": "95 MAX",
+              "en": "95 MAX",
+              "translation": "95 MAX",
+              "target": "95 MAX",
+              "target_text": "95 MAX"
+            },
+            {
+              "zh": "V1.1",
+              "en": "V1.1",
+              "translation": "V1.1",
+              "target": "V1.1",
+              "target_text": "V1.1"
+            },
+            {
+              "zh": "80-3TS",
+              "en": "80-3TS",
+              "translation": "80-3TS",
+              "target": "80-3TS",
+              "target_text": "80-3TS"
+            }
+          ]
+        },
+        "has_gb_standard": false,
+        "standard_mark": ""
+      }
+    ]
+  },
+  {
+    "group_name": "",
+    "group_color": "#FF8C00",
+    "data": [
+      {
+        "title_zh": "FINAL TOLERANCE REFERENCE",
+        "title_en": "",
+        "type": "table",
+        "content": "<table><tr><td>FINAL TOLERANCE REFERENCE</td></tr><tr><td>GB/T 1804-m Unit:mm</td></tr><tr><td>LINER</td></tr><tr><td>≤6</td><td>±0.1</td><td>&gt;6~30</td><td>±0.2</td></tr><tr><td>&gt;30~120</td><td>±0.3</td><td>&gt;120~400</td><td>±0.5</td></tr></table>",
+        "content_en": "<table><tr><td>FINAL TOLERANCE REFERENCE</td></tr><tr><td>GB/T 1804-m Unit:mm</td></tr><tr><td>LINER</td></tr><tr><td>≤6</td><td>±0.1</td><td>&gt;6~30</td><td>±0.2</td></tr><tr><td>&gt;30~120</td><td>±0.3</td><td>&gt;120~400</td><td>±0.5</td></tr></table>",
+        "text": "FINAL\nTOLERANCE\nREFERENCE\nGB/T 1804-mUnit:mm\nLINER\n9>\n±0.1\n>6~30\n±0.2\n>30~120\n±0.3\n>120~400\n±0.5",
+        "origin_src": "regions/ff8c00_001.png",
+        "target_src": "",
+        "has_chinese": false,
+        "structure_data": {
+          "source_image": "69fbfa6edc573f8873a07453---.svg",
+          "source_bbox": [
+            460,
+            514,
+            110,
+            61
+          ],
+          "crop_bbox": [
+            1383,
+            1545,
+            324,
+            177
+          ],
+          "rendered_crop_bbox": [
+            1380,
+            1542,
+            330,
+            183
+          ],
+          "padding": 0,
+          "source_type": "svg",
+          "render_scale": 3.0,
+          "crop_rotation": 0
+        },
+        "has_gb_standard": true,
+        "standard_mark": "含GB标准"
+      }
+    ]
+  },
+  {
+    "group_name": "",
+    "group_color": "#FFD700",
+    "data": [
+      {
+        "title_zh": "角号、定义、颜色",
+        "title_en": "",
+        "type": "table",
+        "content": "<table><tr><th>角号<br>PIN</th><th>定义<br>FUNCTION</th><th>颜色 COLOR</th></tr><tr><td>1</td><td>VDD</td><td>红色 RED</td></tr><tr><td>2</td><td>GND</td><td>黑色 BLACK</td></tr><tr><td>3</td><td>MA_P+</td><td>棕色 BROWN</td></tr><tr><td>4</td><td>MA_N-</td><td>蓝色 BLUE</td></tr><tr><td>5</td><td>SLO_P+</td><td>黄 YELLOW</td></tr><tr><td>6</td><td>SLO_N-</td><td>绿色 GREEN</td></tr></table>",
+        "content_en": "<table><tr><th>PIN<br>PIN</th><th>FUNCTION<br>FUNCTION</th><th>COLOR COLOR</th></tr><tr><td>1</td><td>VDD</td><td>RED</td></tr><tr><td>2</td><td>GND</td><td>BLACK</td></tr><tr><td>3</td><td>MA_P+</td><td>BROWN</td></tr><tr><td>4</td><td>MA_N-</td><td>BLUE</td></tr><tr><td>5</td><td>SLO_P+</td><td>YELLOW</td></tr><tr><td>6</td><td>SLO_N-</td><td>GREEN</td></tr></table>",
+        "text": "角号\n定义\n颜色COLOR\nPIN\nFUNCTION\n1\nVDD\n红色RED\n2\nGND\n黑色BLACK\n3\nMA_P+\n棕色BROWN\n4\nMA_N-\n蓝色BLUE\n5\nSLO_P+\n黄YELLOW\n6\nSLO_N-\n绿色GREEN",
+        "origin_src": "regions/ffd700_001.png",
+        "target_src": "",
+        "has_chinese": true,
+        "structure_data": {
+          "source_image": "69fbfa6edc573f8873a07453---.svg",
+          "source_bbox": [
+            476,
+            27,
+            101,
+            93
+          ],
+          "crop_bbox": [
+            1431,
+            84,
+            297,
+            273
+          ],
+          "rendered_crop_bbox": [
+            1428,
+            81,
+            303,
+            279
+          ],
+          "padding": 0,
+          "source_type": "svg",
+          "render_scale": 3.0,
+          "crop_rotation": 0
+        },
+        "has_gb_standard": false,
+        "standard_mark": ""
+      },
+      {
+        "title_zh": "SC-06",
+        "title_en": "",
+        "type": "structure",
+        "content": "",
+        "content_en": "",
+        "text": "642\n口一口一口\n口一口一口\n53\n1\nSC-06",
+        "origin_src": "regions/ffd700_002.png",
+        "target_src": "regions/ffd700_002_en.png",
+        "has_chinese": true,
+        "structure_data": {
+          "source_image": "69fbfa6edc573f8873a07453---.svg",
+          "source_bbox": [
+            578,
+            37,
+            52,
+            76
+          ],
+          "crop_bbox": [
+            1737,
+            114,
+            150,
+            222
+          ],
+          "rendered_crop_bbox": [
+            1734,
+            111,
+            156,
+            228
+          ],
+          "padding": 0,
+          "source_type": "svg",
+          "render_scale": 3.0,
+          "crop_rotation": 0,
+          "ocr_items": [
+            {
+              "text": "642",
+              "bbox": [
+                42,
+                32,
+                66,
+                22
+              ],
+              "confidence": 0.998467206954956,
+              "has_chinese": false,
+              "text_direction": "horizontal",
+              "text_angle": 0
+            },
+            {
+              "text": "口一口一口",
+              "bbox": [
+                38,
+                63,
+                70,
+                17
+              ],
+              "confidence": 0.5802182972431182,
+              "has_chinese": true,
+              "text_direction": "horizontal",
+              "text_angle": 0
+            },
+            {
+              "text": "口一口一口",
+              "bbox": [
+                38,
+                96,
+                70,
+                16
+              ],
+              "confidence": 0.5892463445663452,
+              "has_chinese": true,
+              "text_direction": "horizontal",
+              "text_angle": 0
+            },
+            {
+              "text": "53",
+              "bbox": [
+                38,
+                121,
+                43,
+                20
+              ],
+              "confidence": 0.9995130896568298,
+              "has_chinese": false,
+              "text_direction": "horizontal",
+              "text_angle": 0
+            },
+            {
+              "text": "1",
+              "bbox": [
+                74,
+                123,
+                30,
+                17
+              ],
+              "confidence": 0.9555961489677429,
+              "has_chinese": false,
+              "text_direction": "horizontal",
+              "text_angle": 0
+            },
+            {
+              "text": "SC-06",
+              "bbox": [
+                59,
+                178,
+                48,
+                24
+              ],
+              "confidence": 0.9992144584655762,
+              "has_chinese": false,
+              "text_direction": "horizontal",
+              "text_angle": 0
+            }
+          ],
+          "labels": [
+            {
+              "zh": "6",
+              "en": "6",
+              "translation": "6",
+              "target": "6",
+              "target_text": "6"
+            },
+            {
+              "zh": "4",
+              "en": "4",
+              "translation": "4",
+              "target": "4",
+              "target_text": "4"
+            },
+            {
+              "zh": "2",
+              "en": "2",
+              "translation": "2",
+              "target": "2",
+              "target_text": "2"
+            },
+            {
+              "zh": "5",
+              "en": "5",
+              "translation": "5",
+              "target": "5",
+              "target_text": "5"
+            },
+            {
+              "zh": "3",
+              "en": "3",
+              "translation": "3",
+              "target": "3",
+              "target_text": "3"
+            },
+            {
+              "zh": "1",
+              "en": "1",
+              "translation": "1",
+              "target": "1",
+              "target_text": "1"
+            },
+            {
+              "zh": "SC-06",
+              "en": "SC-06",
+              "translation": "SC-06",
+              "target": "SC-06",
+              "target_text": "SC-06"
+            }
+          ],
+          "translation_choices": [
+            {
+              "source": "口一口一口",
+              "target": ""
+            },
+            {
+              "source": "口一口一口",
+              "target": ""
+            }
+          ],
+          "translation_errors": [
+            {
+              "source": "口一口一口",
+              "error": "JSONDecodeError: Unterminated string starting at: line 22 column 20 (char 4438); original text preserved"
+            },
+            {
+              "source": "口一口一口",
+              "error": "JSONDecodeError: Unterminated string starting at: line 22 column 20 (char 4438); original text preserved"
+            }
+          ]
+        },
+        "has_gb_standard": false,
+        "standard_mark": ""
+      }
+    ]
+  }
+]

@@ -1,0 +1,116 @@
+{
+  "schema_version": "pdf_force_fit_v2.3",
+  "entry": "pdf_force_fit_v2",
+  "source": {
+    "product_file_id": "6a10224cce91e14233e8bb4b",
+    "cid": "46020d2a93ef4ab696343a80014c1701",
+    "supplier_id": "69f1b877908c95ae5aafdcd4",
+    "category_id": "069e889e8906aad57aabb066",
+    "series_id": "0af2eac779d44a64855c0a4600d7c427",
+    "model_id": "",
+    "source_annotation": "6a10224cce91e14233e8bb4b---.svg"
+  },
+  "classification_records": [
+    {
+      "product_file_id": "6a10224cce91e14233e8bb4b",
+      "region_id": "R001",
+      "category_name": "mechanical_dimensions",
+      "source": "ai",
+      "action": "inserted"
+    },
+    {
+      "product_file_id": "6a10224cce91e14233e8bb4b",
+      "region_id": "R002",
+      "category_name": "mechanical_dimensions",
+      "source": "ai",
+      "action": "inserted"
+    },
+    {
+      "product_file_id": "6a10224cce91e14233e8bb4b",
+      "region_id": "R003",
+      "category_name": "mechanical_dimensions",
+      "source": "ai",
+      "action": "inserted"
+    }
+  ],
+  "regions": [
+    {
+      "region_id": "R001",
+      "group_name": "减速比15~100尺寸图-输入端视图",
+      "origin_src": "regions/R001_ffd700.png",
+      "target_src": "regions/R001_ffd700_trimmed.png",
+      "content_type": "structure",
+      "is_structure": true,
+      "has_gb_standard": false,
+      "title": {
+        "title_zh": "输入端安装尺寸图",
+        "title_en": "Input Side Dimensional Drawing"
+      },
+      "classification": {
+        "category_name": "mechanical_dimensions",
+        "title_zh": "机械尺寸",
+        "title_en": "Mechanical Dimensions",
+        "category_basis": "用于识别机械结构尺寸类图纸，包括电机/零部件外形轮廓、长宽高、轴径、轴长、键槽、法兰、安装孔、孔距、定位尺寸、三视图、剖视图、局部放大视图、公差、形位公差、基准符号、连接器/线缆/插头的物理安装位置或外形位置。若图中仅展示连接器型号、端子型号、线束走向、接口外形位置，但没有明确的引脚编号、针脚功能、线色或接线表，也归入本类。",
+        "reason": "目标框位于完整标注图右侧黄色框内，为'输入 Input'端面视图，包含圆形法兰、方形安装面、孔位、中心线及'C2'、'ΦC1'、'45°'、'C7'等尺寸代号和角度标注，表达安装孔距、外形与定位尺寸，未出现针脚功能或曲线数据。",
+        "confidence": 0.98,
+        "source": "ai",
+        "category_type": "base"
+      }
+    },
+    {
+      "region_id": "R002",
+      "group_name": "mechanical_dimensions",
+      "origin_src": "regions/R002_00bfff.png",
+      "target_src": "regions/R002_00bfff_trimmed.png",
+      "content_type": "structure",
+      "is_structure": true,
+      "has_gb_standard": false,
+      "title": {
+        "title_zh": "输出侧尺寸图",
+        "title_en": "Output Dimensional View"
+      },
+      "classification": {
+        "category_name": "mechanical_dimensions",
+        "title_zh": "输出侧尺寸图",
+        "title_en": "Mechanical Dimensions",
+        "category_basis": "用于识别机械结构尺寸类图纸，包括电机/零部件外形轮廓、长宽高、轴径、轴长、键槽、法兰、安装孔、孔距、定位尺寸、三视图、剖视图、局部放大视图、公差、形位公差、基准符号、连接器/线缆/插头的物理安装位置或外形位置。若图中仅展示连接器型号、端子型号、线束走向、接口外形位置，但没有明确的引脚编号、针脚功能、线色或接线表，也归入本类。",
+        "reason": "该裁剪区域展示的是零部件输出侧的圆形端面尺寸示意，包含多个孔位、直径标注、45°角度标注以及深度尺寸，如 'ΦD8h7深(depth)L9'、'ΦD5'、'D6深(depth)L3'、'ΦD2'、'ΦD7'、'ΦD10'，属于典型机械尺寸图而非接线或针脚定义。",
+        "confidence": 0.98,
+        "source": "ai",
+        "category_type": "base"
+      }
+    },
+    {
+      "region_id": "R003",
+      "group_name": "尺寸图 Dimensional Drawing",
+      "origin_src": "regions/R003_00ff7f.png",
+      "target_src": "regions/R003_00ff7f_trimmed.png",
+      "content_type": "structure",
+      "is_structure": true,
+      "has_gb_standard": false,
+      "title": {
+        "title_zh": "减速机侧视尺寸图",
+        "title_en": "Reducer Side Dimensional Drawing"
+      },
+      "classification": {
+        "category_name": "mechanical_dimensions",
+        "title_zh": "机械尺寸",
+        "title_en": "Mechanical Dimensions",
+        "category_basis": "用于识别机械结构尺寸类图纸，包括电机/零部件外形轮廓、长宽高、轴径、轴长、键槽、法兰、安装孔、孔距、定位尺寸、三视图、剖视图、局部放大视图、公差、形位公差、基准符号、连接器/线缆/插头的物理安装位置或外形位置。若图中仅展示连接器型号、端子型号、线束走向、接口外形位置，但没有明确的引脚编号、针脚功能、线色或接线表，也归入本类。",
+        "reason": "目标裁剪框对应完整源图中绿色标注的减速机侧视尺寸图，包含外形轮廓、轴向长度尺寸'C4'、'C9'、'L8'、'L4'、端部倒角'L10X45°'以及直径尺寸'ΦD11'、'ΦD1H7'、'ΦD3h7'、'ΦD12'、'ΦD4h7'等，属于机械结构尺寸标注。",
+        "confidence": 0.98,
+        "source": "ai",
+        "category_type": "base"
+      }
+    }
+  ],
+  "quality_control": {
+    "origin_src_is_pre_trim_crop": true,
+    "target_src_is_structure_trimmed_crop": true,
+    "engineering_extraction_skipped": true,
+    "forbidden_engineering_fields_present": [],
+    "json_validated": true,
+    "origin_src_semantics": "5x crop before structure border trim; backend original data image",
+    "target_src_semantics": "structure-only crop after border trim; backend processed data image"
+  }
+}

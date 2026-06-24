@@ -1,0 +1,748 @@
+{
+  "version": "v2",
+  "schema_version": "pdf_force_fit_v2.3",
+  "entry": "pdf_force_fit_v2",
+  "run_info": {
+    "status": "success"
+  },
+  "request": {
+    "category_ids": [
+      "235f484169838523f2378fd2",
+      "5873f8aee5424d623b9a9e62"
+    ],
+    "resolved_category_ids": [
+      "235f484169838523f2378fd2",
+      "5873f8aee5424d623b9a9e62",
+      "069e889e8906aad57aabb066",
+      "eedb8593d4a1a742a32a3754"
+    ]
+  },
+  "source": {
+    "product_file_id": "6a152a10eb803e74935e6a1c",
+    "cid": "b2a4ce359b794eae8ea03c0e23faa65a",
+    "supplier_id": "69f1b877908c95ae5aafdcd4",
+    "category_id": "069e889e8906aad57aabb066",
+    "series_id": "8dcb1f77941f4cbd9177331f4d0cdcc7",
+    "model_id": "",
+    "source_annotation": "6a152a10eb803e74935e6a1c---.svg"
+  },
+  "processing_options": {
+    "crop_render_scale": 5.0,
+    "trim_border_px": 1.2,
+    "border_color_cleanup_px": 10,
+    "image_backfill_enabled": false,
+    "ocr_enabled": true,
+    "ai_enabled": true
+  },
+  "regions": [
+    {
+      "region_id": "R001",
+      "group_name": "",
+      "group_color": "#FFD700",
+      "group_order": 1,
+      "group_item_order": 1,
+      "region_order": 1,
+      "source_bbox": {
+        "x": 1285,
+        "y": 272,
+        "width": 633,
+        "height": 487,
+        "unit": "source_px"
+      },
+      "rendered_crop_bbox": {
+        "x": 6425,
+        "y": 1360,
+        "width": 3165,
+        "height": 2435,
+        "unit": "rendered_px",
+        "scale": 5.0
+      },
+      "origin_src": "regions/R001_ffd700.png",
+      "target_src": "",
+      "content_type": "",
+      "content": "",
+      "content_en": "",
+      "is_structure": false,
+      "structure_candidate": true,
+      "trim_border_px": 0,
+      "border_color_cleanup_px": 0,
+      "trim_applied": false,
+      "crop_rotation": 0,
+      "ocr": {
+        "text": "输入Input\nQ3\nD1\n4-G1",
+        "items": [
+          {
+            "text": "输入Input",
+            "bbox": {
+              "x": 572,
+              "y": 112,
+              "width": 493,
+              "height": 144,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9777296270642962,
+            "has_chinese": true,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "Q3",
+            "bbox": {
+              "x": 788,
+              "y": 339,
+              "width": 131,
+              "height": 116,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9977121949195862,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "D1",
+            "bbox": {
+              "x": 457,
+              "y": 502,
+              "width": 134,
+              "height": 114,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9989582896232605,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "4-G1",
+            "bbox": {
+              "x": 869,
+              "y": 2244,
+              "width": 226,
+              "height": 117,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9988057464361191,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          }
+        ],
+        "has_chinese": true
+      },
+      "labels": [
+        {
+          "label_id": "L001",
+          "label_text_original": "输入Input Q3 D1 4-G1",
+          "source": "ocr_merged",
+          "bbox": {
+            "x": 457,
+            "y": 112,
+            "width": 638,
+            "height": 2249,
+            "unit": "origin_src_px"
+          },
+          "ocr_item_indexes": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "translation_en_simple": "Input Q3 D1 4-G1",
+          "translation_en_full": "Input Q3 D1 4-G1",
+          "translation_skipped_reason": "mixed_chinese_english_preserve_english"
+        }
+      ],
+      "classification": {},
+      "title": {},
+      "translation": {
+        "records": [
+          {
+            "label_id": "L001",
+            "label_text_original": "输入Input Q3 D1 4-G1",
+            "translation_en_simple": "Input Q3 D1 4-G1",
+            "translation_en_full": "Input Q3 D1 4-G1",
+            "bbox": {
+              "x": 457,
+              "y": 112,
+              "width": 638,
+              "height": 2249,
+              "unit": "origin_src_px"
+            }
+          }
+        ]
+      },
+      "review_ui": {},
+      "errors": [
+        {
+          "stage": "ai",
+          "message": "403 Client Error: Forbidden for url: https://api.tu-zi.com/v1/chat/completions"
+        }
+      ],
+      "source": {
+        "annotated_image": "6a152a10eb803e74935e6a1c---.svg",
+        "source_type": "svg"
+      },
+      "ai_analysis": {
+        "target_image": "storage/data/products_manual/drawings_2d/20260527-70-zju9u/6a152a10eb803e74935e6a1c/regions/R001_ffd700.png",
+        "full_context_image": "storage/data/products_manual/drawings_2d/20260527-70-zju9u/6a152a10eb803e74935e6a1c/context/full_marked_ai.png",
+        "used_full_context_image": true,
+        "error": "403 Client Error: Forbidden for url: https://api.tu-zi.com/v1/chat/completions"
+      }
+    },
+    {
+      "region_id": "R002",
+      "group_name": "",
+      "group_color": "#00BFFF",
+      "group_order": 2,
+      "group_item_order": 1,
+      "region_order": 2,
+      "source_bbox": {
+        "x": 15,
+        "y": 284,
+        "width": 319,
+        "height": 560,
+        "unit": "source_px"
+      },
+      "rendered_crop_bbox": {
+        "x": 75,
+        "y": 1420,
+        "width": 1595,
+        "height": 2800,
+        "unit": "rendered_px",
+        "scale": 5.0
+      },
+      "origin_src": "regions/R002_00bfff.png",
+      "target_src": "",
+      "content_type": "",
+      "content": "",
+      "content_en": "",
+      "is_structure": false,
+      "structure_candidate": true,
+      "trim_border_px": 0,
+      "border_color_cleanup_px": 0,
+      "trim_applied": false,
+      "crop_rotation": 0,
+      "ocr": {
+        "text": "输出Output\n4-G2\nD8\nB1\nG3",
+        "items": [
+          {
+            "text": "输出Output",
+            "bbox": {
+              "x": 499,
+              "y": 53,
+              "width": 568,
+              "height": 139,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9837764278054237,
+            "has_chinese": true,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "4-G2",
+            "bbox": {
+              "x": 494,
+              "y": 550,
+              "width": 229,
+              "height": 112,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9990284293889999,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "D8",
+            "bbox": {
+              "x": 1122,
+              "y": 546,
+              "width": 143,
+              "height": 116,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9977118670940399,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "B1",
+            "bbox": {
+              "x": 722,
+              "y": 993,
+              "width": 119,
+              "height": 113,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9951550662517548,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "G3",
+            "bbox": {
+              "x": 893,
+              "y": 1549,
+              "width": 133,
+              "height": 110,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9976375699043274,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          }
+        ],
+        "has_chinese": true
+      },
+      "labels": [
+        {
+          "label_id": "L001",
+          "label_text_original": "输出Output 4-G2 D8 B1 G3",
+          "source": "ocr_merged",
+          "bbox": {
+            "x": 494,
+            "y": 53,
+            "width": 771,
+            "height": 1606,
+            "unit": "origin_src_px"
+          },
+          "ocr_item_indexes": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "translation_en_simple": "Output 4-G2 D8 B1 G3",
+          "translation_en_full": "Output 4-G2 D8 B1 G3",
+          "translation_skipped_reason": "mixed_chinese_english_preserve_english"
+        }
+      ],
+      "classification": {},
+      "title": {},
+      "translation": {
+        "records": [
+          {
+            "label_id": "L001",
+            "label_text_original": "输出Output 4-G2 D8 B1 G3",
+            "translation_en_simple": "Output 4-G2 D8 B1 G3",
+            "translation_en_full": "Output 4-G2 D8 B1 G3",
+            "bbox": {
+              "x": 494,
+              "y": 53,
+              "width": 771,
+              "height": 1606,
+              "unit": "origin_src_px"
+            }
+          }
+        ]
+      },
+      "review_ui": {},
+      "errors": [
+        {
+          "stage": "ai",
+          "message": "403 Client Error: Forbidden for url: https://api.tu-zi.com/v1/chat/completions"
+        }
+      ],
+      "source": {
+        "annotated_image": "6a152a10eb803e74935e6a1c---.svg",
+        "source_type": "svg"
+      },
+      "ai_analysis": {
+        "target_image": "storage/data/products_manual/drawings_2d/20260527-70-zju9u/6a152a10eb803e74935e6a1c/regions/R002_00bfff.png",
+        "full_context_image": "storage/data/products_manual/drawings_2d/20260527-70-zju9u/6a152a10eb803e74935e6a1c/context/full_marked_ai.png",
+        "used_full_context_image": true,
+        "error": "403 Client Error: Forbidden for url: https://api.tu-zi.com/v1/chat/completions"
+      }
+    },
+    {
+      "region_id": "R003",
+      "group_name": "",
+      "group_color": "#00FF7F",
+      "group_order": 3,
+      "group_item_order": 1,
+      "region_order": 3,
+      "source_bbox": {
+        "x": 417,
+        "y": 298,
+        "width": 828,
+        "height": 595,
+        "unit": "source_px"
+      },
+      "rendered_crop_bbox": {
+        "x": 2085,
+        "y": 1490,
+        "width": 4140,
+        "height": 2975,
+        "unit": "rendered_px",
+        "scale": 5.0
+      },
+      "origin_src": "regions/R003_00ff7f.png",
+      "target_src": "",
+      "content_type": "",
+      "content": "",
+      "content_en": "",
+      "is_structure": false,
+      "structure_candidate": true,
+      "trim_border_px": 0,
+      "border_color_cleanup_px": 0,
+      "trim_applied": false,
+      "crop_rotation": 0,
+      "ocr": {
+        "text": "L1\nL3\nL4\nL8\nL6\nL7\n5\n9\nL5\n2\n5\n7\n2\nD3\n16\nD2",
+        "items": [
+          {
+            "text": "L1",
+            "bbox": {
+              "x": 2095,
+              "y": 144,
+              "width": 122,
+              "height": 121,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9990869760513306,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "L3",
+            "bbox": {
+              "x": 2433,
+              "y": 297,
+              "width": 134,
+              "height": 125,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9936886131763458,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "L4",
+            "bbox": {
+              "x": 3209,
+              "y": 301,
+              "width": 132,
+              "height": 117,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9996772110462189,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "L8",
+            "bbox": {
+              "x": 3100,
+              "y": 462,
+              "width": 131,
+              "height": 115,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9971330761909485,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "L6",
+            "bbox": {
+              "x": 3244,
+              "y": 890,
+              "width": 133,
+              "height": 119,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9989104568958282,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "L7",
+            "bbox": {
+              "x": 3676,
+              "y": 892,
+              "width": 129,
+              "height": 117,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.998329222202301,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "5",
+            "bbox": {
+              "x": 2794,
+              "y": 1239,
+              "width": 113,
+              "height": 135,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.899780809879303,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "9",
+            "bbox": {
+              "x": 3849,
+              "y": 1231,
+              "width": 120,
+              "height": 152,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.8506972193717957,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "L5",
+            "bbox": {
+              "x": 3240,
+              "y": 1495,
+              "width": 131,
+              "height": 119,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.998476505279541,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "2",
+            "bbox": {
+              "x": 152,
+              "y": 1526,
+              "width": 105,
+              "height": 86,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9977695941925049,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "5",
+            "bbox": {
+              "x": 150,
+              "y": 1584,
+              "width": 107,
+              "height": 123,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9641647338867188,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "7",
+            "bbox": {
+              "x": 323,
+              "y": 2171,
+              "width": 112,
+              "height": 112,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.8489205837249756,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "2",
+            "bbox": {
+              "x": 479,
+              "y": 2225,
+              "width": 114,
+              "height": 116,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.8170442581176758,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "D3",
+            "bbox": {
+              "x": 1285,
+              "y": 2605,
+              "width": 139,
+              "height": 114,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9965141117572784,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "16",
+            "bbox": {
+              "x": 1953,
+              "y": 2619,
+              "width": 145,
+              "height": 204,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.6236554384231567,
+            "has_chinese": false,
+            "text_direction": "vertical",
+            "text_angle": 90
+          },
+          {
+            "text": "D2",
+            "bbox": {
+              "x": 1285,
+              "y": 2786,
+              "width": 145,
+              "height": 119,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9992502927780151,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          }
+        ],
+        "has_chinese": false
+      },
+      "labels": [
+        {
+          "label_id": "L001",
+          "label_text_original": "L1 L3 L4 L8 L6 L7 5 9 L5 2 5 7 2 D3 16 D2",
+          "source": "ocr_merged",
+          "bbox": {
+            "x": 150,
+            "y": 144,
+            "width": 3819,
+            "height": 2761,
+            "unit": "origin_src_px"
+          },
+          "ocr_item_indexes": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "translation_en_simple": "L1 L3 L4 L8 L6 L7 5 9 L5 2 5 7 2 D3 16 D2",
+          "translation_en_full": "L1 L3 L4 L8 L6 L7 5 9 L5 2 5 7 2 D3 16 D2",
+          "translation_skipped_reason": "no_chinese"
+        }
+      ],
+      "classification": {},
+      "title": {},
+      "translation": {
+        "records": [
+          {
+            "label_id": "L001",
+            "label_text_original": "L1 L3 L4 L8 L6 L7 5 9 L5 2 5 7 2 D3 16 D2",
+            "translation_en_simple": "L1 L3 L4 L8 L6 L7 5 9 L5 2 5 7 2 D3 16 D2",
+            "translation_en_full": "L1 L3 L4 L8 L6 L7 5 9 L5 2 5 7 2 D3 16 D2",
+            "bbox": {
+              "x": 150,
+              "y": 144,
+              "width": 3819,
+              "height": 2761,
+              "unit": "origin_src_px"
+            }
+          }
+        ]
+      },
+      "review_ui": {},
+      "errors": [
+        {
+          "stage": "ai",
+          "message": "403 Client Error: Forbidden for url: https://api.tu-zi.com/v1/chat/completions"
+        }
+      ],
+      "source": {
+        "annotated_image": "6a152a10eb803e74935e6a1c---.svg",
+        "source_type": "svg"
+      },
+      "ai_analysis": {
+        "target_image": "storage/data/products_manual/drawings_2d/20260527-70-zju9u/6a152a10eb803e74935e6a1c/regions/R003_00ff7f.png",
+        "full_context_image": "storage/data/products_manual/drawings_2d/20260527-70-zju9u/6a152a10eb803e74935e6a1c/context/full_marked_ai.png",
+        "used_full_context_image": true,
+        "error": "403 Client Error: Forbidden for url: https://api.tu-zi.com/v1/chat/completions"
+      }
+    }
+  ],
+  "category_dictionary_updates": [
+    {
+      "name": "mechanical_dimensions",
+      "category_type": "base",
+      "source": "system_seed",
+      "action": "skipped"
+    },
+    {
+      "name": "torque_speed_curve",
+      "category_type": "base",
+      "source": "system_seed",
+      "action": "skipped"
+    },
+    {
+      "name": "power_connector_pinout",
+      "category_type": "base",
+      "source": "system_seed",
+      "action": "skipped"
+    },
+    {
+      "name": "feedback_connector_pinout",
+      "category_type": "base",
+      "source": "system_seed",
+      "action": "skipped"
+    }
+  ],
+  "classification_records": [],
+  "output_files": {
+    "data_json": "data_v2.json",
+    "classification_json": "structure_classification_v2.json",
+    "text_content_json": "text_content_v2.json"
+  },
+  "quality_control": {
+    "origin_src_is_pre_trim_crop": true,
+    "target_src_is_structure_trimmed_crop": true,
+    "engineering_extraction_skipped": true,
+    "forbidden_engineering_fields_present": [],
+    "json_validated": true,
+    "origin_src_semantics": "5x crop before structure border trim; backend original data image",
+    "target_src_semantics": "structure-only crop after border trim; backend processed data image"
+  },
+  "manual_review": {
+    "required": true,
+    "items": [
+      "抽查 5x 裁切图清晰度和结构图去边效果",
+      "抽查 AI 命名、分类、标签合并、完整翻译和简单翻译质量",
+      "抽查 v2 JSON 是否满足后台拆解对比和人工复核需要"
+    ]
+  }
+}

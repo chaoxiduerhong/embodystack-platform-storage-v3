@@ -1,0 +1,187 @@
+{
+  "schema_version": "pdf_force_fit_v2.3",
+  "entry": "pdf_force_fit_v2",
+  "source": {
+    "product_file_id": "6a01a9c9049eda975cf22a64",
+    "cid": "68a99577180f4f43af584764a100d56e",
+    "supplier_id": "69f1b877908c95ae5aafdcd1",
+    "category_id": "e411415e229f6003cac34fbf",
+    "series_id": "635e3b42be754c1a9f2deefeac9277ea",
+    "model_id": "7a5ad352f814445c93d7e7203b777bdd",
+    "source_annotation": "6a01a9c9049eda975cf22a64---.svg"
+  },
+  "classification_records": [
+    {
+      "product_file_id": "6a01a9c9049eda975cf22a64",
+      "region_id": "R001",
+      "category_name": "mechanical_dimensions",
+      "source": "ai",
+      "action": "inserted"
+    },
+    {
+      "product_file_id": "6a01a9c9049eda975cf22a64",
+      "region_id": "R002",
+      "category_name": "mechanical_dimensions",
+      "source": "ai",
+      "action": "inserted"
+    },
+    {
+      "product_file_id": "6a01a9c9049eda975cf22a64",
+      "region_id": "R003",
+      "category_name": "mechanical_dimensions",
+      "source": "ai",
+      "action": "inserted"
+    },
+    {
+      "product_file_id": "6a01a9c9049eda975cf22a64",
+      "region_id": "R004",
+      "category_name": "mechanical_dimensions",
+      "source": "ai",
+      "action": "inserted"
+    },
+    {
+      "product_file_id": "6a01a9c9049eda975cf22a64",
+      "region_id": "R005",
+      "category_name": "power_connector_pinout",
+      "source": "ai",
+      "action": "inserted"
+    }
+  ],
+  "regions": [
+    {
+      "region_id": "R001",
+      "group_name": "nameplate_installation_view",
+      "origin_src": "regions/R001_1e90ff.png",
+      "target_src": "regions/R001_1e90ff_trimmed.png",
+      "content_type": "structure",
+      "is_structure": true,
+      "has_gb_standard": false,
+      "title": {
+        "title_zh": "铭牌安装视图",
+        "title_en": "Nameplate Installation View"
+      },
+      "classification": {
+        "category_name": "mechanical_dimensions",
+        "title_zh": "机械尺寸",
+        "title_en": "Mechanical Dimensions",
+        "category_basis": "用于识别机械结构尺寸类图纸，包括电机/零部件外形轮廓、长宽高、轴径、轴长、键槽、法兰、安装孔、孔距、定位尺寸、三视图、剖视图、局部放大视图、公差、形位公差、基准符号、连接器/线缆/插头的物理安装位置或外形位置。若图中仅展示连接器型号、端子型号、线束走向、接口外形位置，但没有明确的引脚编号、针脚功能、线色或接线表，也归入本类。",
+        "reason": "该图展示了电机外壳上铭牌安装位置的尺寸标注，包含水平方向三段尺寸 '20±1'、'65±0.5'、'20±1'，垂直方向圆孔直径尺寸 'ø15 +0 -0.013' 和 'ø15 +0 -0.013'，以及铭牌安装槽深度 '1.5'。图中明确显示铭牌文字 '铭牌' 及其安装位置的二维轮廓、定位尺寸和公差，符合机械结构尺寸类图纸特征。",
+        "confidence": 0.98,
+        "source": "ai",
+        "category_type": "base"
+      }
+    },
+    {
+      "region_id": "R002",
+      "group_name": "motor_front_flange_dimensions",
+      "origin_src": "regions/R002_00ff7f.png",
+      "target_src": "regions/R002_00ff7f_trimmed.png",
+      "content_type": "structure",
+      "is_structure": true,
+      "has_gb_standard": false,
+      "title": {
+        "title_zh": "电机前法兰安装尺寸图",
+        "title_en": "Motor Front Flange Mounting Dimensions"
+      },
+      "classification": {
+        "category_name": "mechanical_dimensions",
+        "title_zh": "机械尺寸",
+        "title_en": "Mechanical Dimensions",
+        "category_basis": "用于识别机械结构尺寸类图纸，包括电机/零部件外形轮廓、长宽高、轴径、轴长、键槽、法兰、安装孔、孔距、定位尺寸、三视图、剖视图、局部放大视图、公差、形位公差、基准符号、连接器/线缆/插头的物理安装位置或外形位置。若图中仅展示连接器型号、端子型号、线束走向、接口外形位置，但没有明确的引脚编号、针脚功能、线色或接线表，也归入本类。",
+        "reason": "该图展示了步进电机前端法兰的正视图，包含完整的机械结构尺寸标注：外形尺寸 □57、法兰定位尺寸 □47.14±0.25、中心轴孔直径 ∅38.1 +0/-0.05 及其公差、4 个安装孔 4-∅5.2、贯穿孔 ∅12 +0.2/-0 thru、出线位置标注 320±20 及电缆规格 UL3265 AWG22。图中清晰可见螺纹孔、定位孔、同心圆轮廓及尺寸标注线，完全符合机械结构尺寸类图纸的典型特征。虽有 UL3265 AWG22 电缆标注，但未出现引脚编号、针脚功能或接线对应关系，因此不属于 power_connector_pinout 或 feedback_connector_pinout，应归入 mechanical_dimensions。",
+        "confidence": 0.98,
+        "source": "ai",
+        "category_type": "base"
+      }
+    },
+    {
+      "region_id": "R003",
+      "group_name": "motor_electrical_parameters",
+      "origin_src": "regions/R003_ffd700.png",
+      "target_src": "",
+      "content_type": "table",
+      "is_structure": false,
+      "has_gb_standard": false,
+      "title": {
+        "title_zh": "电机电气参数表",
+        "title_en": "Motor Electrical Parameters"
+      },
+      "classification": {
+        "category_name": "mechanical_dimensions",
+        "title_zh": "机械尺寸",
+        "title_en": "Mechanical Dimensions",
+        "category_basis": "用于识别机械结构尺寸类图纸，包括电机/零部件外形轮廓、长宽高、轴径、轴长、键槽、法兰、安装孔、孔距、定位尺寸、三视图、剖视图、局部放大视图、公差、形位公差、基准符号、连接器/线缆/插头的物理安装位置或外形位置。若图中仅展示连接器型号、端子型号、线束走向、接口外形位置，但没有明确的引脚编号、针脚功能、线色或接线表，也归入本类。",
+        "reason": "目标裁剪区域为步进电机电气参数表格，包含相数、步距角、额定电流、电阻、电感、保持力矩、转子惯量、绝缘等级、绝缘电阻、温升和重量等关键参数。虽内容为电气参数而非几何尺寸，但完整源图显示该表格位于机械工程图纸右下角技术参数区，与左侧电机外形尺寸图、安装孔位图共同构成标准机械图纸的参数说明部分。现有分类中无'电气参数'或'技术规格'独立类别，该表格作为电机机械图纸的技术数据附表，最接近mechanical_dimensions类别的工程图纸范畴。",
+        "confidence": 0.65,
+        "source": "ai",
+        "category_type": "base"
+      }
+    },
+    {
+      "region_id": "R004",
+      "group_name": "electrical_schematic_diagram",
+      "origin_src": "regions/R004_8a2be2.png",
+      "target_src": "regions/R004_8a2be2_trimmed.png",
+      "content_type": "structure",
+      "is_structure": true,
+      "has_gb_standard": false,
+      "title": {
+        "title_zh": "电气原理图",
+        "title_en": "Electrical Schematic Diagram"
+      },
+      "classification": {
+        "category_name": "mechanical_dimensions",
+        "title_zh": "机械尺寸",
+        "title_en": "Mechanical Dimensions",
+        "category_basis": "用于识别机械结构尺寸类图纸，包括电机/零部件外形轮廓、长宽高、轴径、轴长、键槽、法兰、安装孔、孔距、定位尺寸、三视图、剖视图、局部放大视图、公差、形位公差、基准符号、连接器/线缆/插头的物理安装位置或外形位置。若图中仅展示连接器型号、端子型号、线束走向、接口外形位置，但没有明确的引脚编号、针脚功能、线色或接线表，也归入本类。",
+        "reason": "该图为电气原理示意图，展示了电机符号 'M'、线圈符号、以及标注 'A+' 和 'A-' 的连接端子，属于电气连接的结构示意而非针脚功能定义或性能曲线，最接近机械尺寸类中对连接器/线缆物理安装位置或外形位置的描述",
+        "confidence": 0.75,
+        "source": "ai",
+        "category_type": "base"
+      }
+    },
+    {
+      "region_id": "R005",
+      "group_name": "excitation_sequence_table",
+      "origin_src": "regions/R005_00ced1.png",
+      "target_src": "",
+      "content_type": "table",
+      "is_structure": false,
+      "has_gb_standard": false,
+      "title": {
+        "title_zh": "励磁顺序",
+        "title_en": "Excitation Sequence"
+      },
+      "classification": {
+        "category_name": "power_connector_pinout",
+        "title_zh": "动力连接器引脚定义",
+        "title_en": "Power Connector Pinout",
+        "category_basis": "用于识别动力连接器或电源接口的针脚/接线定义，包括动力接口 pinout、引脚编号与针脚功能对应关系、针脚名称、U/V/W/PE、L/N/PE、DC+/DC-、P+/P-、Brake+/Brake-、制动器、电源正负极、保护地、相线、线色、线径、端子号、接线说明、连接器针位图、针脚分配表。\n\n必须同时满足：\n1. 出现连接器针脚、端子或接口信息；\n2. 至少有一个针脚编号与功能、信号名、线色、线序、电源极性、相线、保护地或接线关系对应。\n\n仅有引脚编号，但没有功能定义，不应归入本类。\n仅出现 Power Wire、Housing、Terminal、连接器型号、端子型号、线束走向、连接器安装位置、接插件外形图、插头/插座物料信息时，不应归入本类。\n仅显示 1/2/3/4 等孔位编号和 Housing/Terminal 型号，应归入 connector_housing_terminal 或 connector_structure，不应归入 power_connector_pinout。",
+        "reason": "该图显示电机励磁线圈的接线关系，包含线色标识（'红 A+'、'红白 A-'、'绿 B+'、'绿白 B-'）、相位标识（A+/A-/B+/B-）、极性符号（+/−）以及旋转方向（顺时针/逆时针）的接线规则表，明确定义了不同线色与相位、极性的对应关系，属于动力连接器的接线定义范畴",
+        "confidence": 0.95,
+        "source": "ai",
+        "category_type": "base"
+      }
+    },
+    {
+      "region_id": "R006",
+      "group_name": "",
+      "origin_src": "regions/R006_7fff00.png",
+      "target_src": "",
+      "content_type": "",
+      "is_structure": false,
+      "has_gb_standard": false,
+      "title": {},
+      "classification": {}
+    }
+  ],
+  "quality_control": {
+    "origin_src_is_pre_trim_crop": true,
+    "target_src_is_structure_trimmed_crop": true,
+    "engineering_extraction_skipped": true,
+    "forbidden_engineering_fields_present": [],
+    "json_validated": true,
+    "origin_src_semantics": "5x crop before structure border trim; backend original data image",
+    "target_src_semantics": "structure-only crop after border trim; backend processed data image"
+  }
+}

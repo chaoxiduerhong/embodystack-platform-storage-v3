@@ -1,0 +1,386 @@
+{
+  "schema_version": "pdf_force_fit_v2.3",
+  "entry": "pdf_force_fit_v2",
+  "source": {
+    "product_file_id": "69fbfa87dc573f8873a07d0a",
+    "cid": "3926bd09c8c048ed8bdf0d1252bb4d00",
+    "supplier_id": "69f1b877908c95ae5aafdcd0",
+    "category_id": "269387c73e68d9f93d215b46",
+    "series_id": "db90ede745e841538a1268dd8d027051",
+    "model_id": "389372b8dbf7443db89c7b46348a0301",
+    "source_annotation": "69fbfa87dc573f8873a07d0a---.svg"
+  },
+  "classification_records": [
+    {
+      "product_file_id": "69fbfa87dc573f8873a07d0a",
+      "region_id": "R001",
+      "category_name": "mechanical_dimensions",
+      "source": "ai",
+      "action": "updated"
+    },
+    {
+      "product_file_id": "69fbfa87dc573f8873a07d0a",
+      "region_id": "R002",
+      "category_name": "mechanical_dimensions",
+      "source": "ai",
+      "action": "updated"
+    },
+    {
+      "product_file_id": "69fbfa87dc573f8873a07d0a",
+      "region_id": "R003",
+      "category_name": "power_connector_pinout",
+      "source": "ai",
+      "action": "updated"
+    },
+    {
+      "product_file_id": "69fbfa87dc573f8873a07d0a",
+      "region_id": "R004",
+      "category_name": "mechanical_dimensions",
+      "source": "ai",
+      "action": "updated"
+    },
+    {
+      "product_file_id": "69fbfa87dc573f8873a07d0a",
+      "region_id": "R005",
+      "category_name": "power_connector_pinout",
+      "source": "ai",
+      "action": "updated"
+    },
+    {
+      "product_file_id": "69fbfa87dc573f8873a07d0a",
+      "region_id": "R006",
+      "category_name": "feedback_connector_pinout",
+      "source": "ai",
+      "action": "updated"
+    },
+    {
+      "product_file_id": "69fbfa87dc573f8873a07d0a",
+      "region_id": "R007",
+      "category_name": "mechanical_dimensions",
+      "source": "ai",
+      "action": "updated"
+    },
+    {
+      "product_file_id": "69fbfa87dc573f8873a07d0a",
+      "region_id": "R008",
+      "category_name": "mechanical_dimensions",
+      "source": "ai",
+      "action": "updated"
+    },
+    {
+      "product_file_id": "69fbfa87dc573f8873a07d0a",
+      "region_id": "R009",
+      "category_name": "torque_speed_curve",
+      "source": "ai",
+      "action": "updated"
+    },
+    {
+      "product_file_id": "69fbfa87dc573f8873a07d0a",
+      "region_id": "R010",
+      "category_name": "torque_speed_curve",
+      "source": "ai",
+      "action": "updated"
+    },
+    {
+      "product_file_id": "69fbfa87dc573f8873a07d0a",
+      "region_id": "R011",
+      "category_name": "torque_speed_curve",
+      "source": "ai",
+      "action": "updated"
+    },
+    {
+      "product_file_id": "69fbfa87dc573f8873a07d0a",
+      "region_id": "R012",
+      "category_name": "feedback_connector_pinout",
+      "source": "ai",
+      "action": "updated"
+    }
+  ],
+  "regions": [
+    {
+      "region_id": "R001",
+      "group_name": "mechanical_dimensions",
+      "origin_src": "regions/R001_ffd700.png",
+      "target_src": "regions/R001_ffd700_trimmed.png",
+      "content_type": "structure",
+      "is_structure": true,
+      "has_gb_standard": false,
+      "title": {
+        "title_zh": "机械尺寸图",
+        "title_en": "Mechanical Dimensions"
+      },
+      "classification": {
+        "category_name": "mechanical_dimensions",
+        "title_zh": "机械尺寸图",
+        "title_en": "Mechanical Dimensions",
+        "category_basis": "用于识别机械结构尺寸类图纸，包括电机/零部件外形轮廓、长宽高、轴径、轴长、键槽、法兰、安装孔、孔距、定位尺寸、三视图、剖视图、局部放大视图、公差、形位公差、基准符号、连接器/线缆/插头的物理安装位置或外形位置。若图中仅展示连接器型号、端子型号、线束走向、接口外形位置，但没有明确的引脚编号、针脚功能、线色或接线表，也归入本类。",
+        "reason": "裁剪区主要是电机/部件的外形与轴端尺寸标注，能看到'KEY'、'36'、'7'、'Ø110-0.035'、'Ø22-0.013'、'55±1'、'155±1.5'等尺寸和公差，以及基准'A'和键槽说明，没有针脚功能或接线定义。",
+        "confidence": 0.99,
+        "source": "ai",
+        "category_type": "base"
+      }
+    },
+    {
+      "region_id": "R002",
+      "group_name": "电机外形与连接器位置",
+      "origin_src": "regions/R002_8a2be2.png",
+      "target_src": "regions/R002_8a2be2_trimmed.png",
+      "content_type": "structure",
+      "is_structure": true,
+      "has_gb_standard": false,
+      "title": {
+        "title_zh": "电机正面连接器与安装尺寸图",
+        "title_en": "Motor Front Connector and Mounting Dimension Drawing"
+      },
+      "classification": {
+        "category_name": "mechanical_dimensions",
+        "title_zh": "机械尺寸",
+        "title_en": "Mechanical Dimensions",
+        "category_basis": "用于识别机械结构尺寸类图纸，包括电机/零部件外形轮廓、长宽高、轴径、轴长、键槽、法兰、安装孔、孔距、定位尺寸、三视图、剖视图、局部放大视图、公差、形位公差、基准符号、连接器/线缆/插头的物理安装位置或外形位置。若图中仅展示连接器型号、端子型号、线束走向、接口外形位置，但没有明确的引脚编号、针脚功能、线色或接线表，也归入本类。",
+        "reason": "目标区域为电机正面机械外形图，包含连接器位置标注'动力航插'、'MOTOR CONNECTOR'、'编码器航插'、'ENCODER CONNECTOR'，以及安装孔和外形尺寸'Ø145±0.2'、'4-Ø9'、'45°'、'□130'；未给出针脚编号与功能对应关系，因此归入机械尺寸。",
+        "confidence": 0.96,
+        "source": "ai",
+        "category_type": "base"
+      }
+    },
+    {
+      "region_id": "R003",
+      "group_name": "power_lead_pin_definition_table",
+      "origin_src": "regions/R003_00bfff.png",
+      "target_src": "",
+      "content_type": "table",
+      "is_structure": false,
+      "has_gb_standard": false,
+      "title": {
+        "title_zh": "动力线引线定义表",
+        "title_en": "Power Lead Pin Definition Table"
+      },
+      "classification": {
+        "category_name": "power_connector_pinout",
+        "title_zh": "动力连接器针脚定义",
+        "title_en": "Power Connector Pinout",
+        "category_basis": "用于识别动力连接器或电源接口的针脚/接线定义，包括动力接口 pinout、引脚编号与针脚功能对应关系、针脚名称、U/V/W/PE、L/N/PE、DC+/DC-、P+/P-、Brake+/Brake-、制动器、电源正负极、保护地、相线、线色、线径、端子号、接线说明、连接器针位图、针脚分配表。\n\n必须同时满足：\n1. 出现连接器针脚、端子或接口信息；\n2. 至少有一个针脚编号与功能、信号名、线色、线序、电源极性、相线、保护地或接线关系对应。\n\n仅有引脚编号，但没有功能定义，不应归入本类。\n仅出现 Power Wire、Housing、Terminal、连接器型号、端子型号、线束走向、连接器安装位置、接插件外形图、插头/插座物料信息时，不应归入本类。\n仅显示 1/2/3/4 等孔位编号和 Housing/Terminal 型号，应归入 connector_housing_terminal 或 connector_structure，不应归入 power_connector_pinout。",
+        "reason": "目标裁剪区域是动力线表格，完整标注源图确认该蓝色框区域属于动力接口信息；表内出现'Pin No'、'Defintion'、'动力线 Power'，并给出B/I/F/G/C/E等引线号与U/V/W/PE/BK+/BK-功能、颜色和16AWG线径的对应关系，符合动力连接器针脚及接线定义。",
+        "confidence": 0.98,
+        "source": "ai",
+        "category_type": "base"
+      }
+    },
+    {
+      "region_id": "R004",
+      "group_name": "连接器型号",
+      "origin_src": "regions/R004_00bfff.png",
+      "target_src": "",
+      "content_type": "text",
+      "is_structure": false,
+      "has_gb_standard": false,
+      "title": {
+        "title_zh": "连接器型号",
+        "title_en": "Connector Models"
+      },
+      "classification": {
+        "category_name": "mechanical_dimensions",
+        "title_zh": "机械尺寸",
+        "title_en": "Mechanical Dimensions",
+        "category_basis": "用于识别机械结构尺寸类图纸，包括电机/零部件外形轮廓、长宽高、轴径、轴长、键槽、法兰、安装孔、孔距、定位尺寸、三视图、剖视图、局部放大视图、公差、形位公差、基准符号、连接器/线缆/插头的物理安装位置或外形位置。若图中仅展示连接器型号、端子型号、线束走向、接口外形位置，但没有明确的引脚编号、针脚功能、线色或接线表，也归入本类。",
+        "reason": "目标裁剪区域仅显示表头文字'连接器型号'和'Connector Models'，在完整标注源图中对应连接器型号栏位，不包含针脚编号与功能、线色或接线关系定义，最接近机械尺寸类中连接器型号相关信息。",
+        "confidence": 0.93,
+        "source": "ai",
+        "category_type": "base"
+      }
+    },
+    {
+      "region_id": "R005",
+      "group_name": "动力连接器",
+      "origin_src": "regions/R005_00bfff.png",
+      "target_src": "regions/R005_00bfff_trimmed.png",
+      "content_type": "structure",
+      "is_structure": true,
+      "has_gb_standard": false,
+      "title": {
+        "title_zh": "动力连接器针位图",
+        "title_en": "Power Connector Pinout"
+      },
+      "classification": {
+        "category_name": "power_connector_pinout",
+        "title_zh": "动力连接器针脚定义",
+        "title_en": "Power Connector Pinout",
+        "category_basis": "用于识别动力连接器或电源接口的针脚/接线定义，包括动力接口 pinout、引脚编号与针脚功能对应关系、针脚名称、U/V/W/PE、L/N/PE、DC+/DC-、P+/P-、Brake+/Brake-、制动器、电源正负极、保护地、相线、线色、线径、端子号、接线说明、连接器针位图、针脚分配表。\n\n必须同时满足：\n1. 出现连接器针脚、端子或接口信息；\n2. 至少有一个针脚编号与功能、信号名、线色、线序、电源极性、相线、保护地或接线关系对应。\n\n仅有引脚编号，但没有功能定义，不应归入本类。\n仅出现 Power Wire、Housing、Terminal、连接器型号、端子型号、线束走向、连接器安装位置、接插件外形图、插头/插座物料信息时，不应归入本类。\n仅显示 1/2/3/4 等孔位编号和 Housing/Terminal 型号，应归入 connector_housing_terminal 或 connector_structure，不应归入 power_connector_pinout。",
+        "reason": "目标裁剪框显示圆形动力连接器针位外形和型号 'CMS3102A20-18PE00A-A'，全图中该裁剪位于 'Power' 区域的 'Connector Models' 单元，旁边表格给出 B/I/F/G/C/E 等引脚与 U、V、W、PE、BK+、BK- 的接线功能对应，因此属于动力连接器针脚定义。",
+        "confidence": 0.92,
+        "source": "ai",
+        "category_type": "base"
+      }
+    },
+    {
+      "region_id": "R006",
+      "group_name": "反馈线 Feedback",
+      "origin_src": "regions/R006_00ff7f.png",
+      "target_src": "",
+      "content_type": "table",
+      "is_structure": false,
+      "has_gb_standard": false,
+      "title": {
+        "title_zh": "反馈连接器引脚定义表",
+        "title_en": "Feedback Connector Pinout Table"
+      },
+      "classification": {
+        "category_name": "feedback_connector_pinout",
+        "title_zh": "反馈连接器引脚定义",
+        "title_en": "Feedback Connector Pinout",
+        "category_basis": "用于识别编码器、反馈器、传感器或信号连接器的针脚/信号定义，包括反馈接口 pinout、17-pin/15-pin/9-pin/多芯信号接口、引脚编号、VCC、+5V、+12V、GND、0V、A+/A-/B+/B-/Z+/Z-、U/V/W Hall、Hall A/B/C、SIN/COS、S+/S-、CLK/DATA、SD+/SD-、FG、Shield、NC、信号脚、屏蔽线、线色、接线说明、针脚分配表。必须体现信号功能、针脚编号、线序、线色或反馈接口定义；仅出现连接器外形、Housing、Terminal、线束走向或安装位置时，不应归入本类。",
+        "reason": "目标裁剪区域是'反馈线 Feedback'的引脚表，列出A至T针脚与'SD+'、'SD-'、'VB+'、'VB-'、'+5V'、'GND'、'SHIELD'等反馈信号及蓝、黄、棕、白、红、黑等线色对应关系，右侧标注'28AWG'线径，属于反馈连接器针脚和线序定义。",
+        "confidence": 0.98,
+        "source": "ai",
+        "category_type": "base"
+      }
+    },
+    {
+      "region_id": "R007",
+      "group_name": "connector_model_view",
+      "origin_src": "regions/R007_00ff7f.png",
+      "target_src": "regions/R007_00ff7f_trimmed.png",
+      "content_type": "structure",
+      "is_structure": true,
+      "has_gb_standard": false,
+      "title": {
+        "title_zh": "连接器型号视图",
+        "title_en": "Connector Model View"
+      },
+      "classification": {
+        "category_name": "mechanical_dimensions",
+        "title_zh": "机械尺寸",
+        "title_en": "Mechanical Dimensions",
+        "category_basis": "用于识别机械结构尺寸类图纸，包括电机/零部件外形轮廓、长宽高、轴径、轴长、键槽、法兰、安装孔、孔距、定位尺寸、三视图、剖视图、局部放大视图、公差、形位公差、基准符号、连接器/线缆/插头的物理安装位置或外形位置。若图中仅展示连接器型号、端子型号、线束走向、接口外形位置，但没有明确的引脚编号、针脚功能、线色或接线表，也归入本类。",
+        "reason": "目标框内显示连接器正面外形和孔位排列，并标注型号'CMS3102A20-29PE009-A'；完整源图中该区域位于连接器型号示意列，未在目标框内给出针脚功能、线色或接线对应关系，因此最接近机械结构/外形类。",
+        "confidence": 0.86,
+        "source": "ai",
+        "category_type": "base"
+      }
+    },
+    {
+      "region_id": "R008",
+      "group_name": "机械尺寸",
+      "origin_src": "regions/R008_00ced1.png",
+      "target_src": "",
+      "content_type": "table",
+      "is_structure": false,
+      "has_gb_standard": false,
+      "title": {
+        "title_zh": "未注线性公差",
+        "title_en": "Undeclared Linear Tolerance"
+      },
+      "classification": {
+        "category_name": "mechanical_dimensions",
+        "title_zh": "机械尺寸",
+        "title_en": "Mechanical Dimensions",
+        "category_basis": "用于识别机械结构尺寸类图纸，包括电机/零部件外形轮廓、长宽高、轴径、轴长、键槽、法兰、安装孔、孔距、定位尺寸、三视图、剖视图、局部放大视图、公差、形位公差、基准符号、连接器/线缆/插头的物理安装位置或外形位置。若图中仅展示连接器型号、端子型号、线束走向、接口外形位置，但没有明确的引脚编号、针脚功能、线色或接线表，也归入本类。",
+        "reason": "目标区域是图纸中的未注线性公差说明表，包含尺寸区间与对应公差值，属于机械尺寸与公差类内容，不涉及连接器针脚或电气定义。",
+        "confidence": 0.99,
+        "source": "ai",
+        "category_type": "base"
+      }
+    },
+    {
+      "region_id": "R009",
+      "group_name": "电机性能参数",
+      "origin_src": "regions/R009_7fff00.png",
+      "target_src": "",
+      "content_type": "table",
+      "is_structure": false,
+      "has_gb_standard": false,
+      "title": {
+        "title_zh": "电机性能参数表",
+        "title_en": "Motor Performance Parameters"
+      },
+      "classification": {
+        "category_name": "torque_speed_curve",
+        "title_zh": "扭矩-转速曲线",
+        "title_en": "Torque-Speed Curve",
+        "category_basis": "用于识别电机性能曲线类图纸或图表，包括扭矩-转速曲线、转速-扭矩关系、连续扭矩、峰值扭矩、间歇扭矩、额定扭矩、最大扭矩、转速范围、额定转速、最高转速、工作区间、S1/S2/S3 工作制、短时运行区、连续运行区、功率曲线、效率曲线等。典型特征是坐标轴、曲线、工作区域、转速单位 rpm/r/min、扭矩单位 Nm/N·m。",
+        "reason": "目标框为'电机性能参数Motor performance parameters'表格，包含额定转矩5.39 N·m、最大转矩16.2 N·m、额定转速1500 rpm、最大转速3500 rpm等电机扭矩与转速性能数据；全图中该表与右侧性能曲线同页对应，因此最接近扭矩-转速性能类别。",
+        "confidence": 0.86,
+        "source": "ai",
+        "category_type": "base"
+      }
+    },
+    {
+      "region_id": "R010",
+      "group_name": "TN曲线图",
+      "origin_src": "regions/R010_1e90ff.png",
+      "target_src": "regions/R010_1e90ff_trimmed.png",
+      "content_type": "structure",
+      "is_structure": true,
+      "has_gb_standard": false,
+      "title": {
+        "title_zh": "TN曲线图（配步科驱动器）",
+        "title_en": "Performance Curve Equipped With Kinco Driver"
+      },
+      "classification": {
+        "category_name": "torque_speed_curve",
+        "title_zh": "扭矩-转速曲线",
+        "title_en": "Torque-Speed Curve",
+        "category_basis": "用于识别电机性能曲线类图纸或图表，包括扭矩-转速曲线、转速-扭矩关系、连续扭矩、峰值扭矩、间歇扭矩、额定扭矩、最大扭矩、转速范围、额定转速、最高转速、工作区间、S1/S2/S3 工作制、短时运行区、连续运行区、功率曲线、效率曲线等。典型特征是坐标轴、曲线、工作区域、转速单位 rpm/r/min、扭矩单位 Nm/N·m。",
+        "reason": "目标框在完整标注源图中对应蓝色框选区域，内容为'TN曲线图（配步科驱动器）'和'Performance Curve (Equipped With Kinco Driver)'，包含转矩(N.m)纵轴、转速(rpm)横轴、短时工作区、连续工作区以及(2400,16.2)、(1500,5.39)、(3500,4.4)、(3500,2.31)等扭矩-转速坐标点，工程含义为电机扭矩随转速变化的性能曲线。",
+        "confidence": 0.99,
+        "source": "ai",
+        "category_type": "base"
+      }
+    },
+    {
+      "region_id": "R011",
+      "group_name": "制动器性能参数",
+      "origin_src": "regions/R011_ff8c00.png",
+      "target_src": "",
+      "content_type": "table",
+      "is_structure": false,
+      "has_gb_standard": false,
+      "title": {
+        "title_zh": "制动器性能参数表",
+        "title_en": "Brake Performance Parameters"
+      },
+      "classification": {
+        "category_name": "torque_speed_curve",
+        "title_zh": "扭矩-转速曲线",
+        "title_en": "Torque-Speed Curve",
+        "category_basis": "用于识别电机性能曲线类图纸或图表，包括扭矩-转速曲线、转速-扭矩关系、连续扭矩、峰值扭矩、间歇扭矩、额定扭矩、最大扭矩、转速范围、额定转速、最高转速、工作区间、S1/S2/S3 工作制、短时运行区、连续运行区、功率曲线、效率曲线等。典型特征是坐标轴、曲线、工作区域、转速单位 rpm/r/min、扭矩单位 Nm/N·m。",
+        "reason": "目标框为'制动器性能参数Brake performance parameters'表格，包含'静力矩Static torque'、'最大转速Maximum speed'及单位'N·m'、'rpm'等性能参数，工程含义最接近扭矩与转速性能类信息，而非连接器针脚或机械外形尺寸。",
+        "confidence": 0.78,
+        "source": "ai",
+        "category_type": "base"
+      }
+    },
+    {
+      "region_id": "R012",
+      "group_name": "编码器性能参数",
+      "origin_src": "regions/R012_40e0d0.png",
+      "target_src": "",
+      "content_type": "table",
+      "is_structure": false,
+      "has_gb_standard": false,
+      "title": {
+        "title_zh": "编码器性能参数表",
+        "title_en": "Encoder Performance Parameters Table"
+      },
+      "classification": {
+        "category_name": "feedback_connector_pinout",
+        "title_zh": "反馈连接器针脚定义",
+        "title_en": "Feedback Connector Pinout",
+        "category_basis": "用于识别编码器、反馈器、传感器或信号连接器的针脚/信号定义，包括反馈接口 pinout、17-pin/15-pin/9-pin/多芯信号接口、引脚编号、VCC、+5V、+12V、GND、0V、A+/A-/B+/B-/Z+/Z-、U/V/W Hall、Hall A/B/C、SIN/COS、S+/S-、CLK/DATA、SD+/SD-、FG、Shield、NC、信号脚、屏蔽线、线色、接线说明、针脚分配表。必须体现信号功能、针脚编号、线序、线色或反馈接口定义；仅出现连接器外形、Housing、Terminal、线束走向或安装位置时，不应归入本类。",
+        "reason": "目标框为'编码器性能参数Encoder performance parameters'表格，包含'类型Type'、'绝对值式多圈光编'、'分辨率Resolution'和'8388608 (M16/S23bit)'，描述编码器反馈部件的类型与分辨率参数；在给定类别中最接近反馈/编码器相关信息。",
+        "confidence": 0.62,
+        "source": "ai",
+        "category_type": "base"
+      }
+    }
+  ],
+  "quality_control": {
+    "origin_src_is_pre_trim_crop": true,
+    "target_src_is_structure_trimmed_crop": true,
+    "engineering_extraction_skipped": true,
+    "forbidden_engineering_fields_present": [],
+    "json_validated": true,
+    "origin_src_semantics": "5x crop before structure border trim; backend original data image",
+    "target_src_semantics": "structure-only crop after border trim; backend processed data image"
+  }
+}

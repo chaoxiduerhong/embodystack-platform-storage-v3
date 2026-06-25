@@ -1,0 +1,2075 @@
+{
+  "version": "v2",
+  "schema_version": "pdf_force_fit_v2.3",
+  "entry": "pdf_force_fit_v2",
+  "run_info": {
+    "status": "success"
+  },
+  "request": {
+    "category_ids": [],
+    "resolved_category_ids": []
+  },
+  "source": {
+    "product_file_id": "6a1fef9846262de1dd6ad28d",
+    "cid": "944b0c3e34a444cea7b7e56ea3eb489b",
+    "supplier_id": "6a1688af20291cdcd874b590",
+    "category_id": "6a1fcc34c5e8c185e9d84670",
+    "series_id": "4c54e8211f6a431980ec354751d1cb82",
+    "model_id": "",
+    "source_annotation": "6a1fef9846262de1dd6ad28d---.svg"
+  },
+  "processing_options": {
+    "crop_render_scale": 5.0,
+    "trim_border_px": 1.2,
+    "border_color_cleanup_px": 10,
+    "image_backfill_enabled": false,
+    "ocr_enabled": true,
+    "ai_enabled": true
+  },
+  "regions": [
+    {
+      "region_id": "R001",
+      "group_name": "A-A剖视图",
+      "group_color": "#00FF7F",
+      "group_order": 1,
+      "group_item_order": 1,
+      "region_order": 1,
+      "source_bbox": {
+        "x": 1406,
+        "y": 179,
+        "width": 392,
+        "height": 927,
+        "unit": "source_px"
+      },
+      "rendered_crop_bbox": {
+        "x": 7030,
+        "y": 895,
+        "width": 1960,
+        "height": 4635,
+        "unit": "rendered_px",
+        "scale": 5.0
+      },
+      "origin_src": "regions/R001_00ff7f.png",
+      "target_src": "ai_repaired/20260619_codex_ai_repair_remaining/R001_ai_repaired_v2_4096.png",
+      "content_type": "structure",
+      "content": "",
+      "content_en": "",
+      "is_structure": true,
+      "structure_candidate": true,
+      "trim_border_px": 1.2,
+      "border_color_cleanup_px": 10,
+      "trim_applied": true,
+      "crop_rotation": 0,
+      "ocr": {
+        "text": "A-A\n4.99\n出线位置\n0.5\n12.5",
+        "items": [
+          {
+            "text": "A-A",
+            "bbox": {
+              "x": 362,
+              "y": 140,
+              "width": 352,
+              "height": 311,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.961023728052775,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "4.99",
+            "bbox": {
+              "x": 975,
+              "y": 607,
+              "width": 324,
+              "height": 195,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9994851797819138,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "出线位置",
+            "bbox": {
+              "x": 864,
+              "y": 1107,
+              "width": 515,
+              "height": 267,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9937440156936646,
+            "has_chinese": true,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "0.5",
+            "bbox": {
+              "x": 963,
+              "y": 1700,
+              "width": 253,
+              "height": 200,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9979159434636434,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "12.5",
+            "bbox": {
+              "x": 367,
+              "y": 4132,
+              "width": 319,
+              "height": 195,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.8969711363315582,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          }
+        ],
+        "has_chinese": true
+      },
+      "labels": [
+        {
+          "label_id": "L001",
+          "label_text_original": "A-A",
+          "source": "ai",
+          "bbox": {
+            "x": 362,
+            "y": 140,
+            "width": 352,
+            "height": 311,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "A-A",
+          "translation_en_full": "A-A",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L002",
+          "label_text_original": "4.99",
+          "source": "ai",
+          "bbox": {
+            "x": 975,
+            "y": 607,
+            "width": 324,
+            "height": 195,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "4.99",
+          "translation_en_full": "4.99",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L003",
+          "label_text_original": "出线位置",
+          "source": "ai",
+          "bbox": {
+            "x": 864,
+            "y": 1107,
+            "width": 515,
+            "height": 267,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "Cable outlet position",
+          "translation_en_full": "Cable outlet position"
+        },
+        {
+          "label_id": "L004",
+          "label_text_original": "0.5",
+          "source": "ai",
+          "bbox": {
+            "x": 963,
+            "y": 1700,
+            "width": 253,
+            "height": 200,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "0.5",
+          "translation_en_full": "0.5",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L005",
+          "label_text_original": "12.5",
+          "source": "ai",
+          "bbox": {
+            "x": 367,
+            "y": 4132,
+            "width": 319,
+            "height": 195,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "12.5",
+          "translation_en_full": "12.5",
+          "translation_skipped_reason": "no_chinese"
+        }
+      ],
+      "classification": {
+        "category_name": "mechanical_dimensions",
+        "title_zh": "机械尺寸",
+        "title_en": "Mechanical Dimensions",
+        "category_basis": "用于识别机械结构尺寸类图纸，包括电机/零部件外形轮廓、长宽高、轴径、轴长、键槽、法兰、安装孔、孔距、定位尺寸、三视图、剖视图、局部放大视图、公差、形位公差、基准符号、连接器/线缆/插头的物理安装位置或外形位置。若图中仅展示连接器型号、端子型号、线束走向、接口外形位置，但没有明确的引脚编号、针脚功能、线色或接线表，也归入本类。",
+        "reason": "该图为标准的机械剖视图，标注 'A-A' 剖切符号，展示零部件内部结构剖面及出线位置的机械尺寸定义，包括线缆出口位置标注 '出线位置'、径向尺寸 '4.99'、轴向槽深 '0.5'、底部宽度 '12.5'，以及整体高度尺寸 'Ø20' 和 'Ø80'。图纸特征为剖面线、尺寸标注、定位尺寸，符合机械结构尺寸图纸的典型特征，属于剖视图类机械尺寸图纸。",
+        "confidence": 0.98,
+        "source": "ai",
+        "category_type": "base"
+      },
+      "title": {
+        "title_zh": "A-A剖面出线位置尺寸",
+        "title_en": "A-A Section Cable Exit Position Dimensions"
+      },
+      "translation": {
+        "records": [
+          {
+            "label_id": "L001",
+            "label_text_original": "A-A",
+            "translation_en_simple": "A-A",
+            "translation_en_full": "A-A",
+            "bbox": {
+              "x": 362,
+              "y": 140,
+              "width": 352,
+              "height": 311,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L002",
+            "label_text_original": "4.99",
+            "translation_en_simple": "4.99",
+            "translation_en_full": "4.99",
+            "bbox": {
+              "x": 975,
+              "y": 607,
+              "width": 324,
+              "height": 195,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L003",
+            "label_text_original": "出线位置",
+            "translation_en_simple": "Cable outlet position",
+            "translation_en_full": "Cable outlet position",
+            "bbox": {
+              "x": 864,
+              "y": 1107,
+              "width": 515,
+              "height": 267,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L004",
+            "label_text_original": "0.5",
+            "translation_en_simple": "0.5",
+            "translation_en_full": "0.5",
+            "bbox": {
+              "x": 963,
+              "y": 1700,
+              "width": 253,
+              "height": 200,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L005",
+            "label_text_original": "12.5",
+            "translation_en_simple": "12.5",
+            "translation_en_full": "12.5",
+            "bbox": {
+              "x": 367,
+              "y": 4132,
+              "width": 319,
+              "height": 195,
+              "unit": "origin_src_px"
+            }
+          }
+        ]
+      },
+      "review_ui": {},
+      "errors": [],
+      "source": {
+        "annotated_image": "6a1fef9846262de1dd6ad28d---.svg",
+        "source_type": "svg"
+      },
+      "ai_analysis": {
+        "target_image": "storage/data/products_manual/drawings_2d/20260612-110-fxtej/6a1fef9846262de1dd6ad28d/regions/R001_00ff7f.png",
+        "full_context_image": "storage/data/products_manual/drawings_2d/20260612-110-fxtej/6a1fef9846262de1dd6ad28d/context/full_marked_ai.png",
+        "used_full_context_image": true,
+        "error": ""
+      },
+      "has_gb_standard": false,
+      "standard_mark": "",
+      "target_src_orging": "regions/R001_00ff7f_trimmed.png",
+      "ai_repaired": true,
+      "ai_repair": {
+        "source": "codex_imagegen",
+        "batch_id": "20260619_codex_ai_repair_remaining",
+        "repaired_at": "2026-06-19T17:47:27+08:00",
+        "origin_src": "regions/R001_00ff7f.png",
+        "target_src": "ai_repaired/20260619_codex_ai_repair_remaining/R001_ai_repaired_v2_4096.png",
+        "target_src_history_key": "target_src_v1_202606191747",
+        "qc_attempt": 1,
+        "qc_status": "passed",
+        "repair_method": "imagegen source-only English CAD cleanup plus resize to origin dimensions"
+      },
+      "target_src_history": {
+        "target_src_v1_202606191747": "ai_repaired/20260619_shenyuan_ai_repair/R001_ai_repaired.png"
+      }
+    },
+    {
+      "region_id": "R002",
+      "group_name": "R002",
+      "group_color": "#00BFFF",
+      "group_order": 2,
+      "group_item_order": 1,
+      "region_order": 2,
+      "source_bbox": {
+        "x": 453,
+        "y": 232,
+        "width": 930,
+        "height": 843,
+        "unit": "source_px"
+      },
+      "rendered_crop_bbox": {
+        "x": 2265,
+        "y": 1160,
+        "width": 4650,
+        "height": 4215,
+        "unit": "rendered_px",
+        "scale": 5.0
+      },
+      "origin_src": "regions/R002_00bfff.png",
+      "target_src": "ai_repaired/20260619_codex_ai_repair_remaining/R002_ai_repaired_v2_4096.png",
+      "content_type": "structure",
+      "content": "",
+      "content_en": "",
+      "is_structure": true,
+      "structure_candidate": true,
+      "trim_border_px": 1.2,
+      "border_color_cleanup_px": 10,
+      "trim_applied": true,
+      "crop_rotation": 0,
+      "ocr": {
+        "text": "073\n出线位置\n4-M3深8均布\n22.5°\n8-M6贯通均布\n030",
+        "items": [
+          {
+            "text": "073",
+            "bbox": {
+              "x": 2636,
+              "y": 469,
+              "width": 240,
+              "height": 190,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9950705965360006,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "出线位置",
+            "bbox": {
+              "x": 3206,
+              "y": 526,
+              "width": 514,
+              "height": 265,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.993278980255127,
+            "has_chinese": true,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "4-M3深8均布",
+            "bbox": {
+              "x": 3492,
+              "y": 915,
+              "width": 941,
+              "height": 236,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.993237815797329,
+            "has_chinese": true,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "22.5°",
+            "bbox": {
+              "x": 3721,
+              "y": 1686,
+              "width": 383,
+              "height": 200,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.8968834996223449,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "8-M6贯通均布",
+            "bbox": {
+              "x": 3564,
+              "y": 2608,
+              "width": 927,
+              "height": 212,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9926541894674301,
+            "has_chinese": true,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "030",
+            "bbox": {
+              "x": 2580,
+              "y": 2752,
+              "width": 242,
+              "height": 190,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9867212375005087,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          }
+        ],
+        "has_chinese": true
+      },
+      "labels": [
+        {
+          "label_id": "L001",
+          "label_text_original": "Ø73",
+          "source": "ai",
+          "bbox": {
+            "x": 2636,
+            "y": 469,
+            "width": 240,
+            "height": 190,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "Ø73",
+          "translation_en_full": "Ø73",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L002",
+          "label_text_original": "出线位置",
+          "source": "ai",
+          "bbox": {
+            "x": 3206,
+            "y": 526,
+            "width": 514,
+            "height": 265,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "Cable outlet position",
+          "translation_en_full": "Cable outlet position"
+        },
+        {
+          "label_id": "L003",
+          "label_text_original": "4-M3深8均布",
+          "source": "ai",
+          "bbox": {
+            "x": 3492,
+            "y": 915,
+            "width": 941,
+            "height": 236,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "4-M3 depth 8 equally spaced",
+          "translation_en_full": "4 holes M3, depth 8, equally spaced"
+        },
+        {
+          "label_id": "L004",
+          "label_text_original": "22.5°",
+          "source": "ai",
+          "bbox": {
+            "x": 3721,
+            "y": 1686,
+            "width": 383,
+            "height": 200,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "22.5°",
+          "translation_en_full": "22.5°",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L005",
+          "label_text_original": "8-M6贯通均布",
+          "source": "ai",
+          "bbox": {
+            "x": 3564,
+            "y": 2608,
+            "width": 927,
+            "height": 212,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "8-M6 through equally spaced",
+          "translation_en_full": "8 holes M6, through, equally spaced"
+        },
+        {
+          "label_id": "L006",
+          "label_text_original": "Ø30",
+          "source": "ai",
+          "bbox": {
+            "x": 2580,
+            "y": 2752,
+            "width": 242,
+            "height": 190,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "Ø30",
+          "translation_en_full": "Ø30",
+          "translation_skipped_reason": "no_chinese"
+        }
+      ],
+      "classification": {
+        "category_name": "mechanical_dimensions",
+        "title_zh": "机械尺寸",
+        "title_en": "Mechanical Dimensions",
+        "category_basis": "用于识别机械结构尺寸类图纸，包括电机/零部件外形轮廓、长宽高、轴径、轴长、键槽、法兰、安装孔、孔距、定位尺寸、三视图、剖视图、局部放大视图、公差、形位公差、基准符号、连接器/线缆/插头的物理安装位置或外形位置。若图中仅展示连接器型号、端子型号、线束走向、接口外形位置，但没有明确的引脚编号、针脚功能、线色或接线表，也归入本类。",
+        "reason": "图中显示了法兰的正视图，标注了圆形法兰的外形轮廓、安装孔分布、孔径尺寸和角度定位信息。可见'Ø73'标注圆形孔径，'Ø30'标注内圈孔径，'4-M3深8均布'表示4个M3螺纹孔深度8mm均匀分布，'8-M6贯通均布'表示8个M6通孔均匀分布，'22.5°'标注孔位角度间距，'出线位置'标注线缆出口位置。这些都是典型的机械结构尺寸、安装孔、孔距和定位尺寸标注，符合机械尺寸类图纸特征。",
+        "confidence": 0.98,
+        "source": "ai",
+        "category_type": "base"
+      },
+      "title": {
+        "title_zh": "法兰安装孔尺寸",
+        "title_en": "Flange Mounting Hole Dimensions"
+      },
+      "translation": {
+        "records": [
+          {
+            "label_id": "L001",
+            "label_text_original": "Ø73",
+            "translation_en_simple": "Ø73",
+            "translation_en_full": "Ø73",
+            "bbox": {
+              "x": 2636,
+              "y": 469,
+              "width": 240,
+              "height": 190,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L002",
+            "label_text_original": "出线位置",
+            "translation_en_simple": "Cable outlet position",
+            "translation_en_full": "Cable outlet position",
+            "bbox": {
+              "x": 3206,
+              "y": 526,
+              "width": 514,
+              "height": 265,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L003",
+            "label_text_original": "4-M3深8均布",
+            "translation_en_simple": "4-M3 depth 8 equally spaced",
+            "translation_en_full": "4 holes M3, depth 8, equally spaced",
+            "bbox": {
+              "x": 3492,
+              "y": 915,
+              "width": 941,
+              "height": 236,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L004",
+            "label_text_original": "22.5°",
+            "translation_en_simple": "22.5°",
+            "translation_en_full": "22.5°",
+            "bbox": {
+              "x": 3721,
+              "y": 1686,
+              "width": 383,
+              "height": 200,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L005",
+            "label_text_original": "8-M6贯通均布",
+            "translation_en_simple": "8-M6 through equally spaced",
+            "translation_en_full": "8 holes M6, through, equally spaced",
+            "bbox": {
+              "x": 3564,
+              "y": 2608,
+              "width": 927,
+              "height": 212,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L006",
+            "label_text_original": "Ø30",
+            "translation_en_simple": "Ø30",
+            "translation_en_full": "Ø30",
+            "bbox": {
+              "x": 2580,
+              "y": 2752,
+              "width": 242,
+              "height": 190,
+              "unit": "origin_src_px"
+            }
+          }
+        ]
+      },
+      "review_ui": {},
+      "errors": [],
+      "source": {
+        "annotated_image": "6a1fef9846262de1dd6ad28d---.svg",
+        "source_type": "svg"
+      },
+      "ai_analysis": {
+        "target_image": "storage/data/products_manual/drawings_2d/20260612-110-fxtej/6a1fef9846262de1dd6ad28d/regions/R002_00bfff.png",
+        "full_context_image": "storage/data/products_manual/drawings_2d/20260612-110-fxtej/6a1fef9846262de1dd6ad28d/context/full_marked_ai.png",
+        "used_full_context_image": true,
+        "error": ""
+      },
+      "has_gb_standard": false,
+      "standard_mark": "",
+      "target_src_orging": "regions/R002_00bfff_trimmed.png",
+      "ai_repaired": true,
+      "ai_repair": {
+        "source": "codex_imagegen",
+        "batch_id": "20260619_codex_ai_repair_remaining",
+        "repaired_at": "2026-06-19T17:51:52+08:00",
+        "origin_src": "regions/R002_00bfff.png",
+        "target_src": "ai_repaired/20260619_codex_ai_repair_remaining/R002_ai_repaired_v2_4096.png",
+        "target_src_history_key": "target_src_v1_202606191751",
+        "qc_attempt": 1,
+        "qc_status": "passed",
+        "repair_method": "imagegen source-only English CAD cleanup plus resize to origin dimensions"
+      },
+      "audit_status": "审核失败",
+      "editor_data": {},
+      "edited_at": "2026-06-19T14:26:50.760179",
+      "target_src_history": {
+        "target_src_v1_202606191751": "ai_repaired/20260619_shenyuan_ai_repair/R002_ai_repaired.png"
+      }
+    },
+    {
+      "region_id": "R003",
+      "group_name": "R003",
+      "group_color": "#FFD700",
+      "group_order": 3,
+      "group_item_order": 1,
+      "region_order": 3,
+      "source_bbox": {
+        "x": 1826,
+        "y": 306,
+        "width": 924,
+        "height": 732,
+        "unit": "source_px"
+      },
+      "rendered_crop_bbox": {
+        "x": 9130,
+        "y": 1530,
+        "width": 4620,
+        "height": 3660,
+        "unit": "rendered_px",
+        "scale": 5.0
+      },
+      "origin_src": "regions/R003_ffd700.png",
+      "target_src": "ai_repaired/20260619_codex_ai_repair_remaining/R003_ai_repaired_v2_4096.png",
+      "content_type": "structure",
+      "content": "",
+      "content_en": "",
+      "is_structure": true,
+      "structure_candidate": true,
+      "trim_border_px": 1.2,
+      "border_color_cleanup_px": 10,
+      "trim_applied": true,
+      "crop_rotation": 0,
+      "ocr": {
+        "text": "073\n16-M3贯通均布\n11.25",
+        "items": [
+          {
+            "text": "073",
+            "bbox": {
+              "x": 3178,
+              "y": 441,
+              "width": 246,
+              "height": 200,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9939703941345215,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "16-M3贯通均布",
+            "bbox": {
+              "x": 3462,
+              "y": 786,
+              "width": 1063,
+              "height": 219,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9763496054543389,
+            "has_chinese": true,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "11.25",
+            "bbox": {
+              "x": 3825,
+              "y": 1912,
+              "width": 416,
+              "height": 179,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9980746507644653,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          }
+        ],
+        "has_chinese": true
+      },
+      "labels": [
+        {
+          "label_id": "L001",
+          "label_text_original": "Ø73",
+          "source": "ai",
+          "bbox": {
+            "x": 3178,
+            "y": 441,
+            "width": 246,
+            "height": 200,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "Ø73",
+          "translation_en_full": "Ø73",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L002",
+          "label_text_original": "16-M3贯通均布",
+          "source": "ai",
+          "bbox": {
+            "x": 3462,
+            "y": 786,
+            "width": 1063,
+            "height": 219,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "16-M3 through equally spaced",
+          "translation_en_full": "16 holes M3, through, equally spaced"
+        },
+        {
+          "label_id": "L003",
+          "label_text_original": "11.25°",
+          "source": "ai",
+          "bbox": {
+            "x": 3825,
+            "y": 1912,
+            "width": 416,
+            "height": 179,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "11.25°",
+          "translation_en_full": "11.25°",
+          "translation_skipped_reason": "no_chinese"
+        }
+      ],
+      "classification": {
+        "category_name": "mechanical_dimensions",
+        "title_zh": "机械尺寸",
+        "title_en": "Mechanical Dimensions",
+        "category_basis": "用于识别机械结构尺寸类图纸，包括电机/零部件外形轮廓、长宽高、轴径、轴长、键槽、法兰、安装孔、孔距、定位尺寸、三视图、剖视图、局部放大视图、公差、形位公差、基准符号、连接器/线缆/插头的物理安装位置或外形位置。若图中仅展示连接器型号、端子型号、线束走向、接口外形位置，但没有明确的引脚编号、针脚功能、线色或接线表，也归入本类。",
+        "reason": "目标图像显示圆形法兰前视图，包含外圆Ø73尺寸标注、16个M3贯通孔均匀分布在法兰外圈、角度标注11.25°指示孔间夹角。图像展示典型机械结构几何外形、安装孔数量和布局、孔径规格、定位角度等机械尺寸信息，符合法兰安装孔孔距和定位尺寸的识别要求。",
+        "confidence": 0.95,
+        "source": "ai",
+        "category_type": "base"
+      },
+      "title": {
+        "title_zh": "法兰安装孔分布与角度标注",
+        "title_en": "Flange Mounting Hole Distribution and Angle Marking"
+      },
+      "translation": {
+        "records": [
+          {
+            "label_id": "L001",
+            "label_text_original": "Ø73",
+            "translation_en_simple": "Ø73",
+            "translation_en_full": "Ø73",
+            "bbox": {
+              "x": 3178,
+              "y": 441,
+              "width": 246,
+              "height": 200,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L002",
+            "label_text_original": "16-M3贯通均布",
+            "translation_en_simple": "16-M3 through equally spaced",
+            "translation_en_full": "16 holes M3, through, equally spaced",
+            "bbox": {
+              "x": 3462,
+              "y": 786,
+              "width": 1063,
+              "height": 219,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L003",
+            "label_text_original": "11.25°",
+            "translation_en_simple": "11.25°",
+            "translation_en_full": "11.25°",
+            "bbox": {
+              "x": 3825,
+              "y": 1912,
+              "width": 416,
+              "height": 179,
+              "unit": "origin_src_px"
+            }
+          }
+        ]
+      },
+      "review_ui": {},
+      "errors": [],
+      "source": {
+        "annotated_image": "6a1fef9846262de1dd6ad28d---.svg",
+        "source_type": "svg"
+      },
+      "ai_analysis": {
+        "target_image": "storage/data/products_manual/drawings_2d/20260612-110-fxtej/6a1fef9846262de1dd6ad28d/regions/R003_ffd700.png",
+        "full_context_image": "storage/data/products_manual/drawings_2d/20260612-110-fxtej/6a1fef9846262de1dd6ad28d/context/full_marked_ai.png",
+        "used_full_context_image": true,
+        "error": ""
+      },
+      "has_gb_standard": false,
+      "standard_mark": "",
+      "target_src_orging": "regions/R003_ffd700_trimmed.png",
+      "ai_repaired": true,
+      "ai_repair": {
+        "source": "codex_imagegen",
+        "batch_id": "20260619_codex_ai_repair_remaining",
+        "repaired_at": "2026-06-19T17:56:26+08:00",
+        "origin_src": "regions/R003_ffd700.png",
+        "target_src": "ai_repaired/20260619_codex_ai_repair_remaining/R003_ai_repaired_v2_4096.png",
+        "target_src_history_key": "target_src_v1_202606191756",
+        "qc_attempt": 1,
+        "qc_status": "passed",
+        "repair_method": "imagegen source-only English CAD cleanup plus resize to origin dimensions"
+      },
+      "audit_status": "审核失败",
+      "editor_data": {},
+      "edited_at": "2026-06-19T14:27:36.952470",
+      "target_src_history": {
+        "target_src_v1_202606191756": "ai_repaired/20260619_shenyuan_ai_repair/R003_ai_repaired.png"
+      }
+    },
+    {
+      "region_id": "R004",
+      "group_name": "R004",
+      "group_color": "#8A2BE2",
+      "group_order": 4,
+      "group_item_order": 1,
+      "region_order": 4,
+      "source_bbox": {
+        "x": 614,
+        "y": 1174,
+        "width": 648,
+        "height": 661,
+        "unit": "source_px"
+      },
+      "rendered_crop_bbox": {
+        "x": 3070,
+        "y": 5870,
+        "width": 3240,
+        "height": 3305,
+        "unit": "rendered_px",
+        "scale": 5.0
+      },
+      "origin_src": "regions/R004_8a2be2.png",
+      "target_src": "ai_repaired/20260619_codex_ai_repair_remaining/R004_ai_repaired_v2_4096.png",
+      "content_type": "structure",
+      "content": "",
+      "content_en": "",
+      "is_structure": true,
+      "structure_candidate": true,
+      "trim_border_px": 1.2,
+      "border_color_cleanup_px": 10,
+      "trim_applied": true,
+      "crop_rotation": 0,
+      "ocr": {
+        "text": "0\n0\n0\n0\n0\n0\n0\n0",
+        "items": [
+          {
+            "text": "0",
+            "bbox": {
+              "x": 1331,
+              "y": 176,
+              "width": 120,
+              "height": 143,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.6571954488754272,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "0",
+            "bbox": {
+              "x": 2194,
+              "y": 548,
+              "width": 122,
+              "height": 139,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.52032470703125,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "0",
+            "bbox": {
+              "x": 390,
+              "y": 842,
+              "width": 125,
+              "height": 145,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.8125187754631042,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "0",
+            "bbox": {
+              "x": 2615,
+              "y": 1539,
+              "width": 131,
+              "height": 144,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.8197205066680908,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "0",
+            "bbox": {
+              "x": 250,
+              "y": 1635,
+              "width": 129,
+              "height": 148,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.7976656556129456,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "0",
+            "bbox": {
+              "x": 2562,
+              "y": 2078,
+              "width": 134,
+              "height": 151,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.7833613753318787,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "0",
+            "bbox": {
+              "x": 1988,
+              "y": 2876,
+              "width": 129,
+              "height": 146,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.7385438084602356,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "0",
+            "bbox": {
+              "x": 1541,
+              "y": 2998,
+              "width": 131,
+              "height": 156,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.7581562995910645,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          }
+        ],
+        "has_chinese": false
+      },
+      "labels": [
+        {
+          "label_id": "L001",
+          "label_text_original": "O",
+          "source": "ai",
+          "bbox": {
+            "x": 1331,
+            "y": 176,
+            "width": 120,
+            "height": 143,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "O",
+          "translation_en_full": "O",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L002",
+          "label_text_original": "O",
+          "source": "ai",
+          "bbox": {
+            "x": 2194,
+            "y": 548,
+            "width": 122,
+            "height": 139,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "O",
+          "translation_en_full": "O",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L003",
+          "label_text_original": "O",
+          "source": "ai",
+          "bbox": {
+            "x": 390,
+            "y": 842,
+            "width": 125,
+            "height": 145,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "O",
+          "translation_en_full": "O",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L004",
+          "label_text_original": "O",
+          "source": "ai",
+          "bbox": {
+            "x": 2615,
+            "y": 1539,
+            "width": 131,
+            "height": 144,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "O",
+          "translation_en_full": "O",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L005",
+          "label_text_original": "O",
+          "source": "ai",
+          "bbox": {
+            "x": 250,
+            "y": 1635,
+            "width": 129,
+            "height": 148,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "O",
+          "translation_en_full": "O",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L006",
+          "label_text_original": "O",
+          "source": "ai",
+          "bbox": {
+            "x": 2562,
+            "y": 2078,
+            "width": 134,
+            "height": 151,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "O",
+          "translation_en_full": "O",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L007",
+          "label_text_original": "O",
+          "source": "ai",
+          "bbox": {
+            "x": 1988,
+            "y": 2876,
+            "width": 129,
+            "height": 146,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "O",
+          "translation_en_full": "O",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L008",
+          "label_text_original": "O",
+          "source": "ai",
+          "bbox": {
+            "x": 1541,
+            "y": 2998,
+            "width": 131,
+            "height": 156,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "O",
+          "translation_en_full": "O",
+          "translation_skipped_reason": "no_chinese"
+        }
+      ],
+      "classification": {
+        "category_name": "mechanical_dimensions",
+        "title_zh": "机械尺寸",
+        "title_en": "Mechanical Dimensions",
+        "category_basis": "用于识别机械结构尺寸类图纸，包括电机/零部件外形轮廓、长宽高、轴径、轴长、键槽、法兰、安装孔、孔距、定位尺寸、三视图、剖视图、局部放大视图、公差、形位公差、基准符号、连接器/线缆/插头的物理安装位置或外形位置。若图中仅展示连接器型号、端子型号、线束走向、接口外形位置，但没有明确的引脚编号、针脚功能、线色或接线表，也归入本类。",
+        "reason": "目标裁剪区域显示扭矩传感器的前视图，为典型的机械结构图纸。图中包含圆形法兰外形轮廓、多个安装孔的位置分布、中心轴孔及周围的结构特征。OCR识别到多个'O'字符，对应图中标注的安装孔位置。整体为机械零部件的三视图之一，展示外形结构和安装孔布局，符合机械尺寸类图纸的典型特征。",
+        "confidence": 0.95,
+        "source": "ai",
+        "category_type": "base"
+      },
+      "title": {
+        "title_zh": "扭矩传感器前视图",
+        "title_en": "Torque Sensor Front View"
+      },
+      "translation": {
+        "records": [
+          {
+            "label_id": "L001",
+            "label_text_original": "O",
+            "translation_en_simple": "O",
+            "translation_en_full": "O",
+            "bbox": {
+              "x": 1331,
+              "y": 176,
+              "width": 120,
+              "height": 143,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L002",
+            "label_text_original": "O",
+            "translation_en_simple": "O",
+            "translation_en_full": "O",
+            "bbox": {
+              "x": 2194,
+              "y": 548,
+              "width": 122,
+              "height": 139,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L003",
+            "label_text_original": "O",
+            "translation_en_simple": "O",
+            "translation_en_full": "O",
+            "bbox": {
+              "x": 390,
+              "y": 842,
+              "width": 125,
+              "height": 145,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L004",
+            "label_text_original": "O",
+            "translation_en_simple": "O",
+            "translation_en_full": "O",
+            "bbox": {
+              "x": 2615,
+              "y": 1539,
+              "width": 131,
+              "height": 144,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L005",
+            "label_text_original": "O",
+            "translation_en_simple": "O",
+            "translation_en_full": "O",
+            "bbox": {
+              "x": 250,
+              "y": 1635,
+              "width": 129,
+              "height": 148,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L006",
+            "label_text_original": "O",
+            "translation_en_simple": "O",
+            "translation_en_full": "O",
+            "bbox": {
+              "x": 2562,
+              "y": 2078,
+              "width": 134,
+              "height": 151,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L007",
+            "label_text_original": "O",
+            "translation_en_simple": "O",
+            "translation_en_full": "O",
+            "bbox": {
+              "x": 1988,
+              "y": 2876,
+              "width": 129,
+              "height": 146,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L008",
+            "label_text_original": "O",
+            "translation_en_simple": "O",
+            "translation_en_full": "O",
+            "bbox": {
+              "x": 1541,
+              "y": 2998,
+              "width": 131,
+              "height": 156,
+              "unit": "origin_src_px"
+            }
+          }
+        ]
+      },
+      "review_ui": {},
+      "errors": [],
+      "source": {
+        "annotated_image": "6a1fef9846262de1dd6ad28d---.svg",
+        "source_type": "svg"
+      },
+      "ai_analysis": {
+        "target_image": "storage/data/products_manual/drawings_2d/20260612-110-fxtej/6a1fef9846262de1dd6ad28d/regions/R004_8a2be2.png",
+        "full_context_image": "storage/data/products_manual/drawings_2d/20260612-110-fxtej/6a1fef9846262de1dd6ad28d/context/full_marked_ai.png",
+        "used_full_context_image": true,
+        "error": ""
+      },
+      "has_gb_standard": false,
+      "standard_mark": "",
+      "target_src_orging": "regions/R004_8a2be2_trimmed.png",
+      "ai_repaired": true,
+      "ai_repair": {
+        "source": "codex_imagegen",
+        "batch_id": "20260619_codex_ai_repair_remaining",
+        "repaired_at": "2026-06-19T17:59:28+08:00",
+        "origin_src": "regions/R004_8a2be2.png",
+        "target_src": "ai_repaired/20260619_codex_ai_repair_remaining/R004_ai_repaired_v2_4096.png",
+        "target_src_history_key": "target_src_v1_202606191759",
+        "qc_attempt": 1,
+        "qc_status": "passed",
+        "repair_method": "imagegen source-only CAD cleanup plus resize to origin dimensions"
+      },
+      "audit_status": "审核失败",
+      "editor_data": {},
+      "edited_at": "2026-06-19T14:27:54.492094",
+      "target_src_history": {
+        "target_src_v1_202606191759": "ai_repaired/20260619_shenyuan_ai_repair/R004_ai_repaired.png"
+      }
+    },
+    {
+      "region_id": "R005",
+      "group_name": "规格参数表",
+      "group_color": "#00CED1",
+      "group_order": 5,
+      "group_item_order": 1,
+      "region_order": 5,
+      "source_bbox": {
+        "x": 1367,
+        "y": 1380,
+        "width": 568,
+        "height": 460,
+        "unit": "source_px"
+      },
+      "rendered_crop_bbox": {
+        "x": 6835,
+        "y": 6900,
+        "width": 2840,
+        "height": 2300,
+        "unit": "rendered_px",
+        "scale": 5.0
+      },
+      "origin_src": "regions/R005_00ced1.png",
+      "target_src": "",
+      "content_type": "table",
+      "content": "<table><tr><th colspan=2>规格</th></tr><tr><td>激励电压(V)</td><td>5</td></tr><tr><td>工作温度范围(°C)</td><td>0～+75</td></tr><tr><td>质量(g)</td><td>282</td></tr><tr><td>量程(Nm)</td><td>180</td></tr><tr><td>过载能力(Nm)</td><td>650</td></tr><tr><td>桥路阻抗(Ω)</td><td>700±3</td></tr></table>",
+      "content_en": "<table><tr><th colspan=\"2\">Specifications</th></tr><tr><td>Excitation voltage(V)</td><td>5</td></tr><tr><td>Operating temperature range(°C)</td><td>0～+75</td></tr><tr><td>Mass(g)</td><td>282</td></tr><tr><td>Range(Nm)</td><td>180</td></tr><tr><td>Overload capacity(Nm)</td><td>650</td></tr><tr><td>Bridge impedance(Ω)</td><td>700±3</td></tr></table>",
+      "is_structure": false,
+      "structure_candidate": true,
+      "trim_border_px": 0,
+      "border_color_cleanup_px": 0,
+      "trim_applied": false,
+      "crop_rotation": 0,
+      "ocr": {
+        "text": "规\n格\n激励电压(V)\n工作温度范围（C)\n0~+75\n质量（g）\n282\n量程（Nm）\n180\n过载能力（Nm）\n650\n桥路阻抗（Q）\n700±3",
+        "items": [
+          {
+            "text": "规",
+            "bbox": {
+              "x": 1000,
+              "y": 16,
+              "width": 171,
+              "height": 228,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9995874762535095,
+            "has_chinese": true,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "格",
+            "bbox": {
+              "x": 2001,
+              "y": 11,
+              "width": 168,
+              "height": 238,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.999708354473114,
+            "has_chinese": true,
+            "text_direction": "vertical",
+            "text_angle": 90
+          },
+          {
+            "text": "激励电压(V)",
+            "bbox": {
+              "x": 37,
+              "y": 367,
+              "width": 900,
+              "height": 258,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.8904009802000863,
+            "has_chinese": true,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "工作温度范围（C)",
+            "bbox": {
+              "x": 21,
+              "y": 708,
+              "width": 1389,
+              "height": 261,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.944149567021264,
+            "has_chinese": true,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "0~+75",
+            "bbox": {
+              "x": 2025,
+              "y": 701,
+              "width": 695,
+              "height": 216,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9634796142578125,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "质量（g）",
+            "bbox": {
+              "x": 27,
+              "y": 1038,
+              "width": 570,
+              "height": 268,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.8426086187362671,
+            "has_chinese": true,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "282",
+            "bbox": {
+              "x": 2121,
+              "y": 1058,
+              "width": 267,
+              "height": 207,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9990357955296835,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "量程（Nm）",
+            "bbox": {
+              "x": 24,
+              "y": 1368,
+              "width": 641,
+              "height": 252,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9027223785718282,
+            "has_chinese": true,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "180",
+            "bbox": {
+              "x": 2144,
+              "y": 1405,
+              "width": 261,
+              "height": 209,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.999110480149587,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "过载能力（Nm）",
+            "bbox": {
+              "x": 10,
+              "y": 1717,
+              "width": 1096,
+              "height": 268,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9825151562690735,
+            "has_chinese": true,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "650",
+            "bbox": {
+              "x": 2152,
+              "y": 1737,
+              "width": 271,
+              "height": 206,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9993869066238403,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "桥路阻抗（Q）",
+            "bbox": {
+              "x": 11,
+              "y": 2037,
+              "width": 977,
+              "height": 261,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9414044278008598,
+            "has_chinese": true,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "700±3",
+            "bbox": {
+              "x": 2112,
+              "y": 2097,
+              "width": 491,
+              "height": 182,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9958070993423462,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          }
+        ],
+        "has_chinese": true
+      },
+      "labels": [
+        {
+          "label_id": "L001",
+          "label_text_original": "规格",
+          "source": "ai",
+          "bbox": {
+            "x": 1000,
+            "y": 11,
+            "width": 1169,
+            "height": 238,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "Specifications",
+          "translation_en_full": "Specifications"
+        },
+        {
+          "label_id": "L002",
+          "label_text_original": "激励电压(V)",
+          "source": "ai",
+          "bbox": {
+            "x": 37,
+            "y": 367,
+            "width": 900,
+            "height": 258,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "Excitation voltage (V)",
+          "translation_en_full": "Excitation voltage (V)"
+        },
+        {
+          "label_id": "L003",
+          "label_text_original": "5",
+          "source": "ai",
+          "bbox": {
+            "x": 2250,
+            "y": 380,
+            "width": 120,
+            "height": 190,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "5",
+          "translation_en_full": "5",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L004",
+          "label_text_original": "工作温度范围（°C）",
+          "source": "ai",
+          "bbox": {
+            "x": 21,
+            "y": 708,
+            "width": 1389,
+            "height": 261,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "Operating temperature range (°C)",
+          "translation_en_full": "Operating temperature range (°C)"
+        },
+        {
+          "label_id": "L005",
+          "label_text_original": "0～+75",
+          "source": "ai",
+          "bbox": {
+            "x": 2025,
+            "y": 701,
+            "width": 695,
+            "height": 216,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "0～+75",
+          "translation_en_full": "0～+75",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L006",
+          "label_text_original": "质量（g）",
+          "source": "ai",
+          "bbox": {
+            "x": 27,
+            "y": 1038,
+            "width": 570,
+            "height": 268,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "Mass (g)",
+          "translation_en_full": "Mass (g)"
+        },
+        {
+          "label_id": "L007",
+          "label_text_original": "282",
+          "source": "ai",
+          "bbox": {
+            "x": 2121,
+            "y": 1058,
+            "width": 267,
+            "height": 207,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "282",
+          "translation_en_full": "282",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L008",
+          "label_text_original": "量程（Nm）",
+          "source": "ai",
+          "bbox": {
+            "x": 24,
+            "y": 1368,
+            "width": 641,
+            "height": 252,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "Range (Nm)",
+          "translation_en_full": "Range (Nm)"
+        },
+        {
+          "label_id": "L009",
+          "label_text_original": "180",
+          "source": "ai",
+          "bbox": {
+            "x": 2144,
+            "y": 1405,
+            "width": 261,
+            "height": 209,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "180",
+          "translation_en_full": "180",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L010",
+          "label_text_original": "过载能力（Nm）",
+          "source": "ai",
+          "bbox": {
+            "x": 10,
+            "y": 1717,
+            "width": 1096,
+            "height": 268,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "Overload capacity (Nm)",
+          "translation_en_full": "Overload capacity (Nm)"
+        },
+        {
+          "label_id": "L011",
+          "label_text_original": "650",
+          "source": "ai",
+          "bbox": {
+            "x": 2152,
+            "y": 1737,
+            "width": 271,
+            "height": 206,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "650",
+          "translation_en_full": "650",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L012",
+          "label_text_original": "桥路阻抗（Ω）",
+          "source": "ai",
+          "bbox": {
+            "x": 11,
+            "y": 2037,
+            "width": 977,
+            "height": 261,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "Bridge impedance (Ω)",
+          "translation_en_full": "Bridge impedance (Ω)"
+        },
+        {
+          "label_id": "L013",
+          "label_text_original": "700±3",
+          "source": "ai",
+          "bbox": {
+            "x": 2112,
+            "y": 2097,
+            "width": 491,
+            "height": 182,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "700±3",
+          "translation_en_full": "700±3",
+          "translation_skipped_reason": "no_chinese"
+        }
+      ],
+      "classification": {
+        "category_name": "mechanical_dimensions",
+        "title_zh": "机械尺寸",
+        "title_en": "Mechanical Dimensions",
+        "category_basis": "用于识别机械结构尺寸类图纸，包括电机/零部件外形轮廓、长宽高、轴径、轴长、键槽、法兰、安装孔、孔距、定位尺寸、三视图、剖视图、局部放大视图、公差、形位公差、基准符号、连接器/线缆/插头的物理安装位置或外形位置。若图中仅展示连接器型号、端子型号、线束走向、接口外形位置，但没有明确的引脚编号、针脚功能、线色或接线表，也归入本类。",
+        "reason": "目标框是完整图纸标题栏中的'规格'参数表，列出激励电压、工作温度、质量、量程、过载能力和桥路阻抗；结合完整标注源图可见同页主体为带孔位、剖视和尺寸标注的扭矩传感器机械图纸，因此在给定类别中最接近机械尺寸类。",
+        "confidence": 0.72,
+        "source": "ai",
+        "category_type": "base"
+      },
+      "title": {
+        "title_zh": "扭矩传感器规格表",
+        "title_en": "Torque Sensor Specification Table"
+      },
+      "translation": {
+        "records": [
+          {
+            "label_id": "L001",
+            "label_text_original": "规格",
+            "translation_en_simple": "Specifications",
+            "translation_en_full": "Specifications",
+            "bbox": {
+              "x": 1000,
+              "y": 11,
+              "width": 1169,
+              "height": 238,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L002",
+            "label_text_original": "激励电压(V)",
+            "translation_en_simple": "Excitation voltage (V)",
+            "translation_en_full": "Excitation voltage (V)",
+            "bbox": {
+              "x": 37,
+              "y": 367,
+              "width": 900,
+              "height": 258,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L003",
+            "label_text_original": "5",
+            "translation_en_simple": "5",
+            "translation_en_full": "5",
+            "bbox": {
+              "x": 2250,
+              "y": 380,
+              "width": 120,
+              "height": 190,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L004",
+            "label_text_original": "工作温度范围（°C）",
+            "translation_en_simple": "Operating temperature range (°C)",
+            "translation_en_full": "Operating temperature range (°C)",
+            "bbox": {
+              "x": 21,
+              "y": 708,
+              "width": 1389,
+              "height": 261,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L005",
+            "label_text_original": "0～+75",
+            "translation_en_simple": "0～+75",
+            "translation_en_full": "0～+75",
+            "bbox": {
+              "x": 2025,
+              "y": 701,
+              "width": 695,
+              "height": 216,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L006",
+            "label_text_original": "质量（g）",
+            "translation_en_simple": "Mass (g)",
+            "translation_en_full": "Mass (g)",
+            "bbox": {
+              "x": 27,
+              "y": 1038,
+              "width": 570,
+              "height": 268,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L007",
+            "label_text_original": "282",
+            "translation_en_simple": "282",
+            "translation_en_full": "282",
+            "bbox": {
+              "x": 2121,
+              "y": 1058,
+              "width": 267,
+              "height": 207,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L008",
+            "label_text_original": "量程（Nm）",
+            "translation_en_simple": "Range (Nm)",
+            "translation_en_full": "Range (Nm)",
+            "bbox": {
+              "x": 24,
+              "y": 1368,
+              "width": 641,
+              "height": 252,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L009",
+            "label_text_original": "180",
+            "translation_en_simple": "180",
+            "translation_en_full": "180",
+            "bbox": {
+              "x": 2144,
+              "y": 1405,
+              "width": 261,
+              "height": 209,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L010",
+            "label_text_original": "过载能力（Nm）",
+            "translation_en_simple": "Overload capacity (Nm)",
+            "translation_en_full": "Overload capacity (Nm)",
+            "bbox": {
+              "x": 10,
+              "y": 1717,
+              "width": 1096,
+              "height": 268,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L011",
+            "label_text_original": "650",
+            "translation_en_simple": "650",
+            "translation_en_full": "650",
+            "bbox": {
+              "x": 2152,
+              "y": 1737,
+              "width": 271,
+              "height": 206,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L012",
+            "label_text_original": "桥路阻抗（Ω）",
+            "translation_en_simple": "Bridge impedance (Ω)",
+            "translation_en_full": "Bridge impedance (Ω)",
+            "bbox": {
+              "x": 11,
+              "y": 2037,
+              "width": 977,
+              "height": 261,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L013",
+            "label_text_original": "700±3",
+            "translation_en_simple": "700±3",
+            "translation_en_full": "700±3",
+            "bbox": {
+              "x": 2112,
+              "y": 2097,
+              "width": 491,
+              "height": 182,
+              "unit": "origin_src_px"
+            }
+          }
+        ]
+      },
+      "review_ui": {},
+      "errors": [],
+      "source": {
+        "annotated_image": "6a1fef9846262de1dd6ad28d---.svg",
+        "source_type": "svg"
+      },
+      "ai_analysis": {
+        "target_image": "storage/data/products_manual/drawings_2d/20260612-110-fxtej/6a1fef9846262de1dd6ad28d/regions/R005_00ced1.png",
+        "full_context_image": "storage/data/products_manual/drawings_2d/20260612-110-fxtej/6a1fef9846262de1dd6ad28d/context/full_marked_ai.png",
+        "used_full_context_image": true,
+        "error": ""
+      },
+      "has_gb_standard": false,
+      "standard_mark": ""
+    }
+  ],
+  "category_dictionary_updates": [
+    {
+      "name": "mechanical_dimensions",
+      "category_type": "base",
+      "source": "system_seed",
+      "action": "skipped"
+    },
+    {
+      "name": "torque_speed_curve",
+      "category_type": "base",
+      "source": "system_seed",
+      "action": "skipped"
+    },
+    {
+      "name": "power_connector_pinout",
+      "category_type": "base",
+      "source": "system_seed",
+      "action": "skipped"
+    },
+    {
+      "name": "feedback_connector_pinout",
+      "category_type": "base",
+      "source": "system_seed",
+      "action": "skipped"
+    }
+  ],
+  "classification_records": [
+    {
+      "product_file_id": "6a1fef9846262de1dd6ad28d",
+      "region_id": "R001",
+      "category_name": "mechanical_dimensions",
+      "source": "ai",
+      "action": "inserted",
+      "target_src_history": {},
+      "target_src": "ai_repaired/20260619_codex_ai_repair_remaining/R001_ai_repaired_v2_4096.png",
+      "ai_repaired": true,
+      "ai_repair": {
+        "source": "codex_imagegen",
+        "batch_id": "20260619_codex_ai_repair_remaining",
+        "repaired_at": "2026-06-19T17:47:27+08:00",
+        "origin_src": "",
+        "target_src": "ai_repaired/20260619_codex_ai_repair_remaining/R001_ai_repaired_v2_4096.png",
+        "target_src_history_key": "target_src_v1_202606191747",
+        "qc_attempt": 1,
+        "qc_status": "passed",
+        "repair_method": "imagegen source-only English CAD cleanup plus resize to origin dimensions"
+      }
+    },
+    {
+      "product_file_id": "6a1fef9846262de1dd6ad28d",
+      "region_id": "R002",
+      "category_name": "mechanical_dimensions",
+      "source": "ai",
+      "action": "inserted",
+      "target_src_history": {},
+      "target_src": "ai_repaired/20260619_codex_ai_repair_remaining/R002_ai_repaired_v2_4096.png",
+      "ai_repaired": true,
+      "ai_repair": {
+        "source": "codex_imagegen",
+        "batch_id": "20260619_codex_ai_repair_remaining",
+        "repaired_at": "2026-06-19T17:51:52+08:00",
+        "origin_src": "",
+        "target_src": "ai_repaired/20260619_codex_ai_repair_remaining/R002_ai_repaired_v2_4096.png",
+        "target_src_history_key": "target_src_v1_202606191751",
+        "qc_attempt": 1,
+        "qc_status": "passed",
+        "repair_method": "imagegen source-only English CAD cleanup plus resize to origin dimensions"
+      }
+    },
+    {
+      "product_file_id": "6a1fef9846262de1dd6ad28d",
+      "region_id": "R003",
+      "category_name": "mechanical_dimensions",
+      "source": "ai",
+      "action": "inserted",
+      "target_src_history": {},
+      "target_src": "ai_repaired/20260619_codex_ai_repair_remaining/R003_ai_repaired_v2_4096.png",
+      "ai_repaired": true,
+      "ai_repair": {
+        "source": "codex_imagegen",
+        "batch_id": "20260619_codex_ai_repair_remaining",
+        "repaired_at": "2026-06-19T17:56:26+08:00",
+        "origin_src": "",
+        "target_src": "ai_repaired/20260619_codex_ai_repair_remaining/R003_ai_repaired_v2_4096.png",
+        "target_src_history_key": "target_src_v1_202606191756",
+        "qc_attempt": 1,
+        "qc_status": "passed",
+        "repair_method": "imagegen source-only English CAD cleanup plus resize to origin dimensions"
+      }
+    },
+    {
+      "product_file_id": "6a1fef9846262de1dd6ad28d",
+      "region_id": "R004",
+      "category_name": "mechanical_dimensions",
+      "source": "ai",
+      "action": "inserted",
+      "target_src_history": {},
+      "target_src": "ai_repaired/20260619_codex_ai_repair_remaining/R004_ai_repaired_v2_4096.png",
+      "ai_repaired": true,
+      "ai_repair": {
+        "source": "codex_imagegen",
+        "batch_id": "20260619_codex_ai_repair_remaining",
+        "repaired_at": "2026-06-19T17:59:28+08:00",
+        "origin_src": "",
+        "target_src": "ai_repaired/20260619_codex_ai_repair_remaining/R004_ai_repaired_v2_4096.png",
+        "target_src_history_key": "target_src_v1_202606191759",
+        "qc_attempt": 1,
+        "qc_status": "passed",
+        "repair_method": "imagegen source-only CAD cleanup plus resize to origin dimensions"
+      }
+    },
+    {
+      "product_file_id": "6a1fef9846262de1dd6ad28d",
+      "region_id": "R005",
+      "category_name": "mechanical_dimensions",
+      "source": "ai",
+      "action": "inserted"
+    }
+  ],
+  "output_files": {
+    "data_json": "data_v2.json",
+    "classification_json": "structure_classification_v2.json",
+    "text_content_json": "text_content_v2.json"
+  },
+  "quality_control": {
+    "origin_src_is_pre_trim_crop": true,
+    "target_src_is_structure_trimmed_crop": true,
+    "engineering_extraction_skipped": true,
+    "forbidden_engineering_fields_present": [],
+    "json_validated": true,
+    "origin_src_semantics": "5x crop before structure border trim; backend original data image",
+    "target_src_semantics": "structure-only crop after border trim; backend processed data image"
+  },
+  "manual_review": {
+    "required": true,
+    "items": [
+      "抽查 5x 裁切图清晰度和结构图去边效果",
+      "抽查 AI 命名、分类、标签合并、完整翻译和简单翻译质量",
+      "抽查 v2 JSON 是否满足后台拆解对比和人工复核需要"
+    ]
+  },
+  "created_at": "2026-06-18T14:17:35+08:00",
+  "updated_at": "2026-06-19T13:45:36+08:00"
+}

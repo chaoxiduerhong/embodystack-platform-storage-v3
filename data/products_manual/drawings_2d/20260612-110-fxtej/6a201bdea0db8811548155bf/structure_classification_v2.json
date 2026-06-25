@@ -1,0 +1,86 @@
+{
+  "schema_version": "pdf_force_fit_v2.3",
+  "entry": "pdf_force_fit_v2",
+  "source": {
+    "product_file_id": "6a201bdea0db8811548155bf",
+    "cid": "d2da81ba18c44e2894c2224c4d40213c",
+    "supplier_id": "6a200a86b687a37e672ff48c",
+    "category_id": "6a20115e4d633bab7f08dd8c",
+    "series_id": "9b6da29228b74f3ea4afce47a0d21a87",
+    "model_id": "",
+    "source_annotation": "6a201bdea0db8811548155bf---.svg"
+  },
+  "classification_records": [
+    {
+      "product_file_id": "6a201bdea0db8811548155bf",
+      "region_id": "R001",
+      "category_name": "feedback_connector_pinout",
+      "source": "ai",
+      "action": "inserted"
+    },
+    {
+      "product_file_id": "6a201bdea0db8811548155bf",
+      "region_id": "R002",
+      "category_name": "power_connector_pinout",
+      "source": "ai",
+      "action": "inserted"
+    }
+  ],
+  "regions": [
+    {
+      "region_id": "R001",
+      "group_name": "TE-Pins connector pin definition",
+      "origin_src": "regions/R001_00ced1.png",
+      "target_src": "regions/R001_00ced1_trimmed.png",
+      "content_type": "structure",
+      "is_structure": true,
+      "has_gb_standard": false,
+      "title": {
+        "title_zh": "TE连接器引脚定义示意图",
+        "title_en": "TE-Pins Connector Pin Definition Diagram"
+      },
+      "classification": {
+        "category_name": "feedback_connector_pinout",
+        "title_zh": "反馈连接器引脚定义",
+        "title_en": "Feedback Connector Pinout",
+        "category_basis": "用于识别编码器、反馈器、传感器或信号连接器的针脚/信号定义，包括反馈接口 pinout、17-pin/15-pin/9-pin/多芯信号接口、引脚编号、VCC、+5V、+12V、GND、0V、A+/A-/B+/B-/Z+/Z-、U/V/W Hall、Hall A/B/C、SIN/COS、S+/S-、CLK/DATA、SD+/SD-、FG、Shield、NC、信号脚、屏蔽线、线色、接线说明、针脚分配表。必须体现信号功能、针脚编号、线序、线色或反馈接口定义；仅出现连接器外形、Housing、Terminal、线束走向或安装位置时，不应归入本类。",
+        "reason": "目标裁剪图显示TE连接器剖面及引线标注'A1'至'A6'、'B1'至'B3'；完整标记源图中同一区域标题为'Definition of TE-Pins'，下方表格将这些针脚对应到'Battery+'、'Wakeup(KL15)'、'GND'、'TRX_N(1000Base-T1)'、'TRX_P(1000Base-T1)'和'SHIELD'等信号或电源定义，因此属于连接器针脚功能定义，且以信号接口含义为主。",
+        "confidence": 0.93,
+        "source": "ai",
+        "category_type": "base"
+      }
+    },
+    {
+      "region_id": "R002",
+      "group_name": "Table 10 Pin definitions for connectors",
+      "origin_src": "regions/R002_00bfff.png",
+      "target_src": "",
+      "content_type": "table",
+      "is_structure": false,
+      "has_gb_standard": false,
+      "title": {
+        "title_zh": "连接器引脚定义表",
+        "title_en": "Pin Definitions for Connectors"
+      },
+      "classification": {
+        "category_name": "power_connector_pinout",
+        "title_zh": "动力连接器针脚定义",
+        "title_en": "Power Connector Pinout",
+        "category_basis": "用于识别动力连接器或电源接口的针脚/接线定义，包括动力接口 pinout、引脚编号与针脚功能对应关系、针脚名称、U/V/W/PE、L/N/PE、DC+/DC-、P+/P-、Brake+/Brake-、制动器、电源正负极、保护地、相线、线色、线径、端子号、接线说明、连接器针位图、针脚分配表。\n\n必须同时满足：\n1. 出现连接器针脚、端子或接口信息；\n2. 至少有一个针脚编号与功能、信号名、线色、线序、电源极性、相线、保护地或接线关系对应。\n\n仅有引脚编号，但没有功能定义，不应归入本类。\n仅出现 Power Wire、Housing、Terminal、连接器型号、端子型号、线束走向、连接器安装位置、接插件外形图、插头/插座物料信息时，不应归入本类。\n仅显示 1/2/3/4 等孔位编号和 Housing/Terminal 型号，应归入 connector_housing_terminal 或 connector_structure，不应归入 power_connector_pinout。",
+        "reason": "目标裁剪区域是连接器引脚定义表，表中将引脚位号'A1'至'B3'与序号、功能对应，包含'Battery+'、'GND'、'Wakeup(KL15)'、'SHIELD'以及连接器型号'TE-2397179-1'，符合动力或电源接口针脚接线定义特征。",
+        "confidence": 0.88,
+        "source": "ai",
+        "category_type": "base"
+      }
+    }
+  ],
+  "quality_control": {
+    "origin_src_is_pre_trim_crop": true,
+    "target_src_is_structure_trimmed_crop": true,
+    "engineering_extraction_skipped": true,
+    "forbidden_engineering_fields_present": [],
+    "json_validated": true,
+    "origin_src_semantics": "5x crop before structure border trim; backend original data image",
+    "target_src_semantics": "structure-only crop after border trim; backend processed data image"
+  }
+}

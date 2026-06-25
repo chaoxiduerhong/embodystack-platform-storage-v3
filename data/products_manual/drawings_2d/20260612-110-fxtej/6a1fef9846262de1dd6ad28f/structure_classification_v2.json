@@ -1,0 +1,175 @@
+{
+  "schema_version": "pdf_force_fit_v2.3",
+  "entry": "pdf_force_fit_v2",
+  "source": {
+    "product_file_id": "6a1fef9846262de1dd6ad28f",
+    "cid": "afc4ac3b8c314f3faa46767970aa1535",
+    "supplier_id": "6a1688af20291cdcd874b590",
+    "category_id": "6a1fcc34c5e8c185e9d84670",
+    "series_id": "fff8c92f1bfc4c2ba9a1a1c0485eae2b",
+    "model_id": "",
+    "source_annotation": "6a1fef9846262de1dd6ad28f---.svg"
+  },
+  "classification_records": [
+    {
+      "product_file_id": "6a1fef9846262de1dd6ad28f",
+      "region_id": "R001",
+      "category_name": "mechanical_dimensions",
+      "source": "ai",
+      "action": "inserted",
+      "target_src_history": {},
+      "target_src": "ai_repaired/20260619_codex_ai_repair_remaining/R001_ai_repaired_v2_4096.png",
+      "ai_repaired": true,
+      "ai_repair": {
+        "source": "codex_imagegen",
+        "batch_id": "20260619_codex_ai_repair_remaining",
+        "repaired_at": "2026-06-19T18:13:48+08:00",
+        "origin_src": "",
+        "target_src": "ai_repaired/20260619_codex_ai_repair_remaining/R001_ai_repaired_v2_4096.png",
+        "target_src_history_key": "target_src_v1_202606191813",
+        "qc_attempt": 1,
+        "qc_status": "passed",
+        "repair_method": "imagegen source-only English CAD cleanup plus resize to origin dimensions"
+      }
+    },
+    {
+      "product_file_id": "6a1fef9846262de1dd6ad28f",
+      "region_id": "R002",
+      "category_name": "mechanical_dimensions",
+      "source": "ai",
+      "action": "inserted"
+    },
+    {
+      "product_file_id": "6a1fef9846262de1dd6ad28f",
+      "region_id": "R003",
+      "category_name": "mechanical_dimensions",
+      "source": "ai",
+      "action": "inserted"
+    },
+    {
+      "product_file_id": "6a1fef9846262de1dd6ad28f",
+      "region_id": "R004",
+      "category_name": "mechanical_dimensions",
+      "source": "ai",
+      "action": "inserted"
+    }
+  ],
+  "regions": [
+    {
+      "region_id": "R001",
+      "group_name": "安装孔与出线口结构尺寸",
+      "origin_src": "regions/R001_00bfff.png",
+      "target_src": "ai_repaired/20260619_codex_ai_repair_remaining/R001_ai_repaired_v2_4096.png",
+      "content_type": "structure",
+      "is_structure": true,
+      "has_gb_standard": false,
+      "title": {
+        "title_zh": "法兰安装孔与出线口尺寸图",
+        "title_en": "Flange Mounting Holes and Cable Outlet Dimension Drawing"
+      },
+      "classification": {
+        "category_name": "mechanical_dimensions",
+        "title_zh": "机械尺寸",
+        "title_en": "Mechanical Dimensions",
+        "category_basis": "用于识别机械结构尺寸类图纸，包括电机/零部件外形轮廓、长宽高、轴径、轴长、键槽、法兰、安装孔、孔距、定位尺寸、三视图、剖视图、局部放大视图、公差、形位公差、基准符号、连接器/线缆/插头的物理安装位置或外形位置。若图中仅展示连接器型号、端子型号、线束走向、接口外形位置，但没有明确的引脚编号、针脚功能、线色或接线表，也归入本类。",
+        "reason": "目标裁剪区域显示圆形法兰正视结构、中心轴线、孔阵列、引出线口位置和引线标注，包含'12xM4完全贯穿均布'、'12xM4完全贯穿'、'Φ116.5'、'Φ33.6'等安装孔与直径尺寸信息，属于机械安装与结构尺寸图。",
+        "confidence": 0.98,
+        "source": "ai",
+        "category_type": "base"
+      },
+      "target_src_history": {
+        "target_src_v1_202606191813": "regions/R001_00bfff_trimmed.png"
+      },
+      "ai_repaired": true,
+      "ai_repair": {
+        "source": "codex_imagegen",
+        "batch_id": "20260619_codex_ai_repair_remaining",
+        "repaired_at": "2026-06-19T18:13:48+08:00",
+        "origin_src": "regions/R001_00bfff.png",
+        "target_src": "ai_repaired/20260619_codex_ai_repair_remaining/R001_ai_repaired_v2_4096.png",
+        "target_src_history_key": "target_src_v1_202606191813",
+        "qc_attempt": 1,
+        "qc_status": "passed",
+        "repair_method": "imagegen source-only English CAD cleanup plus resize to origin dimensions"
+      }
+    },
+    {
+      "region_id": "R002",
+      "group_name": "侧视机械尺寸标注",
+      "origin_src": "regions/R002_ffd700.png",
+      "target_src": "regions/R002_ffd700_trimmed.png",
+      "content_type": "structure",
+      "is_structure": true,
+      "has_gb_standard": false,
+      "title": {
+        "title_zh": "侧视机械尺寸图",
+        "title_en": "Side View Mechanical Dimensions"
+      },
+      "classification": {
+        "category_name": "mechanical_dimensions",
+        "title_zh": "机械尺寸",
+        "title_en": "Mechanical Dimensions",
+        "category_basis": "用于识别机械结构尺寸类图纸，包括电机/零部件外形轮廓、长宽高、轴径、轴长、键槽、法兰、安装孔、孔距、定位尺寸、三视图、剖视图、局部放大视图、公差、形位公差、基准符号、连接器/线缆/插头的物理安装位置或外形位置。若图中仅展示连接器型号、端子型号、线束走向、接口外形位置，但没有明确的引脚编号、针脚功能、线色或接线表，也归入本类。",
+        "reason": "目标裁剪区域为零件侧视机械结构尺寸图，含坐标标注'+Y'、'+Z'以及尺寸'7.75'、'Ø84.5'、'2'、'10'，全图标记确认该区域对应右侧外形厚度和直径尺寸，不含针脚功能定义或扭矩转速曲线。",
+        "confidence": 0.97,
+        "source": "ai",
+        "category_type": "base"
+      }
+    },
+    {
+      "region_id": "R003",
+      "group_name": "法兰盘结构视图",
+      "origin_src": "regions/R003_00ff7f.png",
+      "target_src": "regions/R003_00ff7f_trimmed.png",
+      "content_type": "structure",
+      "is_structure": true,
+      "has_gb_standard": false,
+      "title": {
+        "title_zh": "法兰盘立体结构图",
+        "title_en": "Flange Isometric Structure View"
+      },
+      "classification": {
+        "category_name": "mechanical_dimensions",
+        "title_zh": "机械尺寸",
+        "title_en": "Mechanical Dimensions",
+        "category_basis": "用于识别机械结构尺寸类图纸，包括电机/零部件外形轮廓、长宽高、轴径、轴长、键槽、法兰、安装孔、孔距、定位尺寸、三视图、剖视图、局部放大视图、公差、形位公差、基准符号、连接器/线缆/插头的物理安装位置或外形位置。若图中仅展示连接器型号、端子型号、线束走向、接口外形位置，但没有明确的引脚编号、针脚功能、线色或接线表，也归入本类。",
+        "reason": "目标裁剪区域显示圆形法兰盘的立体外形、中心孔、环形台阶和多圈安装孔分布；结合完整标注源图可见该区域对应左下角绿色框内的产品结构视图，用于表达零件外形与安装孔位置，不包含针脚功能、线色、接线表或性能曲线。",
+        "confidence": 0.86,
+        "source": "ai",
+        "category_type": "base"
+      }
+    },
+    {
+      "region_id": "R004",
+      "group_name": "规格参数",
+      "origin_src": "regions/R004_8a2be2.png",
+      "target_src": "",
+      "content_type": "table",
+      "is_structure": false,
+      "has_gb_standard": false,
+      "title": {
+        "title_zh": "规格参数表",
+        "title_en": "Specification Table"
+      },
+      "classification": {
+        "category_name": "mechanical_dimensions",
+        "title_zh": "机械尺寸",
+        "title_en": "Mechanical Dimensions",
+        "category_basis": "用于识别机械结构尺寸类图纸，包括电机/零部件外形轮廓、长宽高、轴径、轴长、键槽、法兰、安装孔、孔距、定位尺寸、三视图、剖视图、局部放大视图、公差、形位公差、基准符号、连接器/线缆/插头的物理安装位置或外形位置。若图中仅展示连接器型号、端子型号、线束走向、接口外形位置，但没有明确的引脚编号、针脚功能、线色或接线表，也归入本类。",
+        "reason": "目标裁剪区域是全图右下角紫框内的规格参数表，包含'工作电压(V)'、'工作温度范围(°C)'、'质量(g)'、'量程(Nm)'、'过载能力(Nm)'、'桥路阻抗(Ω)'等机械产品参数；未出现转速扭矩曲线或连接器针脚定义，因此在给定类别中最接近机械尺寸类图纸信息。",
+        "confidence": 0.62,
+        "source": "ai",
+        "category_type": "base"
+      }
+    }
+  ],
+  "quality_control": {
+    "origin_src_is_pre_trim_crop": true,
+    "target_src_is_structure_trimmed_crop": true,
+    "engineering_extraction_skipped": true,
+    "forbidden_engineering_fields_present": [],
+    "json_validated": true,
+    "origin_src_semantics": "5x crop before structure border trim; backend original data image",
+    "target_src_semantics": "structure-only crop after border trim; backend processed data image"
+  }
+}

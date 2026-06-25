@@ -1,0 +1,174 @@
+{
+  "schema_version": "pdf_force_fit_v2.3",
+  "entry": "pdf_force_fit_v2",
+  "source": {
+    "product_file_id": "6a1fef9846262de1dd6ad28e",
+    "cid": "aefcd3ba435d4a5e91b37bf282bb8197",
+    "supplier_id": "6a1688af20291cdcd874b590",
+    "category_id": "6a1fcc34c5e8c185e9d84670",
+    "series_id": "4c54e8211f6a431980ec354751d1cb82",
+    "model_id": "",
+    "source_annotation": "6a1fef9846262de1dd6ad28e---.svg"
+  },
+  "classification_records": [
+    {
+      "product_file_id": "6a1fef9846262de1dd6ad28e",
+      "region_id": "R001",
+      "category_name": "mechanical_dimensions",
+      "source": "ai",
+      "action": "inserted",
+      "target_src_history": {},
+      "target_src": "ai_repaired/20260619_codex_ai_repair_remaining/R001_ai_repaired_v2_4096.png",
+      "ai_repaired": true,
+      "ai_repair": {
+        "source": "codex_imagegen",
+        "batch_id": "20260619_codex_ai_repair_remaining",
+        "repaired_at": "2026-06-19T18:04:55+08:00",
+        "origin_src": "",
+        "target_src": "ai_repaired/20260619_codex_ai_repair_remaining/R001_ai_repaired_v2_4096.png",
+        "target_src_history_key": "target_src_v1_202606191804",
+        "qc_attempt": 1,
+        "qc_status": "passed",
+        "repair_method": "imagegen source-only English CAD cleanup plus resize to origin dimensions"
+      }
+    },
+    {
+      "product_file_id": "6a1fef9846262de1dd6ad28e",
+      "region_id": "R002",
+      "category_name": "mechanical_dimensions",
+      "source": "ai",
+      "action": "inserted",
+      "target_src_history": {},
+      "target_src": "ai_repaired/20260619_codex_ai_repair_remaining/R002_ai_repaired_v2_4096.png",
+      "ai_repaired": true,
+      "ai_repair": {
+        "source": "codex_imagegen",
+        "batch_id": "20260619_codex_ai_repair_remaining",
+        "repaired_at": "2026-06-19T18:08:16+08:00",
+        "origin_src": "",
+        "target_src": "ai_repaired/20260619_codex_ai_repair_remaining/R002_ai_repaired_v2_4096.png",
+        "target_src_history_key": "target_src_v1_202606191808",
+        "qc_attempt": 1,
+        "qc_status": "passed",
+        "repair_method": "imagegen source-only CAD cleanup plus resize to origin dimensions"
+      }
+    },
+    {
+      "product_file_id": "6a1fef9846262de1dd6ad28e",
+      "region_id": "R003",
+      "category_name": "mechanical_dimensions",
+      "source": "ai",
+      "action": "inserted"
+    }
+  ],
+  "regions": [
+    {
+      "region_id": "R001",
+      "group_name": "front_view_mechanical_dimensions",
+      "origin_src": "regions/R001_00bfff.png",
+      "target_src": "ai_repaired/20260619_codex_ai_repair_remaining/R001_ai_repaired_v2_4096.png",
+      "content_type": "structure",
+      "is_structure": true,
+      "has_gb_standard": false,
+      "title": {
+        "title_zh": "扭矩传感器正视安装尺寸",
+        "title_en": "Torque Sensor Front View Mechanical Dimensions"
+      },
+      "classification": {
+        "category_name": "mechanical_dimensions",
+        "title_zh": "机械尺寸",
+        "title_en": "Mechanical Dimensions",
+        "category_basis": "用于识别机械结构尺寸类图纸，包括电机/零部件外形轮廓、长宽高、轴径、轴长、键槽、法兰、安装孔、孔距、定位尺寸、三视图、剖视图、局部放大视图、公差、形位公差、基准符号、连接器/线缆/插头的物理安装位置或外形位置。若图中仅展示连接器型号、端子型号、线束走向、接口外形位置，但没有明确的引脚编号、针脚功能、线色或接线表，也归入本类。",
+        "reason": "目标裁剪区域和完整标注源图显示扭矩传感器正视机械结构，包含圆周孔位、均布孔、直径尺寸、角度尺寸、出线位置和A-A剖视引出符号等安装与外形尺寸信息，无针脚功能或性能曲线。",
+        "confidence": 0.98,
+        "source": "ai",
+        "category_type": "base"
+      },
+      "target_src_history": {
+        "target_src_v1_202606191804": "regions/R001_00bfff_trimmed.png"
+      },
+      "ai_repaired": true,
+      "ai_repair": {
+        "source": "codex_imagegen",
+        "batch_id": "20260619_codex_ai_repair_remaining",
+        "repaired_at": "2026-06-19T18:04:55+08:00",
+        "origin_src": "regions/R001_00bfff.png",
+        "target_src": "ai_repaired/20260619_codex_ai_repair_remaining/R001_ai_repaired_v2_4096.png",
+        "target_src_history_key": "target_src_v1_202606191804",
+        "qc_attempt": 1,
+        "qc_status": "passed",
+        "repair_method": "imagegen source-only English CAD cleanup plus resize to origin dimensions"
+      }
+    },
+    {
+      "region_id": "R002",
+      "group_name": "A-A剖视尺寸",
+      "origin_src": "regions/R002_00ff7f.png",
+      "target_src": "ai_repaired/20260619_codex_ai_repair_remaining/R002_ai_repaired_v2_4096.png",
+      "content_type": "structure",
+      "is_structure": true,
+      "has_gb_standard": false,
+      "title": {
+        "title_zh": "A-A剖视结构尺寸",
+        "title_en": "A-A Section Mechanical Dimensions"
+      },
+      "classification": {
+        "category_name": "mechanical_dimensions",
+        "title_zh": "机械尺寸",
+        "title_en": "Mechanical Dimensions",
+        "category_basis": "用于识别机械结构尺寸类图纸，包括电机/零部件外形轮廓、长宽高、轴径、轴长、键槽、法兰、安装孔、孔距、定位尺寸、三视图、剖视图、局部放大视图、公差、形位公差、基准符号、连接器/线缆/插头的物理安装位置或外形位置。若图中仅展示连接器型号、端子型号、线束走向、接口外形位置，但没有明确的引脚编号、针脚功能、线色或接线表，也归入本类。",
+        "reason": "目标裁剪区域为完整图中绿色标记的A-A剖视局部，显示剖面线、台阶结构、孔径及轴向尺寸标注，可见'Ø30 +0.02 0'、'Ø12'、'Ø105 0 -0.04'、'12'、'4.5'等尺寸和公差，属于机械结构尺寸表达。",
+        "confidence": 0.98,
+        "source": "ai",
+        "category_type": "base"
+      },
+      "target_src_history": {
+        "target_src_v1_202606191808": "regions/R002_00ff7f_trimmed.png"
+      },
+      "ai_repaired": true,
+      "ai_repair": {
+        "source": "codex_imagegen",
+        "batch_id": "20260619_codex_ai_repair_remaining",
+        "repaired_at": "2026-06-19T18:08:16+08:00",
+        "origin_src": "regions/R002_00ff7f.png",
+        "target_src": "ai_repaired/20260619_codex_ai_repair_remaining/R002_ai_repaired_v2_4096.png",
+        "target_src_history_key": "target_src_v1_202606191808",
+        "qc_attempt": 1,
+        "qc_status": "passed",
+        "repair_method": "imagegen source-only CAD cleanup plus resize to origin dimensions"
+      }
+    },
+    {
+      "region_id": "R003",
+      "group_name": "规格参数",
+      "origin_src": "regions/R003_ffd700.png",
+      "target_src": "",
+      "content_type": "table",
+      "is_structure": false,
+      "has_gb_standard": false,
+      "title": {
+        "title_zh": "扭矩传感器规格参数表",
+        "title_en": "Torque Sensor Specification Table"
+      },
+      "classification": {
+        "category_name": "mechanical_dimensions",
+        "title_zh": "机械尺寸",
+        "title_en": "Mechanical Dimensions",
+        "category_basis": "用于识别机械结构尺寸类图纸，包括电机/零部件外形轮廓、长宽高、轴径、轴长、键槽、法兰、安装孔、孔距、定位尺寸、三视图、剖视图、局部放大视图、公差、形位公差、基准符号、连接器/线缆/插头的物理安装位置或外形位置。若图中仅展示连接器型号、端子型号、线束走向、接口外形位置，但没有明确的引脚编号、针脚功能、线色或接线表，也归入本类。",
+        "reason": "目标框为机械图纸标题栏中的规格参数表，包含'激励电压(V)'、'质量(KG)'、'量程(Nm)'、'过载能力（Nm）'、'桥路阻抗(Ω)'等产品工程参数；全图同时显示该表属于扭矩传感器机械图纸的一部分，未出现曲线坐标或连接器针脚定义，因此在给定类别中最接近机械尺寸类。",
+        "confidence": 0.72,
+        "source": "ai",
+        "category_type": "base"
+      }
+    }
+  ],
+  "quality_control": {
+    "origin_src_is_pre_trim_crop": true,
+    "target_src_is_structure_trimmed_crop": true,
+    "engineering_extraction_skipped": true,
+    "forbidden_engineering_fields_present": [],
+    "json_validated": true,
+    "origin_src_semantics": "5x crop before structure border trim; backend original data image",
+    "target_src_semantics": "structure-only crop after border trim; backend processed data image"
+  }
+}

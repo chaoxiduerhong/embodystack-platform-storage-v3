@@ -1,0 +1,231 @@
+{
+  "schema_version": "pdf_force_fit_v2.3",
+  "entry": "pdf_force_fit_v2",
+  "source": {
+    "product_file_id": "6a1fef9846262de1dd6ad28b",
+    "cid": "db053ec750a249f89795ec335826c491",
+    "supplier_id": "6a1688af20291cdcd874b590",
+    "category_id": "6a1fcc34c5e8c185e9d84670",
+    "series_id": "4c54e8211f6a431980ec354751d1cb82",
+    "model_id": "",
+    "source_annotation": "6a1fef9846262de1dd6ad28b---.svg"
+  },
+  "classification_records": [
+    {
+      "product_file_id": "6a1fef9846262de1dd6ad28b",
+      "region_id": "R001",
+      "category_name": "mechanical_dimensions",
+      "source": "ai",
+      "action": "inserted",
+      "target_src_history": {},
+      "target_src": "ai_repaired/20260619_codex_ai_repair_r001/R001_ai_repaired_v13_5270x3940.png",
+      "ai_repaired": true,
+      "ai_repair": {
+        "source": "codex_imagegen",
+        "batch_id": "20260619_codex_ai_repair_r001",
+        "repaired_at": "2026-06-19T17:18:16+08:00",
+        "origin_src": "",
+        "target_src": "ai_repaired/20260619_codex_ai_repair_r001/R001_ai_repaired_v13_5270x3940.png",
+        "target_src_history_key": "target_src_v1_202606191718",
+        "qc_attempt": 1,
+        "qc_status": "passed"
+      }
+    },
+    {
+      "product_file_id": "6a1fef9846262de1dd6ad28b",
+      "region_id": "R002",
+      "category_name": "mechanical_dimensions",
+      "source": "ai",
+      "action": "inserted",
+      "target_src_history": {},
+      "target_src": "ai_repaired/20260619_codex_ai_repair_remaining/R002_ai_repaired_v4_4096.png",
+      "ai_repaired": true,
+      "ai_repair": {
+        "source": "codex_imagegen",
+        "batch_id": "20260619_codex_ai_repair_remaining",
+        "repaired_at": "2026-06-19T17:35:15+08:00",
+        "origin_src": "",
+        "target_src": "ai_repaired/20260619_codex_ai_repair_remaining/R002_ai_repaired_v4_4096.png",
+        "target_src_history_key": "target_src_v1_202606191735",
+        "qc_attempt": 1,
+        "qc_status": "passed",
+        "repair_method": "imagegen source-only English CAD cleanup plus resize to origin dimensions"
+      }
+    },
+    {
+      "product_file_id": "6a1fef9846262de1dd6ad28b",
+      "region_id": "R003",
+      "category_name": "mechanical_dimensions",
+      "source": "ai",
+      "action": "inserted",
+      "target_src_history": {},
+      "target_src": "ai_repaired/20260619_codex_ai_repair_remaining/R003_ai_repaired_v5_4096.png",
+      "ai_repaired": true,
+      "ai_repair": {
+        "source": "codex_imagegen",
+        "batch_id": "20260619_codex_ai_repair_remaining",
+        "repaired_at": "2026-06-19T17:37:55+08:00",
+        "origin_src": "",
+        "target_src": "ai_repaired/20260619_codex_ai_repair_remaining/R003_ai_repaired_v5_4096.png",
+        "target_src_history_key": "target_src_v1_202606191737",
+        "qc_attempt": 1,
+        "qc_status": "passed",
+        "repair_method": "imagegen source-only CAD cleanup plus resize to origin dimensions"
+      }
+    },
+    {
+      "product_file_id": "6a1fef9846262de1dd6ad28b",
+      "region_id": "R004",
+      "category_name": "mechanical_dimensions",
+      "source": "ai",
+      "action": "inserted"
+    }
+  ],
+  "regions": [
+    {
+      "region_id": "R001",
+      "group_name": "R001",
+      "origin_src": "regions/R001_00bfff.png",
+      "target_src": "ai_repaired/20260619_codex_ai_repair_r001/R001_ai_repaired_v13_5270x3940.png",
+      "content_type": "structure",
+      "is_structure": true,
+      "has_gb_standard": false,
+      "title": {
+        "title_zh": "法兰安装孔尺寸",
+        "title_en": "Flange Mounting Hole Dimensions"
+      },
+      "classification": {
+        "category_name": "mechanical_dimensions",
+        "title_zh": "机械尺寸",
+        "title_en": "Mechanical Dimensions",
+        "category_basis": "用于识别机械结构尺寸类图纸，包括电机/零部件外形轮廓、长宽高、轴径、轴长、键槽、法兰、安装孔、孔距、定位尺寸、三视图、剖视图、局部放大视图、公差、形位公差、基准符号、连接器/线缆/插头的物理安装位置或外形位置。若图中仅展示连接器型号、端子型号、线束走向、接口外形位置，但没有明确的引脚编号、针脚功能、线色或接线表，也归入本类。",
+        "reason": "该图展示了法兰的正视图，包含三个同心圆分布的M3贯通螺纹孔：外圈4个孔均布在Ø60位置、中圈12个孔均布在Ø25位置、内圈10个孔均布，并标注了45°和30°角度定位、'出线位置'标记和A-A剖切方向。这些内容均为典型的法兰安装孔、孔距、定位尺寸和安装螺纹规格，属于机械结构尺寸类图纸的核心特征。",
+        "confidence": 0.98,
+        "source": "ai",
+        "category_type": "base"
+      },
+      "target_src_history": {
+        "target_src_v1_202606191718": "regions/R001_00bfff_trimmed.png"
+      },
+      "ai_repaired": true,
+      "ai_repair": {
+        "source": "codex_imagegen",
+        "batch_id": "20260619_codex_ai_repair_r001",
+        "repaired_at": "2026-06-19T17:18:16+08:00",
+        "origin_src": "regions/R001_00bfff.png",
+        "target_src": "ai_repaired/20260619_codex_ai_repair_r001/R001_ai_repaired_v13_5270x3940.png",
+        "target_src_history_key": "target_src_v1_202606191718",
+        "qc_attempt": 1,
+        "qc_status": "passed"
+      }
+    },
+    {
+      "region_id": "R002",
+      "group_name": "R002",
+      "origin_src": "regions/R002_ffd700.png",
+      "target_src": "ai_repaired/20260619_codex_ai_repair_remaining/R002_ai_repaired_v4_4096.png",
+      "content_type": "structure",
+      "is_structure": true,
+      "has_gb_standard": false,
+      "title": {
+        "title_zh": "出线位置剖面图",
+        "title_en": "Cable Exit Position Section View"
+      },
+      "classification": {
+        "category_name": "mechanical_dimensions",
+        "title_zh": "机械尺寸",
+        "title_en": "Mechanical Dimensions",
+        "category_basis": "用于识别机械结构尺寸类图纸，包括电机/零部件外形轮廓、长宽高、轴径、轴长、键槽、法兰、安装孔、孔距、定位尺寸、三视图、剖视图、局部放大视图、公差、形位公差、基准符号、连接器/线缆/插头的物理安装位置或外形位置。若图中仅展示连接器型号、端子型号、线束走向、接口外形位置，但没有明确的引脚编号、针脚功能、线色或接线表，也归入本类。",
+        "reason": "目标图像为剖面图，展示了电机或零部件的垂直剖视结构，包含整体高度尺寸 Ø66、Ø19、底部尺寸 7、顶部尺寸 3.3、中部尺寸 0.5，以及标注 '出线位置' 用于指示线缆出线的物理位置。图中呈现典型的剖视图结构特征，包含多条尺寸标注线、引线、轮廓线和定位尺寸，符合机械结构尺寸类图纸的识别依据。",
+        "confidence": 0.95,
+        "source": "ai",
+        "category_type": "base"
+      },
+      "target_src_history": {
+        "target_src_v1_202606191735": "regions/R002_ffd700_trimmed.png"
+      },
+      "ai_repaired": true,
+      "ai_repair": {
+        "source": "codex_imagegen",
+        "batch_id": "20260619_codex_ai_repair_remaining",
+        "repaired_at": "2026-06-19T17:35:15+08:00",
+        "origin_src": "regions/R002_ffd700.png",
+        "target_src": "ai_repaired/20260619_codex_ai_repair_remaining/R002_ai_repaired_v4_4096.png",
+        "target_src_history_key": "target_src_v1_202606191735",
+        "qc_attempt": 1,
+        "qc_status": "passed",
+        "repair_method": "imagegen source-only English CAD cleanup plus resize to origin dimensions"
+      }
+    },
+    {
+      "region_id": "R003",
+      "group_name": "R003",
+      "origin_src": "regions/R003_00ff7f.png",
+      "target_src": "ai_repaired/20260619_codex_ai_repair_remaining/R003_ai_repaired_v5_4096.png",
+      "content_type": "structure",
+      "is_structure": true,
+      "has_gb_standard": false,
+      "title": {
+        "title_zh": "扭矩传感器结构前视图",
+        "title_en": "Torque Sensor Structure Front View"
+      },
+      "classification": {
+        "category_name": "mechanical_dimensions",
+        "title_zh": "机械尺寸",
+        "title_en": "Mechanical Dimensions",
+        "category_basis": "用于识别机械结构尺寸类图纸，包括电机/零部件外形轮廓、长宽高、轴径、轴长、键槽、法兰、安装孔、孔距、定位尺寸、三视图、剖视图、局部放大视图、公差、形位公差、基准符号、连接器/线缆/插头的物理安装位置或外形位置。若图中仅展示连接器型号、端子型号、线束走向、接口外形位置，但没有明确的引脚编号、针脚功能、线色或接线表，也归入本类。",
+        "reason": "该图为扭矩传感器的前视结构图，显示了圆形法兰结构，包含多个均布的安装孔，这些孔用于固定和定位。图中展示了零部件的外形轮廓、法兰结构、安装孔分布和定位特征，属于典型的机械结构尺寸类图纸。",
+        "confidence": 0.95,
+        "source": "ai",
+        "category_type": "base"
+      },
+      "target_src_history": {
+        "target_src_v1_202606191737": "regions/R003_00ff7f_trimmed.png"
+      },
+      "ai_repaired": true,
+      "ai_repair": {
+        "source": "codex_imagegen",
+        "batch_id": "20260619_codex_ai_repair_remaining",
+        "repaired_at": "2026-06-19T17:37:55+08:00",
+        "origin_src": "regions/R003_00ff7f.png",
+        "target_src": "ai_repaired/20260619_codex_ai_repair_remaining/R003_ai_repaired_v5_4096.png",
+        "target_src_history_key": "target_src_v1_202606191737",
+        "qc_attempt": 1,
+        "qc_status": "passed",
+        "repair_method": "imagegen source-only CAD cleanup plus resize to origin dimensions"
+      }
+    },
+    {
+      "region_id": "R004",
+      "group_name": "specifications_table",
+      "origin_src": "regions/R004_8a2be2.png",
+      "target_src": "",
+      "content_type": "table",
+      "is_structure": false,
+      "has_gb_standard": false,
+      "title": {
+        "title_zh": "扭矩传感器规格参数表",
+        "title_en": "Torque Sensor Specifications"
+      },
+      "classification": {
+        "category_name": "mechanical_dimensions",
+        "title_zh": "机械尺寸",
+        "title_en": "Mechanical Dimensions",
+        "category_basis": "用于识别机械结构尺寸类图纸，包括电机/零部件外形轮廓、长宽高、轴径、轴长、键槽、法兰、安装孔、孔距、定位尺寸、三视图、剖视图、局部放大视图、公差、形位公差、基准符号、连接器/线缆/插头的物理安装位置或外形位置。若图中仅展示连接器型号、端子型号、线束走向、接口外形位置，但没有明确的引脚编号、针脚功能、线色或接线表，也归入本类。",
+        "reason": "该目标图像为扭矩传感器的规格参数表，包含激励电压、工作温度范围、质量、量程、过载能力、桥路阻抗等技术参数。虽然不是典型的机械结构尺寸图纸，但属于零部件的技术规格说明，与机械尺寸类图纸的定义范围相关。由于现有分类中没有专门的参数表或规格表类别，而该表格描述的是传感器的物理参数（质量126g）和性能参数（量程50Nm、过载能力180Nm），与机械零部件的技术参数定义相关，因此归入mechanical_dimensions是最接近的分类选择。",
+        "confidence": 0.65,
+        "source": "ai",
+        "category_type": "base"
+      }
+    }
+  ],
+  "quality_control": {
+    "origin_src_is_pre_trim_crop": true,
+    "target_src_is_structure_trimmed_crop": true,
+    "engineering_extraction_skipped": true,
+    "forbidden_engineering_fields_present": [],
+    "json_validated": true,
+    "origin_src_semantics": "5x crop before structure border trim; backend original data image",
+    "target_src_semantics": "structure-only crop after border trim; backend processed data image"
+  }
+}

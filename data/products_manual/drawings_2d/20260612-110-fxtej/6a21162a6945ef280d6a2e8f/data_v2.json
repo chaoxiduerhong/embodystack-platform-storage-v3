@@ -1,0 +1,2089 @@
+{
+  "version": "v2",
+  "schema_version": "pdf_force_fit_v2.3",
+  "entry": "pdf_force_fit_v2",
+  "run_info": {
+    "status": "success"
+  },
+  "request": {
+    "category_ids": [],
+    "resolved_category_ids": []
+  },
+  "source": {
+    "product_file_id": "6a21162a6945ef280d6a2e8f",
+    "cid": "34caca3960cd48f1ad0782e0e279bf0c",
+    "supplier_id": "6a200aa7b687a37e672ff48d",
+    "category_id": "6a210c1223c0b1a2af9a507e",
+    "series_id": "bcdff87ab2ef4f22a00f82659eb7b295",
+    "model_id": "790b6bc36ef040c7bdc026516a3f3ee6",
+    "source_annotation": "6a21162a6945ef280d6a2e8f---.svg"
+  },
+  "processing_options": {
+    "crop_render_scale": 5.0,
+    "trim_border_px": 1.2,
+    "border_color_cleanup_px": 10,
+    "image_backfill_enabled": false,
+    "ocr_enabled": true,
+    "ai_enabled": true
+  },
+  "regions": [
+    {
+      "region_id": "R001",
+      "group_name": "mechanical_drawing_crop",
+      "group_color": "#00BFFF",
+      "group_order": 1,
+      "group_item_order": 1,
+      "region_order": 1,
+      "source_bbox": {
+        "x": 234,
+        "y": 37,
+        "width": 190,
+        "height": 109,
+        "unit": "source_px"
+      },
+      "rendered_crop_bbox": {
+        "x": 1170,
+        "y": 185,
+        "width": 950,
+        "height": 545,
+        "unit": "rendered_px",
+        "scale": 5.0
+      },
+      "origin_src": "regions/R001_00bfff.png",
+      "target_src": "regions/R001_00bfff_trimmed.png",
+      "content_type": "structure",
+      "content": "",
+      "content_en": "",
+      "is_structure": true,
+      "structure_candidate": true,
+      "trim_border_px": 1.2,
+      "border_color_cleanup_px": 10,
+      "trim_applied": true,
+      "crop_rotation": 0,
+      "ocr": {
+        "text": "ME107°\nME107°\nME107°\nOP109.6°\nOP104°\nOP104°\nOP104°\nUUUUUUUUUUUUE",
+        "items": [
+          {
+            "text": "ME107°",
+            "bbox": {
+              "x": 100,
+              "y": 61,
+              "width": 86,
+              "height": 23,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9850500325361887,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "ME107°",
+            "bbox": {
+              "x": 586,
+              "y": 61,
+              "width": 88,
+              "height": 26,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.989916721979777,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "ME107°",
+            "bbox": {
+              "x": 751,
+              "y": 56,
+              "width": 87,
+              "height": 25,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9941551983356476,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "OP109.6°",
+            "bbox": {
+              "x": 422,
+              "y": 78,
+              "width": 91,
+              "height": 20,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9975282028317451,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "OP104°",
+            "bbox": {
+              "x": 96,
+              "y": 93,
+              "width": 87,
+              "height": 25,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.962940126657486,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "OP104°",
+            "bbox": {
+              "x": 581,
+              "y": 96,
+              "width": 90,
+              "height": 25,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9723323782285055,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "OP104°",
+            "bbox": {
+              "x": 744,
+              "y": 90,
+              "width": 88,
+              "height": 27,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9552717010180155,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "UUUUUUUUUUUUE",
+            "bbox": {
+              "x": 405,
+              "y": 469,
+              "width": 400,
+              "height": 32,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.6892403272482065,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          }
+        ],
+        "has_chinese": false
+      },
+      "labels": [
+        {
+          "label_id": "L001",
+          "label_text_original": "ME107°",
+          "source": "ai",
+          "bbox": {
+            "x": 100,
+            "y": 61,
+            "width": 86,
+            "height": 23,
+            "unit": "rendered_px"
+          },
+          "translation_en_simple": "ME107°",
+          "translation_en_full": "ME107°",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L002",
+          "label_text_original": "OP104°",
+          "source": "ai",
+          "bbox": {
+            "x": 96,
+            "y": 93,
+            "width": 87,
+            "height": 25,
+            "unit": "rendered_px"
+          },
+          "translation_en_simple": "OP104°",
+          "translation_en_full": "OP104°",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L003",
+          "label_text_original": "OP 109.6°",
+          "source": "ai",
+          "bbox": {
+            "x": 422,
+            "y": 78,
+            "width": 91,
+            "height": 20,
+            "unit": "rendered_px"
+          },
+          "translation_en_simple": "OP 109.6°",
+          "translation_en_full": "OP 109.6°",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L004",
+          "label_text_original": "ME107°",
+          "source": "ai",
+          "bbox": {
+            "x": 586,
+            "y": 61,
+            "width": 88,
+            "height": 26,
+            "unit": "rendered_px"
+          },
+          "translation_en_simple": "ME107°",
+          "translation_en_full": "ME107°",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L005",
+          "label_text_original": "OP104°",
+          "source": "ai",
+          "bbox": {
+            "x": 581,
+            "y": 96,
+            "width": 90,
+            "height": 25,
+            "unit": "rendered_px"
+          },
+          "translation_en_simple": "OP104°",
+          "translation_en_full": "OP104°",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L006",
+          "label_text_original": "ME107°",
+          "source": "ai",
+          "bbox": {
+            "x": 751,
+            "y": 56,
+            "width": 87,
+            "height": 25,
+            "unit": "rendered_px"
+          },
+          "translation_en_simple": "ME107°",
+          "translation_en_full": "ME107°",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L007",
+          "label_text_original": "OP104°",
+          "source": "ai",
+          "bbox": {
+            "x": 744,
+            "y": 90,
+            "width": 88,
+            "height": 27,
+            "unit": "rendered_px"
+          },
+          "translation_en_simple": "OP104°",
+          "translation_en_full": "OP104°",
+          "translation_skipped_reason": "no_chinese"
+        }
+      ],
+      "classification": {
+        "category_name": "mechanical_dimensions",
+        "title_zh": "机械尺寸",
+        "title_en": "Mechanical Dimensions",
+        "category_basis": "用于识别机械结构尺寸类图纸，包括电机/零部件外形轮廓、长宽高、轴径、轴长、键槽、法兰、安装孔、孔距、定位尺寸、三视图、剖视图、局部放大视图、公差、形位公差、基准符号、连接器/线缆/插头的物理安装位置或外形位置。若图中仅展示连接器型号、端子型号、线束走向、接口外形位置，但没有明确的引脚编号、针脚功能、线色或接线表，也归入本类。",
+        "reason": "目标框内为设备外形侧视结构线稿，包含顶部翻转角度标注'ME107°'、'OP104°'、'OP109.6°'及机身轮廓、安装/散热结构线，无针脚功能、接线定义或性能曲线，工程含义属于机械外形与角度尺寸表达。",
+        "confidence": 0.96,
+        "source": "ai",
+        "category_type": "base"
+      },
+      "title": {
+        "title_zh": "外形角度视图",
+        "title_en": "Outline Angle View"
+      },
+      "translation": {
+        "records": [
+          {
+            "label_id": "L001",
+            "label_text_original": "ME107°",
+            "translation_en_simple": "ME107°",
+            "translation_en_full": "ME107°",
+            "bbox": {
+              "x": 100,
+              "y": 61,
+              "width": 86,
+              "height": 23,
+              "unit": "rendered_px"
+            }
+          },
+          {
+            "label_id": "L002",
+            "label_text_original": "OP104°",
+            "translation_en_simple": "OP104°",
+            "translation_en_full": "OP104°",
+            "bbox": {
+              "x": 96,
+              "y": 93,
+              "width": 87,
+              "height": 25,
+              "unit": "rendered_px"
+            }
+          },
+          {
+            "label_id": "L003",
+            "label_text_original": "OP 109.6°",
+            "translation_en_simple": "OP 109.6°",
+            "translation_en_full": "OP 109.6°",
+            "bbox": {
+              "x": 422,
+              "y": 78,
+              "width": 91,
+              "height": 20,
+              "unit": "rendered_px"
+            }
+          },
+          {
+            "label_id": "L004",
+            "label_text_original": "ME107°",
+            "translation_en_simple": "ME107°",
+            "translation_en_full": "ME107°",
+            "bbox": {
+              "x": 586,
+              "y": 61,
+              "width": 88,
+              "height": 26,
+              "unit": "rendered_px"
+            }
+          },
+          {
+            "label_id": "L005",
+            "label_text_original": "OP104°",
+            "translation_en_simple": "OP104°",
+            "translation_en_full": "OP104°",
+            "bbox": {
+              "x": 581,
+              "y": 96,
+              "width": 90,
+              "height": 25,
+              "unit": "rendered_px"
+            }
+          },
+          {
+            "label_id": "L006",
+            "label_text_original": "ME107°",
+            "translation_en_simple": "ME107°",
+            "translation_en_full": "ME107°",
+            "bbox": {
+              "x": 751,
+              "y": 56,
+              "width": 87,
+              "height": 25,
+              "unit": "rendered_px"
+            }
+          },
+          {
+            "label_id": "L007",
+            "label_text_original": "OP104°",
+            "translation_en_simple": "OP104°",
+            "translation_en_full": "OP104°",
+            "bbox": {
+              "x": 744,
+              "y": 90,
+              "width": 88,
+              "height": 27,
+              "unit": "rendered_px"
+            }
+          }
+        ]
+      },
+      "review_ui": {},
+      "errors": [],
+      "source": {
+        "annotated_image": "6a21162a6945ef280d6a2e8f---.svg",
+        "source_type": "svg"
+      },
+      "ai_analysis": {
+        "target_image": "storage/data/products_manual/drawings_2d/20260612-110-fxtej/6a21162a6945ef280d6a2e8f/regions/R001_00bfff.png",
+        "full_context_image": "storage/data/products_manual/drawings_2d/20260612-110-fxtej/6a21162a6945ef280d6a2e8f/context/full_marked_ai.png",
+        "used_full_context_image": true,
+        "error": ""
+      },
+      "has_gb_standard": false,
+      "standard_mark": ""
+    },
+    {
+      "region_id": "R002",
+      "group_name": "mounting_point_dimension_view",
+      "group_color": "#FFD700",
+      "group_order": 2,
+      "group_item_order": 1,
+      "region_order": 2,
+      "source_bbox": {
+        "x": 234,
+        "y": 191,
+        "width": 197,
+        "height": 94,
+        "unit": "source_px"
+      },
+      "rendered_crop_bbox": {
+        "x": 1170,
+        "y": 955,
+        "width": 985,
+        "height": 470,
+        "unit": "rendered_px",
+        "scale": 5.0
+      },
+      "origin_src": "regions/R002_ffd700.png",
+      "target_src": "regions/R002_ffd700_trimmed.png",
+      "content_type": "structure",
+      "content": "",
+      "content_en": "",
+      "is_structure": true,
+      "structure_candidate": true,
+      "trim_border_px": 1.2,
+      "border_color_cleanup_px": 10,
+      "trim_applied": true,
+      "crop_rotation": 0,
+      "ocr": {
+        "text": "2-M4MOUNTINGPOINT MAX\nINSERTIONDEPTH6MM\n61.50±0.30",
+        "items": [
+          {
+            "text": "2-M4MOUNTINGPOINT MAX",
+            "bbox": {
+              "x": 482,
+              "y": 12,
+              "width": 424,
+              "height": 31,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9744419285229274,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "INSERTIONDEPTH6MM",
+            "bbox": {
+              "x": 482,
+              "y": 59,
+              "width": 339,
+              "height": 32,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9887844850035274,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "61.50±0.30",
+            "bbox": {
+              "x": 552,
+              "y": 386,
+              "width": 121,
+              "height": 21,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9993885636329651,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          }
+        ],
+        "has_chinese": false
+      },
+      "labels": [
+        {
+          "label_id": "L001",
+          "label_text_original": "2-M4 MOUNTING POINT MAX",
+          "source": "ai",
+          "bbox": {
+            "x": 482,
+            "y": 12,
+            "width": 424,
+            "height": 31,
+            "unit": "rendered_crop_px"
+          },
+          "translation_en_simple": "2-M4 MOUNTING POINT MAX",
+          "translation_en_full": "2-M4 MOUNTING POINT MAX",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L002",
+          "label_text_original": "INSERTION DEPTH 6MM",
+          "source": "ai",
+          "bbox": {
+            "x": 482,
+            "y": 59,
+            "width": 339,
+            "height": 32,
+            "unit": "rendered_crop_px"
+          },
+          "translation_en_simple": "INSERTION DEPTH 6MM",
+          "translation_en_full": "INSERTION DEPTH 6MM",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L003",
+          "label_text_original": "61.50±0.30",
+          "source": "ai",
+          "bbox": {
+            "x": 552,
+            "y": 386,
+            "width": 121,
+            "height": 21,
+            "unit": "rendered_crop_px"
+          },
+          "translation_en_simple": "61.50±0.30",
+          "translation_en_full": "61.50±0.30",
+          "translation_skipped_reason": "no_chinese"
+        }
+      ],
+      "classification": {
+        "category_name": "mechanical_dimensions",
+        "title_zh": "机械尺寸",
+        "title_en": "Mechanical Dimensions",
+        "category_basis": "用于识别机械结构尺寸类图纸，包括电机/零部件外形轮廓、长宽高、轴径、轴长、键槽、法兰、安装孔、孔距、定位尺寸、三视图、剖视图、局部放大视图、公差、形位公差、基准符号、连接器/线缆/插头的物理安装位置或外形位置。若图中仅展示连接器型号、端子型号、线束走向、接口外形位置，但没有明确的引脚编号、针脚功能、线色或接线表，也归入本类。",
+        "reason": "目标裁剪区域显示设备外形局部视图、安装孔位引出线和尺寸标注，包含可见文字'2-M4 MOUNTING POINT MAX'、'INSERTION DEPTH 6MM'以及长度尺寸'61.50±0.30'，用于说明安装点和结构尺寸，不包含针脚功能或接线定义。",
+        "confidence": 0.98,
+        "source": "ai",
+        "category_type": "base"
+      },
+      "title": {
+        "title_zh": "M4安装点与长度尺寸",
+        "title_en": "M4 Mounting Point and Length Dimension"
+      },
+      "translation": {
+        "records": [
+          {
+            "label_id": "L001",
+            "label_text_original": "2-M4 MOUNTING POINT MAX",
+            "translation_en_simple": "2-M4 MOUNTING POINT MAX",
+            "translation_en_full": "2-M4 MOUNTING POINT MAX",
+            "bbox": {
+              "x": 482,
+              "y": 12,
+              "width": 424,
+              "height": 31,
+              "unit": "rendered_crop_px"
+            }
+          },
+          {
+            "label_id": "L002",
+            "label_text_original": "INSERTION DEPTH 6MM",
+            "translation_en_simple": "INSERTION DEPTH 6MM",
+            "translation_en_full": "INSERTION DEPTH 6MM",
+            "bbox": {
+              "x": 482,
+              "y": 59,
+              "width": 339,
+              "height": 32,
+              "unit": "rendered_crop_px"
+            }
+          },
+          {
+            "label_id": "L003",
+            "label_text_original": "61.50±0.30",
+            "translation_en_simple": "61.50±0.30",
+            "translation_en_full": "61.50±0.30",
+            "bbox": {
+              "x": 552,
+              "y": 386,
+              "width": 121,
+              "height": 21,
+              "unit": "rendered_crop_px"
+            }
+          }
+        ]
+      },
+      "review_ui": {},
+      "errors": [],
+      "source": {
+        "annotated_image": "6a21162a6945ef280d6a2e8f---.svg",
+        "source_type": "svg"
+      },
+      "ai_analysis": {
+        "target_image": "storage/data/products_manual/drawings_2d/20260612-110-fxtej/6a21162a6945ef280d6a2e8f/regions/R002_ffd700.png",
+        "full_context_image": "storage/data/products_manual/drawings_2d/20260612-110-fxtej/6a21162a6945ef280d6a2e8f/context/full_marked_ai.png",
+        "used_full_context_image": true,
+        "error": ""
+      },
+      "has_gb_standard": false,
+      "standard_mark": ""
+    },
+    {
+      "region_id": "R003",
+      "group_name": "机械尺寸",
+      "group_color": "#00FF7F",
+      "group_order": 3,
+      "group_item_order": 1,
+      "region_order": 3,
+      "source_bbox": {
+        "x": 88,
+        "y": 196,
+        "width": 101,
+        "height": 71,
+        "unit": "source_px"
+      },
+      "rendered_crop_bbox": {
+        "x": 440,
+        "y": 980,
+        "width": 505,
+        "height": 355,
+        "unit": "rendered_px",
+        "scale": 5.0
+      },
+      "origin_src": "regions/R003_00ff7f.png",
+      "target_src": "regions/R003_00ff7f_trimmed.png",
+      "content_type": "structure",
+      "content": "",
+      "content_en": "",
+      "is_structure": true,
+      "structure_candidate": true,
+      "trim_border_px": 1.2,
+      "border_color_cleanup_px": 10,
+      "trim_applied": true,
+      "crop_rotation": 0,
+      "ocr": {
+        "text": "51.20±0.30",
+        "items": [
+          {
+            "text": "51.20±0.30",
+            "bbox": {
+              "x": 192,
+              "y": 19,
+              "width": 110,
+              "height": 24,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9994219720363617,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          }
+        ],
+        "has_chinese": false
+      },
+      "labels": [
+        {
+          "label_id": "L001",
+          "label_text_original": "51.20±0.30",
+          "source": "ai",
+          "bbox": {
+            "x": 192,
+            "y": 19,
+            "width": 110,
+            "height": 24,
+            "unit": "rendered_px"
+          },
+          "translation_en_simple": "51.20±0.30",
+          "translation_en_full": "51.20±0.30",
+          "translation_skipped_reason": "no_chinese"
+        }
+      ],
+      "classification": {
+        "category_name": "mechanical_dimensions",
+        "title_zh": "机械尺寸",
+        "title_en": "Mechanical Dimensions",
+        "category_basis": "用于识别机械结构尺寸类图纸，包括电机/零部件外形轮廓、长宽高、轴径、轴长、键槽、法兰、安装孔、孔距、定位尺寸、三视图、剖视图、局部放大视图、公差、形位公差、基准符号、连接器/线缆/插头的物理安装位置或外形位置。若图中仅展示连接器型号、端子型号、线束走向、接口外形位置，但没有明确的引脚编号、针脚功能、线色或接线表，也归入本类。",
+        "reason": "目标裁剪区域显示零部件侧视外形轮廓，并用双向尺寸箭头标注可见尺寸文本 '51.20±0.30'，表示该结构的长度公差尺寸；完整标记源图中该裁剪位于整体机械外形尺寸图的一处局部视图，不涉及针脚功能或性能曲线。",
+        "confidence": 0.99,
+        "source": "ai",
+        "category_type": "base"
+      },
+      "title": {
+        "title_zh": "外形长度尺寸",
+        "title_en": "Overall Length Dimension"
+      },
+      "translation": {
+        "records": [
+          {
+            "label_id": "L001",
+            "label_text_original": "51.20±0.30",
+            "translation_en_simple": "51.20±0.30",
+            "translation_en_full": "51.20±0.30",
+            "bbox": {
+              "x": 192,
+              "y": 19,
+              "width": 110,
+              "height": 24,
+              "unit": "rendered_px"
+            }
+          }
+        ]
+      },
+      "review_ui": {},
+      "errors": [],
+      "source": {
+        "annotated_image": "6a21162a6945ef280d6a2e8f---.svg",
+        "source_type": "svg"
+      },
+      "ai_analysis": {
+        "target_image": "storage/data/products_manual/drawings_2d/20260612-110-fxtej/6a21162a6945ef280d6a2e8f/regions/R003_00ff7f.png",
+        "full_context_image": "storage/data/products_manual/drawings_2d/20260612-110-fxtej/6a21162a6945ef280d6a2e8f/context/full_marked_ai.png",
+        "used_full_context_image": true,
+        "error": ""
+      },
+      "has_gb_standard": false,
+      "standard_mark": ""
+    },
+    {
+      "region_id": "R004",
+      "group_name": "mechanical_dimension_view",
+      "group_color": "#00CED1",
+      "group_order": 4,
+      "group_item_order": 1,
+      "region_order": 4,
+      "source_bbox": {
+        "x": 583,
+        "y": 198,
+        "width": 208,
+        "height": 100,
+        "unit": "source_px"
+      },
+      "rendered_crop_bbox": {
+        "x": 2915,
+        "y": 990,
+        "width": 1040,
+        "height": 500,
+        "unit": "rendered_px",
+        "scale": 5.0
+      },
+      "origin_src": "regions/R004_00ced1.png",
+      "target_src": "regions/R004_00ced1_trimmed.png",
+      "content_type": "structure",
+      "content": "",
+      "content_en": "",
+      "is_structure": true,
+      "structure_candidate": true,
+      "trim_border_px": 1.2,
+      "border_color_cleanup_px": 10,
+      "trim_applied": true,
+      "crop_rotation": 0,
+      "ocr": {
+        "text": "124.02±0.30\n115.38±0.30\n20.38±0.30\n29.03±0.3\n39.00±0.15\n47.50±0.15\n71.25±0.15\n95.00±0.15",
+        "items": [
+          {
+            "text": "124.02±0.30",
+            "bbox": {
+              "x": 420,
+              "y": 33,
+              "width": 133,
+              "height": 21,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9989741444587708,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "115.38±0.30",
+            "bbox": {
+              "x": 421,
+              "y": 69,
+              "width": 132,
+              "height": 20,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9982262958179821,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "20.38±0.30",
+            "bbox": {
+              "x": 926,
+              "y": 147,
+              "width": 23,
+              "height": 123,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9981589436531066,
+            "has_chinese": false,
+            "text_direction": "vertical",
+            "text_angle": 90
+          },
+          {
+            "text": "29.03±0.3",
+            "bbox": {
+              "x": 970,
+              "y": 152,
+              "width": 25,
+              "height": 113,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9994771281878153,
+            "has_chinese": false,
+            "text_direction": "vertical",
+            "text_angle": 90
+          },
+          {
+            "text": "39.00±0.15",
+            "bbox": {
+              "x": 236,
+              "y": 320,
+              "width": 121,
+              "height": 20,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9994526028633117,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "47.50±0.15",
+            "bbox": {
+              "x": 265,
+              "y": 359,
+              "width": 122,
+              "height": 21,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.999765682220459,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "71.25±0.15",
+            "bbox": {
+              "x": 346,
+              "y": 399,
+              "width": 121,
+              "height": 23,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9993642628192901,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "95.00±0.15",
+            "bbox": {
+              "x": 426,
+              "y": 435,
+              "width": 123,
+              "height": 24,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9995496213436127,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          }
+        ],
+        "has_chinese": false
+      },
+      "labels": [
+        {
+          "label_id": "L001",
+          "label_text_original": "124.02±0.30",
+          "source": "ai",
+          "bbox": {
+            "x": 420,
+            "y": 33,
+            "width": 133,
+            "height": 21,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "124.02±0.30",
+          "translation_en_full": "124.02±0.30",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L002",
+          "label_text_original": "115.38±0.30",
+          "source": "ai",
+          "bbox": {
+            "x": 421,
+            "y": 69,
+            "width": 132,
+            "height": 20,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "115.38±0.30",
+          "translation_en_full": "115.38±0.30",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L003",
+          "label_text_original": "20.38±0.30",
+          "source": "ai",
+          "bbox": {
+            "x": 926,
+            "y": 147,
+            "width": 23,
+            "height": 123,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "20.38±0.30",
+          "translation_en_full": "20.38±0.30",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L004",
+          "label_text_original": "29.03±0.3",
+          "source": "ai",
+          "bbox": {
+            "x": 970,
+            "y": 152,
+            "width": 25,
+            "height": 113,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "29.03±0.3",
+          "translation_en_full": "29.03±0.3",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L005",
+          "label_text_original": "39.00±0.15",
+          "source": "ai",
+          "bbox": {
+            "x": 236,
+            "y": 320,
+            "width": 121,
+            "height": 20,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "39.00±0.15",
+          "translation_en_full": "39.00±0.15",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L006",
+          "label_text_original": "47.50±0.15",
+          "source": "ai",
+          "bbox": {
+            "x": 265,
+            "y": 359,
+            "width": 122,
+            "height": 21,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "47.50±0.15",
+          "translation_en_full": "47.50±0.15",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L007",
+          "label_text_original": "71.25±0.15",
+          "source": "ai",
+          "bbox": {
+            "x": 346,
+            "y": 399,
+            "width": 121,
+            "height": 23,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "71.25±0.15",
+          "translation_en_full": "71.25±0.15",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L008",
+          "label_text_original": "95.00±0.15",
+          "source": "ai",
+          "bbox": {
+            "x": 426,
+            "y": 435,
+            "width": 123,
+            "height": 24,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "95.00±0.15",
+          "translation_en_full": "95.00±0.15",
+          "translation_skipped_reason": "no_chinese"
+        }
+      ],
+      "classification": {
+        "category_name": "mechanical_dimensions",
+        "title_zh": "机械尺寸",
+        "title_en": "Mechanical Dimensions",
+        "category_basis": "用于识别机械结构尺寸类图纸，包括电机/零部件外形轮廓、长宽高、轴径、轴长、键槽、法兰、安装孔、孔距、定位尺寸、三视图、剖视图、局部放大视图、公差、形位公差、基准符号、连接器/线缆/插头的物理安装位置或外形位置。若图中仅展示连接器型号、端子型号、线束走向、接口外形位置，但没有明确的引脚编号、针脚功能、线色或接线表，也归入本类。",
+        "reason": "目标框内为设备端面轮廓及孔位布置的工程尺寸视图，包含外形尺寸'124.02±0.30'、'115.38±0.30'、高度尺寸'20.38±0.30'、'29.03±0.3'以及孔距定位尺寸'39.00±0.15'、'47.50±0.15'、'71.25±0.15'、'95.00±0.15'，属于机械结构和安装孔定位尺寸信息。",
+        "confidence": 0.99,
+        "source": "ai",
+        "category_type": "base"
+      },
+      "title": {
+        "title_zh": "端面安装孔与外形尺寸图",
+        "title_en": "End Face Mounting Hole and Outline Dimension Drawing"
+      },
+      "translation": {
+        "records": [
+          {
+            "label_id": "L001",
+            "label_text_original": "124.02±0.30",
+            "translation_en_simple": "124.02±0.30",
+            "translation_en_full": "124.02±0.30",
+            "bbox": {
+              "x": 420,
+              "y": 33,
+              "width": 133,
+              "height": 21,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L002",
+            "label_text_original": "115.38±0.30",
+            "translation_en_simple": "115.38±0.30",
+            "translation_en_full": "115.38±0.30",
+            "bbox": {
+              "x": 421,
+              "y": 69,
+              "width": 132,
+              "height": 20,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L003",
+            "label_text_original": "20.38±0.30",
+            "translation_en_simple": "20.38±0.30",
+            "translation_en_full": "20.38±0.30",
+            "bbox": {
+              "x": 926,
+              "y": 147,
+              "width": 23,
+              "height": 123,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L004",
+            "label_text_original": "29.03±0.3",
+            "translation_en_simple": "29.03±0.3",
+            "translation_en_full": "29.03±0.3",
+            "bbox": {
+              "x": 970,
+              "y": 152,
+              "width": 25,
+              "height": 113,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L005",
+            "label_text_original": "39.00±0.15",
+            "translation_en_simple": "39.00±0.15",
+            "translation_en_full": "39.00±0.15",
+            "bbox": {
+              "x": 236,
+              "y": 320,
+              "width": 121,
+              "height": 20,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L006",
+            "label_text_original": "47.50±0.15",
+            "translation_en_simple": "47.50±0.15",
+            "translation_en_full": "47.50±0.15",
+            "bbox": {
+              "x": 265,
+              "y": 359,
+              "width": 122,
+              "height": 21,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L007",
+            "label_text_original": "71.25±0.15",
+            "translation_en_simple": "71.25±0.15",
+            "translation_en_full": "71.25±0.15",
+            "bbox": {
+              "x": 346,
+              "y": 399,
+              "width": 121,
+              "height": 23,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L008",
+            "label_text_original": "95.00±0.15",
+            "translation_en_simple": "95.00±0.15",
+            "translation_en_full": "95.00±0.15",
+            "bbox": {
+              "x": 426,
+              "y": 435,
+              "width": 123,
+              "height": 24,
+              "unit": "origin_src_px"
+            }
+          }
+        ]
+      },
+      "review_ui": {},
+      "errors": [],
+      "source": {
+        "annotated_image": "6a21162a6945ef280d6a2e8f---.svg",
+        "source_type": "svg"
+      },
+      "ai_analysis": {
+        "target_image": "storage/data/products_manual/drawings_2d/20260612-110-fxtej/6a21162a6945ef280d6a2e8f/regions/R004_00ced1.png",
+        "full_context_image": "storage/data/products_manual/drawings_2d/20260612-110-fxtej/6a21162a6945ef280d6a2e8f/context/full_marked_ai.png",
+        "used_full_context_image": true,
+        "error": ""
+      },
+      "has_gb_standard": false,
+      "standard_mark": ""
+    },
+    {
+      "region_id": "R005",
+      "group_name": "Gemini 335Le 机械尺寸局部",
+      "group_color": "#8A2BE2",
+      "group_order": 5,
+      "group_item_order": 1,
+      "region_order": 5,
+      "source_bbox": {
+        "x": 449,
+        "y": 200,
+        "width": 97,
+        "height": 67,
+        "unit": "source_px"
+      },
+      "rendered_crop_bbox": {
+        "x": 2245,
+        "y": 1000,
+        "width": 485,
+        "height": 335,
+        "unit": "rendered_px",
+        "scale": 5.0
+      },
+      "origin_src": "regions/R005_8a2be2.png",
+      "target_src": "regions/R005_8a2be2_trimmed.png",
+      "content_type": "structure",
+      "content": "",
+      "content_en": "",
+      "is_structure": true,
+      "structure_candidate": true,
+      "trim_border_px": 1.2,
+      "border_color_cleanup_px": 10,
+      "trim_applied": true,
+      "crop_rotation": 0,
+      "ocr": {
+        "text": "50.00±0.30\n29.03±0.30",
+        "items": [
+          {
+            "text": "50.00±0.30",
+            "bbox": {
+              "x": 151,
+              "y": 26,
+              "width": 109,
+              "height": 23,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9979860067367554,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "29.03±0.30",
+            "bbox": {
+              "x": 411,
+              "y": 142,
+              "width": 23,
+              "height": 113,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9985056459903717,
+            "has_chinese": false,
+            "text_direction": "vertical",
+            "text_angle": 90
+          }
+        ],
+        "has_chinese": false
+      },
+      "labels": [
+        {
+          "label_id": "L001",
+          "label_text_original": "50.00±0.30",
+          "source": "ai",
+          "bbox": {
+            "x": 151,
+            "y": 26,
+            "width": 109,
+            "height": 23,
+            "unit": "rendered_px"
+          },
+          "translation_en_simple": "50.00±0.30",
+          "translation_en_full": "50.00±0.30",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L002",
+          "label_text_original": "29.03±0.30",
+          "source": "ai",
+          "bbox": {
+            "x": 411,
+            "y": 142,
+            "width": 23,
+            "height": 113,
+            "unit": "rendered_px"
+          },
+          "translation_en_simple": "29.03±0.30",
+          "translation_en_full": "29.03±0.30",
+          "translation_skipped_reason": "no_chinese"
+        }
+      ],
+      "classification": {
+        "category_name": "mechanical_dimensions",
+        "title_zh": "机械尺寸",
+        "title_en": "Mechanical Dimensions",
+        "category_basis": "用于识别机械结构尺寸类图纸，包括电机/零部件外形轮廓、长宽高、轴径、轴长、键槽、法兰、安装孔、孔距、定位尺寸、三视图、剖视图、局部放大视图、公差、形位公差、基准符号、连接器/线缆/插头的物理安装位置或外形位置。若图中仅展示连接器型号、端子型号、线束走向、接口外形位置，但没有明确的引脚编号、针脚功能、线色或接线表，也归入本类。",
+        "reason": "目标裁剪框在完整标注源图中对应紫色框内的侧视外形图，显示零部件轮廓及尺寸标注'50.00±0.30'和'29.03±0.30'，属于外形长度和高度尺寸信息，不包含针脚功能或性能曲线。",
+        "confidence": 0.98,
+        "source": "ai",
+        "category_type": "base"
+      },
+      "title": {
+        "title_zh": "外形尺寸局部视图",
+        "title_en": "Local Overall Dimensions View"
+      },
+      "translation": {
+        "records": [
+          {
+            "label_id": "L001",
+            "label_text_original": "50.00±0.30",
+            "translation_en_simple": "50.00±0.30",
+            "translation_en_full": "50.00±0.30",
+            "bbox": {
+              "x": 151,
+              "y": 26,
+              "width": 109,
+              "height": 23,
+              "unit": "rendered_px"
+            }
+          },
+          {
+            "label_id": "L002",
+            "label_text_original": "29.03±0.30",
+            "translation_en_simple": "29.03±0.30",
+            "translation_en_full": "29.03±0.30",
+            "bbox": {
+              "x": 411,
+              "y": 142,
+              "width": 23,
+              "height": 113,
+              "unit": "rendered_px"
+            }
+          }
+        ]
+      },
+      "review_ui": {},
+      "errors": [],
+      "source": {
+        "annotated_image": "6a21162a6945ef280d6a2e8f---.svg",
+        "source_type": "svg"
+      },
+      "ai_analysis": {
+        "target_image": "storage/data/products_manual/drawings_2d/20260612-110-fxtej/6a21162a6945ef280d6a2e8f/regions/R005_8a2be2.png",
+        "full_context_image": "storage/data/products_manual/drawings_2d/20260612-110-fxtej/6a21162a6945ef280d6a2e8f/context/full_marked_ai.png",
+        "used_full_context_image": true,
+        "error": ""
+      },
+      "has_gb_standard": false,
+      "standard_mark": ""
+    },
+    {
+      "region_id": "R006",
+      "group_name": "Gemini 335Le 机械尺寸图",
+      "group_color": "#8A2BE2",
+      "group_order": 5,
+      "group_item_order": 2,
+      "region_order": 6,
+      "source_bbox": {
+        "x": 118,
+        "y": 250,
+        "width": 225,
+        "height": 222,
+        "unit": "source_px"
+      },
+      "rendered_crop_bbox": {
+        "x": 590,
+        "y": 1250,
+        "width": 1125,
+        "height": 1110,
+        "unit": "rendered_px",
+        "scale": 5.0
+      },
+      "origin_src": "regions/R006_8a2be2.png",
+      "target_src": "regions/R006_8a2be2_trimmed.png",
+      "content_type": "structure",
+      "content": "",
+      "content_en": "",
+      "is_structure": true,
+      "structure_candidate": true,
+      "trim_border_px": 1.2,
+      "border_color_cleanup_px": 10,
+      "trim_applied": true,
+      "crop_rotation": 0,
+      "ocr": {
+        "text": "84.92±0.30\n10.00±0.20\nD",
+        "items": [
+          {
+            "text": "84.92±0.30",
+            "bbox": {
+              "x": 895,
+              "y": 511,
+              "width": 124,
+              "height": 27,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9996400237083435,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "10.00±0.20",
+            "bbox": {
+              "x": 536,
+              "y": 777,
+              "width": 28,
+              "height": 124,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9998429775238037,
+            "has_chinese": false,
+            "text_direction": "vertical",
+            "text_angle": 90
+          },
+          {
+            "text": "D",
+            "bbox": {
+              "x": 1102,
+              "y": 975,
+              "width": 20,
+              "height": 26,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9993250370025635,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          }
+        ],
+        "has_chinese": false
+      },
+      "labels": [
+        {
+          "label_id": "L001",
+          "label_text_original": "84.92±0.30",
+          "source": "ai",
+          "bbox": {
+            "x": 895,
+            "y": 511,
+            "width": 124,
+            "height": 27,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "84.92±0.30",
+          "translation_en_full": "84.92±0.30",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L002",
+          "label_text_original": "10.00±0.20",
+          "source": "ai",
+          "bbox": {
+            "x": 536,
+            "y": 777,
+            "width": 28,
+            "height": 124,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "10.00±0.20",
+          "translation_en_full": "10.00±0.20",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L003",
+          "label_text_original": "1/4-20UNC MOUNTING POINT MAX INSERTION DEPTH 6MM",
+          "source": "ai",
+          "bbox": {
+            "x": 710,
+            "y": 646,
+            "width": 247,
+            "height": 33,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "1/4-20UNC MOUNTING POINT MAX INSERTION DEPTH 6MM",
+          "translation_en_full": "1/4-20UNC MOUNTING POINT MAX INSERTION DEPTH 6MM",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L004",
+          "label_text_original": "4-M4 MOUNTING POINT MAX INSERTION DEPTH 6MM",
+          "source": "ai",
+          "bbox": {
+            "x": 675,
+            "y": 870,
+            "width": 282,
+            "height": 33,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "4-M4 MOUNTING POINT MAX INSERTION DEPTH 6MM",
+          "translation_en_full": "4-M4 MOUNTING POINT MAX INSERTION DEPTH 6MM",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L005",
+          "label_text_original": "side view mechanical outline with mounting holes and leader lines",
+          "source": "ai",
+          "bbox": {
+            "x": 409,
+            "y": 616,
+            "width": 566,
+            "height": 304,
+            "unit": "source_px"
+          },
+          "translation_en_simple": "side view mechanical outline with mounting holes and leader lines",
+          "translation_en_full": "side view mechanical outline with mounting holes and leader lines",
+          "translation_skipped_reason": "no_chinese"
+        }
+      ],
+      "classification": {
+        "category_name": "mechanical_dimensions",
+        "title_zh": "机械尺寸",
+        "title_en": "Mechanical Dimensions",
+        "category_basis": "用于识别机械结构尺寸类图纸，包括电机/零部件外形轮廓、长宽高、轴径、轴长、键槽、法兰、安装孔、孔距、定位尺寸、三视图、剖视图、局部放大视图、公差、形位公差、基准符号、连接器/线缆/插头的物理安装位置或外形位置。若图中仅展示连接器型号、端子型号、线束走向、接口外形位置，但没有明确的引脚编号、针脚功能、线色或接线表，也归入本类。",
+        "reason": "目标裁剪区域是设备侧视机械结构图，包含外形轮廓、安装孔引出线以及可见尺寸标注 '84.92±0.30'、'10.00±0.20'，并在完整标记源图中对应到安装点深度说明，属于机械安装与尺寸信息。",
+        "confidence": 0.98,
+        "source": "ai",
+        "category_type": "base"
+      },
+      "title": {
+        "title_zh": "侧视安装点与尺寸",
+        "title_en": "Side View Mounting Points and Dimensions"
+      },
+      "translation": {
+        "records": [
+          {
+            "label_id": "L001",
+            "label_text_original": "84.92±0.30",
+            "translation_en_simple": "84.92±0.30",
+            "translation_en_full": "84.92±0.30",
+            "bbox": {
+              "x": 895,
+              "y": 511,
+              "width": 124,
+              "height": 27,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L002",
+            "label_text_original": "10.00±0.20",
+            "translation_en_simple": "10.00±0.20",
+            "translation_en_full": "10.00±0.20",
+            "bbox": {
+              "x": 536,
+              "y": 777,
+              "width": 28,
+              "height": 124,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L003",
+            "label_text_original": "1/4-20UNC MOUNTING POINT MAX INSERTION DEPTH 6MM",
+            "translation_en_simple": "1/4-20UNC MOUNTING POINT MAX INSERTION DEPTH 6MM",
+            "translation_en_full": "1/4-20UNC MOUNTING POINT MAX INSERTION DEPTH 6MM",
+            "bbox": {
+              "x": 710,
+              "y": 646,
+              "width": 247,
+              "height": 33,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L004",
+            "label_text_original": "4-M4 MOUNTING POINT MAX INSERTION DEPTH 6MM",
+            "translation_en_simple": "4-M4 MOUNTING POINT MAX INSERTION DEPTH 6MM",
+            "translation_en_full": "4-M4 MOUNTING POINT MAX INSERTION DEPTH 6MM",
+            "bbox": {
+              "x": 675,
+              "y": 870,
+              "width": 282,
+              "height": 33,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L005",
+            "label_text_original": "side view mechanical outline with mounting holes and leader lines",
+            "translation_en_simple": "side view mechanical outline with mounting holes and leader lines",
+            "translation_en_full": "side view mechanical outline with mounting holes and leader lines",
+            "bbox": {
+              "x": 409,
+              "y": 616,
+              "width": 566,
+              "height": 304,
+              "unit": "source_px"
+            }
+          }
+        ]
+      },
+      "review_ui": {},
+      "errors": [],
+      "source": {
+        "annotated_image": "6a21162a6945ef280d6a2e8f---.svg",
+        "source_type": "svg"
+      },
+      "ai_analysis": {
+        "target_image": "storage/data/products_manual/drawings_2d/20260612-110-fxtej/6a21162a6945ef280d6a2e8f/regions/R006_8a2be2.png",
+        "full_context_image": "storage/data/products_manual/drawings_2d/20260612-110-fxtej/6a21162a6945ef280d6a2e8f/context/full_marked_ai.png",
+        "used_full_context_image": true,
+        "error": ""
+      },
+      "has_gb_standard": false,
+      "standard_mark": ""
+    },
+    {
+      "region_id": "R007",
+      "group_name": "mounting_dimension_side_view",
+      "group_color": "#7FFF00",
+      "group_order": 6,
+      "group_item_order": 1,
+      "region_order": 7,
+      "source_bbox": {
+        "x": 205,
+        "y": 308,
+        "width": 283,
+        "height": 153,
+        "unit": "source_px"
+      },
+      "rendered_crop_bbox": {
+        "x": 1025,
+        "y": 1540,
+        "width": 1415,
+        "height": 765,
+        "unit": "rendered_px",
+        "scale": 5.0
+      },
+      "origin_src": "regions/R007_7fff00.png",
+      "target_src": "regions/R007_7fff00_trimmed.png",
+      "content_type": "structure",
+      "content": "",
+      "content_en": "",
+      "is_structure": true,
+      "structure_candidate": true,
+      "trim_border_px": 1.2,
+      "border_color_cleanup_px": 10,
+      "trim_applied": true,
+      "crop_rotation": 0,
+      "ocr": {
+        "text": "1/4-20UNC MOUNTING POINT MAX\nINSERTIONDEPTH6MM\n84.92±0.30\nUUUVUUUUUUL\n10.00±0.20\n4-M4MOUNTINGPOINTMAXINSERTION\nDEPTH6MM",
+        "items": [
+          {
+            "text": "1/4-20UNC MOUNTING POINT MAX",
+            "bbox": {
+              "x": 760,
+              "y": 75,
+              "width": 507,
+              "height": 36,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9897371509245464,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "INSERTIONDEPTH6MM",
+            "bbox": {
+              "x": 760,
+              "y": 123,
+              "width": 341,
+              "height": 32,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9930489939801833,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "84.92±0.30",
+            "bbox": {
+              "x": 460,
+              "y": 221,
+              "width": 122,
+              "height": 27,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9993632197380066,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "UUUVUUUUUUL",
+            "bbox": {
+              "x": 551,
+              "y": 268,
+              "width": 325,
+              "height": 33,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.7837647931142286,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "10.00±0.20",
+            "bbox": {
+              "x": 103,
+              "y": 488,
+              "width": 27,
+              "height": 123,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9995569527149201,
+            "has_chinese": false,
+            "text_direction": "vertical",
+            "text_angle": 90
+          },
+          {
+            "text": "4-M4MOUNTINGPOINTMAXINSERTION",
+            "bbox": {
+              "x": 670,
+              "y": 638,
+              "width": 584,
+              "height": 30,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9951289768876701,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "DEPTH6MM",
+            "bbox": {
+              "x": 664,
+              "y": 683,
+              "width": 179,
+              "height": 33,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9947594627737999,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          }
+        ],
+        "has_chinese": false
+      },
+      "labels": [
+        {
+          "label_id": "L001",
+          "label_text_original": "1/4-20UNC MOUNTING POINT MAX INSERTION DEPTH 6MM",
+          "source": "ai",
+          "bbox": {
+            "x": 760,
+            "y": 75,
+            "width": 507,
+            "height": 80,
+            "unit": "rendered_px"
+          },
+          "translation_en_simple": "1/4-20UNC MOUNTING POINT MAX INSERTION DEPTH 6MM",
+          "translation_en_full": "1/4-20UNC MOUNTING POINT MAX INSERTION DEPTH 6MM",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L002",
+          "label_text_original": "84.92±0.30",
+          "source": "ai",
+          "bbox": {
+            "x": 460,
+            "y": 221,
+            "width": 122,
+            "height": 27,
+            "unit": "rendered_px"
+          },
+          "translation_en_simple": "84.92±0.30",
+          "translation_en_full": "84.92±0.30",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L003",
+          "label_text_original": "10.00±0.20",
+          "source": "ai",
+          "bbox": {
+            "x": 103,
+            "y": 488,
+            "width": 27,
+            "height": 123,
+            "unit": "rendered_px"
+          },
+          "translation_en_simple": "10.00±0.20",
+          "translation_en_full": "10.00±0.20",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L004",
+          "label_text_original": "4-M4 MOUNTING POINT MAX INSERTION DEPTH 6MM",
+          "source": "ai",
+          "bbox": {
+            "x": 664,
+            "y": 638,
+            "width": 590,
+            "height": 78,
+            "unit": "rendered_px"
+          },
+          "translation_en_simple": "4-M4 MOUNTING POINT MAX INSERTION DEPTH 6MM",
+          "translation_en_full": "4-M4 MOUNTING POINT MAX INSERTION DEPTH 6MM",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L005",
+          "label_text_original": "side view mechanical outline with mounting point leaders",
+          "source": "ai",
+          "bbox": {
+            "x": 185,
+            "y": 183,
+            "width": 855,
+            "height": 432,
+            "unit": "rendered_px"
+          },
+          "translation_en_simple": "side view mechanical outline with mounting point leaders",
+          "translation_en_full": "side view mechanical outline with mounting point leaders",
+          "translation_skipped_reason": "no_chinese"
+        }
+      ],
+      "classification": {
+        "category_name": "mechanical_dimensions",
+        "title_zh": "机械尺寸",
+        "title_en": "Mechanical Dimensions",
+        "category_basis": "用于识别机械结构尺寸类图纸，包括电机/零部件外形轮廓、长宽高、轴径、轴长、键槽、法兰、安装孔、孔距、定位尺寸、三视图、剖视图、局部放大视图、公差、形位公差、基准符号、连接器/线缆/插头的物理安装位置或外形位置。若图中仅展示连接器型号、端子型号、线束走向、接口外形位置，但没有明确的引脚编号、针脚功能、线色或接线表，也归入本类。",
+        "reason": "目标框内为设备侧视机械外形及安装孔标注，包含'84.92±0.30'、'10.00±0.20'尺寸公差，以及'1/4-20UNC'和'4-M4'安装点最大插入深度6MM的引线说明，属于安装孔位与结构尺寸信息。",
+        "confidence": 0.98,
+        "source": "ai",
+        "category_type": "base"
+      },
+      "title": {
+        "title_zh": "安装点侧视尺寸图",
+        "title_en": "Mounting Point Side View Dimensions"
+      },
+      "translation": {
+        "records": [
+          {
+            "label_id": "L001",
+            "label_text_original": "1/4-20UNC MOUNTING POINT MAX INSERTION DEPTH 6MM",
+            "translation_en_simple": "1/4-20UNC MOUNTING POINT MAX INSERTION DEPTH 6MM",
+            "translation_en_full": "1/4-20UNC MOUNTING POINT MAX INSERTION DEPTH 6MM",
+            "bbox": {
+              "x": 760,
+              "y": 75,
+              "width": 507,
+              "height": 80,
+              "unit": "rendered_px"
+            }
+          },
+          {
+            "label_id": "L002",
+            "label_text_original": "84.92±0.30",
+            "translation_en_simple": "84.92±0.30",
+            "translation_en_full": "84.92±0.30",
+            "bbox": {
+              "x": 460,
+              "y": 221,
+              "width": 122,
+              "height": 27,
+              "unit": "rendered_px"
+            }
+          },
+          {
+            "label_id": "L003",
+            "label_text_original": "10.00±0.20",
+            "translation_en_simple": "10.00±0.20",
+            "translation_en_full": "10.00±0.20",
+            "bbox": {
+              "x": 103,
+              "y": 488,
+              "width": 27,
+              "height": 123,
+              "unit": "rendered_px"
+            }
+          },
+          {
+            "label_id": "L004",
+            "label_text_original": "4-M4 MOUNTING POINT MAX INSERTION DEPTH 6MM",
+            "translation_en_simple": "4-M4 MOUNTING POINT MAX INSERTION DEPTH 6MM",
+            "translation_en_full": "4-M4 MOUNTING POINT MAX INSERTION DEPTH 6MM",
+            "bbox": {
+              "x": 664,
+              "y": 638,
+              "width": 590,
+              "height": 78,
+              "unit": "rendered_px"
+            }
+          },
+          {
+            "label_id": "L005",
+            "label_text_original": "side view mechanical outline with mounting point leaders",
+            "translation_en_simple": "side view mechanical outline with mounting point leaders",
+            "translation_en_full": "side view mechanical outline with mounting point leaders",
+            "bbox": {
+              "x": 185,
+              "y": 183,
+              "width": 855,
+              "height": 432,
+              "unit": "rendered_px"
+            }
+          }
+        ]
+      },
+      "review_ui": {},
+      "errors": [],
+      "source": {
+        "annotated_image": "6a21162a6945ef280d6a2e8f---.svg",
+        "source_type": "svg"
+      },
+      "ai_analysis": {
+        "target_image": "storage/data/products_manual/drawings_2d/20260612-110-fxtej/6a21162a6945ef280d6a2e8f/regions/R007_7fff00.png",
+        "full_context_image": "storage/data/products_manual/drawings_2d/20260612-110-fxtej/6a21162a6945ef280d6a2e8f/context/full_marked_ai.png",
+        "used_full_context_image": true,
+        "error": ""
+      },
+      "has_gb_standard": false,
+      "standard_mark": ""
+    },
+    {
+      "region_id": "R008",
+      "group_name": "mounting_torque_note",
+      "group_color": "#1E90FF",
+      "group_order": 7,
+      "group_item_order": 1,
+      "region_order": 8,
+      "source_bbox": {
+        "x": 58,
+        "y": 482,
+        "width": 266,
+        "height": 23,
+        "unit": "source_px"
+      },
+      "rendered_crop_bbox": {
+        "x": 290,
+        "y": 2410,
+        "width": 1330,
+        "height": 115,
+        "unit": "rendered_px",
+        "scale": 5.0
+      },
+      "origin_src": "regions/R008_1e90ff.png",
+      "target_src": "",
+      "content_type": "text",
+      "content": "Note: The recommended torque for the M4 thread is 0.4 N.m",
+      "content_en": "Note: The recommended torque for the M4 thread is 0.4 N.m",
+      "is_structure": false,
+      "structure_candidate": true,
+      "trim_border_px": 0,
+      "border_color_cleanup_px": 0,
+      "trim_applied": false,
+      "crop_rotation": 0,
+      "ocr": {
+        "text": "Note: The recommended torque for the M4 thread is 0.4 N.m",
+        "items": [
+          {
+            "text": "Note: The recommended torque for the M4 thread is 0.4 N.m",
+            "bbox": {
+              "x": 25,
+              "y": 30,
+              "width": 1272,
+              "height": 51,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9847531172267178,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          }
+        ],
+        "has_chinese": false
+      },
+      "labels": [
+        {
+          "label_id": "L001",
+          "label_text_original": "Note: The recommended torque for the M4 thread is 0.4 N.m",
+          "source": "ai",
+          "bbox": {
+            "x": 25,
+            "y": 30,
+            "width": 1272,
+            "height": 51,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "Note: The recommended torque for the M4 thread is 0.4 N.m",
+          "translation_en_full": "Note: The recommended torque for the M4 thread is 0.4 N.m",
+          "translation_skipped_reason": "no_chinese"
+        }
+      ],
+      "classification": {
+        "category_name": "mechanical_dimensions",
+        "title_zh": "机械尺寸",
+        "title_en": "Mechanical Dimensions",
+        "category_basis": "用于识别机械结构尺寸类图纸，包括电机/零部件外形轮廓、长宽高、轴径、轴长、键槽、法兰、安装孔、孔距、定位尺寸、三视图、剖视图、局部放大视图、公差、形位公差、基准符号、连接器/线缆/插头的物理安装位置或外形位置。若图中仅展示连接器型号、端子型号、线束走向、接口外形位置，但没有明确的引脚编号、针脚功能、线色或接线表，也归入本类。",
+        "reason": "目标框内为机械装配备注，文本说明'M4 thread'的推荐拧紧扭矩'0.4 N.m'；结合完整源图可见该备注位于含M4安装点、插入深度和外形尺寸的机械尺寸图纸中，不是扭矩-转速性能曲线，也不包含连接器针脚定义。",
+        "confidence": 0.93,
+        "source": "ai",
+        "category_type": "base"
+      },
+      "title": {
+        "title_zh": "M4螺纹推荐扭矩说明",
+        "title_en": "Recommended Torque Note for M4 Thread"
+      },
+      "translation": {
+        "records": [
+          {
+            "label_id": "L001",
+            "label_text_original": "Note: The recommended torque for the M4 thread is 0.4 N.m",
+            "translation_en_simple": "Note: The recommended torque for the M4 thread is 0.4 N.m",
+            "translation_en_full": "Note: The recommended torque for the M4 thread is 0.4 N.m",
+            "bbox": {
+              "x": 25,
+              "y": 30,
+              "width": 1272,
+              "height": 51,
+              "unit": "origin_src_px"
+            }
+          }
+        ]
+      },
+      "review_ui": {},
+      "errors": [],
+      "source": {
+        "annotated_image": "6a21162a6945ef280d6a2e8f---.svg",
+        "source_type": "svg"
+      },
+      "ai_analysis": {
+        "target_image": "storage/data/products_manual/drawings_2d/20260612-110-fxtej/6a21162a6945ef280d6a2e8f/regions/R008_1e90ff.png",
+        "full_context_image": "storage/data/products_manual/drawings_2d/20260612-110-fxtej/6a21162a6945ef280d6a2e8f/context/full_marked_ai.png",
+        "used_full_context_image": true,
+        "error": ""
+      },
+      "has_gb_standard": false,
+      "standard_mark": ""
+    }
+  ],
+  "category_dictionary_updates": [
+    {
+      "name": "mechanical_dimensions",
+      "category_type": "base",
+      "source": "system_seed",
+      "action": "skipped"
+    },
+    {
+      "name": "torque_speed_curve",
+      "category_type": "base",
+      "source": "system_seed",
+      "action": "skipped"
+    },
+    {
+      "name": "power_connector_pinout",
+      "category_type": "base",
+      "source": "system_seed",
+      "action": "skipped"
+    },
+    {
+      "name": "feedback_connector_pinout",
+      "category_type": "base",
+      "source": "system_seed",
+      "action": "skipped"
+    }
+  ],
+  "classification_records": [
+    {
+      "product_file_id": "6a21162a6945ef280d6a2e8f",
+      "region_id": "R001",
+      "category_name": "mechanical_dimensions",
+      "source": "ai",
+      "action": "inserted"
+    },
+    {
+      "product_file_id": "6a21162a6945ef280d6a2e8f",
+      "region_id": "R002",
+      "category_name": "mechanical_dimensions",
+      "source": "ai",
+      "action": "inserted"
+    },
+    {
+      "product_file_id": "6a21162a6945ef280d6a2e8f",
+      "region_id": "R003",
+      "category_name": "mechanical_dimensions",
+      "source": "ai",
+      "action": "inserted"
+    },
+    {
+      "product_file_id": "6a21162a6945ef280d6a2e8f",
+      "region_id": "R004",
+      "category_name": "mechanical_dimensions",
+      "source": "ai",
+      "action": "inserted"
+    },
+    {
+      "product_file_id": "6a21162a6945ef280d6a2e8f",
+      "region_id": "R005",
+      "category_name": "mechanical_dimensions",
+      "source": "ai",
+      "action": "inserted"
+    },
+    {
+      "product_file_id": "6a21162a6945ef280d6a2e8f",
+      "region_id": "R006",
+      "category_name": "mechanical_dimensions",
+      "source": "ai",
+      "action": "inserted"
+    },
+    {
+      "product_file_id": "6a21162a6945ef280d6a2e8f",
+      "region_id": "R007",
+      "category_name": "mechanical_dimensions",
+      "source": "ai",
+      "action": "inserted"
+    },
+    {
+      "product_file_id": "6a21162a6945ef280d6a2e8f",
+      "region_id": "R008",
+      "category_name": "mechanical_dimensions",
+      "source": "ai",
+      "action": "inserted"
+    }
+  ],
+  "output_files": {
+    "data_json": "data_v2.json",
+    "classification_json": "structure_classification_v2.json",
+    "text_content_json": "text_content_v2.json"
+  },
+  "quality_control": {
+    "origin_src_is_pre_trim_crop": true,
+    "target_src_is_structure_trimmed_crop": true,
+    "engineering_extraction_skipped": true,
+    "forbidden_engineering_fields_present": [],
+    "json_validated": true,
+    "origin_src_semantics": "5x crop before structure border trim; backend original data image",
+    "target_src_semantics": "structure-only crop after border trim; backend processed data image"
+  },
+  "manual_review": {
+    "required": true,
+    "items": [
+      "抽查 5x 裁切图清晰度和结构图去边效果",
+      "抽查 AI 命名、分类、标签合并、完整翻译和简单翻译质量",
+      "抽查 v2 JSON 是否满足后台拆解对比和人工复核需要"
+    ]
+  },
+  "created_at": "2026-06-18T14:17:13+08:00",
+  "updated_at": "2026-06-18T14:17:13+08:00"
+}

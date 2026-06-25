@@ -1,0 +1,176 @@
+{
+  "schema_version": "pdf_force_fit_v2.3",
+  "entry": "pdf_force_fit_v2",
+  "source": {
+    "product_file_id": "6a26a4b908c018457c34bc88",
+    "cid": "cb58939746994183abc4081120aecebe",
+    "supplier_id": "69f1b877908c95ae5aafdcd0",
+    "category_id": "ece25f9f6e54747367c1f1ba",
+    "series_id": "868d7ee95632409faf44ccd31f68b38a",
+    "model_id": "97351de1318242639de7bafe3032ea85",
+    "source_annotation": "6a26a4b908c018457c34bc88---.svg"
+  },
+  "classification_records": [
+    {
+      "product_file_id": "6a26a4b908c018457c34bc88",
+      "region_id": "R001",
+      "category_name": "mechanical_dimensions",
+      "source": "ai",
+      "action": "inserted"
+    },
+    {
+      "product_file_id": "6a26a4b908c018457c34bc88",
+      "region_id": "R002",
+      "category_name": "mechanical_dimensions",
+      "source": "ai",
+      "action": "inserted"
+    },
+    {
+      "product_file_id": "6a26a4b908c018457c34bc88",
+      "region_id": "R003",
+      "category_name": "mechanical_dimensions",
+      "source": "ai",
+      "action": "inserted"
+    },
+    {
+      "product_file_id": "6a26a4b908c018457c34bc88",
+      "region_id": "R004",
+      "category_name": "mechanical_dimensions",
+      "source": "ai",
+      "action": "inserted"
+    },
+    {
+      "product_file_id": "6a26a4b908c018457c34bc88",
+      "region_id": "R005",
+      "category_name": "mechanical_dimensions",
+      "source": "ai",
+      "action": "inserted"
+    }
+  ],
+  "regions": [
+    {
+      "region_id": "R001",
+      "group_name": "FD135 assembly drawing crop",
+      "origin_src": "regions/R001_ffd700.png",
+      "target_src": "regions/R001_ffd700_trimmed.png",
+      "content_type": "structure",
+      "is_structure": true,
+      "has_gb_standard": false,
+      "title": {
+        "title_zh": "FD135伺服驱动器装配尺寸与接口标注",
+        "title_en": "FD135 Servo Drive Assembly Dimensions and Interface Marking"
+      },
+      "classification": {
+        "category_name": "mechanical_dimensions",
+        "title_zh": "机械尺寸",
+        "title_en": "Mechanical Dimensions",
+        "category_basis": "用于识别机械结构尺寸类图纸，包括电机/零部件外形轮廓、长宽高、轴径、轴长、键槽、法兰、安装孔、孔距、定位尺寸、三视图、剖视图、局部放大视图、公差、形位公差、基准符号、连接器/线缆/插头的物理安装位置或外形位置。若图中仅展示连接器型号、端子型号、线束走向、接口外形位置，但没有明确的引脚编号、针脚功能、线色或接线表，也归入本类。",
+        "reason": "目标裁剪区域和完整标注图共同显示FD135装配外形、连接器线缆空间、安装孔与多处蓝色尺寸标注，如'100.50 mm'、'80.00 mm'、'168.00mm'、'174.65 mm'、'5.50 mm(2X)'和'M4-PE(接地螺丝孔)'，工程含义以结构外形和安装尺寸为主。",
+        "confidence": 0.88,
+        "source": "ai",
+        "category_type": "base"
+      }
+    },
+    {
+      "region_id": "R002",
+      "group_name": "hole_position_for_fixation",
+      "origin_src": "regions/R002_00bfff.png",
+      "target_src": "regions/R002_00bfff_trimmed.png",
+      "content_type": "structure",
+      "is_structure": true,
+      "has_gb_standard": false,
+      "title": {
+        "title_zh": "孔位固定尺寸",
+        "title_en": "Hole Position for Fixation"
+      },
+      "classification": {
+        "category_name": "mechanical_dimensions",
+        "title_zh": "机械尺寸",
+        "title_en": "Mechanical Dimensions",
+        "category_basis": "用于识别机械结构尺寸类图纸，包括电机/零部件外形轮廓、长宽高、轴径、轴长、键槽、法兰、安装孔、孔距、定位尺寸、三视图、剖视图、局部放大视图、公差、形位公差、基准符号、连接器/线缆/插头的物理安装位置或外形位置。若图中仅展示连接器型号、端子型号、线束走向、接口外形位置，但没有明确的引脚编号、针脚功能、线色或接线表，也归入本类。",
+        "reason": "目标裁剪区域在完整标注源图左侧蓝框内，对应孔位固定尺寸视图，包含外形轮廓、上下开口孔结构、尺寸标注'31.00 mm'、'18.00 mm'、'168.00mm'、'5.50 mm(2X)'以及说明'Hole position for fixation'和'孔位固定尺寸'，属于安装孔位和结构尺寸信息。",
+        "confidence": 0.98,
+        "source": "ai",
+        "category_type": "base"
+      }
+    },
+    {
+      "region_id": "R003",
+      "group_name": "target_crop_front_view_dimension",
+      "origin_src": "regions/R003_00ff7f.png",
+      "target_src": "regions/R003_00ff7f_trimmed.png",
+      "content_type": "structure",
+      "is_structure": true,
+      "has_gb_standard": false,
+      "title": {
+        "title_zh": "前视图宽度及接口结构尺寸",
+        "title_en": "Front View Width and Connector Structure Dimension"
+      },
+      "classification": {
+        "category_name": "mechanical_dimensions",
+        "title_zh": "机械尺寸",
+        "title_en": "Mechanical Dimensions",
+        "category_basis": "用于识别机械结构尺寸类图纸，包括电机/零部件外形轮廓、长宽高、轴径、轴长、键槽、法兰、安装孔、孔距、定位尺寸、三视图、剖视图、局部放大视图、公差、形位公差、基准符号、连接器/线缆/插头的物理安装位置或外形位置。若图中仅展示连接器型号、端子型号、线束走向、接口外形位置，但没有明确的引脚编号、针脚功能、线色或接线表，也归入本类。",
+        "reason": "目标框内为设备前视结构图，显示外形宽度尺寸'31.00 mm'以及端子、D-sub和网口等连接器的物理位置轮廓，仅有'A'、'B'区域标识，没有针脚功能或接线定义，因此归为机械尺寸。",
+        "confidence": 0.92,
+        "source": "ai",
+        "category_type": "base"
+      }
+    },
+    {
+      "region_id": "R004",
+      "group_name": "FD135 assembly drawing front panel detail",
+      "origin_src": "regions/R004_8a2be2.png",
+      "target_src": "regions/R004_8a2be2_trimmed.png",
+      "content_type": "structure",
+      "is_structure": true,
+      "has_gb_standard": false,
+      "title": {
+        "title_zh": "驱动器前面板连接器外形视图",
+        "title_en": "Driver Front Panel Connector Outline View"
+      },
+      "classification": {
+        "category_name": "mechanical_dimensions",
+        "title_zh": "机械尺寸",
+        "title_en": "Mechanical Dimensions",
+        "category_basis": "用于识别机械结构尺寸类图纸，包括电机/零部件外形轮廓、长宽高、轴径、轴长、键槽、法兰、安装孔、孔距、定位尺寸、三视图、剖视图、局部放大视图、公差、形位公差、基准符号、连接器/线缆/插头的物理安装位置或外形位置。若图中仅展示连接器型号、端子型号、线束走向、接口外形位置，但没有明确的引脚编号、针脚功能、线色或接线表，也归入本类。",
+        "reason": "目标框是整机装配图中的前面板局部外形视图，显示机壳轮廓、散热长圆孔、双网口及端子/开关开口等物理结构位置；未出现针脚功能、线色或接线定义，因此最接近机械结构尺寸类。",
+        "confidence": 0.93,
+        "source": "ai",
+        "category_type": "base"
+      }
+    },
+    {
+      "region_id": "R005",
+      "group_name": "FD135 Assembly Drawing",
+      "origin_src": "regions/R005_00ced1.png",
+      "target_src": "regions/R005_00ced1_trimmed.png",
+      "content_type": "structure",
+      "is_structure": true,
+      "has_gb_standard": false,
+      "title": {
+        "title_zh": "FD135总装等轴测结构视图",
+        "title_en": "FD135 Assembly Isometric Structure View"
+      },
+      "classification": {
+        "category_name": "mechanical_dimensions",
+        "title_zh": "机械尺寸",
+        "title_en": "Mechanical Dimensions",
+        "category_basis": "用于识别机械结构尺寸类图纸，包括电机/零部件外形轮廓、长宽高、轴径、轴长、键槽、法兰、安装孔、孔距、定位尺寸、三视图、剖视图、局部放大视图、公差、形位公差、基准符号、连接器/线缆/插头的物理安装位置或外形位置。若图中仅展示连接器型号、端子型号、线束走向、接口外形位置，但没有明确的引脚编号、针脚功能、线色或接线表，也归入本类。",
+        "reason": "目标裁剪区域为设备等轴测外观结构图，可见壳体、散热槽、安装底板、前面板连接器和端口外形；完整标注源图显示该区域对应总装图中的底部三维视图，未包含针脚功能、线色接线表或曲线数据，最符合机械结构外形与安装位置类。",
+        "confidence": 0.92,
+        "source": "ai",
+        "category_type": "base"
+      }
+    }
+  ],
+  "quality_control": {
+    "origin_src_is_pre_trim_crop": true,
+    "target_src_is_structure_trimmed_crop": true,
+    "engineering_extraction_skipped": true,
+    "forbidden_engineering_fields_present": [],
+    "json_validated": true,
+    "origin_src_semantics": "5x crop before structure border trim; backend original data image",
+    "target_src_semantics": "structure-only crop after border trim; backend processed data image"
+  }
+}

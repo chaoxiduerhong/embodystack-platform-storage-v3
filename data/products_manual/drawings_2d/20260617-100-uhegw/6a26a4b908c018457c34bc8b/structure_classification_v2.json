@@ -1,0 +1,176 @@
+{
+  "schema_version": "pdf_force_fit_v2.3",
+  "entry": "pdf_force_fit_v2",
+  "source": {
+    "product_file_id": "6a26a4b908c018457c34bc8b",
+    "cid": "21c38ac9935a411abcf28f4dfca7ad72",
+    "supplier_id": "69f1b877908c95ae5aafdcd0",
+    "category_id": "ece25f9f6e54747367c1f1ba",
+    "series_id": "868d7ee95632409faf44ccd31f68b38a",
+    "model_id": "b3d2835b9afa4499be019387d618322b",
+    "source_annotation": "6a26a4b908c018457c34bc8b---.svg"
+  },
+  "classification_records": [
+    {
+      "product_file_id": "6a26a4b908c018457c34bc8b",
+      "region_id": "R001",
+      "category_name": "power_connector_pinout",
+      "source": "ai",
+      "action": "inserted"
+    },
+    {
+      "product_file_id": "6a26a4b908c018457c34bc8b",
+      "region_id": "R002",
+      "category_name": "mechanical_dimensions",
+      "source": "ai",
+      "action": "inserted"
+    },
+    {
+      "product_file_id": "6a26a4b908c018457c34bc8b",
+      "region_id": "R003",
+      "category_name": "mechanical_dimensions",
+      "source": "ai",
+      "action": "inserted"
+    },
+    {
+      "product_file_id": "6a26a4b908c018457c34bc8b",
+      "region_id": "R004",
+      "category_name": "mechanical_dimensions",
+      "source": "ai",
+      "action": "inserted"
+    },
+    {
+      "product_file_id": "6a26a4b908c018457c34bc8b",
+      "region_id": "R005",
+      "category_name": "mechanical_dimensions",
+      "source": "ai",
+      "action": "inserted"
+    }
+  ],
+  "regions": [
+    {
+      "region_id": "R001",
+      "group_name": "FD135伺服驱动器正面图",
+      "origin_src": "regions/R001_ffd700.png",
+      "target_src": "regions/R001_ffd700_trimmed.png",
+      "content_type": "structure",
+      "is_structure": true,
+      "has_gb_standard": false,
+      "title": {
+        "title_zh": "FD135正面端子与接线布局",
+        "title_en": "FD135 Front Panel Terminal and Wiring Layout"
+      },
+      "classification": {
+        "category_name": "power_connector_pinout",
+        "title_zh": "动力连接器针脚定义",
+        "title_en": "Power Connector Pinout",
+        "category_basis": "用于识别动力连接器或电源接口的针脚/接线定义，包括动力接口 pinout、引脚编号与针脚功能对应关系、针脚名称、U/V/W/PE、L/N/PE、DC+/DC-、P+/P-、Brake+/Brake-、制动器、电源正负极、保护地、相线、线色、线径、端子号、接线说明、连接器针位图、针脚分配表。\n\n必须同时满足：\n1. 出现连接器针脚、端子或接口信息；\n2. 至少有一个针脚编号与功能、信号名、线色、线序、电源极性、相线、保护地或接线关系对应。\n\n仅有引脚编号，但没有功能定义，不应归入本类。\n仅出现 Power Wire、Housing、Terminal、连接器型号、端子型号、线束走向、连接器安装位置、接插件外形图、插头/插座物料信息时，不应归入本类。\n仅显示 1/2/3/4 等孔位编号和 Housing/Terminal 型号，应归入 connector_housing_terminal 或 connector_structure，不应归入 power_connector_pinout。",
+        "reason": "图中包含完整的接线端子定义与针脚功能对应关系：X3端子列出了1-14号针脚及对应功能（24V-、24V+、PUL+、PUL-、DIR+、DIR-、OUT1+、BR+、COMI、IN1、IN2、IN3、BR-、COMO），X4编码器接口针脚1-14的功能布局，以及X5动力接口标注了PE、U、W、RB-、RB+、DC-、DC+等电源极性与相线定义。同时标注了拨码开关配置与Node ID，符合动力连接器针脚定义的典型特征。",
+        "confidence": 0.95,
+        "source": "ai",
+        "category_type": "base"
+      }
+    },
+    {
+      "region_id": "R002",
+      "group_name": "R002",
+      "origin_src": "regions/R002_00ced1.png",
+      "target_src": "regions/R002_00ced1_trimmed.png",
+      "content_type": "structure",
+      "is_structure": true,
+      "has_gb_standard": false,
+      "title": {
+        "title_zh": "固定孔位尺寸",
+        "title_en": "Hole Position for Fixation"
+      },
+      "classification": {
+        "category_name": "mechanical_dimensions",
+        "title_zh": "机械尺寸",
+        "title_en": "Mechanical Dimensions",
+        "category_basis": "用于识别机械结构尺寸类图纸，包括电机/零部件外形轮廓、长宽高、轴径、轴长、键槽、法兰、安装孔、孔距、定位尺寸、三视图、剖视图、局部放大视图、公差、形位公差、基准符号、连接器/线缆/插头的物理安装位置或外形位置。若图中仅展示连接器型号、端子型号、线束走向、接口外形位置，但没有明确的引脚编号、针脚功能、线色或接线表，也归入本类。",
+        "reason": "该图纸展示了零部件的外形轮廓、长度尺寸 '168.00 mm'、宽度尺寸 '31.00 mm' 和 '18.00 mm'、以及底部固定孔位尺寸 '5.50 mm(2X)'，并标注了 'Hole position for fixation（孔位固定尺寸）'，明确表明这是用于安装固定的孔位定位尺寸图，完全符合机械结构尺寸类图纸的特征。",
+        "confidence": 0.98,
+        "source": "ai",
+        "category_type": "base"
+      }
+    },
+    {
+      "region_id": "R003",
+      "group_name": "R003",
+      "origin_src": "regions/R003_00ff7f.png",
+      "target_src": "regions/R003_00ff7f_trimmed.png",
+      "content_type": "structure",
+      "is_structure": true,
+      "has_gb_standard": false,
+      "title": {
+        "title_zh": "连接器区域宽度尺寸",
+        "title_en": "Connector Area Width Dimension"
+      },
+      "classification": {
+        "category_name": "mechanical_dimensions",
+        "title_zh": "机械尺寸",
+        "title_en": "Mechanical Dimensions",
+        "category_basis": "用于识别机械结构尺寸类图纸，包括电机/零部件外形轮廓、长宽高、轴径、轴长、键槽、法兰、安装孔、孔距、定位尺寸、三视图、剖视图、局部放大视图、公差、形位公差、基准符号、连接器/线缆/插头的物理安装位置或外形位置。若图中仅展示连接器型号、端子型号、线束走向、接口外形位置，但没有明确的引脚编号、针脚功能、线色或接线表，也归入本类。",
+        "reason": "目标裁剪区域显示连接器安装区域的宽度尺寸标注 '31.00 mm'，以及连接器、端子排列的外形轮廓和安装孔位置，标注字母 'A' 和 'B' 用于定位或视图标识，符合机械结构尺寸类图纸特征，展示了连接器的物理安装位置和外形尺寸，没有针脚功能、线色或接线表等电气连接信息。",
+        "confidence": 0.95,
+        "source": "ai",
+        "category_type": "base"
+      }
+    },
+    {
+      "region_id": "R004",
+      "group_name": "FD135-EX-Assembly-Drawing-IVO",
+      "origin_src": "regions/R004_8a2be2.png",
+      "target_src": "regions/R004_8a2be2_trimmed.png",
+      "content_type": "structure",
+      "is_structure": true,
+      "has_gb_standard": false,
+      "title": {
+        "title_zh": "前视图外形尺寸",
+        "title_en": "Front View Outline Dimensions"
+      },
+      "classification": {
+        "category_name": "mechanical_dimensions",
+        "title_zh": "机械尺寸",
+        "title_en": "Mechanical Dimensions",
+        "category_basis": "用于识别机械结构尺寸类图纸，包括电机/零部件外形轮廓、长宽高、轴径、轴长、键槽、法兰、安装孔、孔距、定位尺寸、三视图、剖视图、局部放大视图、公差、形位公差、基准符号、连接器/线缆/插头的物理安装位置或外形位置。若图中仅展示连接器型号、端子型号、线束走向、接口外形位置，但没有明确的引脚编号、针脚功能、线色或接线表，也归入本类。",
+        "reason": "目标图像展示了一个矩形设备的前视图轮廓，包含外形轮廓线、槽位、圆角和两个中间的RJ45连接器接口外形。图中未出现尺寸标注、针脚定义、性能曲线或信号功能，仅显示几何外形结构。根据全图上下文可见该区域属于设备前视图的外形轮廓部分，符合机械结构尺寸类图纸中'零部件外形轮廓'和'连接器/线缆/插头的物理安装位置或外形位置'的特征。",
+        "confidence": 0.92,
+        "source": "ai",
+        "category_type": "base"
+      }
+    },
+    {
+      "region_id": "R005",
+      "group_name": "connector_structure",
+      "origin_src": "regions/R005_00ced1.png",
+      "target_src": "regions/R005_00ced1_trimmed.png",
+      "content_type": "structure",
+      "is_structure": true,
+      "has_gb_standard": false,
+      "title": {
+        "title_zh": "连接器结构示意图",
+        "title_en": "Connector Structure Diagram"
+      },
+      "classification": {
+        "category_name": "mechanical_dimensions",
+        "title_zh": "机械尺寸",
+        "title_en": "Mechanical Dimensions",
+        "category_basis": "用于识别机械结构尺寸类图纸，包括电机/零部件外形轮廓、长宽高、轴径、轴长、键槽、法兰、安装孔、孔距、定位尺寸、三视图、剖视图、局部放大视图、公差、形位公差、基准符号、连接器/线缆/插头的物理安装位置或外形位置。若图中仅展示连接器型号、端子型号、线束走向、接口外形位置，但没有明确的引脚编号、针脚功能、线色或接线表，也归入本类。",
+        "reason": "目标裁剪区域显示多个连接器端子的物理排列结构，包含多个圆形端子孔和一个多针脚D型连接器的外形轮廓，属于连接器的机械结构和物理布局示意图，无针脚功能定义、信号名称或接线表，符合 mechanical_dimensions 中连接器/插头的物理安装位置或外形位置的定义",
+        "confidence": 0.92,
+        "source": "ai",
+        "category_type": "base"
+      }
+    }
+  ],
+  "quality_control": {
+    "origin_src_is_pre_trim_crop": true,
+    "target_src_is_structure_trimmed_crop": true,
+    "engineering_extraction_skipped": true,
+    "forbidden_engineering_fields_present": [],
+    "json_validated": true,
+    "origin_src_semantics": "5x crop before structure border trim; backend original data image",
+    "target_src_semantics": "structure-only crop after border trim; backend processed data image"
+  }
+}

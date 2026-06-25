@@ -1,0 +1,176 @@
+{
+  "schema_version": "pdf_force_fit_v2.3",
+  "entry": "pdf_force_fit_v2",
+  "source": {
+    "product_file_id": "6a266a50e08e6c8d89bef1a8",
+    "cid": "2ecf3b4183a4498397ec067acf0a3c0b",
+    "supplier_id": "6a2129b07f469a9cf5230c3f",
+    "category_id": "6a21321a35c271f0f4e529a9",
+    "series_id": "d8c9ee7f976f4425a786b6c3c3f083b3",
+    "model_id": "",
+    "source_annotation": "6a266a50e08e6c8d89bef1a8---.svg"
+  },
+  "classification_records": [
+    {
+      "product_file_id": "6a266a50e08e6c8d89bef1a8",
+      "region_id": "R001",
+      "category_name": "mechanical_dimensions",
+      "source": "ai",
+      "action": "inserted"
+    },
+    {
+      "product_file_id": "6a266a50e08e6c8d89bef1a8",
+      "region_id": "R002",
+      "category_name": "mechanical_dimensions",
+      "source": "ai",
+      "action": "inserted"
+    },
+    {
+      "product_file_id": "6a266a50e08e6c8d89bef1a8",
+      "region_id": "R003",
+      "category_name": "mechanical_dimensions",
+      "source": "ai",
+      "action": "inserted"
+    },
+    {
+      "product_file_id": "6a266a50e08e6c8d89bef1a8",
+      "region_id": "R004",
+      "category_name": "mechanical_dimensions",
+      "source": "ai",
+      "action": "inserted"
+    },
+    {
+      "product_file_id": "6a266a50e08e6c8d89bef1a8",
+      "region_id": "R005",
+      "category_name": "mechanical_dimensions",
+      "source": "ai",
+      "action": "inserted"
+    }
+  ],
+  "regions": [
+    {
+      "region_id": "R001",
+      "group_name": "带耳接口伸长状态尺寸",
+      "origin_src": "regions/R001_8a2be2.png",
+      "target_src": "regions/R001_8a2be2_trimmed.png",
+      "content_type": "structure",
+      "is_structure": true,
+      "has_gb_standard": false,
+      "title": {
+        "title_zh": "带耳接口伸长状态机械尺寸图",
+        "title_en": "Mechanical Dimension Drawing of Lugged Interface in Extended State"
+      },
+      "classification": {
+        "category_name": "mechanical_dimensions",
+        "title_zh": "机械尺寸",
+        "title_en": "Mechanical Dimensions",
+        "category_basis": "用于识别机械结构尺寸类图纸，包括电机/零部件外形轮廓、长宽高、轴径、轴长、键槽、法兰、安装孔、孔距、定位尺寸、三视图、剖视图、局部放大视图、公差、形位公差、基准符号、连接器/线缆/插头的物理安装位置或外形位置。若图中仅展示连接器型号、端子型号、线束走向、接口外形位置，但没有明确的引脚编号、针脚功能、线色或接线表，也归入本类。",
+        "reason": "目标区域为带耳接口的伸长状态外形尺寸视图，含可见尺寸标注如'78.50'、'16.50'、'Φ5.00'、'10.80'、'1.40'以及结构轮廓、孔径和尺寸箭头，表达零部件外形与安装相关几何尺寸。",
+        "confidence": 0.98,
+        "source": "ai",
+        "category_type": "base"
+      }
+    },
+    {
+      "region_id": "R002",
+      "group_name": "带耳接口",
+      "origin_src": "regions/R002_00ff7f.png",
+      "target_src": "regions/R002_00ff7f_trimmed.png",
+      "content_type": "structure",
+      "is_structure": true,
+      "has_gb_standard": false,
+      "title": {
+        "title_zh": "带耳接口端面尺寸",
+        "title_en": "Lug Connector End Face Dimensions"
+      },
+      "classification": {
+        "category_name": "mechanical_dimensions",
+        "title_zh": "机械尺寸",
+        "title_en": "Mechanical Dimensions",
+        "category_basis": "用于识别机械结构尺寸类图纸，包括电机/零部件外形轮廓、长宽高、轴径、轴长、键槽、法兰、安装孔、孔距、定位尺寸、三视图、剖视图、局部放大视图、公差、形位公差、基准符号、连接器/线缆/插头的物理安装位置或外形位置。若图中仅展示连接器型号、端子型号、线束走向、接口外形位置，但没有明确的引脚编号、针脚功能、线色或接线表，也归入本类。",
+        "reason": "目标裁剪区域和完整标注源图共同显示带耳接口端面外形、四个孔位及尺寸标注，可见'13.20'、'10.80'、'11.40'、'16.40'等安装宽高尺寸，没有针脚功能或接线定义，属于机械结构尺寸图。",
+        "confidence": 0.98,
+        "source": "ai",
+        "category_type": "base"
+      }
+    },
+    {
+      "region_id": "R003",
+      "group_name": "带耳接口局部尺寸",
+      "origin_src": "regions/R003_00bfff.png",
+      "target_src": "regions/R003_00bfff_trimmed.png",
+      "content_type": "structure",
+      "is_structure": true,
+      "has_gb_standard": false,
+      "title": {
+        "title_zh": "M3螺纹孔深度尺寸",
+        "title_en": "M3 Threaded Hole Depth Dimension"
+      },
+      "classification": {
+        "category_name": "mechanical_dimensions",
+        "title_zh": "机械尺寸",
+        "title_en": "Mechanical Dimensions",
+        "category_basis": "用于识别机械结构尺寸类图纸，包括电机/零部件外形轮廓、长宽高、轴径、轴长、键槽、法兰、安装孔、孔距、定位尺寸、三视图、剖视图、局部放大视图、公差、形位公差、基准符号、连接器/线缆/插头的物理安装位置或外形位置。若图中仅展示连接器型号、端子型号、线束走向、接口外形位置，但没有明确的引脚编号、针脚功能、线色或接线表，也归入本类。",
+        "reason": "目标裁剪区显示带耳接口端面局部视图、四个安装螺钉孔以及指向中心孔位的尺寸引出线，标注可见'M3↧3.00'表示M3螺纹孔深度尺寸；完整标记源图确认该裁剪来自机械外形尺寸图的带耳接口区域，无针脚功能或接线定义。",
+        "confidence": 0.96,
+        "source": "ai",
+        "category_type": "base"
+      }
+    },
+    {
+      "region_id": "R004",
+      "group_name": "缩回状态尺寸图",
+      "origin_src": "regions/R004_00ced1.png",
+      "target_src": "regions/R004_00ced1_trimmed.png",
+      "content_type": "structure",
+      "is_structure": true,
+      "has_gb_standard": false,
+      "title": {
+        "title_zh": "缩回状态机械尺寸",
+        "title_en": "Retracted State Mechanical Dimensions"
+      },
+      "classification": {
+        "category_name": "mechanical_dimensions",
+        "title_zh": "机械尺寸",
+        "title_en": "Mechanical Dimensions",
+        "category_basis": "用于识别机械结构尺寸类图纸，包括电机/零部件外形轮廓、长宽高、轴径、轴长、键槽、法兰、安装孔、孔距、定位尺寸、三视图、剖视图、局部放大视图、公差、形位公差、基准符号、连接器/线缆/插头的物理安装位置或外形位置。若图中仅展示连接器型号、端子型号、线束走向、接口外形位置，但没有明确的引脚编号、针脚功能、线色或接线表，也归入本类。",
+        "reason": "目标框内为执行器缩回状态的外形与孔位尺寸图，包含'62.50'、'0.80±0.20'、'M1.60↧2.50'、'Ø4.00'、'Ø3.20'、'Ø3 -0.01/-0.03'等尺寸、公差、螺纹和孔径标注，未出现针脚功能或性能曲线。",
+        "confidence": 0.98,
+        "source": "ai",
+        "category_type": "base"
+      }
+    },
+    {
+      "region_id": "R005",
+      "group_name": "出线口与线缆尺寸",
+      "origin_src": "regions/R005_ffd700.png",
+      "target_src": "",
+      "content_type": "table",
+      "is_structure": false,
+      "has_gb_standard": false,
+      "title": {
+        "title_zh": "出线口及线缆尺寸表",
+        "title_en": "Cable Outlet and Cable Size Table"
+      },
+      "classification": {
+        "category_name": "mechanical_dimensions",
+        "title_zh": "机械尺寸",
+        "title_en": "Mechanical Dimensions",
+        "category_basis": "用于识别机械结构尺寸类图纸，包括电机/零部件外形轮廓、长宽高、轴径、轴长、键槽、法兰、安装孔、孔距、定位尺寸、三视图、剖视图、局部放大视图、公差、形位公差、基准符号、连接器/线缆/插头的物理安装位置或外形位置。若图中仅展示连接器型号、端子型号、线束走向、接口外形位置，但没有明确的引脚编号、针脚功能、线色或接线表，也归入本类。",
+        "reason": "目标区域显示执行器结构外形的局部视图，标注'出线口'并用引线指向线缆出口，同时表格给出'线缆尺寸/mm'、'直径 2.3'、'长度 200'等物理尺寸信息；未出现针脚编号、信号功能或接线定义，因此归入机械尺寸。",
+        "confidence": 0.96,
+        "source": "ai",
+        "category_type": "base"
+      }
+    }
+  ],
+  "quality_control": {
+    "origin_src_is_pre_trim_crop": true,
+    "target_src_is_structure_trimmed_crop": true,
+    "engineering_extraction_skipped": true,
+    "forbidden_engineering_fields_present": [],
+    "json_validated": true,
+    "origin_src_semantics": "5x crop before structure border trim; backend original data image",
+    "target_src_semantics": "structure-only crop after border trim; backend processed data image"
+  }
+}

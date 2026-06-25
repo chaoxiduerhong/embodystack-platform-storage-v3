@@ -1,0 +1,2225 @@
+{
+  "version": "v2",
+  "schema_version": "pdf_force_fit_v2.3",
+  "entry": "pdf_force_fit_v2",
+  "run_info": {
+    "status": "success"
+  },
+  "request": {
+    "category_ids": [],
+    "resolved_category_ids": []
+  },
+  "source": {
+    "product_file_id": "6a2623b636d2bced57672817",
+    "cid": "a2e6e12d7de349faa00d2426ff1e1a36",
+    "supplier_id": "6a2129c67f469a9cf5230c40",
+    "category_id": "5f52e86c99b7226b6da6ecaa",
+    "series_id": "a1f38143f9da44eca873eb9abd9f871f",
+    "model_id": "57fd98b8985a4ea7ac4e938e39990a2b",
+    "source_annotation": "6a2623b636d2bced57672817---.svg"
+  },
+  "processing_options": {
+    "crop_render_scale": 5.0,
+    "trim_border_px": 1.2,
+    "border_color_cleanup_px": 10,
+    "image_backfill_enabled": false,
+    "ocr_enabled": true,
+    "ai_enabled": true
+  },
+  "regions": [
+    {
+      "region_id": "R001",
+      "group_name": "技术尺寸图",
+      "group_color": "#00FF7F",
+      "group_order": 1,
+      "group_item_order": 1,
+      "region_order": 1,
+      "source_bbox": {
+        "x": 1757,
+        "y": 140,
+        "width": 331,
+        "height": 272,
+        "unit": "source_px"
+      },
+      "rendered_crop_bbox": {
+        "x": 8785,
+        "y": 700,
+        "width": 1655,
+        "height": 1360,
+        "unit": "rendered_px",
+        "scale": 5.0
+      },
+      "origin_src": "regions/R001_00ff7f.png",
+      "target_src": "regions/R001_00ff7f_trimmed.png",
+      "content_type": "structure",
+      "content": "",
+      "content_en": "",
+      "is_structure": true,
+      "structure_candidate": true,
+      "trim_border_px": 1.2,
+      "border_color_cleanup_px": 10,
+      "trim_applied": true,
+      "crop_rotation": 0,
+      "ocr": {
+        "text": "70\n?\n?\n?\n3",
+        "items": [
+          {
+            "text": "70",
+            "bbox": {
+              "x": 609,
+              "y": 110,
+              "width": 153,
+              "height": 134,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9994595944881439,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "?",
+            "bbox": {
+              "x": 648,
+              "y": 625,
+              "width": 90,
+              "height": 100,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.5145472288131714,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "?",
+            "bbox": {
+              "x": 942,
+              "y": 626,
+              "width": 90,
+              "height": 99,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.5512967705726624,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "?",
+            "bbox": {
+              "x": 784,
+              "y": 753,
+              "width": 115,
+              "height": 141,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.6123219132423401,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "3",
+            "bbox": {
+              "x": 1199,
+              "y": 760,
+              "width": 124,
+              "height": 154,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9940952062606812,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          }
+        ],
+        "has_chinese": false
+      },
+      "labels": [
+        {
+          "label_id": "L001",
+          "label_text_original": "70",
+          "source": "ai",
+          "bbox": {
+            "x": 620,
+            "y": 120,
+            "width": 145,
+            "height": 110,
+            "unit": "rendered_px"
+          },
+          "translation_en_simple": "70",
+          "translation_en_full": "70",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L002",
+          "label_text_original": "73",
+          "source": "ai",
+          "bbox": {
+            "x": 1200,
+            "y": 770,
+            "width": 125,
+            "height": 170,
+            "unit": "rendered_px"
+          },
+          "translation_en_simple": "73",
+          "translation_en_full": "73",
+          "translation_skipped_reason": "no_chinese"
+        }
+      ],
+      "classification": {
+        "category_name": "mechanical_dimensions",
+        "title_zh": "机械尺寸",
+        "title_en": "Mechanical Dimensions",
+        "category_basis": "用于识别机械结构尺寸类图纸，包括电机/零部件外形轮廓、长宽高、轴径、轴长、键槽、法兰、安装孔、孔距、定位尺寸、三视图、剖视图、局部放大视图、公差、形位公差、基准符号、连接器/线缆/插头的物理安装位置或外形位置。若图中仅展示连接器型号、端子型号、线束走向、接口外形位置，但没有明确的引脚编号、针脚功能、线色或接线表，也归入本类。",
+        "reason": "目标框内为机械结构局部视图，显示安装面、孔位和外形轮廓，并标注可见尺寸'70'与'73'，属于零部件外形及安装尺寸信息。",
+        "confidence": 0.98,
+        "source": "ai",
+        "category_type": "base"
+      },
+      "title": {
+        "title_zh": "安装结构尺寸局部图",
+        "title_en": "Mounting Structure Dimension Detail"
+      },
+      "translation": {
+        "records": [
+          {
+            "label_id": "L001",
+            "label_text_original": "70",
+            "translation_en_simple": "70",
+            "translation_en_full": "70",
+            "bbox": {
+              "x": 620,
+              "y": 120,
+              "width": 145,
+              "height": 110,
+              "unit": "rendered_px"
+            }
+          },
+          {
+            "label_id": "L002",
+            "label_text_original": "73",
+            "translation_en_simple": "73",
+            "translation_en_full": "73",
+            "bbox": {
+              "x": 1200,
+              "y": 770,
+              "width": 125,
+              "height": 170,
+              "unit": "rendered_px"
+            }
+          }
+        ]
+      },
+      "review_ui": {},
+      "errors": [],
+      "source": {
+        "annotated_image": "6a2623b636d2bced57672817---.svg",
+        "source_type": "svg"
+      },
+      "ai_analysis": {
+        "target_image": "storage/data/products_manual/drawings_2d/20260617-100-uhegw/6a2623b636d2bced57672817/regions/R001_00ff7f.png",
+        "full_context_image": "storage/data/products_manual/drawings_2d/20260617-100-uhegw/6a2623b636d2bced57672817/context/full_marked_ai.png",
+        "used_full_context_image": true,
+        "error": ""
+      },
+      "has_gb_standard": false,
+      "standard_mark": ""
+    },
+    {
+      "region_id": "R002",
+      "group_name": "技术尺寸图",
+      "group_color": "#8A2BE2",
+      "group_order": 2,
+      "group_item_order": 1,
+      "region_order": 2,
+      "source_bbox": {
+        "x": 2220,
+        "y": 387,
+        "width": 743,
+        "height": 1045,
+        "unit": "source_px"
+      },
+      "rendered_crop_bbox": {
+        "x": 11100,
+        "y": 1935,
+        "width": 3715,
+        "height": 5225,
+        "unit": "rendered_px",
+        "scale": 5.0
+      },
+      "origin_src": "regions/R002_8a2be2.png",
+      "target_src": "regions/R002_8a2be2_trimmed.png",
+      "content_type": "structure",
+      "content": "",
+      "content_en": "",
+      "is_structure": true,
+      "structure_candidate": true,
+      "trim_border_px": 1.2,
+      "border_color_cleanup_px": 10,
+      "trim_applied": true,
+      "crop_rotation": 90,
+      "ocr": {
+        "text": "2-Φ4 0v3.2\n+0.02\n4-M6 12\n165\n4-M6 12\nmin.2.60(close)\nmax.82.20(oplen)\n田\n?\n8\n9\n8\n4-Q5.40贯穿\n30\n2-D4 0v3.2\n30\n+0.02",
+        "items": [
+          {
+            "text": "2-Φ4 0v3.2",
+            "bbox": {
+              "x": 2156,
+              "y": 150,
+              "width": 146,
+              "height": 882,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.8846008598804473,
+            "has_chinese": false,
+            "text_direction": "vertical",
+            "text_angle": 90
+          },
+          {
+            "text": "+0.02",
+            "bbox": {
+              "x": 2041,
+              "y": 377,
+              "width": 119,
+              "height": 341,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9993064880371094,
+            "has_chinese": false,
+            "text_direction": "vertical",
+            "text_angle": 90
+          },
+          {
+            "text": "4-M6 12",
+            "bbox": {
+              "x": 1848,
+              "y": 503,
+              "width": 143,
+              "height": 492,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9750452382223946,
+            "has_chinese": false,
+            "text_direction": "vertical",
+            "text_angle": 90
+          },
+          {
+            "text": "165",
+            "bbox": {
+              "x": 3357,
+              "y": 517,
+              "width": 230,
+              "height": 127,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.999872624874115,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "4-M6 12",
+            "bbox": {
+              "x": 4777,
+              "y": 593,
+              "width": 148,
+              "height": 492,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.966336693082537,
+            "has_chinese": false,
+            "text_direction": "vertical",
+            "text_angle": 90
+          },
+          {
+            "text": "min.2.60(close)",
+            "bbox": {
+              "x": 2857,
+              "y": 757,
+              "width": 923,
+              "height": 159,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9880342205365499,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "max.82.20(oplen)",
+            "bbox": {
+              "x": 2802,
+              "y": 891,
+              "width": 1004,
+              "height": 149,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9798457436263561,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "田",
+            "bbox": {
+              "x": 2459,
+              "y": 1477,
+              "width": 80,
+              "height": 83,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.7076523900032043,
+            "has_chinese": true,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "?",
+            "bbox": {
+              "x": 2570,
+              "y": 1522,
+              "width": 75,
+              "height": 75,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.6491734981536865,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "8",
+            "bbox": {
+              "x": 4808,
+              "y": 1825,
+              "width": 86,
+              "height": 49,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9846745729446411,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "9",
+            "bbox": {
+              "x": 4982,
+              "y": 1804,
+              "width": 133,
+              "height": 160,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9184215664863586,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "8",
+            "bbox": {
+              "x": 1714,
+              "y": 1831,
+              "width": 93,
+              "height": 64,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.7990266680717468,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "4-Q5.40贯穿",
+            "bbox": {
+              "x": 2212,
+              "y": 2469,
+              "width": 138,
+              "height": 772,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9649095667733086,
+            "has_chinese": true,
+            "text_direction": "vertical",
+            "text_angle": 90
+          },
+          {
+            "text": "30",
+            "bbox": {
+              "x": 2662,
+              "y": 2501,
+              "width": 167,
+              "height": 130,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9997887015342712,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "2-D4 0v3.2",
+            "bbox": {
+              "x": 4729,
+              "y": 2667,
+              "width": 146,
+              "height": 906,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.8485439628362655,
+            "has_chinese": false,
+            "text_direction": "vertical",
+            "text_angle": 90
+          },
+          {
+            "text": "30",
+            "bbox": {
+              "x": 4092,
+              "y": 2741,
+              "width": 164,
+              "height": 133,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9357679784297943,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "+0.02",
+            "bbox": {
+              "x": 4608,
+              "y": 2899,
+              "width": 122,
+              "height": 334,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9995203852653504,
+            "has_chinese": false,
+            "text_direction": "vertical",
+            "text_angle": 90
+          }
+        ],
+        "has_chinese": true
+      },
+      "labels": [
+        {
+          "label_id": "L001",
+          "label_text_original": "4-M6 12",
+          "source": "ai",
+          "bbox": {
+            "x": 1848,
+            "y": 503,
+            "width": 143,
+            "height": 492,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "4-M6 12",
+          "translation_en_full": "4-M6 12",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L002",
+          "label_text_original": "2-φ4 0 +0.02 ▽3.2",
+          "source": "ai",
+          "bbox": {
+            "x": 2041,
+            "y": 150,
+            "width": 261,
+            "height": 882,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "2-φ4 0 +0.02 ▽3.2",
+          "translation_en_full": "2-φ4 0 +0.02 ▽3.2",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L003",
+          "label_text_original": "165",
+          "source": "ai",
+          "bbox": {
+            "x": 3357,
+            "y": 517,
+            "width": 230,
+            "height": 127,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "165",
+          "translation_en_full": "165",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L004",
+          "label_text_original": "4-M6 12",
+          "source": "ai",
+          "bbox": {
+            "x": 4777,
+            "y": 593,
+            "width": 148,
+            "height": 492,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "4-M6 12",
+          "translation_en_full": "4-M6 12",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L005",
+          "label_text_original": "min.2.60(close)",
+          "source": "ai",
+          "bbox": {
+            "x": 2857,
+            "y": 757,
+            "width": 923,
+            "height": 159,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "min.2.60(close)",
+          "translation_en_full": "min.2.60(close)",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L006",
+          "label_text_original": "max.82.20(open)",
+          "source": "ai",
+          "bbox": {
+            "x": 2802,
+            "y": 891,
+            "width": 1004,
+            "height": 149,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "max.82.20(open)",
+          "translation_en_full": "max.82.20(open)",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L007",
+          "label_text_original": "5",
+          "source": "ai",
+          "bbox": {
+            "x": 2459,
+            "y": 1477,
+            "width": 80,
+            "height": 83,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "5",
+          "translation_en_full": "5",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L008",
+          "label_text_original": "28",
+          "source": "ai",
+          "bbox": {
+            "x": 2570,
+            "y": 1522,
+            "width": 75,
+            "height": 75,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "28",
+          "translation_en_full": "28",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L009",
+          "label_text_original": "8",
+          "source": "ai",
+          "bbox": {
+            "x": 4808,
+            "y": 1825,
+            "width": 86,
+            "height": 49,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "8",
+          "translation_en_full": "8",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L010",
+          "label_text_original": "9",
+          "source": "ai",
+          "bbox": {
+            "x": 4982,
+            "y": 1804,
+            "width": 133,
+            "height": 160,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "9",
+          "translation_en_full": "9",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L011",
+          "label_text_original": "8",
+          "source": "ai",
+          "bbox": {
+            "x": 1714,
+            "y": 1831,
+            "width": 93,
+            "height": 64,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "8",
+          "translation_en_full": "8",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L012",
+          "label_text_original": "4-φ5.40贯穿",
+          "source": "ai",
+          "bbox": {
+            "x": 2212,
+            "y": 2469,
+            "width": 138,
+            "height": 772,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "4-φ5.40 THRU",
+          "translation_en_full": "4 holes φ5.40 through"
+        },
+        {
+          "label_id": "L013",
+          "label_text_original": "30",
+          "source": "ai",
+          "bbox": {
+            "x": 2662,
+            "y": 2501,
+            "width": 167,
+            "height": 130,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "30",
+          "translation_en_full": "30",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L014",
+          "label_text_original": "2-φ4 0 +0.02 ▽3.2",
+          "source": "ai",
+          "bbox": {
+            "x": 4608,
+            "y": 2667,
+            "width": 267,
+            "height": 906,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "2-φ4 0 +0.02 ▽3.2",
+          "translation_en_full": "2-φ4 0 +0.02 ▽3.2",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L015",
+          "label_text_original": "30",
+          "source": "ai",
+          "bbox": {
+            "x": 4092,
+            "y": 2741,
+            "width": 164,
+            "height": 133,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "30",
+          "translation_en_full": "30",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L016",
+          "label_text_original": "64",
+          "source": "ai",
+          "bbox": {
+            "x": 4590,
+            "y": 3190,
+            "width": 190,
+            "height": 150,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "64",
+          "translation_en_full": "64",
+          "translation_skipped_reason": "no_chinese"
+        }
+      ],
+      "classification": {
+        "category_name": "mechanical_dimensions",
+        "title_zh": "机械尺寸",
+        "title_en": "Mechanical Dimensions",
+        "category_basis": "用于识别机械结构尺寸类图纸，包括电机/零部件外形轮廓、长宽高、轴径、轴长、键槽、法兰、安装孔、孔距、定位尺寸、三视图、剖视图、局部放大视图、公差、形位公差、基准符号、连接器/线缆/插头的物理安装位置或外形位置。若图中仅展示连接器型号、端子型号、线束走向、接口外形位置，但没有明确的引脚编号、针脚功能、线色或接线表，也归入本类。",
+        "reason": "目标裁剪区域和完整标注源图对应的是技术尺寸图中的右侧结构视图，包含滑台外形、安装孔、引出线位置以及尺寸标注，如'165'、'64'、'30'、'4-M6 12'、'4-φ5.40贯穿'、'2-φ4 0 +0.02 ▽3.2'和开闭行程'max.82.20(open)'、'min.2.60(close)'，属于机械结构尺寸与孔位标注。",
+        "confidence": 0.98,
+        "source": "ai",
+        "category_type": "base"
+      },
+      "title": {
+        "title_zh": "滑台机械尺寸与安装孔标注",
+        "title_en": "Mechanical Dimensions and Mounting Hole Callouts of Linear Slide"
+      },
+      "translation": {
+        "records": [
+          {
+            "label_id": "L001",
+            "label_text_original": "4-M6 12",
+            "translation_en_simple": "4-M6 12",
+            "translation_en_full": "4-M6 12",
+            "bbox": {
+              "x": 1848,
+              "y": 503,
+              "width": 143,
+              "height": 492,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L002",
+            "label_text_original": "2-φ4 0 +0.02 ▽3.2",
+            "translation_en_simple": "2-φ4 0 +0.02 ▽3.2",
+            "translation_en_full": "2-φ4 0 +0.02 ▽3.2",
+            "bbox": {
+              "x": 2041,
+              "y": 150,
+              "width": 261,
+              "height": 882,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L003",
+            "label_text_original": "165",
+            "translation_en_simple": "165",
+            "translation_en_full": "165",
+            "bbox": {
+              "x": 3357,
+              "y": 517,
+              "width": 230,
+              "height": 127,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L004",
+            "label_text_original": "4-M6 12",
+            "translation_en_simple": "4-M6 12",
+            "translation_en_full": "4-M6 12",
+            "bbox": {
+              "x": 4777,
+              "y": 593,
+              "width": 148,
+              "height": 492,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L005",
+            "label_text_original": "min.2.60(close)",
+            "translation_en_simple": "min.2.60(close)",
+            "translation_en_full": "min.2.60(close)",
+            "bbox": {
+              "x": 2857,
+              "y": 757,
+              "width": 923,
+              "height": 159,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L006",
+            "label_text_original": "max.82.20(open)",
+            "translation_en_simple": "max.82.20(open)",
+            "translation_en_full": "max.82.20(open)",
+            "bbox": {
+              "x": 2802,
+              "y": 891,
+              "width": 1004,
+              "height": 149,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L007",
+            "label_text_original": "5",
+            "translation_en_simple": "5",
+            "translation_en_full": "5",
+            "bbox": {
+              "x": 2459,
+              "y": 1477,
+              "width": 80,
+              "height": 83,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L008",
+            "label_text_original": "28",
+            "translation_en_simple": "28",
+            "translation_en_full": "28",
+            "bbox": {
+              "x": 2570,
+              "y": 1522,
+              "width": 75,
+              "height": 75,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L009",
+            "label_text_original": "8",
+            "translation_en_simple": "8",
+            "translation_en_full": "8",
+            "bbox": {
+              "x": 4808,
+              "y": 1825,
+              "width": 86,
+              "height": 49,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L010",
+            "label_text_original": "9",
+            "translation_en_simple": "9",
+            "translation_en_full": "9",
+            "bbox": {
+              "x": 4982,
+              "y": 1804,
+              "width": 133,
+              "height": 160,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L011",
+            "label_text_original": "8",
+            "translation_en_simple": "8",
+            "translation_en_full": "8",
+            "bbox": {
+              "x": 1714,
+              "y": 1831,
+              "width": 93,
+              "height": 64,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L012",
+            "label_text_original": "4-φ5.40贯穿",
+            "translation_en_simple": "4-φ5.40 THRU",
+            "translation_en_full": "4 holes φ5.40 through",
+            "bbox": {
+              "x": 2212,
+              "y": 2469,
+              "width": 138,
+              "height": 772,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L013",
+            "label_text_original": "30",
+            "translation_en_simple": "30",
+            "translation_en_full": "30",
+            "bbox": {
+              "x": 2662,
+              "y": 2501,
+              "width": 167,
+              "height": 130,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L014",
+            "label_text_original": "2-φ4 0 +0.02 ▽3.2",
+            "translation_en_simple": "2-φ4 0 +0.02 ▽3.2",
+            "translation_en_full": "2-φ4 0 +0.02 ▽3.2",
+            "bbox": {
+              "x": 4608,
+              "y": 2667,
+              "width": 267,
+              "height": 906,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L015",
+            "label_text_original": "30",
+            "translation_en_simple": "30",
+            "translation_en_full": "30",
+            "bbox": {
+              "x": 4092,
+              "y": 2741,
+              "width": 164,
+              "height": 133,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L016",
+            "label_text_original": "64",
+            "translation_en_simple": "64",
+            "translation_en_full": "64",
+            "bbox": {
+              "x": 4590,
+              "y": 3190,
+              "width": 190,
+              "height": 150,
+              "unit": "origin_src_px"
+            }
+          }
+        ]
+      },
+      "review_ui": {},
+      "errors": [],
+      "source": {
+        "annotated_image": "6a2623b636d2bced57672817---.svg",
+        "source_type": "svg"
+      },
+      "ai_analysis": {
+        "target_image": "storage/data/products_manual/drawings_2d/20260617-100-uhegw/6a2623b636d2bced57672817/regions/R002_8a2be2.png",
+        "full_context_image": "storage/data/products_manual/drawings_2d/20260617-100-uhegw/6a2623b636d2bced57672817/context/full_marked_ai.png",
+        "used_full_context_image": true,
+        "error": ""
+      },
+      "has_gb_standard": false,
+      "standard_mark": ""
+    },
+    {
+      "region_id": "R003",
+      "group_name": "technical_dimension_left_view",
+      "group_color": "#00BFFF",
+      "group_order": 3,
+      "group_item_order": 1,
+      "region_order": 3,
+      "source_bbox": {
+        "x": 915,
+        "y": 446,
+        "width": 533,
+        "height": 897,
+        "unit": "source_px"
+      },
+      "rendered_crop_bbox": {
+        "x": 4575,
+        "y": 2230,
+        "width": 2665,
+        "height": 4485,
+        "unit": "rendered_px",
+        "scale": 5.0
+      },
+      "origin_src": "regions/R003_00bfff.png",
+      "target_src": "regions/R003_00bfff_trimmed.png",
+      "content_type": "structure",
+      "content": "",
+      "content_en": "",
+      "is_structure": true,
+      "structure_candidate": true,
+      "trim_border_px": 1.2,
+      "border_color_cleanup_px": 10,
+      "trim_applied": true,
+      "crop_rotation": 0,
+      "ocr": {
+        "text": "200\n+0.02\n2-Q40V4.20\n+0.02\nΦ18 0V2.0\n146\n32 ±0.02\n4-M6 10",
+        "items": [
+          {
+            "text": "200",
+            "bbox": {
+              "x": 540,
+              "y": 1091,
+              "width": 143,
+              "height": 246,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9994744658470154,
+            "has_chinese": false,
+            "text_direction": "vertical",
+            "text_angle": 90
+          },
+          {
+            "text": "+0.02",
+            "bbox": {
+              "x": 1895,
+              "y": 1514,
+              "width": 325,
+              "height": 121,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9995395302772522,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "2-Q40V4.20",
+            "bbox": {
+              "x": 1562,
+              "y": 1652,
+              "width": 946,
+              "height": 114,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.8795266062021255,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "+0.02",
+            "bbox": {
+              "x": 373,
+              "y": 2972,
+              "width": 330,
+              "height": 128,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9994442820549011,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "Φ18 0V2.0",
+            "bbox": {
+              "x": 144,
+              "y": 3108,
+              "width": 770,
+              "height": 114,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.8550704916318258,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "146",
+            "bbox": {
+              "x": 2169,
+              "y": 3176,
+              "width": 134,
+              "height": 240,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9998878836631775,
+            "has_chinese": false,
+            "text_direction": "vertical",
+            "text_angle": 90
+          },
+          {
+            "text": "32 ±0.02",
+            "bbox": {
+              "x": 393,
+              "y": 3585,
+              "width": 566,
+              "height": 139,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9672461524605751,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "4-M6 10",
+            "bbox": {
+              "x": 407,
+              "y": 4078,
+              "width": 485,
+              "height": 123,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9246014952659607,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          }
+        ],
+        "has_chinese": false
+      },
+      "labels": [
+        {
+          "label_id": "L001",
+          "label_text_original": "200",
+          "source": "ai",
+          "bbox": {
+            "x": 540,
+            "y": 1091,
+            "width": 143,
+            "height": 246,
+            "unit": "rendered_crop_px"
+          },
+          "translation_en_simple": "200",
+          "translation_en_full": "200",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L002",
+          "label_text_original": "+0.02",
+          "source": "ai",
+          "bbox": {
+            "x": 1895,
+            "y": 1514,
+            "width": 325,
+            "height": 121,
+            "unit": "rendered_crop_px"
+          },
+          "translation_en_simple": "+0.02",
+          "translation_en_full": "+0.02",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L003",
+          "label_text_original": "2-φ4 0 ▽4.20",
+          "source": "ai",
+          "bbox": {
+            "x": 1562,
+            "y": 1652,
+            "width": 946,
+            "height": 114,
+            "unit": "rendered_crop_px"
+          },
+          "translation_en_simple": "2-φ4 0 ▽4.20",
+          "translation_en_full": "2-φ4 0 ▽4.20",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L004",
+          "label_text_original": "+0.02",
+          "source": "ai",
+          "bbox": {
+            "x": 373,
+            "y": 2972,
+            "width": 330,
+            "height": 128,
+            "unit": "rendered_crop_px"
+          },
+          "translation_en_simple": "+0.02",
+          "translation_en_full": "+0.02",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L005",
+          "label_text_original": "φ18 0 ▽2.0",
+          "source": "ai",
+          "bbox": {
+            "x": 144,
+            "y": 3108,
+            "width": 770,
+            "height": 114,
+            "unit": "rendered_crop_px"
+          },
+          "translation_en_simple": "φ18 0 ▽2.0",
+          "translation_en_full": "φ18 0 ▽2.0",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L006",
+          "label_text_original": "146",
+          "source": "ai",
+          "bbox": {
+            "x": 2169,
+            "y": 3176,
+            "width": 134,
+            "height": 240,
+            "unit": "rendered_crop_px"
+          },
+          "translation_en_simple": "146",
+          "translation_en_full": "146",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L007",
+          "label_text_original": "32 ±0.02",
+          "source": "ai",
+          "bbox": {
+            "x": 393,
+            "y": 3585,
+            "width": 566,
+            "height": 139,
+            "unit": "rendered_crop_px"
+          },
+          "translation_en_simple": "32 ±0.02",
+          "translation_en_full": "32 ±0.02",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L008",
+          "label_text_original": "4-M6 ▽10",
+          "source": "ai",
+          "bbox": {
+            "x": 407,
+            "y": 4078,
+            "width": 485,
+            "height": 123,
+            "unit": "rendered_crop_px"
+          },
+          "translation_en_simple": "4-M6 ▽10",
+          "translation_en_full": "4-M6 ▽10",
+          "translation_skipped_reason": "no_chinese"
+        }
+      ],
+      "classification": {
+        "category_name": "mechanical_dimensions",
+        "title_zh": "机械尺寸",
+        "title_en": "Mechanical Dimensions",
+        "category_basis": "用于识别机械结构尺寸类图纸，包括电机/零部件外形轮廓、长宽高、轴径、轴长、键槽、法兰、安装孔、孔距、定位尺寸、三视图、剖视图、局部放大视图、公差、形位公差、基准符号、连接器/线缆/插头的物理安装位置或外形位置。若图中仅展示连接器型号、端子型号、线束走向、接口外形位置，但没有明确的引脚编号、针脚功能、线色或接线表，也归入本类。",
+        "reason": "目标框内为机械外形与安装尺寸视图，包含线缆长度'200'、本体高度'146'、孔距'32 ±0.02'、孔径'φ18'、沉孔或深度标注'2-φ4 0 +0.02 ▽4.20'以及螺纹孔'4-M6 ▽10'等尺寸、公差和引出线，属于机械结构尺寸信息。",
+        "confidence": 0.98,
+        "source": "ai",
+        "category_type": "base"
+      },
+      "title": {
+        "title_zh": "技术尺寸图局部尺寸",
+        "title_en": "Technical Dimension Drawing Crop"
+      },
+      "translation": {
+        "records": [
+          {
+            "label_id": "L001",
+            "label_text_original": "200",
+            "translation_en_simple": "200",
+            "translation_en_full": "200",
+            "bbox": {
+              "x": 540,
+              "y": 1091,
+              "width": 143,
+              "height": 246,
+              "unit": "rendered_crop_px"
+            }
+          },
+          {
+            "label_id": "L002",
+            "label_text_original": "+0.02",
+            "translation_en_simple": "+0.02",
+            "translation_en_full": "+0.02",
+            "bbox": {
+              "x": 1895,
+              "y": 1514,
+              "width": 325,
+              "height": 121,
+              "unit": "rendered_crop_px"
+            }
+          },
+          {
+            "label_id": "L003",
+            "label_text_original": "2-φ4 0 ▽4.20",
+            "translation_en_simple": "2-φ4 0 ▽4.20",
+            "translation_en_full": "2-φ4 0 ▽4.20",
+            "bbox": {
+              "x": 1562,
+              "y": 1652,
+              "width": 946,
+              "height": 114,
+              "unit": "rendered_crop_px"
+            }
+          },
+          {
+            "label_id": "L004",
+            "label_text_original": "+0.02",
+            "translation_en_simple": "+0.02",
+            "translation_en_full": "+0.02",
+            "bbox": {
+              "x": 373,
+              "y": 2972,
+              "width": 330,
+              "height": 128,
+              "unit": "rendered_crop_px"
+            }
+          },
+          {
+            "label_id": "L005",
+            "label_text_original": "φ18 0 ▽2.0",
+            "translation_en_simple": "φ18 0 ▽2.0",
+            "translation_en_full": "φ18 0 ▽2.0",
+            "bbox": {
+              "x": 144,
+              "y": 3108,
+              "width": 770,
+              "height": 114,
+              "unit": "rendered_crop_px"
+            }
+          },
+          {
+            "label_id": "L006",
+            "label_text_original": "146",
+            "translation_en_simple": "146",
+            "translation_en_full": "146",
+            "bbox": {
+              "x": 2169,
+              "y": 3176,
+              "width": 134,
+              "height": 240,
+              "unit": "rendered_crop_px"
+            }
+          },
+          {
+            "label_id": "L007",
+            "label_text_original": "32 ±0.02",
+            "translation_en_simple": "32 ±0.02",
+            "translation_en_full": "32 ±0.02",
+            "bbox": {
+              "x": 393,
+              "y": 3585,
+              "width": 566,
+              "height": 139,
+              "unit": "rendered_crop_px"
+            }
+          },
+          {
+            "label_id": "L008",
+            "label_text_original": "4-M6 ▽10",
+            "translation_en_simple": "4-M6 ▽10",
+            "translation_en_full": "4-M6 ▽10",
+            "bbox": {
+              "x": 407,
+              "y": 4078,
+              "width": 485,
+              "height": 123,
+              "unit": "rendered_crop_px"
+            }
+          }
+        ]
+      },
+      "review_ui": {},
+      "errors": [],
+      "source": {
+        "annotated_image": "6a2623b636d2bced57672817---.svg",
+        "source_type": "svg"
+      },
+      "ai_analysis": {
+        "target_image": "storage/data/products_manual/drawings_2d/20260617-100-uhegw/6a2623b636d2bced57672817/regions/R003_00bfff.png",
+        "full_context_image": "storage/data/products_manual/drawings_2d/20260617-100-uhegw/6a2623b636d2bced57672817/context/full_marked_ai.png",
+        "used_full_context_image": true,
+        "error": ""
+      },
+      "has_gb_standard": false,
+      "standard_mark": ""
+    },
+    {
+      "region_id": "R004",
+      "group_name": "technical_dimension_drawing",
+      "group_color": "#FFD700",
+      "group_order": 4,
+      "group_item_order": 1,
+      "region_order": 4,
+      "source_bbox": {
+        "x": 1618,
+        "y": 470,
+        "width": 537,
+        "height": 990,
+        "unit": "source_px"
+      },
+      "rendered_crop_bbox": {
+        "x": 8090,
+        "y": 2350,
+        "width": 2685,
+        "height": 4950,
+        "unit": "rendered_px",
+        "scale": 5.0
+      },
+      "origin_src": "regions/R004_ffd700.png",
+      "target_src": "regions/R004_ffd700_trimmed.png",
+      "content_type": "structure",
+      "content": "",
+      "content_en": "",
+      "is_structure": true,
+      "structure_candidate": true,
+      "trim_border_px": 1.2,
+      "border_color_cleanup_px": 10,
+      "trim_applied": true,
+      "crop_rotation": -90,
+      "ocr": {
+        "text": "(Same on the opposite side)\n3-M4 6\n194\n15\n30.50\nDH-ROBOTICS\nPCHL-400-80A3188888\nP国\nMadein China\n37\n60\n60\n16\nSecure at least 100mm\nCable allowable bending\nradius R50mm",
+        "items": [
+          {
+            "text": "(Same on the opposite side)",
+            "bbox": {
+              "x": 207,
+              "y": 115,
+              "width": 170,
+              "height": 1665,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9979593753814697,
+            "has_chinese": false,
+            "text_direction": "vertical",
+            "text_angle": 90
+          },
+          {
+            "text": "3-M4 6",
+            "bbox": {
+              "x": 538,
+              "y": 486,
+              "width": 136,
+              "height": 539,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9587480823198954,
+            "has_chinese": false,
+            "text_direction": "vertical",
+            "text_angle": 90
+          },
+          {
+            "text": "194",
+            "bbox": {
+              "x": 1838,
+              "y": 779,
+              "width": 233,
+              "height": 130,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9998991290728251,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "15",
+            "bbox": {
+              "x": 3320,
+              "y": 1043,
+              "width": 126,
+              "height": 154,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.8442405462265015,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "30.50",
+            "bbox": {
+              "x": 416,
+              "y": 1468,
+              "width": 133,
+              "height": 332,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9996204257011414,
+            "has_chinese": false,
+            "text_direction": "vertical",
+            "text_angle": 90
+          },
+          {
+            "text": "DH-ROBOTICS",
+            "bbox": {
+              "x": 1571,
+              "y": 1515,
+              "width": 660,
+              "height": 99,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.919409453868866,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "PCHL-400-80A3188888",
+            "bbox": {
+              "x": 2612,
+              "y": 1530,
+              "width": 415,
+              "height": 57,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9251313836951005,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "P国",
+            "bbox": {
+              "x": 2609,
+              "y": 1594,
+              "width": 361,
+              "height": 75,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.700337827205658,
+            "has_chinese": true,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "Madein China",
+            "bbox": {
+              "x": 2602,
+              "y": 1658,
+              "width": 338,
+              "height": 72,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9547919283310572,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "37",
+            "bbox": {
+              "x": 883,
+              "y": 1821,
+              "width": 168,
+              "height": 132,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9998314678668976,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "60",
+            "bbox": {
+              "x": 1444,
+              "y": 1821,
+              "width": 163,
+              "height": 136,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9994605779647827,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "60",
+            "bbox": {
+              "x": 2168,
+              "y": 1821,
+              "width": 163,
+              "height": 134,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9992857873439789,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "16",
+            "bbox": {
+              "x": 3303,
+              "y": 1801,
+              "width": 165,
+              "height": 134,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9997318089008331,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "Secure at least 100mm",
+            "bbox": {
+              "x": 3298,
+              "y": 2087,
+              "width": 1363,
+              "height": 132,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9829220686640058,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "Cable allowable bending",
+            "bbox": {
+              "x": 3298,
+              "y": 2203,
+              "width": 1480,
+              "height": 157,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9986121421274932,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "radius R50mm",
+            "bbox": {
+              "x": 3465,
+              "y": 2354,
+              "width": 864,
+              "height": 117,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9835007985432943,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          }
+        ],
+        "has_chinese": true
+      },
+      "labels": [
+        {
+          "label_id": "L001",
+          "label_text_original": "(Same on the opposite side)",
+          "source": "ai",
+          "bbox": {
+            "x": 207,
+            "y": 115,
+            "width": 170,
+            "height": 1665,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "(Same on the opposite side)",
+          "translation_en_full": "(Same on the opposite side)",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L002",
+          "label_text_original": "3-M4 6",
+          "source": "ai",
+          "bbox": {
+            "x": 538,
+            "y": 486,
+            "width": 136,
+            "height": 539,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "3-M4 6",
+          "translation_en_full": "3-M4 6",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L003",
+          "label_text_original": "194",
+          "source": "ai",
+          "bbox": {
+            "x": 1838,
+            "y": 779,
+            "width": 233,
+            "height": 130,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "194",
+          "translation_en_full": "194",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L004",
+          "label_text_original": "15",
+          "source": "ai",
+          "bbox": {
+            "x": 3320,
+            "y": 1043,
+            "width": 126,
+            "height": 154,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "15",
+          "translation_en_full": "15",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L005",
+          "label_text_original": "30.50",
+          "source": "ai",
+          "bbox": {
+            "x": 416,
+            "y": 1468,
+            "width": 133,
+            "height": 332,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "30.50",
+          "translation_en_full": "30.50",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L006",
+          "label_text_original": "DH-ROBOTICS",
+          "source": "ai",
+          "bbox": {
+            "x": 1571,
+            "y": 1515,
+            "width": 660,
+            "height": 99,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "DH-ROBOTICS",
+          "translation_en_full": "DH-ROBOTICS",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L007",
+          "label_text_original": "PCHL-400-80A3188888",
+          "source": "ai",
+          "bbox": {
+            "x": 2612,
+            "y": 1530,
+            "width": 415,
+            "height": 57,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "PCHL-400-80A3188888",
+          "translation_en_full": "PCHL-400-80A3188888",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L008",
+          "label_text_original": "P国",
+          "source": "ai",
+          "bbox": {
+            "x": 2609,
+            "y": 1594,
+            "width": 361,
+            "height": 75,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "P Country",
+          "translation_en_full": "P Country"
+        },
+        {
+          "label_id": "L009",
+          "label_text_original": "Madein China",
+          "source": "ai",
+          "bbox": {
+            "x": 2602,
+            "y": 1658,
+            "width": 338,
+            "height": 72,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "Madein China",
+          "translation_en_full": "Madein China",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L010",
+          "label_text_original": "37",
+          "source": "ai",
+          "bbox": {
+            "x": 883,
+            "y": 1821,
+            "width": 168,
+            "height": 132,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "37",
+          "translation_en_full": "37",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L011",
+          "label_text_original": "60",
+          "source": "ai",
+          "bbox": {
+            "x": 1444,
+            "y": 1821,
+            "width": 163,
+            "height": 136,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "60",
+          "translation_en_full": "60",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L012",
+          "label_text_original": "60",
+          "source": "ai",
+          "bbox": {
+            "x": 2168,
+            "y": 1821,
+            "width": 163,
+            "height": 134,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "60",
+          "translation_en_full": "60",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L013",
+          "label_text_original": "16",
+          "source": "ai",
+          "bbox": {
+            "x": 3303,
+            "y": 1801,
+            "width": 165,
+            "height": 134,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "16",
+          "translation_en_full": "16",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L014",
+          "label_text_original": "Secure at least 100mm",
+          "source": "ai",
+          "bbox": {
+            "x": 3298,
+            "y": 2087,
+            "width": 1363,
+            "height": 132,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "Secure at least 100mm",
+          "translation_en_full": "Secure at least 100mm",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L015",
+          "label_text_original": "Cable allowable bending",
+          "source": "ai",
+          "bbox": {
+            "x": 3298,
+            "y": 2203,
+            "width": 1480,
+            "height": 157,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "Cable allowable bending",
+          "translation_en_full": "Cable allowable bending",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L016",
+          "label_text_original": "radius R50mm",
+          "source": "ai",
+          "bbox": {
+            "x": 3465,
+            "y": 2354,
+            "width": 864,
+            "height": 117,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "radius R50mm",
+          "translation_en_full": "radius R50mm",
+          "translation_skipped_reason": "no_chinese"
+        }
+      ],
+      "classification": {
+        "category_name": "mechanical_dimensions",
+        "title_zh": "机械尺寸",
+        "title_en": "Mechanical Dimensions",
+        "category_basis": "用于识别机械结构尺寸类图纸，包括电机/零部件外形轮廓、长宽高、轴径、轴长、键槽、法兰、安装孔、孔距、定位尺寸、三视图、剖视图、局部放大视图、公差、形位公差、基准符号、连接器/线缆/插头的物理安装位置或外形位置。若图中仅展示连接器型号、端子型号、线束走向、接口外形位置，但没有明确的引脚编号、针脚功能、线色或接线表，也归入本类。",
+        "reason": "目标裁剪区域和完整标注源图均显示夹爪侧视结构轮廓、安装孔标注、长度与间距尺寸，如'194'、'37'、'60'、'16'、'3-M4 6'，并包含线缆固定与弯曲半径位置说明，属于机械外形及安装尺寸图，不含针脚功能表或性能曲线。",
+        "confidence": 0.98,
+        "source": "ai",
+        "category_type": "base"
+      },
+      "title": {
+        "title_zh": "夹爪侧视外形与安装尺寸",
+        "title_en": "Gripper Side View Outline and Mounting Dimensions"
+      },
+      "translation": {
+        "records": [
+          {
+            "label_id": "L001",
+            "label_text_original": "(Same on the opposite side)",
+            "translation_en_simple": "(Same on the opposite side)",
+            "translation_en_full": "(Same on the opposite side)",
+            "bbox": {
+              "x": 207,
+              "y": 115,
+              "width": 170,
+              "height": 1665,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L002",
+            "label_text_original": "3-M4 6",
+            "translation_en_simple": "3-M4 6",
+            "translation_en_full": "3-M4 6",
+            "bbox": {
+              "x": 538,
+              "y": 486,
+              "width": 136,
+              "height": 539,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L003",
+            "label_text_original": "194",
+            "translation_en_simple": "194",
+            "translation_en_full": "194",
+            "bbox": {
+              "x": 1838,
+              "y": 779,
+              "width": 233,
+              "height": 130,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L004",
+            "label_text_original": "15",
+            "translation_en_simple": "15",
+            "translation_en_full": "15",
+            "bbox": {
+              "x": 3320,
+              "y": 1043,
+              "width": 126,
+              "height": 154,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L005",
+            "label_text_original": "30.50",
+            "translation_en_simple": "30.50",
+            "translation_en_full": "30.50",
+            "bbox": {
+              "x": 416,
+              "y": 1468,
+              "width": 133,
+              "height": 332,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L006",
+            "label_text_original": "DH-ROBOTICS",
+            "translation_en_simple": "DH-ROBOTICS",
+            "translation_en_full": "DH-ROBOTICS",
+            "bbox": {
+              "x": 1571,
+              "y": 1515,
+              "width": 660,
+              "height": 99,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L007",
+            "label_text_original": "PCHL-400-80A3188888",
+            "translation_en_simple": "PCHL-400-80A3188888",
+            "translation_en_full": "PCHL-400-80A3188888",
+            "bbox": {
+              "x": 2612,
+              "y": 1530,
+              "width": 415,
+              "height": 57,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L008",
+            "label_text_original": "P国",
+            "translation_en_simple": "P Country",
+            "translation_en_full": "P Country",
+            "bbox": {
+              "x": 2609,
+              "y": 1594,
+              "width": 361,
+              "height": 75,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L009",
+            "label_text_original": "Madein China",
+            "translation_en_simple": "Madein China",
+            "translation_en_full": "Madein China",
+            "bbox": {
+              "x": 2602,
+              "y": 1658,
+              "width": 338,
+              "height": 72,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L010",
+            "label_text_original": "37",
+            "translation_en_simple": "37",
+            "translation_en_full": "37",
+            "bbox": {
+              "x": 883,
+              "y": 1821,
+              "width": 168,
+              "height": 132,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L011",
+            "label_text_original": "60",
+            "translation_en_simple": "60",
+            "translation_en_full": "60",
+            "bbox": {
+              "x": 1444,
+              "y": 1821,
+              "width": 163,
+              "height": 136,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L012",
+            "label_text_original": "60",
+            "translation_en_simple": "60",
+            "translation_en_full": "60",
+            "bbox": {
+              "x": 2168,
+              "y": 1821,
+              "width": 163,
+              "height": 134,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L013",
+            "label_text_original": "16",
+            "translation_en_simple": "16",
+            "translation_en_full": "16",
+            "bbox": {
+              "x": 3303,
+              "y": 1801,
+              "width": 165,
+              "height": 134,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L014",
+            "label_text_original": "Secure at least 100mm",
+            "translation_en_simple": "Secure at least 100mm",
+            "translation_en_full": "Secure at least 100mm",
+            "bbox": {
+              "x": 3298,
+              "y": 2087,
+              "width": 1363,
+              "height": 132,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L015",
+            "label_text_original": "Cable allowable bending",
+            "translation_en_simple": "Cable allowable bending",
+            "translation_en_full": "Cable allowable bending",
+            "bbox": {
+              "x": 3298,
+              "y": 2203,
+              "width": 1480,
+              "height": 157,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L016",
+            "label_text_original": "radius R50mm",
+            "translation_en_simple": "radius R50mm",
+            "translation_en_full": "radius R50mm",
+            "bbox": {
+              "x": 3465,
+              "y": 2354,
+              "width": 864,
+              "height": 117,
+              "unit": "origin_src_px"
+            }
+          }
+        ]
+      },
+      "review_ui": {},
+      "errors": [],
+      "source": {
+        "annotated_image": "6a2623b636d2bced57672817---.svg",
+        "source_type": "svg"
+      },
+      "ai_analysis": {
+        "target_image": "storage/data/products_manual/drawings_2d/20260617-100-uhegw/6a2623b636d2bced57672817/regions/R004_ffd700.png",
+        "full_context_image": "storage/data/products_manual/drawings_2d/20260617-100-uhegw/6a2623b636d2bced57672817/context/full_marked_ai.png",
+        "used_full_context_image": true,
+        "error": ""
+      },
+      "has_gb_standard": false,
+      "standard_mark": ""
+    }
+  ],
+  "category_dictionary_updates": [
+    {
+      "name": "mechanical_dimensions",
+      "category_type": "base",
+      "source": "system_seed",
+      "action": "skipped"
+    },
+    {
+      "name": "torque_speed_curve",
+      "category_type": "base",
+      "source": "system_seed",
+      "action": "skipped"
+    },
+    {
+      "name": "power_connector_pinout",
+      "category_type": "base",
+      "source": "system_seed",
+      "action": "skipped"
+    },
+    {
+      "name": "feedback_connector_pinout",
+      "category_type": "base",
+      "source": "system_seed",
+      "action": "skipped"
+    }
+  ],
+  "classification_records": [
+    {
+      "product_file_id": "6a2623b636d2bced57672817",
+      "region_id": "R001",
+      "category_name": "mechanical_dimensions",
+      "source": "ai",
+      "action": "inserted"
+    },
+    {
+      "product_file_id": "6a2623b636d2bced57672817",
+      "region_id": "R002",
+      "category_name": "mechanical_dimensions",
+      "source": "ai",
+      "action": "inserted"
+    },
+    {
+      "product_file_id": "6a2623b636d2bced57672817",
+      "region_id": "R003",
+      "category_name": "mechanical_dimensions",
+      "source": "ai",
+      "action": "inserted"
+    },
+    {
+      "product_file_id": "6a2623b636d2bced57672817",
+      "region_id": "R004",
+      "category_name": "mechanical_dimensions",
+      "source": "ai",
+      "action": "inserted"
+    }
+  ],
+  "output_files": {
+    "data_json": "data_v2.json",
+    "classification_json": "structure_classification_v2.json",
+    "text_content_json": "text_content_v2.json"
+  },
+  "quality_control": {
+    "origin_src_is_pre_trim_crop": true,
+    "target_src_is_structure_trimmed_crop": true,
+    "engineering_extraction_skipped": true,
+    "forbidden_engineering_fields_present": [],
+    "json_validated": true,
+    "origin_src_semantics": "5x crop before structure border trim; backend original data image",
+    "target_src_semantics": "structure-only crop after border trim; backend processed data image"
+  },
+  "manual_review": {
+    "required": true,
+    "items": [
+      "抽查 5x 裁切图清晰度和结构图去边效果",
+      "抽查 AI 命名、分类、标签合并、完整翻译和简单翻译质量",
+      "抽查 v2 JSON 是否满足后台拆解对比和人工复核需要"
+    ]
+  },
+  "created_at": "2026-06-18T15:11:40+08:00",
+  "updated_at": "2026-06-18T15:11:40+08:00"
+}

@@ -1,0 +1,443 @@
+{
+  "schema_version": "pdf_force_fit_v2.3",
+  "entry": "pdf_force_fit_v2",
+  "source": {
+    "product_file_id": "6a339518f2a32a6f1d53f82f",
+    "cid": "dd7bc8f104674b18b9a82437f94dfea2",
+    "supplier_id": "69f1b877908c95ae5aafdcd2",
+    "category_id": "73826e0c62f8b0e3a6285a22",
+    "series_id": "c1ec4b83119440d48350e2f158c9a433",
+    "model_id": "6e1d34c6674c44d1b668552474857495",
+    "source_annotation": "6a339518f2a32a6f1d53f82f---.svg"
+  },
+  "regions": [
+    {
+      "region_id": "R001",
+      "origin_src": "regions/R001_00bfff.png",
+      "target_src": "regions/R001_00bfff_trimmed.png",
+      "content_type": "structure",
+      "content": "",
+      "content_en": "",
+      "labels": [],
+      "translation": {
+        "records": []
+      },
+      "ocr": {
+        "text": "",
+        "items": [],
+        "has_chinese": false
+      },
+      "review_ui": {
+        "highlight_image": "origin_src",
+        "highlight_bbox_unit": "origin_src_px",
+        "table_columns": [
+          "label_text_original",
+          "translation_en_simple",
+          "translation_en_full"
+        ]
+      }
+    },
+    {
+      "region_id": "R002",
+      "origin_src": "regions/R002_00ff7f.png",
+      "target_src": "regions/R002_00ff7f_trimmed.png",
+      "content_type": "structure",
+      "content": "",
+      "content_en": "",
+      "labels": [],
+      "translation": {
+        "records": []
+      },
+      "ocr": {
+        "text": "",
+        "items": [],
+        "has_chinese": false
+      },
+      "review_ui": {
+        "highlight_image": "origin_src",
+        "highlight_bbox_unit": "origin_src_px",
+        "table_columns": [
+          "label_text_original",
+          "translation_en_simple",
+          "translation_en_full"
+        ]
+      }
+    },
+    {
+      "region_id": "R003",
+      "origin_src": "regions/R003_ffd700.png",
+      "target_src": "regions/R003_ffd700_trimmed.png",
+      "content_type": "structure",
+      "content": "",
+      "content_en": "",
+      "labels": [
+        {
+          "label_id": "L001",
+          "label_text_original": "O O",
+          "source": "ocr_merged",
+          "bbox": {
+            "x": 115,
+            "y": 742,
+            "width": 1421,
+            "height": 36,
+            "unit": "origin_src_px"
+          },
+          "ocr_item_indexes": [
+            0,
+            1
+          ],
+          "translation_en_simple": "O O",
+          "translation_en_full": "O O",
+          "translation_skipped_reason": "no_chinese"
+        }
+      ],
+      "translation": {
+        "records": [
+          {
+            "label_id": "L001",
+            "label_text_original": "O O",
+            "translation_en_simple": "O O",
+            "translation_en_full": "O O",
+            "bbox": {
+              "x": 115,
+              "y": 742,
+              "width": 1421,
+              "height": 36,
+              "unit": "origin_src_px"
+            }
+          }
+        ]
+      },
+      "ocr": {
+        "text": "O\nO",
+        "items": [
+          {
+            "text": "O",
+            "bbox": {
+              "x": 115,
+              "y": 744,
+              "width": 33,
+              "height": 31,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.7891139388084412,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "O",
+            "bbox": {
+              "x": 1502,
+              "y": 742,
+              "width": 34,
+              "height": 36,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.697485625743866,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          }
+        ],
+        "has_chinese": false
+      },
+      "review_ui": {
+        "highlight_image": "origin_src",
+        "highlight_bbox_unit": "origin_src_px",
+        "table_columns": [
+          "label_text_original",
+          "translation_en_simple",
+          "translation_en_full"
+        ]
+      }
+    },
+    {
+      "region_id": "R004",
+      "origin_src": "regions/R004_8a2be2.png",
+      "target_src": "",
+      "content_type": "table",
+      "content": "<table><tr><td>内径(mm)</td><td>140</td></tr><tr><td>外径(mm)</td><td>175</td></tr><tr><td>宽度(mm)</td><td>16</td></tr></table>",
+      "content_en": "<table><tr><td>Inner diameter(mm)</td><td>140</td></tr><tr><td>Outer diameter(mm)</td><td>175</td></tr><tr><td>Width(mm)</td><td>16</td></tr></table>",
+      "labels": [
+        {
+          "label_id": "L001",
+          "label_text_original": "内径(mm)",
+          "source": "ai",
+          "bbox": {
+            "x": 62,
+            "y": 11,
+            "width": 206,
+            "height": 59,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "Inner dia. (mm)",
+          "translation_en_full": "Inner diameter (mm)"
+        },
+        {
+          "label_id": "L002",
+          "label_text_original": "140",
+          "source": "ai",
+          "bbox": {
+            "x": 834,
+            "y": 15,
+            "width": 78,
+            "height": 47,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "140",
+          "translation_en_full": "140",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L003",
+          "label_text_original": "外径(mm)",
+          "source": "ai",
+          "bbox": {
+            "x": 59,
+            "y": 81,
+            "width": 208,
+            "height": 56,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "Outer dia. (mm)",
+          "translation_en_full": "Outer diameter (mm)"
+        },
+        {
+          "label_id": "L004",
+          "label_text_original": "175",
+          "source": "ai",
+          "bbox": {
+            "x": 835,
+            "y": 87,
+            "width": 76,
+            "height": 39,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "175",
+          "translation_en_full": "175",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L005",
+          "label_text_original": "宽度(mm)",
+          "source": "ai",
+          "bbox": {
+            "x": 59,
+            "y": 150,
+            "width": 210,
+            "height": 60,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "Width (mm)",
+          "translation_en_full": "Width (mm)"
+        },
+        {
+          "label_id": "L006",
+          "label_text_original": "16",
+          "source": "ai",
+          "bbox": {
+            "x": 833,
+            "y": 155,
+            "width": 53,
+            "height": 49,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "16",
+          "translation_en_full": "16",
+          "translation_skipped_reason": "no_chinese"
+        }
+      ],
+      "translation": {
+        "records": [
+          {
+            "label_id": "L001",
+            "label_text_original": "内径(mm)",
+            "translation_en_simple": "Inner dia. (mm)",
+            "translation_en_full": "Inner diameter (mm)",
+            "bbox": {
+              "x": 62,
+              "y": 11,
+              "width": 206,
+              "height": 59,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L002",
+            "label_text_original": "140",
+            "translation_en_simple": "140",
+            "translation_en_full": "140",
+            "bbox": {
+              "x": 834,
+              "y": 15,
+              "width": 78,
+              "height": 47,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L003",
+            "label_text_original": "外径(mm)",
+            "translation_en_simple": "Outer dia. (mm)",
+            "translation_en_full": "Outer diameter (mm)",
+            "bbox": {
+              "x": 59,
+              "y": 81,
+              "width": 208,
+              "height": 56,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L004",
+            "label_text_original": "175",
+            "translation_en_simple": "175",
+            "translation_en_full": "175",
+            "bbox": {
+              "x": 835,
+              "y": 87,
+              "width": 76,
+              "height": 39,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L005",
+            "label_text_original": "宽度(mm)",
+            "translation_en_simple": "Width (mm)",
+            "translation_en_full": "Width (mm)",
+            "bbox": {
+              "x": 59,
+              "y": 150,
+              "width": 210,
+              "height": 60,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L006",
+            "label_text_original": "16",
+            "translation_en_simple": "16",
+            "translation_en_full": "16",
+            "bbox": {
+              "x": 833,
+              "y": 155,
+              "width": 53,
+              "height": 49,
+              "unit": "origin_src_px"
+            }
+          }
+        ]
+      },
+      "ocr": {
+        "text": "内径(mm)\n140\n外径(mm)\n175\n宽度(mm)\n16",
+        "items": [
+          {
+            "text": "内径(mm)",
+            "bbox": {
+              "x": 62,
+              "y": 11,
+              "width": 206,
+              "height": 59,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.999713808298111,
+            "has_chinese": true,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "140",
+            "bbox": {
+              "x": 834,
+              "y": 15,
+              "width": 78,
+              "height": 47,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.999889612197876,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "外径(mm)",
+            "bbox": {
+              "x": 59,
+              "y": 81,
+              "width": 208,
+              "height": 56,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9998644292354584,
+            "has_chinese": true,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "175",
+            "bbox": {
+              "x": 835,
+              "y": 87,
+              "width": 76,
+              "height": 39,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9995344479878744,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "宽度(mm)",
+            "bbox": {
+              "x": 59,
+              "y": 150,
+              "width": 210,
+              "height": 60,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9998000264167786,
+            "has_chinese": true,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "16",
+            "bbox": {
+              "x": 833,
+              "y": 155,
+              "width": 53,
+              "height": 49,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9998009204864502,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          }
+        ],
+        "has_chinese": true
+      },
+      "review_ui": {
+        "highlight_image": "origin_src",
+        "highlight_bbox_unit": "origin_src_px",
+        "table_columns": [
+          "label_text_original",
+          "translation_en_simple",
+          "translation_en_full"
+        ]
+      }
+    }
+  ],
+  "quality_control": {
+    "origin_src_is_pre_trim_crop": true,
+    "target_src_is_structure_trimmed_crop": true,
+    "engineering_extraction_skipped": true,
+    "forbidden_engineering_fields_present": [],
+    "json_validated": true,
+    "origin_src_semantics": "5x crop before structure border trim; backend original data image",
+    "target_src_semantics": "structure-only crop after border trim; backend processed data image"
+  }
+}

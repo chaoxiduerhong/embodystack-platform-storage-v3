@@ -1,0 +1,116 @@
+{
+  "schema_version": "pdf_force_fit_v2.3",
+  "entry": "pdf_force_fit_v2",
+  "source": {
+    "product_file_id": "6a26a4ba08c018457c34bcdd",
+    "cid": "b74d167f5b3b484d9a8d39048ec7e2c7",
+    "supplier_id": "69f1b877908c95ae5aafdcd0",
+    "category_id": "ece25f9f6e54747367c1f1ba",
+    "series_id": "97cee58161ff448281392407781acf9c",
+    "model_id": "60c33e2292b24c2ebc75ca21ece38070",
+    "source_annotation": "6a26a4ba08c018457c34bcdd---.svg"
+  },
+  "classification_records": [
+    {
+      "product_file_id": "6a26a4ba08c018457c34bcdd",
+      "region_id": "R001",
+      "category_name": "mechanical_dimensions",
+      "source": "ai",
+      "action": "inserted"
+    },
+    {
+      "product_file_id": "6a26a4ba08c018457c34bcdd",
+      "region_id": "R002",
+      "category_name": "mechanical_dimensions",
+      "source": "ai",
+      "action": "inserted"
+    },
+    {
+      "product_file_id": "6a26a4ba08c018457c34bcdd",
+      "region_id": "R003",
+      "category_name": "mechanical_dimensions",
+      "source": "ai",
+      "action": "inserted"
+    }
+  ],
+  "regions": [
+    {
+      "region_id": "R001",
+      "group_name": "R001",
+      "origin_src": "regions/R001_00ff7f.png",
+      "target_src": "regions/R001_00ff7f_trimmed.png",
+      "content_type": "structure",
+      "is_structure": true,
+      "has_gb_standard": false,
+      "title": {
+        "title_zh": "侧视图机械尺寸",
+        "title_en": "Side View Mechanical Dimensions"
+      },
+      "classification": {
+        "category_name": "mechanical_dimensions",
+        "title_zh": "机械尺寸",
+        "title_en": "Mechanical Dimensions",
+        "category_basis": "用于识别机械结构尺寸类图纸，包括电机/零部件外形轮廓、长宽高、轴径、轴长、键槽、法兰、安装孔、孔距、定位尺寸、三视图、剖视图、局部放大视图、公差、形位公差、基准符号、连接器/线缆/插头的物理安装位置或外形位置。若图中仅展示连接器型号、端子型号、线束走向、接口外形位置，但没有明确的引脚编号、针脚功能、线色或接线表，也归入本类。",
+        "reason": "目标图像展示了伺服驱动器的侧视轮廓图，包含明确的外形尺寸标注：总宽度 '40.2'、内部宽度 '33,2'、边缘厚度 '4'，以及右侧的连接器突出部分轮廓。图中包含尺寸线、箭头、尺寸数值，属于典型的机械外形尺寸标注，符合机械结构尺寸类图纸的特征。",
+        "confidence": 0.98,
+        "source": "ai",
+        "category_type": "base"
+      }
+    },
+    {
+      "region_id": "R002",
+      "group_name": "OD124S AC Servo Driver Front Panel",
+      "origin_src": "regions/R002_00bfff.png",
+      "target_src": "regions/R002_00bfff_trimmed.png",
+      "content_type": "structure",
+      "is_structure": true,
+      "has_gb_standard": false,
+      "title": {
+        "title_zh": "伺服驱动器前面板结构尺寸与接口布局",
+        "title_en": "Servo Driver Front Panel Dimensions and Interface Layout"
+      },
+      "classification": {
+        "category_name": "mechanical_dimensions",
+        "title_zh": "机械结构尺寸",
+        "title_en": "Mechanical Dimensions",
+        "category_basis": "用于识别机械结构尺寸类图纸，包括电机/零部件外形轮廓、长宽高、轴径、轴长、键槽、法兰、安装孔、孔距、定位尺寸、三视图、剖视图、局部放大视图、公差、形位公差、基准符号、连接器/线缆/插头的物理安装位置或外形位置。若图中仅展示连接器型号、端子型号、线束走向、接口外形位置，但没有明确的引脚编号、针脚功能、线色或接线表，也归入本类。",
+        "reason": "该图为 Kinco OD124S 伺服驱动器前面板的机械结构图，标注了完整的外形尺寸（61×85×76.7mm）、安装孔位置（4,5mm、52mm、5.3mm、4-3.2）、连接器物理位置（X1、X2、X3A、X3B、X4、X5）及其外形布局、开关 SW1 位置、指示灯 PWR/RUN/ERR/BUS 位置、端子排 U/V/W/PE 位置。虽然图中出现 'X5 DC+ GND'、'RB+ RB-'、'U V W PE' 等端子标注，以及 'X1 I/O'、'X2 ENCODERIN'、'X3A(IN)'、'X3B(OUT)'、'X4 RS232' 等接口名称，但这些仅是标识连接器的功能类型和安装位置，并未提供针脚编号与信号功能的对应关系或接线表。根据 category_basis 中'若图中仅展示连接器型号、端子型号、线束走向、接口外形位置，但没有明确的引脚编号、针脚功能、线色或接线表，也归入本类'的规则，应归入 mechanical_dimensions。",
+        "confidence": 0.95,
+        "source": "ai",
+        "category_type": "base"
+      }
+    },
+    {
+      "region_id": "R003",
+      "group_name": "R003",
+      "origin_src": "regions/R003_ffd700.png",
+      "target_src": "regions/R003_ffd700_trimmed.png",
+      "content_type": "structure",
+      "is_structure": true,
+      "has_gb_standard": false,
+      "title": {
+        "title_zh": "伺服驱动器三维结构视图",
+        "title_en": "Servo Drive 3D Structural View"
+      },
+      "classification": {
+        "category_name": "mechanical_dimensions",
+        "title_zh": "机械尺寸",
+        "title_en": "Mechanical Dimensions",
+        "category_basis": "用于识别机械结构尺寸类图纸，包括电机/零部件外形轮廓、长宽高、轴径、轴长、键槽、法兰、安装孔、孔距、定位尺寸、三视图、剖视图、局部放大视图、公差、形位公差、基准符号、连接器/线缆/插头的物理安装位置或外形位置。若图中仅展示连接器型号、端子型号、线束走向、接口外形位置，但没有明确的引脚编号、针脚功能、线色或接线表，也归入本类。",
+        "reason": "目标图像显示了一个电子设备（Kinco AC SERVO OD124S）的三维等轴测结构视图，清晰展示了设备的外形轮廓、连接器安装位置、端子排布、安装孔位置等机械结构特征。图中可见多个连接器接口（X1 I/O、X2 ENCODERIN、X3B(OUT)、X34(IN)、X4 RS232、X5 DC+/GND/RB+/RB-/U/V/W/PE）的物理安装位置和外形布局，以及LED指示灯（PWR、RUN、ERR、BUS）和开关（SW1）的位置。虽然有连接器标识，但图中并未明确显示引脚编号与针脚功能的对应关系、线色或接线表，因此符合mechanical_dimensions类别的定义，即'仅展示连接器型号、端子型号、线束走向、接口外形位置'的情况。",
+        "confidence": 0.95,
+        "source": "ai",
+        "category_type": "base"
+      }
+    }
+  ],
+  "quality_control": {
+    "origin_src_is_pre_trim_crop": true,
+    "target_src_is_structure_trimmed_crop": true,
+    "engineering_extraction_skipped": true,
+    "forbidden_engineering_fields_present": [],
+    "json_validated": true,
+    "origin_src_semantics": "5x crop before structure border trim; backend original data image",
+    "target_src_semantics": "structure-only crop after border trim; backend processed data image"
+  }
+}

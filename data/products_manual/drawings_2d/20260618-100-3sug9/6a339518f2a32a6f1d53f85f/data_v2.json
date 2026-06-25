@@ -1,0 +1,1221 @@
+{
+  "version": "v2",
+  "schema_version": "pdf_force_fit_v2.3",
+  "entry": "pdf_force_fit_v2",
+  "run_info": {
+    "status": "success"
+  },
+  "request": {
+    "category_ids": [],
+    "resolved_category_ids": []
+  },
+  "source": {
+    "product_file_id": "6a339518f2a32a6f1d53f85f",
+    "cid": "be9e7944c2984f57bf3419b9026b7e39",
+    "supplier_id": "69f1b877908c95ae5aafdcd2",
+    "category_id": "2a60dbd85e83b826e1877915",
+    "series_id": "6dffcef4082547699c605502e3a03b05",
+    "model_id": "55008cc7291e441fbbb6b6841a024c1f",
+    "source_annotation": "6a339518f2a32a6f1d53f85f---.svg"
+  },
+  "processing_options": {
+    "crop_render_scale": 5.0,
+    "trim_border_px": 1.2,
+    "border_color_cleanup_px": 10,
+    "image_backfill_enabled": false,
+    "ocr_enabled": true,
+    "ai_enabled": true
+  },
+  "regions": [
+    {
+      "region_id": "R001",
+      "group_name": "二维模型",
+      "group_color": "#00BFFF",
+      "group_order": 1,
+      "group_item_order": 1,
+      "region_order": 1,
+      "source_bbox": {
+        "x": 299,
+        "y": 920,
+        "width": 77,
+        "height": 229,
+        "unit": "source_px"
+      },
+      "rendered_crop_bbox": {
+        "x": 1495,
+        "y": 4600,
+        "width": 385,
+        "height": 1145,
+        "unit": "rendered_px",
+        "scale": 5.0
+      },
+      "origin_src": "regions/R001_00bfff.png",
+      "target_src": "regions/R001_00bfff_trimmed.png",
+      "content_type": "structure",
+      "content": "",
+      "content_en": "",
+      "is_structure": true,
+      "structure_candidate": true,
+      "trim_border_px": 1.2,
+      "border_color_cleanup_px": 10,
+      "trim_applied": true,
+      "crop_rotation": 0,
+      "ocr": {
+        "text": "",
+        "items": [],
+        "has_chinese": false
+      },
+      "labels": [],
+      "classification": {
+        "category_name": "mechanical_dimensions",
+        "title_zh": "机械尺寸",
+        "title_en": "Mechanical Dimensions",
+        "category_basis": "用于识别机械结构尺寸类图纸，包括电机/零部件外形轮廓、长宽高、轴径、轴长、键槽、法兰、安装孔、孔距、定位尺寸、三视图、剖视图、局部放大视图、公差、形位公差、基准符号、连接器/线缆/插头的物理安装位置或外形位置。若图中仅展示连接器型号、端子型号、线束走向、接口外形位置，但没有明确的引脚编号、针脚功能、线色或接线表，也归入本类。",
+        "reason": "目标裁剪区域位于完整标注源图的'二维模型'部分，显示轴承的侧向二维结构轮廓和内部线条，无针脚功能、线色或接线定义，也不是扭矩转速曲线，因此最接近机械结构尺寸类图纸。",
+        "confidence": 0.92,
+        "source": "ai",
+        "category_type": "base"
+      },
+      "title": {
+        "title_zh": "轴承侧视二维结构图",
+        "title_en": "Bearing Side View 2D Structure"
+      },
+      "translation": {
+        "records": []
+      },
+      "review_ui": {},
+      "errors": [],
+      "source": {
+        "annotated_image": "6a339518f2a32a6f1d53f85f---.svg",
+        "source_type": "svg"
+      },
+      "ai_analysis": {
+        "target_image": "storage/data/products_manual/drawings_2d/20260618-100-3sug9/6a339518f2a32a6f1d53f85f/regions/R001_00bfff.png",
+        "full_context_image": "storage/data/products_manual/drawings_2d/20260618-100-3sug9/6a339518f2a32a6f1d53f85f/context/full_marked_ai.png",
+        "used_full_context_image": true,
+        "error": ""
+      },
+      "has_gb_standard": false,
+      "standard_mark": ""
+    },
+    {
+      "region_id": "R002",
+      "group_name": "二维模型",
+      "group_color": "#FFD700",
+      "group_order": 2,
+      "group_item_order": 1,
+      "region_order": 2,
+      "source_bbox": {
+        "x": 379,
+        "y": 928,
+        "width": 231,
+        "height": 223,
+        "unit": "source_px"
+      },
+      "rendered_crop_bbox": {
+        "x": 1895,
+        "y": 4640,
+        "width": 1155,
+        "height": 1115,
+        "unit": "rendered_px",
+        "scale": 5.0
+      },
+      "origin_src": "regions/R002_ffd700.png",
+      "target_src": "regions/R002_ffd700_trimmed.png",
+      "content_type": "structure",
+      "content": "",
+      "content_en": "",
+      "is_structure": true,
+      "structure_candidate": true,
+      "trim_border_px": 1.2,
+      "border_color_cleanup_px": 10,
+      "trim_applied": true,
+      "crop_rotation": 0,
+      "ocr": {
+        "text": "O\nO\nO\nO\nR\nO\n1\nO\nO\nO\nO\nO\nO\nO\nO\nO\nO\nO\nO\nO\nO\nO\nO\nO\nO\nO\nO\nO\nO\nO\nO",
+        "items": [
+          {
+            "text": "O",
+            "bbox": {
+              "x": 455,
+              "y": 43,
+              "width": 33,
+              "height": 30,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.7909974455833435,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "O",
+            "bbox": {
+              "x": 631,
+              "y": 42,
+              "width": 33,
+              "height": 30,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.6920035481452942,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "O",
+            "bbox": {
+              "x": 371,
+              "y": 63,
+              "width": 36,
+              "height": 34,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.7898552417755127,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "O",
+            "bbox": {
+              "x": 709,
+              "y": 58,
+              "width": 41,
+              "height": 42,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.8750793933868408,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "R",
+            "bbox": {
+              "x": 620,
+              "y": 96,
+              "width": 57,
+              "height": 61,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9098879098892212,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "O",
+            "bbox": {
+              "x": 793,
+              "y": 99,
+              "width": 35,
+              "height": 37,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.8077675104141235,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "1",
+            "bbox": {
+              "x": 750,
+              "y": 141,
+              "width": 27,
+              "height": 41,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.6725214719772339,
+            "has_chinese": false,
+            "text_direction": "vertical",
+            "text_angle": 90
+          },
+          {
+            "text": "O",
+            "bbox": {
+              "x": 775,
+              "y": 250,
+              "width": 49,
+              "height": 50,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.5940033793449402,
+            "has_chinese": false,
+            "text_direction": "vertical",
+            "text_angle": 90
+          },
+          {
+            "text": "O",
+            "bbox": {
+              "x": 108,
+              "y": 285,
+              "width": 31,
+              "height": 32,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.7870063781738281,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "O",
+            "bbox": {
+              "x": 978,
+              "y": 284,
+              "width": 35,
+              "height": 35,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.7967783212661743,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "O",
+            "bbox": {
+              "x": 815,
+              "y": 288,
+              "width": 54,
+              "height": 59,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.7013700604438782,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "O",
+            "bbox": {
+              "x": 67,
+              "y": 358,
+              "width": 38,
+              "height": 44,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.7742654085159302,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "O",
+            "bbox": {
+              "x": 859,
+              "y": 349,
+              "width": 42,
+              "height": 46,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.832067608833313,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "O",
+            "bbox": {
+              "x": 1015,
+              "y": 359,
+              "width": 35,
+              "height": 39,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.7519082427024841,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "O",
+            "bbox": {
+              "x": 881,
+              "y": 403,
+              "width": 47,
+              "height": 51,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.8635611534118652,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "O",
+            "bbox": {
+              "x": 47,
+              "y": 445,
+              "width": 38,
+              "height": 43,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.7573026418685913,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "O",
+            "bbox": {
+              "x": 1037,
+              "y": 446,
+              "width": 35,
+              "height": 40,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.8175739645957947,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "O",
+            "bbox": {
+              "x": 37,
+              "y": 531,
+              "width": 40,
+              "height": 42,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.786500096321106,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "O",
+            "bbox": {
+              "x": 1045,
+              "y": 532,
+              "width": 35,
+              "height": 39,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.7682672142982483,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "O",
+            "bbox": {
+              "x": 181,
+              "y": 600,
+              "width": 31,
+              "height": 35,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.7143422365188599,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "O",
+            "bbox": {
+              "x": 46,
+              "y": 618,
+              "width": 39,
+              "height": 43,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.7934530973434448,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "O",
+            "bbox": {
+              "x": 1037,
+              "y": 619,
+              "width": 35,
+              "height": 40,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.7632075548171997,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "O",
+            "bbox": {
+              "x": 892,
+              "y": 662,
+              "width": 24,
+              "height": 29,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.5397185683250427,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "O",
+            "bbox": {
+              "x": 67,
+              "y": 702,
+              "width": 39,
+              "height": 43,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.7858446836471558,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "O",
+            "bbox": {
+              "x": 1015,
+              "y": 704,
+              "width": 35,
+              "height": 38,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.7678119540214539,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "O",
+            "bbox": {
+              "x": 106,
+              "y": 783,
+              "width": 34,
+              "height": 36,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.8595796823501587,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "O",
+            "bbox": {
+              "x": 157,
+              "y": 855,
+              "width": 37,
+              "height": 38,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.8231255412101746,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "O",
+            "bbox": {
+              "x": 217,
+              "y": 915,
+              "width": 39,
+              "height": 42,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.7970008254051208,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "O",
+            "bbox": {
+              "x": 793,
+              "y": 969,
+              "width": 34,
+              "height": 37,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.7935353517532349,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "O",
+            "bbox": {
+              "x": 708,
+              "y": 1001,
+              "width": 43,
+              "height": 46,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.7851873636245728,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "O",
+            "bbox": {
+              "x": 633,
+              "y": 1030,
+              "width": 29,
+              "height": 26,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.6857958436012268,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          }
+        ],
+        "has_chinese": false
+      },
+      "labels": [
+        {
+          "label_id": "L001",
+          "label_text_original": "YRT150",
+          "source": "ai",
+          "bbox": {
+            "x": 552,
+            "y": 82,
+            "width": 332,
+            "height": 167,
+            "unit": "rendered_px"
+          },
+          "translation_en_simple": "YRT150",
+          "translation_en_full": "YRT150",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L002",
+          "label_text_original": "BYC",
+          "source": "ai",
+          "bbox": {
+            "x": 472,
+            "y": 902,
+            "width": 245,
+            "height": 103,
+            "unit": "rendered_px"
+          },
+          "translation_en_simple": "BYC",
+          "translation_en_full": "BYC",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L003",
+          "label_text_original": "洛阳博盈轴承",
+          "source": "ai",
+          "bbox": {
+            "x": 145,
+            "y": 728,
+            "width": 246,
+            "height": 203,
+            "unit": "rendered_px"
+          },
+          "translation_en_simple": "Boying Bearing",
+          "translation_en_full": "Luoyang Boying Bearing"
+        },
+        {
+          "label_id": "L004",
+          "label_text_original": "外圈圆孔阵列",
+          "source": "ai",
+          "bbox": {
+            "x": 50,
+            "y": 35,
+            "width": 1045,
+            "height": 1048,
+            "unit": "rendered_px"
+          },
+          "translation_en_simple": "Outer Ring Hole Array",
+          "translation_en_full": "Outer Ring Circular Hole Array"
+        },
+        {
+          "label_id": "L005",
+          "label_text_original": "内圈滚动体与孔位阵列",
+          "source": "ai",
+          "bbox": {
+            "x": 166,
+            "y": 155,
+            "width": 787,
+            "height": 791,
+            "unit": "rendered_px"
+          },
+          "translation_en_simple": "Inner Ring Rolling Elements & Hole Array",
+          "translation_en_full": "Inner Ring Rolling Elements and Hole Position Array"
+        }
+      ],
+      "classification": {
+        "category_name": "mechanical_dimensions",
+        "title_zh": "机械尺寸",
+        "title_en": "Mechanical Dimensions",
+        "category_basis": "用于识别机械结构尺寸类图纸，包括电机/零部件外形轮廓、长宽高、轴径、轴长、键槽、法兰、安装孔、孔距、定位尺寸、三视图、剖视图、局部放大视图、公差、形位公差、基准符号、连接器/线缆/插头的物理安装位置或外形位置。若图中仅展示连接器型号、端子型号、线束走向、接口外形位置，但没有明确的引脚编号、针脚功能、线色或接线表，也归入本类。",
+        "reason": "目标框内是YRT150轴承的二维结构俯视图，显示同心圆轮廓、内外圈、多组圆孔和滚动体排列，并含有型号文字'YRT150'与品牌标识'BYC'，属于零部件外形和孔位结构表达，不包含针脚功能表或扭矩转速曲线。",
+        "confidence": 0.92,
+        "source": "ai",
+        "category_type": "base"
+      },
+      "title": {
+        "title_zh": "YRT150转台轴承二维结构视图",
+        "title_en": "YRT150 Rotary Table Bearing 2D Structure View"
+      },
+      "translation": {
+        "records": [
+          {
+            "label_id": "L001",
+            "label_text_original": "YRT150",
+            "translation_en_simple": "YRT150",
+            "translation_en_full": "YRT150",
+            "bbox": {
+              "x": 552,
+              "y": 82,
+              "width": 332,
+              "height": 167,
+              "unit": "rendered_px"
+            }
+          },
+          {
+            "label_id": "L002",
+            "label_text_original": "BYC",
+            "translation_en_simple": "BYC",
+            "translation_en_full": "BYC",
+            "bbox": {
+              "x": 472,
+              "y": 902,
+              "width": 245,
+              "height": 103,
+              "unit": "rendered_px"
+            }
+          },
+          {
+            "label_id": "L003",
+            "label_text_original": "洛阳博盈轴承",
+            "translation_en_simple": "Boying Bearing",
+            "translation_en_full": "Luoyang Boying Bearing",
+            "bbox": {
+              "x": 145,
+              "y": 728,
+              "width": 246,
+              "height": 203,
+              "unit": "rendered_px"
+            }
+          },
+          {
+            "label_id": "L004",
+            "label_text_original": "外圈圆孔阵列",
+            "translation_en_simple": "Outer Ring Hole Array",
+            "translation_en_full": "Outer Ring Circular Hole Array",
+            "bbox": {
+              "x": 50,
+              "y": 35,
+              "width": 1045,
+              "height": 1048,
+              "unit": "rendered_px"
+            }
+          },
+          {
+            "label_id": "L005",
+            "label_text_original": "内圈滚动体与孔位阵列",
+            "translation_en_simple": "Inner Ring Rolling Elements & Hole Array",
+            "translation_en_full": "Inner Ring Rolling Elements and Hole Position Array",
+            "bbox": {
+              "x": 166,
+              "y": 155,
+              "width": 787,
+              "height": 791,
+              "unit": "rendered_px"
+            }
+          }
+        ]
+      },
+      "review_ui": {},
+      "errors": [],
+      "source": {
+        "annotated_image": "6a339518f2a32a6f1d53f85f---.svg",
+        "source_type": "svg"
+      },
+      "ai_analysis": {
+        "target_image": "storage/data/products_manual/drawings_2d/20260618-100-3sug9/6a339518f2a32a6f1d53f85f/regions/R002_ffd700.png",
+        "full_context_image": "storage/data/products_manual/drawings_2d/20260618-100-3sug9/6a339518f2a32a6f1d53f85f/context/full_marked_ai.png",
+        "used_full_context_image": true,
+        "error": ""
+      },
+      "has_gb_standard": false,
+      "standard_mark": ""
+    },
+    {
+      "region_id": "R003",
+      "group_name": "二维模型",
+      "group_color": "#00FF7F",
+      "group_order": 3,
+      "group_item_order": 1,
+      "region_order": 3,
+      "source_bbox": {
+        "x": 314,
+        "y": 1155,
+        "width": 69,
+        "height": 237,
+        "unit": "source_px"
+      },
+      "rendered_crop_bbox": {
+        "x": 1570,
+        "y": 5775,
+        "width": 345,
+        "height": 1185,
+        "unit": "rendered_px",
+        "scale": 5.0
+      },
+      "origin_src": "regions/R003_00ff7f.png",
+      "target_src": "regions/R003_00ff7f_trimmed.png",
+      "content_type": "structure",
+      "content": "",
+      "content_en": "",
+      "is_structure": true,
+      "structure_candidate": true,
+      "trim_border_px": 1.2,
+      "border_color_cleanup_px": 10,
+      "trim_applied": true,
+      "crop_rotation": 0,
+      "ocr": {
+        "text": "",
+        "items": [],
+        "has_chinese": false
+      },
+      "labels": [],
+      "classification": {
+        "category_name": "mechanical_dimensions",
+        "title_zh": "机械尺寸",
+        "title_en": "Mechanical Dimensions",
+        "category_basis": "用于识别机械结构尺寸类图纸，包括电机/零部件外形轮廓、长宽高、轴径、轴长、键槽、法兰、安装孔、孔距、定位尺寸、三视图、剖视图、局部放大视图、公差、形位公差、基准符号、连接器/线缆/插头的物理安装位置或外形位置。若图中仅展示连接器型号、端子型号、线束走向、接口外形位置，但没有明确的引脚编号、针脚功能、线色或接线表，也归入本类。",
+        "reason": "目标框位于完整来源图的'二维模型'区域，内容为轴承侧向结构线稿，展示外形轮廓、分层圆环/沟槽和装配截面关系；未见坐标曲线、针脚功能或接线定义，因此最接近机械结构尺寸类图纸。",
+        "confidence": 0.93,
+        "source": "ai",
+        "category_type": "base"
+      },
+      "title": {
+        "title_zh": "轴承二维模型侧视图",
+        "title_en": "Bearing 2D Model Side View"
+      },
+      "translation": {
+        "records": []
+      },
+      "review_ui": {},
+      "errors": [],
+      "source": {
+        "annotated_image": "6a339518f2a32a6f1d53f85f---.svg",
+        "source_type": "svg"
+      },
+      "ai_analysis": {
+        "target_image": "storage/data/products_manual/drawings_2d/20260618-100-3sug9/6a339518f2a32a6f1d53f85f/regions/R003_00ff7f.png",
+        "full_context_image": "storage/data/products_manual/drawings_2d/20260618-100-3sug9/6a339518f2a32a6f1d53f85f/context/full_marked_ai.png",
+        "used_full_context_image": true,
+        "error": ""
+      },
+      "has_gb_standard": false,
+      "standard_mark": ""
+    },
+    {
+      "region_id": "R004",
+      "group_name": "配置设置",
+      "group_color": "#8A2BE2",
+      "group_order": 4,
+      "group_item_order": 1,
+      "region_order": 4,
+      "source_bbox": {
+        "x": 58,
+        "y": 1640,
+        "width": 197,
+        "height": 48,
+        "unit": "source_px"
+      },
+      "rendered_crop_bbox": {
+        "x": 290,
+        "y": 8200,
+        "width": 985,
+        "height": 240,
+        "unit": "rendered_px",
+        "scale": 5.0
+      },
+      "origin_src": "regions/R004_8a2be2.png",
+      "target_src": "",
+      "content_type": "table",
+      "content": "<table><tr><td>内径(mm)</td><td>150</td></tr><tr><td>外径(mm)</td><td>240</td></tr><tr><td>宽度(mm)</td><td>40</td></tr></table>",
+      "content_en": "<table><tr><td>Inner Diameter(mm)</td><td>150</td></tr><tr><td>Outer Diameter(mm)</td><td>240</td></tr><tr><td>Width(mm)</td><td>40</td></tr></table>",
+      "is_structure": false,
+      "structure_candidate": true,
+      "trim_border_px": 0,
+      "border_color_cleanup_px": 0,
+      "trim_applied": false,
+      "crop_rotation": 0,
+      "ocr": {
+        "text": "内径(mm)\n150\n外径(mm)\n240\n宽度(mm)\n40",
+        "items": [
+          {
+            "text": "内径(mm)",
+            "bbox": {
+              "x": 66,
+              "y": 21,
+              "width": 207,
+              "height": 60,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9999342362085978,
+            "has_chinese": true,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "150",
+            "bbox": {
+              "x": 838,
+              "y": 25,
+              "width": 80,
+              "height": 47,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9998059868812561,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "外径(mm)",
+            "bbox": {
+              "x": 64,
+              "y": 92,
+              "width": 208,
+              "height": 55,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9997432033220927,
+            "has_chinese": true,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "240",
+            "bbox": {
+              "x": 838,
+              "y": 96,
+              "width": 79,
+              "height": 42,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9998595913251241,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "宽度(mm)",
+            "bbox": {
+              "x": 64,
+              "y": 161,
+              "width": 209,
+              "height": 57,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9998593231042227,
+            "has_chinese": true,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "40",
+            "bbox": {
+              "x": 836,
+              "y": 165,
+              "width": 57,
+              "height": 46,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9998572170734406,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          }
+        ],
+        "has_chinese": true
+      },
+      "labels": [
+        {
+          "label_id": "L001",
+          "label_text_original": "内径(mm)",
+          "source": "ai",
+          "bbox": {
+            "x": 66,
+            "y": 21,
+            "width": 207,
+            "height": 60,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "Inner Diameter (mm)",
+          "translation_en_full": "Inner Diameter (mm)"
+        },
+        {
+          "label_id": "L002",
+          "label_text_original": "150",
+          "source": "ai",
+          "bbox": {
+            "x": 838,
+            "y": 25,
+            "width": 80,
+            "height": 47,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "150",
+          "translation_en_full": "150",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L003",
+          "label_text_original": "外径(mm)",
+          "source": "ai",
+          "bbox": {
+            "x": 64,
+            "y": 92,
+            "width": 208,
+            "height": 55,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "Outer Diameter (mm)",
+          "translation_en_full": "Outer Diameter (mm)"
+        },
+        {
+          "label_id": "L004",
+          "label_text_original": "240",
+          "source": "ai",
+          "bbox": {
+            "x": 838,
+            "y": 96,
+            "width": 79,
+            "height": 42,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "240",
+          "translation_en_full": "240",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L005",
+          "label_text_original": "宽度(mm)",
+          "source": "ai",
+          "bbox": {
+            "x": 64,
+            "y": 161,
+            "width": 209,
+            "height": 57,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "Width (mm)",
+          "translation_en_full": "Width (mm)"
+        },
+        {
+          "label_id": "L006",
+          "label_text_original": "40",
+          "source": "ai",
+          "bbox": {
+            "x": 836,
+            "y": 165,
+            "width": 57,
+            "height": 46,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "40",
+          "translation_en_full": "40",
+          "translation_skipped_reason": "no_chinese"
+        }
+      ],
+      "classification": {
+        "category_name": "mechanical_dimensions",
+        "title_zh": "机械尺寸",
+        "title_en": "Mechanical Dimensions",
+        "category_basis": "用于识别机械结构尺寸类图纸，包括电机/零部件外形轮廓、长宽高、轴径、轴长、键槽、法兰、安装孔、孔距、定位尺寸、三视图、剖视图、局部放大视图、公差、形位公差、基准符号、连接器/线缆/插头的物理安装位置或外形位置。若图中仅展示连接器型号、端子型号、线束走向、接口外形位置，但没有明确的引脚编号、针脚功能、线色或接线表，也归入本类。",
+        "reason": "目标框位于完整源图第3页的配置表中，内容为'内径(mm)'、'外径(mm)'、'宽度(mm)'及数值150、240、40，描述YRT150转台轴承的物理尺寸参数，属于机械结构尺寸信息。",
+        "confidence": 0.98,
+        "source": "ai",
+        "category_type": "base"
+      },
+      "title": {
+        "title_zh": "轴承尺寸参数",
+        "title_en": "Bearing Dimension Parameters"
+      },
+      "translation": {
+        "records": [
+          {
+            "label_id": "L001",
+            "label_text_original": "内径(mm)",
+            "translation_en_simple": "Inner Diameter (mm)",
+            "translation_en_full": "Inner Diameter (mm)",
+            "bbox": {
+              "x": 66,
+              "y": 21,
+              "width": 207,
+              "height": 60,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L002",
+            "label_text_original": "150",
+            "translation_en_simple": "150",
+            "translation_en_full": "150",
+            "bbox": {
+              "x": 838,
+              "y": 25,
+              "width": 80,
+              "height": 47,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L003",
+            "label_text_original": "外径(mm)",
+            "translation_en_simple": "Outer Diameter (mm)",
+            "translation_en_full": "Outer Diameter (mm)",
+            "bbox": {
+              "x": 64,
+              "y": 92,
+              "width": 208,
+              "height": 55,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L004",
+            "label_text_original": "240",
+            "translation_en_simple": "240",
+            "translation_en_full": "240",
+            "bbox": {
+              "x": 838,
+              "y": 96,
+              "width": 79,
+              "height": 42,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L005",
+            "label_text_original": "宽度(mm)",
+            "translation_en_simple": "Width (mm)",
+            "translation_en_full": "Width (mm)",
+            "bbox": {
+              "x": 64,
+              "y": 161,
+              "width": 209,
+              "height": 57,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L006",
+            "label_text_original": "40",
+            "translation_en_simple": "40",
+            "translation_en_full": "40",
+            "bbox": {
+              "x": 836,
+              "y": 165,
+              "width": 57,
+              "height": 46,
+              "unit": "origin_src_px"
+            }
+          }
+        ]
+      },
+      "review_ui": {},
+      "errors": [],
+      "source": {
+        "annotated_image": "6a339518f2a32a6f1d53f85f---.svg",
+        "source_type": "svg"
+      },
+      "ai_analysis": {
+        "target_image": "storage/data/products_manual/drawings_2d/20260618-100-3sug9/6a339518f2a32a6f1d53f85f/regions/R004_8a2be2.png",
+        "full_context_image": "storage/data/products_manual/drawings_2d/20260618-100-3sug9/6a339518f2a32a6f1d53f85f/context/full_marked_ai.png",
+        "used_full_context_image": true,
+        "error": ""
+      },
+      "has_gb_standard": false,
+      "standard_mark": ""
+    }
+  ],
+  "category_dictionary_updates": [
+    {
+      "name": "mechanical_dimensions",
+      "category_type": "base",
+      "source": "system_seed",
+      "action": "skipped"
+    },
+    {
+      "name": "torque_speed_curve",
+      "category_type": "base",
+      "source": "system_seed",
+      "action": "skipped"
+    },
+    {
+      "name": "power_connector_pinout",
+      "category_type": "base",
+      "source": "system_seed",
+      "action": "skipped"
+    },
+    {
+      "name": "feedback_connector_pinout",
+      "category_type": "base",
+      "source": "system_seed",
+      "action": "skipped"
+    }
+  ],
+  "classification_records": [
+    {
+      "product_file_id": "6a339518f2a32a6f1d53f85f",
+      "region_id": "R001",
+      "category_name": "mechanical_dimensions",
+      "source": "ai",
+      "action": "inserted"
+    },
+    {
+      "product_file_id": "6a339518f2a32a6f1d53f85f",
+      "region_id": "R002",
+      "category_name": "mechanical_dimensions",
+      "source": "ai",
+      "action": "inserted"
+    },
+    {
+      "product_file_id": "6a339518f2a32a6f1d53f85f",
+      "region_id": "R003",
+      "category_name": "mechanical_dimensions",
+      "source": "ai",
+      "action": "inserted"
+    },
+    {
+      "product_file_id": "6a339518f2a32a6f1d53f85f",
+      "region_id": "R004",
+      "category_name": "mechanical_dimensions",
+      "source": "ai",
+      "action": "inserted"
+    }
+  ],
+  "output_files": {
+    "data_json": "data_v2.json",
+    "classification_json": "structure_classification_v2.json",
+    "text_content_json": "text_content_v2.json"
+  },
+  "quality_control": {
+    "origin_src_is_pre_trim_crop": true,
+    "target_src_is_structure_trimmed_crop": true,
+    "engineering_extraction_skipped": true,
+    "forbidden_engineering_fields_present": [],
+    "json_validated": true,
+    "origin_src_semantics": "5x crop before structure border trim; backend original data image",
+    "target_src_semantics": "structure-only crop after border trim; backend processed data image"
+  },
+  "manual_review": {
+    "required": true,
+    "items": [
+      "抽查 5x 裁切图清晰度和结构图去边效果",
+      "抽查 AI 命名、分类、标签合并、完整翻译和简单翻译质量",
+      "抽查 v2 JSON 是否满足后台拆解对比和人工复核需要"
+    ]
+  },
+  "created_at": "2026-06-23T07:11:17+08:00",
+  "updated_at": "2026-06-23T07:11:17+08:00"
+}

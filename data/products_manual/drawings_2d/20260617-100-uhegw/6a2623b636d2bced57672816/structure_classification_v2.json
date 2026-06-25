@@ -1,0 +1,146 @@
+{
+  "schema_version": "pdf_force_fit_v2.3",
+  "entry": "pdf_force_fit_v2",
+  "source": {
+    "product_file_id": "6a2623b636d2bced57672816",
+    "cid": "18af11b71823416cac0bc2457cdedc70",
+    "supplier_id": "6a2129c67f469a9cf5230c40",
+    "category_id": "5f52e86c99b7226b6da6ecaa",
+    "series_id": "df21793ac04940bfab8410a58f52acd9",
+    "model_id": "dcdae82e7ca441758697779a26305b42",
+    "source_annotation": "6a2623b636d2bced57672816---.svg"
+  },
+  "classification_records": [
+    {
+      "product_file_id": "6a2623b636d2bced57672816",
+      "region_id": "R001",
+      "category_name": "mechanical_dimensions",
+      "source": "ai",
+      "action": "inserted"
+    },
+    {
+      "product_file_id": "6a2623b636d2bced57672816",
+      "region_id": "R002",
+      "category_name": "mechanical_dimensions",
+      "source": "ai",
+      "action": "inserted"
+    },
+    {
+      "product_file_id": "6a2623b636d2bced57672816",
+      "region_id": "R003",
+      "category_name": "mechanical_dimensions",
+      "source": "ai",
+      "action": "inserted"
+    },
+    {
+      "product_file_id": "6a2623b636d2bced57672816",
+      "region_id": "R004",
+      "category_name": "mechanical_dimensions",
+      "source": "ai",
+      "action": "inserted"
+    }
+  ],
+  "regions": [
+    {
+      "region_id": "R001",
+      "group_name": "R001",
+      "origin_src": "regions/R001_8a2be2.png",
+      "target_src": "regions/R001_8a2be2_trimmed.png",
+      "content_type": "structure",
+      "is_structure": true,
+      "has_gb_standard": false,
+      "title": {
+        "title_zh": "机械安装尺寸图",
+        "title_en": "Mechanical Installation Dimensions"
+      },
+      "classification": {
+        "category_name": "mechanical_dimensions",
+        "title_zh": "机械尺寸",
+        "title_en": "Mechanical Dimensions",
+        "category_basis": "用于识别机械结构尺寸类图纸，包括电机/零部件外形轮廓、长宽高、轴径、轴长、键槽、法兰、安装孔、孔距、定位尺寸、三视图、剖视图、局部放大视图、公差、形位公差、基准符号、连接器/线缆/插头的物理安装位置或外形位置。若图中仅展示连接器型号、端子型号、线束走向、接口外形位置，但没有明确的引脚编号、针脚功能、线色或接线表，也归入本类。",
+        "reason": "该图纸展示了机械部件的正视图，包含外形轮廓、多个线性尺寸标注（61.7、36.3、27、97、95、50.6、42、28、14、4.3等）、螺纹孔规格（8-M4 Depth5.5）、通孔规格（8-∅6.5 Depth3）、定位尺寸（17.28）、公差标注（+0.02 0）以及行程范围注释（Max:82(open) Min:2(close)），符合机械结构尺寸类图纸的典型特征。",
+        "confidence": 0.98,
+        "source": "ai",
+        "category_type": "base"
+      }
+    },
+    {
+      "region_id": "R002",
+      "group_name": "R002",
+      "origin_src": "regions/R002_00ff7f.png",
+      "target_src": "regions/R002_00ff7f_trimmed.png",
+      "content_type": "structure",
+      "is_structure": true,
+      "has_gb_standard": false,
+      "title": {
+        "title_zh": "电机侧视图尺寸",
+        "title_en": "Motor Side View Dimensions"
+      },
+      "classification": {
+        "category_name": "mechanical_dimensions",
+        "title_zh": "机械尺寸",
+        "title_en": "Mechanical Dimensions",
+        "category_basis": "用于识别机械结构尺寸类图纸，包括电机/零部件外形轮廓、长宽高、轴径、轴长、键槽、法兰、安装孔、孔距、定位尺寸、三视图、剖视图、局部放大视图、公差、形位公差、基准符号、连接器/线缆/插头的物理安装位置或外形位置。若图中仅展示连接器型号、端子型号、线束走向、接口外形位置，但没有明确的引脚编号、针脚功能、线色或接线表，也归入本类。",
+        "reason": "图纸展示了电机的侧视图剖面结构，包含多个机械尺寸标注：顶部宽度 33、高度 15、底部宽度 86、垂直高度 70、55、3.5，以及多个安装孔尺寸标注 'Ø3 0 Depth3.2 +0.02' 和 'Through'。图中清晰显示了电机本体轮廓、输出轴、螺纹连接部分、安装孔位置、孔径、孔深及公差，属于典型的机械结构尺寸图纸。",
+        "confidence": 0.98,
+        "source": "ai",
+        "category_type": "base"
+      }
+    },
+    {
+      "region_id": "R003",
+      "group_name": "mechanical_dimensions_R003",
+      "origin_src": "regions/R003_00bfff.png",
+      "target_src": "regions/R003_00bfff_trimmed.png",
+      "content_type": "structure",
+      "is_structure": true,
+      "has_gb_standard": false,
+      "title": {
+        "title_zh": "机械安装尺寸图",
+        "title_en": "Mechanical Mounting Dimensions"
+      },
+      "classification": {
+        "category_name": "mechanical_dimensions",
+        "title_zh": "机械尺寸",
+        "title_en": "Mechanical Dimensions",
+        "category_basis": "用于识别机械结构尺寸类图纸，包括电机/零部件外形轮廓、长宽高、轴径、轴长、键槽、法兰、安装孔、孔距、定位尺寸、三视图、剖视图、局部放大视图、公差、形位公差、基准符号、连接器/线缆/插头的物理安装位置或外形位置。若图中仅展示连接器型号、端子型号、线束走向、接口外形位置，但没有明确的引脚编号、针脚功能、线色或接线表，也归入本类。",
+        "reason": "该图展示了典型的机械结构正视图，包含外形轮廓、多个安装孔的孔径标注('2- Φ3 Depth2.5', '4- Φ4.3 Through')、公差标注('+0.02 0')、关键定位尺寸('49', '53.5', '60', '87.5')、尺寸界线和引线，完全符合机械尺寸类图纸的典型特征。",
+        "confidence": 0.98,
+        "source": "ai",
+        "category_type": "base"
+      }
+    },
+    {
+      "region_id": "R004",
+      "group_name": "R004",
+      "origin_src": "regions/R004_ffd700.png",
+      "target_src": "regions/R004_ffd700_trimmed.png",
+      "content_type": "structure",
+      "is_structure": true,
+      "has_gb_standard": false,
+      "title": {
+        "title_zh": "机械尺寸图",
+        "title_en": "Mechanical Dimensions"
+      },
+      "classification": {
+        "category_name": "mechanical_dimensions",
+        "title_zh": "机械尺寸",
+        "title_en": "Mechanical Dimensions",
+        "category_basis": "用于识别机械结构尺寸类图纸，包括电机/零部件外形轮廓、长宽高、轴径、轴长、键槽、法兰、安装孔、孔距、定位尺寸、三视图、剖视图、局部放大视图、公差、形位公差、基准符号、连接器/线缆/插头的物理安装位置或外形位置。若图中仅展示连接器型号、端子型号、线束走向、接口外形位置，但没有明确的引脚编号、针脚功能、线色或接线表，也归入本类。",
+        "reason": "图中显示电机或零部件的侧视图，标注了多个结构尺寸：'2-φ9 Depth5.3' 标注两个直径9mm、深度5.3mm的孔；'24.1' 标注水平距离；'φ5.5 Depth49.4' 标注一个直径5.5mm、深度49.4mm的孔；'0.9' 标注小尺寸特征；'2-M6 Depth7' 标注两个M6螺纹孔、深度7mm。图纸包含外形轮廓、安装孔、孔距、深度尺寸等典型机械结构尺寸要素，无针脚功能、信号定义或性能曲线，完全符合机械尺寸类图纸特征。",
+        "confidence": 0.98,
+        "source": "ai",
+        "category_type": "base"
+      }
+    }
+  ],
+  "quality_control": {
+    "origin_src_is_pre_trim_crop": true,
+    "target_src_is_structure_trimmed_crop": true,
+    "engineering_extraction_skipped": true,
+    "forbidden_engineering_fields_present": [],
+    "json_validated": true,
+    "origin_src_semantics": "5x crop before structure border trim; backend original data image",
+    "target_src_semantics": "structure-only crop after border trim; backend processed data image"
+  }
+}

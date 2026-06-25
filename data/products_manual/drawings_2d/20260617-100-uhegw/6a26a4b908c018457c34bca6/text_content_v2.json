@@ -1,0 +1,4727 @@
+{
+  "schema_version": "pdf_force_fit_v2.3",
+  "entry": "pdf_force_fit_v2",
+  "source": {
+    "product_file_id": "6a26a4b908c018457c34bca6",
+    "cid": "d8a4678573f84be69347b04a4cb575a5",
+    "supplier_id": "69f1b877908c95ae5aafdcd0",
+    "category_id": "ece25f9f6e54747367c1f1ba",
+    "series_id": "03a4d9b5faac4d018de375aca797243f",
+    "model_id": "513c60876db94755b1d6253f25ac266d",
+    "source_annotation": "6a26a4b908c018457c34bca6---.svg"
+  },
+  "regions": [
+    {
+      "region_id": "R001",
+      "origin_src": "regions/R001_ffd700.png",
+      "target_src": "",
+      "content_type": "table",
+      "content": "<table><thead><tr><th>X3</th><th colspan='4'>控制信号接口</th></tr><tr><th>PIN</th><th>CA/EA</th><th>CB/EB</th><th>LA</th><th>LB</th></tr></thead><tbody><tr><td>1</td><td>24V+</td><td>24V+</td><td>PUL+</td><td>PUL+</td></tr><tr><td>2</td><td>24V-</td><td>24V-</td><td>PUL-</td><td>PUL-</td></tr><tr><td>3</td><td>NC</td><td>NC</td><td>DIR+</td><td>DIR+</td></tr><tr><td>4</td><td>NC</td><td>NC</td><td>DIR-</td><td>DIR-</td></tr><tr><td>5</td><td colspan='4'>OUT1+</td></tr><tr><td>6</td><td>OUT2+</td><td>BR+</td><td>OUT2+</td><td>BR+</td></tr><tr><td>7</td><td colspan='4'>COMI</td></tr><tr><td>8</td><td colspan='4'>IN1</td></tr><tr><td>9</td><td colspan='4'>IN2</td></tr><tr><td>10</td><td colspan='4'>IN3</td></tr><tr><td>11</td><td>IN4</td><td>BR-</td><td>IN4</td><td>BR-</td></tr><tr><td>12</td><td colspan='4'>COMO</td></tr></tbody></table><table><thead><tr><th colspan='2'>X3 I/O</th></tr><tr><th>A</th><th>B</th></tr></thead><tbody><tr><td>1</td><td>8</td></tr><tr><td>2</td><td>9</td></tr><tr><td>3</td><td>10</td></tr><tr><td>4</td><td>11</td></tr><tr><td>5</td><td>12</td></tr><tr><td>6</td><td></td></tr></tbody></table><table><thead><tr><th>SW4</th><th>SW3</th><th>SW2</th><th>SW1</th><th>Node ID</th></tr></thead><tbody><tr><td colspan='4'>Internal BUS Terminal Resistor</td><td rowspan='2'>EEPROM</td></tr><tr><td>OFF</td><td>OFF</td><td>OFF</td></tr><tr><td>OFF</td><td>OFF</td><td>ON</td><td rowspan='2'>1</td></tr><tr><td>OFF</td><td>ON</td><td>OFF</td></tr><tr><td>OFF</td><td>ON</td><td>OFF</td><td rowspan='2'>2</td></tr><tr><td>ON</td><td>ON</td><td>ON</td></tr><tr><td colspan='5'>注:EtherCAT类型没有拨码开关</td></tr></tbody></table><table><thead><tr><th>X5</th></tr></thead><tbody><tr><td>PE</td></tr><tr><td>W</td></tr><tr><td>V</td></tr><tr><td>U</td></tr><tr><td>RB-</td></tr><tr><td>DC-</td></tr><tr><td>DC+</td></tr><tr><td>RB+</td></tr></tbody></table>",
+      "content_en": "<table><thead><tr><th>X3</th><th colspan=\"4\">控制信号接口</th></tr><tr><th>PIN</th><th>CA/EA</th><th>CB/EB</th><th>LA</th><th>LB</th></tr></thead><tbody><tr><td>1</td><td>24V+</td><td>24V+</td><td>PUL+</td><td>PUL+</td></tr><tr><td>2</td><td>24V-</td><td>24V-</td><td>PUL-</td><td>PUL-</td></tr><tr><td>3</td><td>NC</td><td>NC</td><td>DIR+</td><td>DIR+</td></tr><tr><td>4</td><td>NC</td><td>NC</td><td>DIR-</td><td>DIR-</td></tr><tr><td>5</td><td colspan=\"4\">OUT1+</td></tr><tr><td>6</td><td>OUT2+</td><td>BR+</td><td>OUT2+</td><td>BR+</td></tr><tr><td>7</td><td colspan=\"4\">COMI</td></tr><tr><td>8</td><td colspan=\"4\">IN1</td></tr><tr><td>9</td><td colspan=\"4\">IN2</td></tr><tr><td>10</td><td colspan=\"4\">IN3</td></tr><tr><td>11</td><td>IN4</td><td>BR-</td><td>IN4</td><td>BR-</td></tr><tr><td>12</td><td colspan=\"4\">COMO</td></tr></tbody></table><table><thead><tr><th colspan=\"2\">X3 I/O</th></tr><tr><th>A</th><th>B</th></tr></thead><tbody><tr><td>1</td><td>8</td></tr><tr><td>2</td><td>9</td></tr><tr><td>3</td><td>10</td></tr><tr><td>4</td><td>11</td></tr><tr><td>5</td><td>12</td></tr><tr><td>6</td><td></td></tr></tbody></table><table><thead><tr><th>SW4</th><th>SW3</th><th>SW2</th><th>SW1</th><th>Node ID</th></tr></thead><tbody><tr><td colspan=\"4\">Internal BUS Terminal Resistor</td><td rowspan=\"2\">EEPROM</td></tr><tr><td>OFF</td><td>OFF</td><td>OFF</td></tr><tr><td>OFF</td><td>OFF</td><td>ON</td><td rowspan=\"2\">1</td></tr><tr><td>OFF</td><td>ON</td><td>OFF</td></tr><tr><td>OFF</td><td>ON</td><td>OFF</td><td rowspan=\"2\">2</td></tr><tr><td>ON</td><td>ON</td><td>ON</td></tr><tr><td colspan=\"5\">:EtherCAT</td></tr></tbody></table><table><thead><tr><th>X5</th></tr></thead><tbody><tr><td>PE</td></tr><tr><td>W</td></tr><tr><td>V</td></tr><tr><td>U</td></tr><tr><td>RB-</td></tr><tr><td>DC-</td></tr><tr><td>DC+</td></tr><tr><td>RB+</td></tr></tbody></table>",
+      "labels": [
+        {
+          "label_id": "L001",
+          "label_text_original": "X3",
+          "source": "ai",
+          "bbox": {
+            "x": 397,
+            "y": 1059,
+            "width": 48,
+            "height": 36,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "X3",
+          "translation_en_full": "X3",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L002",
+          "label_text_original": "PIN",
+          "source": "ai",
+          "bbox": {
+            "x": 419,
+            "y": 1105,
+            "width": 57,
+            "height": 33,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "PIN",
+          "translation_en_full": "PIN",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L003",
+          "label_text_original": "CA/EA",
+          "source": "ai",
+          "bbox": {
+            "x": 509,
+            "y": 1106,
+            "width": 95,
+            "height": 31,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "CA/EA",
+          "translation_en_full": "CA/EA",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L004",
+          "label_text_original": "CB/EB",
+          "source": "ai",
+          "bbox": {
+            "x": 645,
+            "y": 1106,
+            "width": 94,
+            "height": 31,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "CB/EB",
+          "translation_en_full": "CB/EB",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L005",
+          "label_text_original": "LA",
+          "source": "ai",
+          "bbox": {
+            "x": 800,
+            "y": 1105,
+            "width": 50,
+            "height": 33,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "LA",
+          "translation_en_full": "LA",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L006",
+          "label_text_original": "LB",
+          "source": "ai",
+          "bbox": {
+            "x": 936,
+            "y": 1106,
+            "width": 50,
+            "height": 34,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "LB",
+          "translation_en_full": "LB",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L007",
+          "label_text_original": "1",
+          "source": "ai",
+          "bbox": {
+            "x": 438,
+            "y": 1144,
+            "width": 20,
+            "height": 22,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "1",
+          "translation_en_full": "1",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L008",
+          "label_text_original": "24V+",
+          "source": "ai",
+          "bbox": {
+            "x": 523,
+            "y": 1140,
+            "width": 70,
+            "height": 31,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "24V+",
+          "translation_en_full": "24V+",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L009",
+          "label_text_original": "24V+",
+          "source": "ai",
+          "bbox": {
+            "x": 656,
+            "y": 1140,
+            "width": 70,
+            "height": 31,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "24V+",
+          "translation_en_full": "24V+",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L010",
+          "label_text_original": "PUL+",
+          "source": "ai",
+          "bbox": {
+            "x": 793,
+            "y": 1140,
+            "width": 71,
+            "height": 31,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "PUL+",
+          "translation_en_full": "PUL+",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L011",
+          "label_text_original": "PUL+",
+          "source": "ai",
+          "bbox": {
+            "x": 928,
+            "y": 1140,
+            "width": 71,
+            "height": 32,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "PUL+",
+          "translation_en_full": "PUL+",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L012",
+          "label_text_original": "2",
+          "source": "ai",
+          "bbox": {
+            "x": 435,
+            "y": 1177,
+            "width": 24,
+            "height": 30,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "2",
+          "translation_en_full": "2",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L013",
+          "label_text_original": "24V-",
+          "source": "ai",
+          "bbox": {
+            "x": 525,
+            "y": 1174,
+            "width": 62,
+            "height": 32,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "24V-",
+          "translation_en_full": "24V-",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L014",
+          "label_text_original": "24V-",
+          "source": "ai",
+          "bbox": {
+            "x": 660,
+            "y": 1174,
+            "width": 62,
+            "height": 32,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "24V-",
+          "translation_en_full": "24V-",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L015",
+          "label_text_original": "PUL-",
+          "source": "ai",
+          "bbox": {
+            "x": 795,
+            "y": 1174,
+            "width": 66,
+            "height": 32,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "PUL-",
+          "translation_en_full": "PUL-",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L016",
+          "label_text_original": "PUL-",
+          "source": "ai",
+          "bbox": {
+            "x": 929,
+            "y": 1175,
+            "width": 66,
+            "height": 32,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "PUL-",
+          "translation_en_full": "PUL-",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L017",
+          "label_text_original": "3",
+          "source": "ai",
+          "bbox": {
+            "x": 435,
+            "y": 1212,
+            "width": 24,
+            "height": 29,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "3",
+          "translation_en_full": "3",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L018",
+          "label_text_original": "NC",
+          "source": "ai",
+          "bbox": {
+            "x": 534,
+            "y": 1209,
+            "width": 46,
+            "height": 33,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "NC",
+          "translation_en_full": "NC",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L019",
+          "label_text_original": "NC",
+          "source": "ai",
+          "bbox": {
+            "x": 666,
+            "y": 1209,
+            "width": 49,
+            "height": 33,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "NC",
+          "translation_en_full": "NC",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L020",
+          "label_text_original": "DIR+",
+          "source": "ai",
+          "bbox": {
+            "x": 793,
+            "y": 1210,
+            "width": 65,
+            "height": 32,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "DIR+",
+          "translation_en_full": "DIR+",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L021",
+          "label_text_original": "DIR+",
+          "source": "ai",
+          "bbox": {
+            "x": 928,
+            "y": 1210,
+            "width": 65,
+            "height": 32,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "DIR+",
+          "translation_en_full": "DIR+",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L022",
+          "label_text_original": "4",
+          "source": "ai",
+          "bbox": {
+            "x": 438,
+            "y": 1248,
+            "width": 20,
+            "height": 25,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "4",
+          "translation_en_full": "4",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L023",
+          "label_text_original": "NC",
+          "source": "ai",
+          "bbox": {
+            "x": 534,
+            "y": 1244,
+            "width": 46,
+            "height": 33,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "NC",
+          "translation_en_full": "NC",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L024",
+          "label_text_original": "NC",
+          "source": "ai",
+          "bbox": {
+            "x": 669,
+            "y": 1244,
+            "width": 46,
+            "height": 33,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "NC",
+          "translation_en_full": "NC",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L025",
+          "label_text_original": "DIR-",
+          "source": "ai",
+          "bbox": {
+            "x": 795,
+            "y": 1244,
+            "width": 60,
+            "height": 32,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "DIR-",
+          "translation_en_full": "DIR-",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L026",
+          "label_text_original": "DIR-",
+          "source": "ai",
+          "bbox": {
+            "x": 930,
+            "y": 1244,
+            "width": 60,
+            "height": 32,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "DIR-",
+          "translation_en_full": "DIR-",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L027",
+          "label_text_original": "5",
+          "source": "ai",
+          "bbox": {
+            "x": 435,
+            "y": 1282,
+            "width": 24,
+            "height": 29,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "5",
+          "translation_en_full": "5",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L028",
+          "label_text_original": "OUT1+",
+          "source": "ai",
+          "bbox": {
+            "x": 718,
+            "y": 1279,
+            "width": 85,
+            "height": 30,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "OUT1+",
+          "translation_en_full": "OUT1+",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L029",
+          "label_text_original": "6",
+          "source": "ai",
+          "bbox": {
+            "x": 435,
+            "y": 1317,
+            "width": 24,
+            "height": 29,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "6",
+          "translation_en_full": "6",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L030",
+          "label_text_original": "OUT2+",
+          "source": "ai",
+          "bbox": {
+            "x": 514,
+            "y": 1314,
+            "width": 87,
+            "height": 30,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "OUT2+",
+          "translation_en_full": "OUT2+",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L031",
+          "label_text_original": "BR+",
+          "source": "ai",
+          "bbox": {
+            "x": 662,
+            "y": 1314,
+            "width": 60,
+            "height": 30,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "BR+",
+          "translation_en_full": "BR+",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L032",
+          "label_text_original": "OUT2+",
+          "source": "ai",
+          "bbox": {
+            "x": 783,
+            "y": 1314,
+            "width": 85,
+            "height": 30,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "OUT2+",
+          "translation_en_full": "OUT2+",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L033",
+          "label_text_original": "BR+",
+          "source": "ai",
+          "bbox": {
+            "x": 930,
+            "y": 1314,
+            "width": 59,
+            "height": 32,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "BR+",
+          "translation_en_full": "BR+",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L034",
+          "label_text_original": "7",
+          "source": "ai",
+          "bbox": {
+            "x": 438,
+            "y": 1353,
+            "width": 20,
+            "height": 25,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "7",
+          "translation_en_full": "7",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L035",
+          "label_text_original": "COMI",
+          "source": "ai",
+          "bbox": {
+            "x": 720,
+            "y": 1346,
+            "width": 75,
+            "height": 36,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "COMI",
+          "translation_en_full": "COMI",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L036",
+          "label_text_original": "8",
+          "source": "ai",
+          "bbox": {
+            "x": 435,
+            "y": 1385,
+            "width": 24,
+            "height": 29,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "8",
+          "translation_en_full": "8",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L037",
+          "label_text_original": "IN1",
+          "source": "ai",
+          "bbox": {
+            "x": 732,
+            "y": 1382,
+            "width": 49,
+            "height": 34,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "IN1",
+          "translation_en_full": "IN1",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L038",
+          "label_text_original": "9",
+          "source": "ai",
+          "bbox": {
+            "x": 435,
+            "y": 1420,
+            "width": 24,
+            "height": 29,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "9",
+          "translation_en_full": "9",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L039",
+          "label_text_original": "IN2",
+          "source": "ai",
+          "bbox": {
+            "x": 731,
+            "y": 1418,
+            "width": 50,
+            "height": 33,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "IN2",
+          "translation_en_full": "IN2",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L040",
+          "label_text_original": "10",
+          "source": "ai",
+          "bbox": {
+            "x": 430,
+            "y": 1454,
+            "width": 36,
+            "height": 30,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "10",
+          "translation_en_full": "10",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L041",
+          "label_text_original": "IN3",
+          "source": "ai",
+          "bbox": {
+            "x": 732,
+            "y": 1451,
+            "width": 49,
+            "height": 33,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "IN3",
+          "translation_en_full": "IN3",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L042",
+          "label_text_original": "11",
+          "source": "ai",
+          "bbox": {
+            "x": 431,
+            "y": 1489,
+            "width": 34,
+            "height": 32,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "11",
+          "translation_en_full": "11",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L043",
+          "label_text_original": "IN4",
+          "source": "ai",
+          "bbox": {
+            "x": 530,
+            "y": 1488,
+            "width": 51,
+            "height": 31,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "IN4",
+          "translation_en_full": "IN4",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L044",
+          "label_text_original": "BR-",
+          "source": "ai",
+          "bbox": {
+            "x": 663,
+            "y": 1488,
+            "width": 57,
+            "height": 31,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "BR-",
+          "translation_en_full": "BR-",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L045",
+          "label_text_original": "IN4",
+          "source": "ai",
+          "bbox": {
+            "x": 797,
+            "y": 1488,
+            "width": 53,
+            "height": 31,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "IN4",
+          "translation_en_full": "IN4",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L046",
+          "label_text_original": "BR-",
+          "source": "ai",
+          "bbox": {
+            "x": 935,
+            "y": 1488,
+            "width": 51,
+            "height": 31,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "BR-",
+          "translation_en_full": "BR-",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L047",
+          "label_text_original": "12",
+          "source": "ai",
+          "bbox": {
+            "x": 430,
+            "y": 1524,
+            "width": 36,
+            "height": 30,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "12",
+          "translation_en_full": "12",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L048",
+          "label_text_original": "COMO",
+          "source": "ai",
+          "bbox": {
+            "x": 714,
+            "y": 1521,
+            "width": 85,
+            "height": 35,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "COMO",
+          "translation_en_full": "COMO",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L049",
+          "label_text_original": "A",
+          "source": "ai",
+          "bbox": {
+            "x": 1227,
+            "y": 1102,
+            "width": 41,
+            "height": 28,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "A",
+          "translation_en_full": "A",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L050",
+          "label_text_original": "B",
+          "source": "ai",
+          "bbox": {
+            "x": 1269,
+            "y": 1102,
+            "width": 35,
+            "height": 29,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "B",
+          "translation_en_full": "B",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L051",
+          "label_text_original": "8",
+          "source": "ai",
+          "bbox": {
+            "x": 1272,
+            "y": 1148,
+            "width": 25,
+            "height": 31,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "8",
+          "translation_en_full": "8",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L052",
+          "label_text_original": "3",
+          "source": "ai",
+          "bbox": {
+            "x": 1230,
+            "y": 1174,
+            "width": 23,
+            "height": 29,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "3",
+          "translation_en_full": "3",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L053",
+          "label_text_original": "9",
+          "source": "ai",
+          "bbox": {
+            "x": 1274,
+            "y": 1174,
+            "width": 23,
+            "height": 30,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "9",
+          "translation_en_full": "9",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L054",
+          "label_text_original": "4",
+          "source": "ai",
+          "bbox": {
+            "x": 1229,
+            "y": 1198,
+            "width": 26,
+            "height": 27,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "4",
+          "translation_en_full": "4",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L055",
+          "label_text_original": "10",
+          "source": "ai",
+          "bbox": {
+            "x": 1267,
+            "y": 1196,
+            "width": 37,
+            "height": 31,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "10",
+          "translation_en_full": "10",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L056",
+          "label_text_original": "5",
+          "source": "ai",
+          "bbox": {
+            "x": 1227,
+            "y": 1223,
+            "width": 28,
+            "height": 26,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "5",
+          "translation_en_full": "5",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L057",
+          "label_text_original": "11",
+          "source": "ai",
+          "bbox": {
+            "x": 1267,
+            "y": 1224,
+            "width": 34,
+            "height": 24,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "11",
+          "translation_en_full": "11",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L058",
+          "label_text_original": "6",
+          "source": "ai",
+          "bbox": {
+            "x": 1223,
+            "y": 1248,
+            "width": 32,
+            "height": 23,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "6",
+          "translation_en_full": "6",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L059",
+          "label_text_original": "12",
+          "source": "ai",
+          "bbox": {
+            "x": 1258,
+            "y": 1247,
+            "width": 46,
+            "height": 26,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "12",
+          "translation_en_full": "12",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L060",
+          "label_text_original": "X2",
+          "source": "ai",
+          "bbox": {
+            "x": 1267,
+            "y": 863,
+            "width": 47,
+            "height": 36,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "X2",
+          "translation_en_full": "X2",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L061",
+          "label_text_original": "Rs232",
+          "source": "ai",
+          "bbox": {
+            "x": 1219,
+            "y": 892,
+            "width": 91,
+            "height": 35,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "Rs232",
+          "translation_en_full": "Rs232",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L062",
+          "label_text_original": "1/0",
+          "source": "ai",
+          "bbox": {
+            "x": 1267,
+            "y": 1066,
+            "width": 44,
+            "height": 36,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "1/0",
+          "translation_en_full": "1/0",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L063",
+          "label_text_original": "X4",
+          "source": "ai",
+          "bbox": {
+            "x": 1268,
+            "y": 1548,
+            "width": 45,
+            "height": 34,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "X4",
+          "translation_en_full": "X4",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L064",
+          "label_text_original": "ENCODERIN",
+          "source": "ai",
+          "bbox": {
+            "x": 1133,
+            "y": 1581,
+            "width": 181,
+            "height": 34,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "ENCODERIN",
+          "translation_en_full": "ENCODERIN",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L065",
+          "label_text_original": "SW4",
+          "source": "ai",
+          "bbox": {
+            "x": 438,
+            "y": 1607,
+            "width": 60,
+            "height": 32,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "SW4",
+          "translation_en_full": "SW4",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L066",
+          "label_text_original": "SW3",
+          "source": "ai",
+          "bbox": {
+            "x": 562,
+            "y": 1605,
+            "width": 60,
+            "height": 34,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "SW3",
+          "translation_en_full": "SW3",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L067",
+          "label_text_original": "SW2",
+          "source": "ai",
+          "bbox": {
+            "x": 687,
+            "y": 1607,
+            "width": 59,
+            "height": 32,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "SW2",
+          "translation_en_full": "SW2",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L068",
+          "label_text_original": "SW1",
+          "source": "ai",
+          "bbox": {
+            "x": 811,
+            "y": 1605,
+            "width": 59,
+            "height": 34,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "SW1",
+          "translation_en_full": "SW1",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L069",
+          "label_text_original": "Node ID",
+          "source": "ai",
+          "bbox": {
+            "x": 919,
+            "y": 1607,
+            "width": 93,
+            "height": 30,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "Node ID",
+          "translation_en_full": "Node ID",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L070",
+          "label_text_original": "InternalBUSTerminal",
+          "source": "ai",
+          "bbox": {
+            "x": 437,
+            "y": 1645,
+            "width": 36,
+            "height": 250,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "InternalBUSTerminal",
+          "translation_en_full": "InternalBUSTerminal",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L071",
+          "label_text_original": "EEPROM",
+          "source": "ai",
+          "bbox": {
+            "x": 911,
+            "y": 1654,
+            "width": 109,
+            "height": 35,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "EEPROM",
+          "translation_en_full": "EEPROM",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L072",
+          "label_text_original": "Resistor",
+          "source": "ai",
+          "bbox": {
+            "x": 469,
+            "y": 1717,
+            "width": 29,
+            "height": 111,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "Resistor",
+          "translation_en_full": "Resistor",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L073",
+          "label_text_original": "注:EtherCAT类型没有拨码开关",
+          "source": "ai",
+          "bbox": {
+            "x": 427,
+            "y": 1907,
+            "width": 357,
+            "height": 33,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "EtherCAT",
+          "translation_en_full": "EtherCAT",
+          "translation_skipped_reason": "mixed_chinese_english_preserve_english"
+        },
+        {
+          "label_id": "L074",
+          "label_text_original": "X5",
+          "source": "ai",
+          "bbox": {
+            "x": 1268,
+            "y": 1818,
+            "width": 45,
+            "height": 36,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "X5",
+          "translation_en_full": "X5",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L075",
+          "label_text_original": "PE",
+          "source": "ai",
+          "bbox": {
+            "x": 1269,
+            "y": 1904,
+            "width": 41,
+            "height": 30,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "PE",
+          "translation_en_full": "PE",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L076",
+          "label_text_original": "W",
+          "source": "ai",
+          "bbox": {
+            "x": 1275,
+            "y": 1984,
+            "width": 30,
+            "height": 31,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "W",
+          "translation_en_full": "W",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L077",
+          "label_text_original": "U",
+          "source": "ai",
+          "bbox": {
+            "x": 1278,
+            "y": 2129,
+            "width": 23,
+            "height": 28,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "U",
+          "translation_en_full": "U",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L078",
+          "label_text_original": "RB-",
+          "source": "ai",
+          "bbox": {
+            "x": 1262,
+            "y": 2198,
+            "width": 53,
+            "height": 33,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "RB-",
+          "translation_en_full": "RB-",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L079",
+          "label_text_original": "DC-",
+          "source": "ai",
+          "bbox": {
+            "x": 1262,
+            "y": 2269,
+            "width": 55,
+            "height": 34,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "DC-",
+          "translation_en_full": "DC-",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L080",
+          "label_text_original": "DC+",
+          "source": "ai",
+          "bbox": {
+            "x": 1257,
+            "y": 2323,
+            "width": 65,
+            "height": 37,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "DC+",
+          "translation_en_full": "DC+",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L081",
+          "label_text_original": "RB+",
+          "source": "ai",
+          "bbox": {
+            "x": 1258,
+            "y": 2356,
+            "width": 62,
+            "height": 34,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "RB+",
+          "translation_en_full": "RB+",
+          "translation_skipped_reason": "no_chinese"
+        }
+      ],
+      "translation": {
+        "records": [
+          {
+            "label_id": "L001",
+            "label_text_original": "X3",
+            "translation_en_simple": "X3",
+            "translation_en_full": "X3",
+            "bbox": {
+              "x": 397,
+              "y": 1059,
+              "width": 48,
+              "height": 36,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L002",
+            "label_text_original": "PIN",
+            "translation_en_simple": "PIN",
+            "translation_en_full": "PIN",
+            "bbox": {
+              "x": 419,
+              "y": 1105,
+              "width": 57,
+              "height": 33,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L003",
+            "label_text_original": "CA/EA",
+            "translation_en_simple": "CA/EA",
+            "translation_en_full": "CA/EA",
+            "bbox": {
+              "x": 509,
+              "y": 1106,
+              "width": 95,
+              "height": 31,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L004",
+            "label_text_original": "CB/EB",
+            "translation_en_simple": "CB/EB",
+            "translation_en_full": "CB/EB",
+            "bbox": {
+              "x": 645,
+              "y": 1106,
+              "width": 94,
+              "height": 31,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L005",
+            "label_text_original": "LA",
+            "translation_en_simple": "LA",
+            "translation_en_full": "LA",
+            "bbox": {
+              "x": 800,
+              "y": 1105,
+              "width": 50,
+              "height": 33,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L006",
+            "label_text_original": "LB",
+            "translation_en_simple": "LB",
+            "translation_en_full": "LB",
+            "bbox": {
+              "x": 936,
+              "y": 1106,
+              "width": 50,
+              "height": 34,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L007",
+            "label_text_original": "1",
+            "translation_en_simple": "1",
+            "translation_en_full": "1",
+            "bbox": {
+              "x": 438,
+              "y": 1144,
+              "width": 20,
+              "height": 22,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L008",
+            "label_text_original": "24V+",
+            "translation_en_simple": "24V+",
+            "translation_en_full": "24V+",
+            "bbox": {
+              "x": 523,
+              "y": 1140,
+              "width": 70,
+              "height": 31,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L009",
+            "label_text_original": "24V+",
+            "translation_en_simple": "24V+",
+            "translation_en_full": "24V+",
+            "bbox": {
+              "x": 656,
+              "y": 1140,
+              "width": 70,
+              "height": 31,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L010",
+            "label_text_original": "PUL+",
+            "translation_en_simple": "PUL+",
+            "translation_en_full": "PUL+",
+            "bbox": {
+              "x": 793,
+              "y": 1140,
+              "width": 71,
+              "height": 31,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L011",
+            "label_text_original": "PUL+",
+            "translation_en_simple": "PUL+",
+            "translation_en_full": "PUL+",
+            "bbox": {
+              "x": 928,
+              "y": 1140,
+              "width": 71,
+              "height": 32,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L012",
+            "label_text_original": "2",
+            "translation_en_simple": "2",
+            "translation_en_full": "2",
+            "bbox": {
+              "x": 435,
+              "y": 1177,
+              "width": 24,
+              "height": 30,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L013",
+            "label_text_original": "24V-",
+            "translation_en_simple": "24V-",
+            "translation_en_full": "24V-",
+            "bbox": {
+              "x": 525,
+              "y": 1174,
+              "width": 62,
+              "height": 32,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L014",
+            "label_text_original": "24V-",
+            "translation_en_simple": "24V-",
+            "translation_en_full": "24V-",
+            "bbox": {
+              "x": 660,
+              "y": 1174,
+              "width": 62,
+              "height": 32,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L015",
+            "label_text_original": "PUL-",
+            "translation_en_simple": "PUL-",
+            "translation_en_full": "PUL-",
+            "bbox": {
+              "x": 795,
+              "y": 1174,
+              "width": 66,
+              "height": 32,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L016",
+            "label_text_original": "PUL-",
+            "translation_en_simple": "PUL-",
+            "translation_en_full": "PUL-",
+            "bbox": {
+              "x": 929,
+              "y": 1175,
+              "width": 66,
+              "height": 32,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L017",
+            "label_text_original": "3",
+            "translation_en_simple": "3",
+            "translation_en_full": "3",
+            "bbox": {
+              "x": 435,
+              "y": 1212,
+              "width": 24,
+              "height": 29,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L018",
+            "label_text_original": "NC",
+            "translation_en_simple": "NC",
+            "translation_en_full": "NC",
+            "bbox": {
+              "x": 534,
+              "y": 1209,
+              "width": 46,
+              "height": 33,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L019",
+            "label_text_original": "NC",
+            "translation_en_simple": "NC",
+            "translation_en_full": "NC",
+            "bbox": {
+              "x": 666,
+              "y": 1209,
+              "width": 49,
+              "height": 33,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L020",
+            "label_text_original": "DIR+",
+            "translation_en_simple": "DIR+",
+            "translation_en_full": "DIR+",
+            "bbox": {
+              "x": 793,
+              "y": 1210,
+              "width": 65,
+              "height": 32,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L021",
+            "label_text_original": "DIR+",
+            "translation_en_simple": "DIR+",
+            "translation_en_full": "DIR+",
+            "bbox": {
+              "x": 928,
+              "y": 1210,
+              "width": 65,
+              "height": 32,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L022",
+            "label_text_original": "4",
+            "translation_en_simple": "4",
+            "translation_en_full": "4",
+            "bbox": {
+              "x": 438,
+              "y": 1248,
+              "width": 20,
+              "height": 25,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L023",
+            "label_text_original": "NC",
+            "translation_en_simple": "NC",
+            "translation_en_full": "NC",
+            "bbox": {
+              "x": 534,
+              "y": 1244,
+              "width": 46,
+              "height": 33,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L024",
+            "label_text_original": "NC",
+            "translation_en_simple": "NC",
+            "translation_en_full": "NC",
+            "bbox": {
+              "x": 669,
+              "y": 1244,
+              "width": 46,
+              "height": 33,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L025",
+            "label_text_original": "DIR-",
+            "translation_en_simple": "DIR-",
+            "translation_en_full": "DIR-",
+            "bbox": {
+              "x": 795,
+              "y": 1244,
+              "width": 60,
+              "height": 32,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L026",
+            "label_text_original": "DIR-",
+            "translation_en_simple": "DIR-",
+            "translation_en_full": "DIR-",
+            "bbox": {
+              "x": 930,
+              "y": 1244,
+              "width": 60,
+              "height": 32,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L027",
+            "label_text_original": "5",
+            "translation_en_simple": "5",
+            "translation_en_full": "5",
+            "bbox": {
+              "x": 435,
+              "y": 1282,
+              "width": 24,
+              "height": 29,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L028",
+            "label_text_original": "OUT1+",
+            "translation_en_simple": "OUT1+",
+            "translation_en_full": "OUT1+",
+            "bbox": {
+              "x": 718,
+              "y": 1279,
+              "width": 85,
+              "height": 30,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L029",
+            "label_text_original": "6",
+            "translation_en_simple": "6",
+            "translation_en_full": "6",
+            "bbox": {
+              "x": 435,
+              "y": 1317,
+              "width": 24,
+              "height": 29,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L030",
+            "label_text_original": "OUT2+",
+            "translation_en_simple": "OUT2+",
+            "translation_en_full": "OUT2+",
+            "bbox": {
+              "x": 514,
+              "y": 1314,
+              "width": 87,
+              "height": 30,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L031",
+            "label_text_original": "BR+",
+            "translation_en_simple": "BR+",
+            "translation_en_full": "BR+",
+            "bbox": {
+              "x": 662,
+              "y": 1314,
+              "width": 60,
+              "height": 30,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L032",
+            "label_text_original": "OUT2+",
+            "translation_en_simple": "OUT2+",
+            "translation_en_full": "OUT2+",
+            "bbox": {
+              "x": 783,
+              "y": 1314,
+              "width": 85,
+              "height": 30,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L033",
+            "label_text_original": "BR+",
+            "translation_en_simple": "BR+",
+            "translation_en_full": "BR+",
+            "bbox": {
+              "x": 930,
+              "y": 1314,
+              "width": 59,
+              "height": 32,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L034",
+            "label_text_original": "7",
+            "translation_en_simple": "7",
+            "translation_en_full": "7",
+            "bbox": {
+              "x": 438,
+              "y": 1353,
+              "width": 20,
+              "height": 25,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L035",
+            "label_text_original": "COMI",
+            "translation_en_simple": "COMI",
+            "translation_en_full": "COMI",
+            "bbox": {
+              "x": 720,
+              "y": 1346,
+              "width": 75,
+              "height": 36,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L036",
+            "label_text_original": "8",
+            "translation_en_simple": "8",
+            "translation_en_full": "8",
+            "bbox": {
+              "x": 435,
+              "y": 1385,
+              "width": 24,
+              "height": 29,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L037",
+            "label_text_original": "IN1",
+            "translation_en_simple": "IN1",
+            "translation_en_full": "IN1",
+            "bbox": {
+              "x": 732,
+              "y": 1382,
+              "width": 49,
+              "height": 34,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L038",
+            "label_text_original": "9",
+            "translation_en_simple": "9",
+            "translation_en_full": "9",
+            "bbox": {
+              "x": 435,
+              "y": 1420,
+              "width": 24,
+              "height": 29,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L039",
+            "label_text_original": "IN2",
+            "translation_en_simple": "IN2",
+            "translation_en_full": "IN2",
+            "bbox": {
+              "x": 731,
+              "y": 1418,
+              "width": 50,
+              "height": 33,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L040",
+            "label_text_original": "10",
+            "translation_en_simple": "10",
+            "translation_en_full": "10",
+            "bbox": {
+              "x": 430,
+              "y": 1454,
+              "width": 36,
+              "height": 30,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L041",
+            "label_text_original": "IN3",
+            "translation_en_simple": "IN3",
+            "translation_en_full": "IN3",
+            "bbox": {
+              "x": 732,
+              "y": 1451,
+              "width": 49,
+              "height": 33,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L042",
+            "label_text_original": "11",
+            "translation_en_simple": "11",
+            "translation_en_full": "11",
+            "bbox": {
+              "x": 431,
+              "y": 1489,
+              "width": 34,
+              "height": 32,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L043",
+            "label_text_original": "IN4",
+            "translation_en_simple": "IN4",
+            "translation_en_full": "IN4",
+            "bbox": {
+              "x": 530,
+              "y": 1488,
+              "width": 51,
+              "height": 31,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L044",
+            "label_text_original": "BR-",
+            "translation_en_simple": "BR-",
+            "translation_en_full": "BR-",
+            "bbox": {
+              "x": 663,
+              "y": 1488,
+              "width": 57,
+              "height": 31,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L045",
+            "label_text_original": "IN4",
+            "translation_en_simple": "IN4",
+            "translation_en_full": "IN4",
+            "bbox": {
+              "x": 797,
+              "y": 1488,
+              "width": 53,
+              "height": 31,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L046",
+            "label_text_original": "BR-",
+            "translation_en_simple": "BR-",
+            "translation_en_full": "BR-",
+            "bbox": {
+              "x": 935,
+              "y": 1488,
+              "width": 51,
+              "height": 31,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L047",
+            "label_text_original": "12",
+            "translation_en_simple": "12",
+            "translation_en_full": "12",
+            "bbox": {
+              "x": 430,
+              "y": 1524,
+              "width": 36,
+              "height": 30,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L048",
+            "label_text_original": "COMO",
+            "translation_en_simple": "COMO",
+            "translation_en_full": "COMO",
+            "bbox": {
+              "x": 714,
+              "y": 1521,
+              "width": 85,
+              "height": 35,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L049",
+            "label_text_original": "A",
+            "translation_en_simple": "A",
+            "translation_en_full": "A",
+            "bbox": {
+              "x": 1227,
+              "y": 1102,
+              "width": 41,
+              "height": 28,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L050",
+            "label_text_original": "B",
+            "translation_en_simple": "B",
+            "translation_en_full": "B",
+            "bbox": {
+              "x": 1269,
+              "y": 1102,
+              "width": 35,
+              "height": 29,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L051",
+            "label_text_original": "8",
+            "translation_en_simple": "8",
+            "translation_en_full": "8",
+            "bbox": {
+              "x": 1272,
+              "y": 1148,
+              "width": 25,
+              "height": 31,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L052",
+            "label_text_original": "3",
+            "translation_en_simple": "3",
+            "translation_en_full": "3",
+            "bbox": {
+              "x": 1230,
+              "y": 1174,
+              "width": 23,
+              "height": 29,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L053",
+            "label_text_original": "9",
+            "translation_en_simple": "9",
+            "translation_en_full": "9",
+            "bbox": {
+              "x": 1274,
+              "y": 1174,
+              "width": 23,
+              "height": 30,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L054",
+            "label_text_original": "4",
+            "translation_en_simple": "4",
+            "translation_en_full": "4",
+            "bbox": {
+              "x": 1229,
+              "y": 1198,
+              "width": 26,
+              "height": 27,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L055",
+            "label_text_original": "10",
+            "translation_en_simple": "10",
+            "translation_en_full": "10",
+            "bbox": {
+              "x": 1267,
+              "y": 1196,
+              "width": 37,
+              "height": 31,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L056",
+            "label_text_original": "5",
+            "translation_en_simple": "5",
+            "translation_en_full": "5",
+            "bbox": {
+              "x": 1227,
+              "y": 1223,
+              "width": 28,
+              "height": 26,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L057",
+            "label_text_original": "11",
+            "translation_en_simple": "11",
+            "translation_en_full": "11",
+            "bbox": {
+              "x": 1267,
+              "y": 1224,
+              "width": 34,
+              "height": 24,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L058",
+            "label_text_original": "6",
+            "translation_en_simple": "6",
+            "translation_en_full": "6",
+            "bbox": {
+              "x": 1223,
+              "y": 1248,
+              "width": 32,
+              "height": 23,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L059",
+            "label_text_original": "12",
+            "translation_en_simple": "12",
+            "translation_en_full": "12",
+            "bbox": {
+              "x": 1258,
+              "y": 1247,
+              "width": 46,
+              "height": 26,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L060",
+            "label_text_original": "X2",
+            "translation_en_simple": "X2",
+            "translation_en_full": "X2",
+            "bbox": {
+              "x": 1267,
+              "y": 863,
+              "width": 47,
+              "height": 36,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L061",
+            "label_text_original": "Rs232",
+            "translation_en_simple": "Rs232",
+            "translation_en_full": "Rs232",
+            "bbox": {
+              "x": 1219,
+              "y": 892,
+              "width": 91,
+              "height": 35,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L062",
+            "label_text_original": "1/0",
+            "translation_en_simple": "1/0",
+            "translation_en_full": "1/0",
+            "bbox": {
+              "x": 1267,
+              "y": 1066,
+              "width": 44,
+              "height": 36,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L063",
+            "label_text_original": "X4",
+            "translation_en_simple": "X4",
+            "translation_en_full": "X4",
+            "bbox": {
+              "x": 1268,
+              "y": 1548,
+              "width": 45,
+              "height": 34,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L064",
+            "label_text_original": "ENCODERIN",
+            "translation_en_simple": "ENCODERIN",
+            "translation_en_full": "ENCODERIN",
+            "bbox": {
+              "x": 1133,
+              "y": 1581,
+              "width": 181,
+              "height": 34,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L065",
+            "label_text_original": "SW4",
+            "translation_en_simple": "SW4",
+            "translation_en_full": "SW4",
+            "bbox": {
+              "x": 438,
+              "y": 1607,
+              "width": 60,
+              "height": 32,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L066",
+            "label_text_original": "SW3",
+            "translation_en_simple": "SW3",
+            "translation_en_full": "SW3",
+            "bbox": {
+              "x": 562,
+              "y": 1605,
+              "width": 60,
+              "height": 34,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L067",
+            "label_text_original": "SW2",
+            "translation_en_simple": "SW2",
+            "translation_en_full": "SW2",
+            "bbox": {
+              "x": 687,
+              "y": 1607,
+              "width": 59,
+              "height": 32,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L068",
+            "label_text_original": "SW1",
+            "translation_en_simple": "SW1",
+            "translation_en_full": "SW1",
+            "bbox": {
+              "x": 811,
+              "y": 1605,
+              "width": 59,
+              "height": 34,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L069",
+            "label_text_original": "Node ID",
+            "translation_en_simple": "Node ID",
+            "translation_en_full": "Node ID",
+            "bbox": {
+              "x": 919,
+              "y": 1607,
+              "width": 93,
+              "height": 30,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L070",
+            "label_text_original": "InternalBUSTerminal",
+            "translation_en_simple": "InternalBUSTerminal",
+            "translation_en_full": "InternalBUSTerminal",
+            "bbox": {
+              "x": 437,
+              "y": 1645,
+              "width": 36,
+              "height": 250,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L071",
+            "label_text_original": "EEPROM",
+            "translation_en_simple": "EEPROM",
+            "translation_en_full": "EEPROM",
+            "bbox": {
+              "x": 911,
+              "y": 1654,
+              "width": 109,
+              "height": 35,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L072",
+            "label_text_original": "Resistor",
+            "translation_en_simple": "Resistor",
+            "translation_en_full": "Resistor",
+            "bbox": {
+              "x": 469,
+              "y": 1717,
+              "width": 29,
+              "height": 111,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L073",
+            "label_text_original": "注:EtherCAT类型没有拨码开关",
+            "translation_en_simple": "EtherCAT",
+            "translation_en_full": "EtherCAT",
+            "bbox": {
+              "x": 427,
+              "y": 1907,
+              "width": 357,
+              "height": 33,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L074",
+            "label_text_original": "X5",
+            "translation_en_simple": "X5",
+            "translation_en_full": "X5",
+            "bbox": {
+              "x": 1268,
+              "y": 1818,
+              "width": 45,
+              "height": 36,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L075",
+            "label_text_original": "PE",
+            "translation_en_simple": "PE",
+            "translation_en_full": "PE",
+            "bbox": {
+              "x": 1269,
+              "y": 1904,
+              "width": 41,
+              "height": 30,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L076",
+            "label_text_original": "W",
+            "translation_en_simple": "W",
+            "translation_en_full": "W",
+            "bbox": {
+              "x": 1275,
+              "y": 1984,
+              "width": 30,
+              "height": 31,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L077",
+            "label_text_original": "U",
+            "translation_en_simple": "U",
+            "translation_en_full": "U",
+            "bbox": {
+              "x": 1278,
+              "y": 2129,
+              "width": 23,
+              "height": 28,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L078",
+            "label_text_original": "RB-",
+            "translation_en_simple": "RB-",
+            "translation_en_full": "RB-",
+            "bbox": {
+              "x": 1262,
+              "y": 2198,
+              "width": 53,
+              "height": 33,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L079",
+            "label_text_original": "DC-",
+            "translation_en_simple": "DC-",
+            "translation_en_full": "DC-",
+            "bbox": {
+              "x": 1262,
+              "y": 2269,
+              "width": 55,
+              "height": 34,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L080",
+            "label_text_original": "DC+",
+            "translation_en_simple": "DC+",
+            "translation_en_full": "DC+",
+            "bbox": {
+              "x": 1257,
+              "y": 2323,
+              "width": 65,
+              "height": 37,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L081",
+            "label_text_original": "RB+",
+            "translation_en_simple": "RB+",
+            "translation_en_full": "RB+",
+            "bbox": {
+              "x": 1258,
+              "y": 2356,
+              "width": 62,
+              "height": 34,
+              "unit": "origin_src_px"
+            }
+          }
+        ]
+      },
+      "ocr": {
+        "text": "75.50mm\n80.00mm\n20.00mm\nConnector cable\n30.00mm\nSpace\n（端子走线区域）\n（端子走线区域）\nX1B\nX1A\ncable Space\n(OUT)\n(IN)\nSW1\nSW3SW2\nConnector\nKinco\nX2\nRs232\nACSERVO\nFD114S\nX3\nX3\n1/0\nPIN\nCA/EA\nCB/EB\nLA\nLB\nA\nB\n1\n24V+\n24V+\nPUL+\nPUL+\n8\n2\n24V-\n24V-\nPUL-\nPUL-\n3\n9\nNC\nNC\n4\n10\n3\nDIR+\nDIR+\n5\n11\n4\nNC\nNC\nDIR-\nDIR-\n6\n12\n5\nOUT1+\n6\nOUT2+\nBR+\nOUT2+\nBR+\n7\nCOMI\n8\nIN1\n137.50 mm\n9\nIN2\n141.00 mm\n10\nIN3\n11\nIN4\nBR-\nIN4\nBR-\n12\nCOMO\nX4\nENCODERIN\nSW4\nSW3\nSW2\nSW1\nNode ID\nInternalBUSTerminal\nOFF\nOFF\nOFF\nEEPROM\nResistor\nOFF\nOFF\nON\n1\nOFF\nON\nOFF\n2\nX5\nON\nON\nON\n7\n注:EtherCAT类型没有拨码开关\nPE\nW\nU\nRB-\nDC-\nDC+\nRB+\n5.50 mm(2X)\nM4-PE（接地螺丝孔孔)",
+        "items": [
+          {
+            "text": "75.50mm",
+            "bbox": {
+              "x": 689,
+              "y": 70,
+              "width": 296,
+              "height": 59,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9999228375298637,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "80.00mm",
+            "bbox": {
+              "x": 1791,
+              "y": 70,
+              "width": 296,
+              "height": 59,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9994265522275653,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "20.00mm",
+            "bbox": {
+              "x": 2598,
+              "y": 312,
+              "width": 63,
+              "height": 340,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9995457189423698,
+            "has_chinese": false,
+            "text_direction": "vertical",
+            "text_angle": 90
+          },
+          {
+            "text": "Connector cable",
+            "bbox": {
+              "x": 922,
+              "y": 337,
+              "width": 516,
+              "height": 57,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.995091446240743,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "30.00mm",
+            "bbox": {
+              "x": 364,
+              "y": 365,
+              "width": 296,
+              "height": 56,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9993312529155186,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "Space",
+            "bbox": {
+              "x": 1065,
+              "y": 400,
+              "width": 218,
+              "height": 77,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9997671484947205,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "（端子走线区域）",
+            "bbox": {
+              "x": 933,
+              "y": 470,
+              "width": 451,
+              "height": 67,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9627102687954903,
+            "has_chinese": true,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "（端子走线区域）",
+            "bbox": {
+              "x": 1825,
+              "y": 718,
+              "width": 105,
+              "height": 607,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9045938402414322,
+            "has_chinese": true,
+            "text_direction": "vertical",
+            "text_angle": 90
+          },
+          {
+            "text": "X1B",
+            "bbox": {
+              "x": 575,
+              "y": 758,
+              "width": 71,
+              "height": 37,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9987409114837646,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "X1A",
+            "bbox": {
+              "x": 811,
+              "y": 758,
+              "width": 68,
+              "height": 37,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9969731966654459,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "cable Space",
+            "bbox": {
+              "x": 1915,
+              "y": 765,
+              "width": 106,
+              "height": 561,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9987512339245189,
+            "has_chinese": false,
+            "text_direction": "vertical",
+            "text_angle": 90
+          },
+          {
+            "text": "(OUT)",
+            "bbox": {
+              "x": 568,
+              "y": 791,
+              "width": 89,
+              "height": 40,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9977664232254029,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "(IN)",
+            "bbox": {
+              "x": 817,
+              "y": 791,
+              "width": 61,
+              "height": 39,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9174851924180984,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "SW1",
+            "bbox": {
+              "x": 1092,
+              "y": 787,
+              "width": 83,
+              "height": 35,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9984758893648783,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "SW3SW2",
+            "bbox": {
+              "x": 977,
+              "y": 822,
+              "width": 163,
+              "height": 35,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9994471669197083,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "Connector",
+            "bbox": {
+              "x": 2023,
+              "y": 822,
+              "width": 85,
+              "height": 445,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9998768170674642,
+            "has_chinese": false,
+            "text_direction": "vertical",
+            "text_angle": 90
+          },
+          {
+            "text": "Kinco",
+            "bbox": {
+              "x": 400,
+              "y": 844,
+              "width": 230,
+              "height": 80,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9985271096229553,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "X2",
+            "bbox": {
+              "x": 1267,
+              "y": 863,
+              "width": 47,
+              "height": 36,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9521293342113495,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "Rs232",
+            "bbox": {
+              "x": 1219,
+              "y": 892,
+              "width": 91,
+              "height": 35,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9997516393661499,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "ACSERVO",
+            "bbox": {
+              "x": 406,
+              "y": 924,
+              "width": 219,
+              "height": 39,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9863834636551994,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "FD114S",
+            "bbox": {
+              "x": 412,
+              "y": 975,
+              "width": 202,
+              "height": 51,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9993937114874522,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "X3",
+            "bbox": {
+              "x": 1268,
+              "y": 1035,
+              "width": 45,
+              "height": 36,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9775092601776123,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "X3",
+            "bbox": {
+              "x": 397,
+              "y": 1059,
+              "width": 48,
+              "height": 36,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9770382344722748,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "1/0",
+            "bbox": {
+              "x": 1267,
+              "y": 1066,
+              "width": 44,
+              "height": 36,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.866356631120046,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "PIN",
+            "bbox": {
+              "x": 419,
+              "y": 1105,
+              "width": 57,
+              "height": 33,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9964459737141927,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "CA/EA",
+            "bbox": {
+              "x": 509,
+              "y": 1106,
+              "width": 95,
+              "height": 31,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9938270807266235,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "CB/EB",
+            "bbox": {
+              "x": 645,
+              "y": 1106,
+              "width": 94,
+              "height": 31,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9978848099708557,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "LA",
+            "bbox": {
+              "x": 800,
+              "y": 1105,
+              "width": 50,
+              "height": 33,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9975436627864838,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "LB",
+            "bbox": {
+              "x": 936,
+              "y": 1106,
+              "width": 50,
+              "height": 34,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9990521669387817,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "A",
+            "bbox": {
+              "x": 1227,
+              "y": 1102,
+              "width": 41,
+              "height": 28,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9936811923980713,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "B",
+            "bbox": {
+              "x": 1269,
+              "y": 1102,
+              "width": 35,
+              "height": 29,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9944369792938232,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "1",
+            "bbox": {
+              "x": 438,
+              "y": 1144,
+              "width": 20,
+              "height": 22,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9957988858222961,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "24V+",
+            "bbox": {
+              "x": 523,
+              "y": 1140,
+              "width": 70,
+              "height": 31,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9961172640323639,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "24V+",
+            "bbox": {
+              "x": 656,
+              "y": 1140,
+              "width": 70,
+              "height": 31,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9919801652431488,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "PUL+",
+            "bbox": {
+              "x": 793,
+              "y": 1140,
+              "width": 71,
+              "height": 31,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9987251907587051,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "PUL+",
+            "bbox": {
+              "x": 928,
+              "y": 1140,
+              "width": 71,
+              "height": 32,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9979921579360962,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "8",
+            "bbox": {
+              "x": 1272,
+              "y": 1148,
+              "width": 25,
+              "height": 31,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9913835525512695,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "2",
+            "bbox": {
+              "x": 435,
+              "y": 1177,
+              "width": 24,
+              "height": 30,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9995187520980835,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "24V-",
+            "bbox": {
+              "x": 525,
+              "y": 1174,
+              "width": 62,
+              "height": 32,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9963907897472382,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "24V-",
+            "bbox": {
+              "x": 660,
+              "y": 1174,
+              "width": 62,
+              "height": 32,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9959520995616913,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "PUL-",
+            "bbox": {
+              "x": 795,
+              "y": 1174,
+              "width": 66,
+              "height": 32,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9992347061634064,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "PUL-",
+            "bbox": {
+              "x": 929,
+              "y": 1175,
+              "width": 66,
+              "height": 32,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.997808426618576,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "3",
+            "bbox": {
+              "x": 1230,
+              "y": 1174,
+              "width": 23,
+              "height": 29,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.994517982006073,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "9",
+            "bbox": {
+              "x": 1274,
+              "y": 1174,
+              "width": 23,
+              "height": 30,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9964576363563538,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "NC",
+            "bbox": {
+              "x": 534,
+              "y": 1209,
+              "width": 46,
+              "height": 33,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9959008097648621,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "NC",
+            "bbox": {
+              "x": 666,
+              "y": 1209,
+              "width": 49,
+              "height": 33,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.996114581823349,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "4",
+            "bbox": {
+              "x": 1229,
+              "y": 1198,
+              "width": 26,
+              "height": 27,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9983280301094055,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "10",
+            "bbox": {
+              "x": 1267,
+              "y": 1196,
+              "width": 37,
+              "height": 31,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9990060925483704,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "3",
+            "bbox": {
+              "x": 435,
+              "y": 1212,
+              "width": 24,
+              "height": 29,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9984869956970215,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "DIR+",
+            "bbox": {
+              "x": 793,
+              "y": 1210,
+              "width": 65,
+              "height": 32,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.99532550573349,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "DIR+",
+            "bbox": {
+              "x": 928,
+              "y": 1210,
+              "width": 65,
+              "height": 32,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9953582137823105,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "5",
+            "bbox": {
+              "x": 1227,
+              "y": 1223,
+              "width": 28,
+              "height": 26,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9972654581069946,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "11",
+            "bbox": {
+              "x": 1267,
+              "y": 1224,
+              "width": 34,
+              "height": 24,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9990403354167938,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "4",
+            "bbox": {
+              "x": 438,
+              "y": 1248,
+              "width": 20,
+              "height": 25,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9998433589935303,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "NC",
+            "bbox": {
+              "x": 534,
+              "y": 1244,
+              "width": 46,
+              "height": 33,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9956127107143402,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "NC",
+            "bbox": {
+              "x": 669,
+              "y": 1244,
+              "width": 46,
+              "height": 33,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9964102804660797,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "DIR-",
+            "bbox": {
+              "x": 795,
+              "y": 1244,
+              "width": 60,
+              "height": 32,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9975171536207199,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "DIR-",
+            "bbox": {
+              "x": 930,
+              "y": 1244,
+              "width": 60,
+              "height": 32,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9974047392606735,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "6",
+            "bbox": {
+              "x": 1223,
+              "y": 1248,
+              "width": 32,
+              "height": 23,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9790431261062622,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "12",
+            "bbox": {
+              "x": 1258,
+              "y": 1247,
+              "width": 46,
+              "height": 26,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9934938549995422,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "5",
+            "bbox": {
+              "x": 435,
+              "y": 1282,
+              "width": 24,
+              "height": 29,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9995477795600891,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "OUT1+",
+            "bbox": {
+              "x": 718,
+              "y": 1279,
+              "width": 85,
+              "height": 30,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9963018894195557,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "6",
+            "bbox": {
+              "x": 435,
+              "y": 1317,
+              "width": 24,
+              "height": 29,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9985370635986328,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "OUT2+",
+            "bbox": {
+              "x": 514,
+              "y": 1314,
+              "width": 87,
+              "height": 30,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9973655581474304,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "BR+",
+            "bbox": {
+              "x": 662,
+              "y": 1314,
+              "width": 60,
+              "height": 30,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.996229887008667,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "OUT2+",
+            "bbox": {
+              "x": 783,
+              "y": 1314,
+              "width": 85,
+              "height": 30,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9971790671348572,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "BR+",
+            "bbox": {
+              "x": 930,
+              "y": 1314,
+              "width": 59,
+              "height": 32,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9981547395388285,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "7",
+            "bbox": {
+              "x": 438,
+              "y": 1353,
+              "width": 20,
+              "height": 25,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9991783499717712,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "COMI",
+            "bbox": {
+              "x": 720,
+              "y": 1346,
+              "width": 75,
+              "height": 36,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9875924438238144,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "8",
+            "bbox": {
+              "x": 435,
+              "y": 1385,
+              "width": 24,
+              "height": 29,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9993879795074463,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "IN1",
+            "bbox": {
+              "x": 732,
+              "y": 1382,
+              "width": 49,
+              "height": 34,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9985803564389547,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "137.50 mm",
+            "bbox": {
+              "x": 129,
+              "y": 1427,
+              "width": 67,
+              "height": 328,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9494281146261427,
+            "has_chinese": false,
+            "text_direction": "vertical",
+            "text_angle": 90
+          },
+          {
+            "text": "9",
+            "bbox": {
+              "x": 435,
+              "y": 1420,
+              "width": 24,
+              "height": 29,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9989855885505676,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "IN2",
+            "bbox": {
+              "x": 731,
+              "y": 1418,
+              "width": 50,
+              "height": 33,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9980286558469137,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "141.00 mm",
+            "bbox": {
+              "x": 2598,
+              "y": 1427,
+              "width": 62,
+              "height": 328,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9716583225462172,
+            "has_chinese": false,
+            "text_direction": "vertical",
+            "text_angle": 90
+          },
+          {
+            "text": "10",
+            "bbox": {
+              "x": 430,
+              "y": 1454,
+              "width": 36,
+              "height": 30,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9997040331363678,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "IN3",
+            "bbox": {
+              "x": 732,
+              "y": 1451,
+              "width": 49,
+              "height": 33,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.992872397104899,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "11",
+            "bbox": {
+              "x": 431,
+              "y": 1489,
+              "width": 34,
+              "height": 32,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9989415407180786,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "IN4",
+            "bbox": {
+              "x": 530,
+              "y": 1488,
+              "width": 51,
+              "height": 31,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9993589719136556,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "BR-",
+            "bbox": {
+              "x": 663,
+              "y": 1488,
+              "width": 57,
+              "height": 31,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9977634946505228,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "IN4",
+            "bbox": {
+              "x": 797,
+              "y": 1488,
+              "width": 53,
+              "height": 31,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9995328187942505,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "BR-",
+            "bbox": {
+              "x": 935,
+              "y": 1488,
+              "width": 51,
+              "height": 31,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9988171656926473,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "12",
+            "bbox": {
+              "x": 430,
+              "y": 1524,
+              "width": 36,
+              "height": 30,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.99959397315979,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "COMO",
+            "bbox": {
+              "x": 714,
+              "y": 1521,
+              "width": 85,
+              "height": 35,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9790245294570923,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "X4",
+            "bbox": {
+              "x": 1268,
+              "y": 1548,
+              "width": 45,
+              "height": 34,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9790197312831879,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "ENCODERIN",
+            "bbox": {
+              "x": 1133,
+              "y": 1581,
+              "width": 181,
+              "height": 34,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9988507562213473,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "SW4",
+            "bbox": {
+              "x": 438,
+              "y": 1607,
+              "width": 60,
+              "height": 32,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9985779523849487,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "SW3",
+            "bbox": {
+              "x": 562,
+              "y": 1605,
+              "width": 60,
+              "height": 34,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9934629003206888,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "SW2",
+            "bbox": {
+              "x": 687,
+              "y": 1607,
+              "width": 59,
+              "height": 32,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9940585891405741,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "SW1",
+            "bbox": {
+              "x": 811,
+              "y": 1605,
+              "width": 59,
+              "height": 34,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9947836597760519,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "Node ID",
+            "bbox": {
+              "x": 919,
+              "y": 1607,
+              "width": 93,
+              "height": 30,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9914539115769523,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "InternalBUSTerminal",
+            "bbox": {
+              "x": 437,
+              "y": 1645,
+              "width": 36,
+              "height": 250,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9883358196208352,
+            "has_chinese": false,
+            "text_direction": "vertical",
+            "text_angle": 90
+          },
+          {
+            "text": "OFF",
+            "bbox": {
+              "x": 562,
+              "y": 1656,
+              "width": 56,
+              "height": 33,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9985984762509664,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "OFF",
+            "bbox": {
+              "x": 686,
+              "y": 1656,
+              "width": 57,
+              "height": 33,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9986658692359924,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "OFF",
+            "bbox": {
+              "x": 812,
+              "y": 1656,
+              "width": 56,
+              "height": 33,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9991315801938375,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "EEPROM",
+            "bbox": {
+              "x": 911,
+              "y": 1654,
+              "width": 109,
+              "height": 35,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9980553189913431,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "Resistor",
+            "bbox": {
+              "x": 469,
+              "y": 1717,
+              "width": 29,
+              "height": 111,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9985677972435951,
+            "has_chinese": false,
+            "text_direction": "vertical",
+            "text_angle": 90
+          },
+          {
+            "text": "OFF",
+            "bbox": {
+              "x": 562,
+              "y": 1706,
+              "width": 56,
+              "height": 33,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9985108772913615,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "OFF",
+            "bbox": {
+              "x": 687,
+              "y": 1706,
+              "width": 56,
+              "height": 33,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9985645810763041,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "ON",
+            "bbox": {
+              "x": 811,
+              "y": 1706,
+              "width": 44,
+              "height": 35,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9980544447898865,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "1",
+            "bbox": {
+              "x": 957,
+              "y": 1712,
+              "width": 18,
+              "height": 25,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9981963038444519,
+            "has_chinese": false,
+            "text_direction": "vertical",
+            "text_angle": 90
+          },
+          {
+            "text": "OFF",
+            "bbox": {
+              "x": 561,
+              "y": 1755,
+              "width": 58,
+              "height": 38,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9988039135932922,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "ON",
+            "bbox": {
+              "x": 687,
+              "y": 1757,
+              "width": 45,
+              "height": 34,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9984895884990692,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "OFF",
+            "bbox": {
+              "x": 811,
+              "y": 1755,
+              "width": 57,
+              "height": 38,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9989850521087646,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "2",
+            "bbox": {
+              "x": 954,
+              "y": 1759,
+              "width": 22,
+              "height": 31,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9993098974227905,
+            "has_chinese": false,
+            "text_direction": "vertical",
+            "text_angle": 90
+          },
+          {
+            "text": "X5",
+            "bbox": {
+              "x": 1268,
+              "y": 1818,
+              "width": 45,
+              "height": 36,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9640525281429291,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "ON",
+            "bbox": {
+              "x": 561,
+              "y": 1858,
+              "width": 44,
+              "height": 33,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9944006204605103,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "ON",
+            "bbox": {
+              "x": 686,
+              "y": 1858,
+              "width": 44,
+              "height": 33,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9928398430347443,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "ON",
+            "bbox": {
+              "x": 811,
+              "y": 1858,
+              "width": 44,
+              "height": 33,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9951074719429016,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "7",
+            "bbox": {
+              "x": 959,
+              "y": 1863,
+              "width": 13,
+              "height": 18,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9989738464355469,
+            "has_chinese": false,
+            "text_direction": "vertical",
+            "text_angle": 90
+          },
+          {
+            "text": "注:EtherCAT类型没有拨码开关",
+            "bbox": {
+              "x": 427,
+              "y": 1907,
+              "width": 357,
+              "height": 33,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9949908355871836,
+            "has_chinese": true,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "PE",
+            "bbox": {
+              "x": 1269,
+              "y": 1904,
+              "width": 41,
+              "height": 30,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9987364411354065,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "W",
+            "bbox": {
+              "x": 1275,
+              "y": 1984,
+              "width": 30,
+              "height": 31,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.840876042842865,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "U",
+            "bbox": {
+              "x": 1278,
+              "y": 2129,
+              "width": 23,
+              "height": 28,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9941328167915344,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "RB-",
+            "bbox": {
+              "x": 1262,
+              "y": 2198,
+              "width": 53,
+              "height": 33,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9989821910858154,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "DC-",
+            "bbox": {
+              "x": 1262,
+              "y": 2269,
+              "width": 55,
+              "height": 34,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9986400604248047,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "DC+",
+            "bbox": {
+              "x": 1257,
+              "y": 2323,
+              "width": 65,
+              "height": 37,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9983250101407369,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "RB+",
+            "bbox": {
+              "x": 1258,
+              "y": 2356,
+              "width": 62,
+              "height": 34,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9982406497001648,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "5.50 mm(2X)",
+            "bbox": {
+              "x": 172,
+              "y": 2641,
+              "width": 380,
+              "height": 64,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9925838925621726,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "M4-PE（接地螺丝孔孔)",
+            "bbox": {
+              "x": 1395,
+              "y": 2693,
+              "width": 690,
+              "height": 69,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.8953329370572016,
+            "has_chinese": true,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          }
+        ],
+        "has_chinese": true
+      },
+      "review_ui": {
+        "highlight_image": "origin_src",
+        "highlight_bbox_unit": "origin_src_px",
+        "table_columns": [
+          "label_text_original",
+          "translation_en_simple",
+          "translation_en_full"
+        ]
+      }
+    },
+    {
+      "region_id": "R002",
+      "origin_src": "regions/R002_00bfff.png",
+      "target_src": "regions/R002_00bfff_trimmed.png",
+      "content_type": "structure",
+      "content": "",
+      "content_en": "",
+      "labels": [
+        {
+          "label_id": "L001",
+          "label_text_original": "25.40 mm",
+          "source": "ai",
+          "bbox": {
+            "x": 465,
+            "y": 96,
+            "width": 291,
+            "height": 58,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "25.40 mm",
+          "translation_en_full": "25.40 mm",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L002",
+          "label_text_original": "13.90mm",
+          "source": "ai",
+          "bbox": {
+            "x": 922,
+            "y": 206,
+            "width": 289,
+            "height": 58,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "13.90mm",
+          "translation_en_full": "13.90mm",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L003",
+          "label_text_original": "137.50 mm",
+          "source": "ai",
+          "bbox": {
+            "x": 140,
+            "y": 1129,
+            "width": 64,
+            "height": 329,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "137.50 mm",
+          "translation_en_full": "137.50 mm",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L004",
+          "label_text_original": "5.50 mm(2X)",
+          "source": "ai",
+          "bbox": {
+            "x": 765,
+            "y": 2329,
+            "width": 383,
+            "height": 67,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "5.50 mm(2X)",
+          "translation_en_full": "5.50 mm(2X)",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L005",
+          "label_text_original": "Hole position for fixation",
+          "source": "ai",
+          "bbox": {
+            "x": 305,
+            "y": 2468,
+            "width": 683,
+            "height": 168,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "Hole position for fixation",
+          "translation_en_full": "Hole position for fixation",
+          "translation_skipped_reason": "no_chinese"
+        }
+      ],
+      "translation": {
+        "records": [
+          {
+            "label_id": "L001",
+            "label_text_original": "25.40 mm",
+            "translation_en_simple": "25.40 mm",
+            "translation_en_full": "25.40 mm",
+            "bbox": {
+              "x": 465,
+              "y": 96,
+              "width": 291,
+              "height": 58,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L002",
+            "label_text_original": "13.90mm",
+            "translation_en_simple": "13.90mm",
+            "translation_en_full": "13.90mm",
+            "bbox": {
+              "x": 922,
+              "y": 206,
+              "width": 289,
+              "height": 58,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L003",
+            "label_text_original": "137.50 mm",
+            "translation_en_simple": "137.50 mm",
+            "translation_en_full": "137.50 mm",
+            "bbox": {
+              "x": 140,
+              "y": 1129,
+              "width": 64,
+              "height": 329,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L004",
+            "label_text_original": "5.50 mm(2X)",
+            "translation_en_simple": "5.50 mm(2X)",
+            "translation_en_full": "5.50 mm(2X)",
+            "bbox": {
+              "x": 765,
+              "y": 2329,
+              "width": 383,
+              "height": 67,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L005",
+            "label_text_original": "Hole position for fixation",
+            "translation_en_simple": "Hole position for fixation",
+            "translation_en_full": "Hole position for fixation",
+            "bbox": {
+              "x": 305,
+              "y": 2468,
+              "width": 683,
+              "height": 168,
+              "unit": "origin_src_px"
+            }
+          }
+        ]
+      },
+      "ocr": {
+        "text": "25.40 mm\n13.90mm\n137.50 mm\n5.50 mm(2X)\nHole position\nfor fixation",
+        "items": [
+          {
+            "text": "25.40 mm",
+            "bbox": {
+              "x": 465,
+              "y": 96,
+              "width": 291,
+              "height": 58,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9385595470666885,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "13.90mm",
+            "bbox": {
+              "x": 922,
+              "y": 206,
+              "width": 289,
+              "height": 58,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9999030402728489,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "137.50 mm",
+            "bbox": {
+              "x": 140,
+              "y": 1129,
+              "width": 64,
+              "height": 329,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9944946236080594,
+            "has_chinese": false,
+            "text_direction": "vertical",
+            "text_angle": 90
+          },
+          {
+            "text": "5.50 mm(2X)",
+            "bbox": {
+              "x": 765,
+              "y": 2329,
+              "width": 383,
+              "height": 67,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9496910138563677,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "Hole position",
+            "bbox": {
+              "x": 305,
+              "y": 2468,
+              "width": 683,
+              "height": 88,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9972816017957834,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "for fixation",
+            "bbox": {
+              "x": 305,
+              "y": 2561,
+              "width": 631,
+              "height": 80,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9978966365257899,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          }
+        ],
+        "has_chinese": false
+      },
+      "review_ui": {
+        "highlight_image": "origin_src",
+        "highlight_bbox_unit": "origin_src_px",
+        "table_columns": [
+          "label_text_original",
+          "translation_en_simple",
+          "translation_en_full"
+        ]
+      }
+    },
+    {
+      "region_id": "R003",
+      "origin_src": "regions/R003_00ff7f.png",
+      "target_src": "regions/R003_00ff7f_trimmed.png",
+      "content_type": "structure",
+      "content": "",
+      "content_en": "",
+      "labels": [
+        {
+          "label_id": "L001",
+          "label_text_original": "25.40mm",
+          "source": "ai",
+          "bbox": {
+            "x": 1490,
+            "y": 40,
+            "width": 90,
+            "height": 380,
+            "unit": "rendered_px"
+          },
+          "translation_en_simple": "25.40mm",
+          "translation_en_full": "25.40mm",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L002",
+          "label_text_original": "A",
+          "source": "ai",
+          "bbox": {
+            "x": 1565,
+            "y": 214,
+            "width": 29,
+            "height": 31,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "A",
+          "translation_en_full": "A",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L003",
+          "label_text_original": "B",
+          "source": "ai",
+          "bbox": {
+            "x": 1563,
+            "y": 443,
+            "width": 29,
+            "height": 30,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "B",
+          "translation_en_full": "B",
+          "translation_skipped_reason": "no_chinese"
+        }
+      ],
+      "translation": {
+        "records": [
+          {
+            "label_id": "L001",
+            "label_text_original": "25.40mm",
+            "translation_en_simple": "25.40mm",
+            "translation_en_full": "25.40mm",
+            "bbox": {
+              "x": 1490,
+              "y": 40,
+              "width": 90,
+              "height": 380,
+              "unit": "rendered_px"
+            }
+          },
+          {
+            "label_id": "L002",
+            "label_text_original": "A",
+            "translation_en_simple": "A",
+            "translation_en_full": "A",
+            "bbox": {
+              "x": 1565,
+              "y": 214,
+              "width": 29,
+              "height": 31,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L003",
+            "label_text_original": "B",
+            "translation_en_simple": "B",
+            "translation_en_full": "B",
+            "bbox": {
+              "x": 1563,
+              "y": 443,
+              "width": 29,
+              "height": 30,
+              "unit": "origin_src_px"
+            }
+          }
+        ]
+      },
+      "ocr": {
+        "text": "A\n2\n5\nooooo\n5.40mm\noo\nooo\nO\nO\nO\nO\nB\nOOOO",
+        "items": [
+          {
+            "text": "A",
+            "bbox": {
+              "x": 1565,
+              "y": 214,
+              "width": 29,
+              "height": 31,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9988545179367065,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "2",
+            "bbox": {
+              "x": 2218,
+              "y": 224,
+              "width": 54,
+              "height": 54,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.8232730031013489,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "5",
+            "bbox": {
+              "x": 2219,
+              "y": 256,
+              "width": 54,
+              "height": 53,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9979830980300903,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "ooooo",
+            "bbox": {
+              "x": 982,
+              "y": 289,
+              "width": 153,
+              "height": 27,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.5139673113822937,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "5.40mm",
+            "bbox": {
+              "x": 2212,
+              "y": 283,
+              "width": 64,
+              "height": 234,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9900989532470703,
+            "has_chinese": false,
+            "text_direction": "vertical",
+            "text_angle": 90
+          },
+          {
+            "text": "oo",
+            "bbox": {
+              "x": 1000,
+              "y": 320,
+              "width": 55,
+              "height": 21,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.6336338818073273,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "ooo",
+            "bbox": {
+              "x": 1060,
+              "y": 319,
+              "width": 89,
+              "height": 23,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.6085450251897176,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "O",
+            "bbox": {
+              "x": 1424,
+              "y": 324,
+              "width": 17,
+              "height": 17,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.6443987488746643,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "O",
+            "bbox": {
+              "x": 1470,
+              "y": 321,
+              "width": 22,
+              "height": 22,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.5007109642028809,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "O",
+            "bbox": {
+              "x": 1325,
+              "y": 359,
+              "width": 17,
+              "height": 17,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.6293233036994934,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "O",
+            "bbox": {
+              "x": 1523,
+              "y": 359,
+              "width": 17,
+              "height": 17,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.6732118129730225,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "B",
+            "bbox": {
+              "x": 1563,
+              "y": 443,
+              "width": 29,
+              "height": 30,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9989468455314636,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "OOOO",
+            "bbox": {
+              "x": 1671,
+              "y": 437,
+              "width": 152,
+              "height": 44,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.6368011832237244,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          }
+        ],
+        "has_chinese": false
+      },
+      "review_ui": {
+        "highlight_image": "origin_src",
+        "highlight_bbox_unit": "origin_src_px",
+        "table_columns": [
+          "label_text_original",
+          "translation_en_simple",
+          "translation_en_full"
+        ]
+      }
+    },
+    {
+      "region_id": "R004",
+      "origin_src": "regions/R004_8a2be2.png",
+      "target_src": "regions/R004_8a2be2_trimmed.png",
+      "content_type": "structure",
+      "content": "",
+      "content_en": "",
+      "labels": [
+        {
+          "label_id": "L001",
+          "label_text_original": "2327 HoroH",
+          "source": "ocr_merged",
+          "bbox": {
+            "x": 283,
+            "y": 180,
+            "width": 645,
+            "height": 205,
+            "unit": "origin_src_px"
+          },
+          "ocr_item_indexes": [
+            0,
+            1
+          ],
+          "translation_en_simple": "2327 HoroH",
+          "translation_en_full": "2327 HoroH",
+          "translation_skipped_reason": "no_chinese"
+        }
+      ],
+      "translation": {
+        "records": [
+          {
+            "label_id": "L001",
+            "label_text_original": "2327 HoroH",
+            "translation_en_simple": "2327 HoroH",
+            "translation_en_full": "2327 HoroH",
+            "bbox": {
+              "x": 283,
+              "y": 180,
+              "width": 645,
+              "height": 205,
+              "unit": "origin_src_px"
+            }
+          }
+        ]
+      },
+      "ocr": {
+        "text": "2327\nHoroH",
+        "items": [
+          {
+            "text": "2327",
+            "bbox": {
+              "x": 283,
+              "y": 180,
+              "width": 514,
+              "height": 205,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.6137230396270752,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "HoroH",
+            "bbox": {
+              "x": 832,
+              "y": 258,
+              "width": 96,
+              "height": 53,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.5189586043357849,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          }
+        ],
+        "has_chinese": false
+      },
+      "review_ui": {
+        "highlight_image": "origin_src",
+        "highlight_bbox_unit": "origin_src_px",
+        "table_columns": [
+          "label_text_original",
+          "translation_en_simple",
+          "translation_en_full"
+        ]
+      }
+    },
+    {
+      "region_id": "R005",
+      "origin_src": "regions/R005_00ced1.png",
+      "target_src": "regions/R005_00ced1_trimmed.png",
+      "content_type": "structure",
+      "content": "",
+      "content_en": "",
+      "labels": [
+        {
+          "label_id": "L001",
+          "label_text_original": "ooooo ooooo",
+          "source": "ocr_merged",
+          "bbox": {
+            "x": 448,
+            "y": 476,
+            "width": 78,
+            "height": 28,
+            "unit": "origin_src_px"
+          },
+          "ocr_item_indexes": [
+            0,
+            1
+          ],
+          "translation_en_simple": "ooooo ooooo",
+          "translation_en_full": "ooooo ooooo",
+          "translation_skipped_reason": "no_chinese"
+        }
+      ],
+      "translation": {
+        "records": [
+          {
+            "label_id": "L001",
+            "label_text_original": "ooooo ooooo",
+            "translation_en_simple": "ooooo ooooo",
+            "translation_en_full": "ooooo ooooo",
+            "bbox": {
+              "x": 448,
+              "y": 476,
+              "width": 78,
+              "height": 28,
+              "unit": "origin_src_px"
+            }
+          }
+        ]
+      },
+      "ocr": {
+        "text": "ooooo\nooooo",
+        "items": [
+          {
+            "text": "ooooo",
+            "bbox": {
+              "x": 452,
+              "y": 476,
+              "width": 74,
+              "height": 15,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.7340630173683167,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "ooooo",
+            "bbox": {
+              "x": 448,
+              "y": 488,
+              "width": 75,
+              "height": 16,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.6959180116653443,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          }
+        ],
+        "has_chinese": false
+      },
+      "review_ui": {
+        "highlight_image": "origin_src",
+        "highlight_bbox_unit": "origin_src_px",
+        "table_columns": [
+          "label_text_original",
+          "translation_en_simple",
+          "translation_en_full"
+        ]
+      }
+    }
+  ],
+  "quality_control": {
+    "origin_src_is_pre_trim_crop": true,
+    "target_src_is_structure_trimmed_crop": true,
+    "engineering_extraction_skipped": true,
+    "forbidden_engineering_fields_present": [],
+    "json_validated": true,
+    "origin_src_semantics": "5x crop before structure border trim; backend original data image",
+    "target_src_semantics": "structure-only crop after border trim; backend processed data image"
+  }
+}

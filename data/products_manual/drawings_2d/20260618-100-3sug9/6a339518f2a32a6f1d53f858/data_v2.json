@@ -1,0 +1,1122 @@
+{
+  "version": "v2",
+  "schema_version": "pdf_force_fit_v2.3",
+  "entry": "pdf_force_fit_v2",
+  "run_info": {
+    "status": "success"
+  },
+  "request": {
+    "category_ids": [],
+    "resolved_category_ids": []
+  },
+  "source": {
+    "product_file_id": "6a339518f2a32a6f1d53f858",
+    "cid": "7bf981f4c5fb420a9794ace84e51409f",
+    "supplier_id": "69f1b877908c95ae5aafdcd2",
+    "category_id": "73826e0c62f8b0e3a6285a22",
+    "series_id": "3d9c31457ab74adba3de5951a814132b",
+    "model_id": "61dc03c2d2264f82a1750907293b0177",
+    "source_annotation": "6a339518f2a32a6f1d53f858---.svg"
+  },
+  "processing_options": {
+    "crop_render_scale": 5.0,
+    "trim_border_px": 1.2,
+    "border_color_cleanup_px": 10,
+    "image_backfill_enabled": false,
+    "ocr_enabled": true,
+    "ai_enabled": true
+  },
+  "regions": [
+    {
+      "region_id": "R001",
+      "group_name": "二维模型",
+      "group_color": "#00FF7F",
+      "group_order": 1,
+      "group_item_order": 1,
+      "region_order": 1,
+      "source_bbox": {
+        "x": 472,
+        "y": 963,
+        "width": 308,
+        "height": 56,
+        "unit": "source_px"
+      },
+      "rendered_crop_bbox": {
+        "x": 2360,
+        "y": 4815,
+        "width": 1540,
+        "height": 280,
+        "unit": "rendered_px",
+        "scale": 5.0
+      },
+      "origin_src": "regions/R001_00ff7f.png",
+      "target_src": "regions/R001_00ff7f_trimmed.png",
+      "content_type": "structure",
+      "content": "",
+      "content_en": "",
+      "is_structure": true,
+      "structure_candidate": true,
+      "trim_border_px": 1.2,
+      "border_color_cleanup_px": 10,
+      "trim_applied": true,
+      "crop_rotation": 0,
+      "ocr": {
+        "text": "",
+        "items": [],
+        "has_chinese": false
+      },
+      "labels": [],
+      "classification": {
+        "category_name": "mechanical_dimensions",
+        "title_zh": "机械尺寸",
+        "title_en": "Mechanical Dimensions",
+        "category_basis": "用于识别机械结构尺寸类图纸，包括电机/零部件外形轮廓、长宽高、轴径、轴长、键槽、法兰、安装孔、孔距、定位尺寸、三视图、剖视图、局部放大视图、公差、形位公差、基准符号、连接器/线缆/插头的物理安装位置或外形位置。若图中仅展示连接器型号、端子型号、线束走向、接口外形位置，但没有明确的引脚编号、针脚功能、线色或接线表，也归入本类。",
+        "reason": "目标裁剪区域在完整标注源图的'二维模型'部分，显示长条矩形机械侧视外形、圆角端部和中部分割线，属于零部件二维外形结构视图；未出现坐标曲线、针脚编号、信号功能或接线定义。",
+        "confidence": 0.88,
+        "source": "ai",
+        "category_type": "base"
+      },
+      "title": {
+        "title_zh": "二维模型侧视结构图",
+        "title_en": "2D Model Side View Structure"
+      },
+      "translation": {
+        "records": []
+      },
+      "review_ui": {},
+      "errors": [],
+      "source": {
+        "annotated_image": "6a339518f2a32a6f1d53f858---.svg",
+        "source_type": "svg"
+      },
+      "ai_analysis": {
+        "target_image": "storage/data/products_manual/drawings_2d/20260618-100-3sug9/6a339518f2a32a6f1d53f858/regions/R001_00ff7f.png",
+        "full_context_image": "storage/data/products_manual/drawings_2d/20260618-100-3sug9/6a339518f2a32a6f1d53f858/context/full_marked_ai.png",
+        "used_full_context_image": true,
+        "error": ""
+      },
+      "has_gb_standard": false,
+      "standard_mark": ""
+    },
+    {
+      "region_id": "R002",
+      "group_name": "二维模型",
+      "group_color": "#00BFFF",
+      "group_order": 2,
+      "group_item_order": 1,
+      "region_order": 2,
+      "source_bbox": {
+        "x": 145,
+        "y": 964,
+        "width": 310,
+        "height": 55,
+        "unit": "source_px"
+      },
+      "rendered_crop_bbox": {
+        "x": 725,
+        "y": 4820,
+        "width": 1550,
+        "height": 275,
+        "unit": "rendered_px",
+        "scale": 5.0
+      },
+      "origin_src": "regions/R002_00bfff.png",
+      "target_src": "regions/R002_00bfff_trimmed.png",
+      "content_type": "structure",
+      "content": "",
+      "content_en": "",
+      "is_structure": true,
+      "structure_candidate": true,
+      "trim_border_px": 1.2,
+      "border_color_cleanup_px": 10,
+      "trim_applied": true,
+      "crop_rotation": 0,
+      "ocr": {
+        "text": "",
+        "items": [],
+        "has_chinese": false
+      },
+      "labels": [
+        {
+          "label_id": "L001",
+          "label_text_original": "二维模型侧视图轮廓",
+          "source": "ai",
+          "bbox": {
+            "x": 145,
+            "y": 964,
+            "width": 310,
+            "height": 55,
+            "unit": "source_px"
+          },
+          "translation_en_simple": "2D side view outline",
+          "translation_en_full": "Two-dimensional model side view outline"
+        }
+      ],
+      "classification": {
+        "category_name": "mechanical_dimensions",
+        "title_zh": "机械尺寸",
+        "title_en": "Mechanical Dimensions",
+        "category_basis": "用于识别机械结构尺寸类图纸，包括电机/零部件外形轮廓、长宽高、轴径、轴长、键槽、法兰、安装孔、孔距、定位尺寸、三视图、剖视图、局部放大视图、公差、形位公差、基准符号、连接器/线缆/插头的物理安装位置或外形位置。若图中仅展示连接器型号、端子型号、线束走向、接口外形位置，但没有明确的引脚编号、针脚功能、线色或接线表，也归入本类。",
+        "reason": "目标裁剪区域在完整标注源图的'1 二维模型'部分，显示一个长条圆角矩形的机械外形侧视图，属于零部件二维结构轮廓视图；区域内无针脚定义、接线表或扭矩转速曲线信息。",
+        "confidence": 0.9,
+        "source": "ai",
+        "category_type": "base"
+      },
+      "title": {
+        "title_zh": "二维模型侧视图",
+        "title_en": "2D Model Side View"
+      },
+      "translation": {
+        "records": [
+          {
+            "label_id": "L001",
+            "label_text_original": "二维模型侧视图轮廓",
+            "translation_en_simple": "2D side view outline",
+            "translation_en_full": "Two-dimensional model side view outline",
+            "bbox": {
+              "x": 145,
+              "y": 964,
+              "width": 310,
+              "height": 55,
+              "unit": "source_px"
+            }
+          }
+        ]
+      },
+      "review_ui": {},
+      "errors": [],
+      "source": {
+        "annotated_image": "6a339518f2a32a6f1d53f858---.svg",
+        "source_type": "svg"
+      },
+      "ai_analysis": {
+        "target_image": "storage/data/products_manual/drawings_2d/20260618-100-3sug9/6a339518f2a32a6f1d53f858/regions/R002_00bfff.png",
+        "full_context_image": "storage/data/products_manual/drawings_2d/20260618-100-3sug9/6a339518f2a32a6f1d53f858/context/full_marked_ai.png",
+        "used_full_context_image": true,
+        "error": ""
+      },
+      "has_gb_standard": false,
+      "standard_mark": ""
+    },
+    {
+      "region_id": "R003",
+      "group_name": "二维模型",
+      "group_color": "#FFD700",
+      "group_order": 3,
+      "group_item_order": 1,
+      "region_order": 3,
+      "source_bbox": {
+        "x": 134,
+        "y": 1030,
+        "width": 324,
+        "height": 314,
+        "unit": "source_px"
+      },
+      "rendered_crop_bbox": {
+        "x": 670,
+        "y": 5150,
+        "width": 1620,
+        "height": 1570,
+        "unit": "rendered_px",
+        "scale": 5.0
+      },
+      "origin_src": "regions/R003_ffd700.png",
+      "target_src": "regions/R003_ffd700_trimmed.png",
+      "content_type": "structure",
+      "content": "",
+      "content_en": "",
+      "is_structure": true,
+      "structure_candidate": true,
+      "trim_border_px": 1.2,
+      "border_color_cleanup_px": 10,
+      "trim_applied": true,
+      "crop_rotation": 0,
+      "ocr": {
+        "text": "O\nO\nO\nO\nO\nO\nO\nO\nO\nO\nO\nO\nO\nO\nO\nO\nO\nO\nO\nO\nO\nO",
+        "items": [
+          {
+            "text": "O",
+            "bbox": {
+              "x": 799,
+              "y": 69,
+              "width": 94,
+              "height": 102,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.6514464616775513,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "O",
+            "bbox": {
+              "x": 548,
+              "y": 120,
+              "width": 92,
+              "height": 98,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.6176899671554565,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "O",
+            "bbox": {
+              "x": 1052,
+              "y": 119,
+              "width": 92,
+              "height": 99,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.5004871487617493,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "O",
+            "bbox": {
+              "x": 337,
+              "y": 269,
+              "width": 89,
+              "height": 91,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.5547249913215637,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "O",
+            "bbox": {
+              "x": 1269,
+              "y": 260,
+              "width": 87,
+              "height": 100,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.5254240036010742,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "O",
+            "bbox": {
+              "x": 805,
+              "y": 304,
+              "width": 82,
+              "height": 92,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.5072735548019409,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "O",
+            "bbox": {
+              "x": 970,
+              "y": 337,
+              "width": 82,
+              "height": 88,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.5989669561386108,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "O",
+            "bbox": {
+              "x": 1109,
+              "y": 424,
+              "width": 88,
+              "height": 99,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.5321850776672363,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "O",
+            "bbox": {
+              "x": 196,
+              "y": 480,
+              "width": 85,
+              "height": 96,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.5482134819030762,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "O",
+            "bbox": {
+              "x": 1412,
+              "y": 480,
+              "width": 84,
+              "height": 95,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.52300626039505,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "O",
+            "bbox": {
+              "x": 1203,
+              "y": 564,
+              "width": 86,
+              "height": 102,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.5764895081520081,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "O",
+            "bbox": {
+              "x": 1231,
+              "y": 728,
+              "width": 90,
+              "height": 100,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.5480085611343384,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "O",
+            "bbox": {
+              "x": 1461,
+              "y": 730,
+              "width": 91,
+              "height": 97,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.5454674959182739,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "O",
+            "bbox": {
+              "x": 401,
+              "y": 893,
+              "width": 89,
+              "height": 101,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.6108989119529724,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "O",
+            "bbox": {
+              "x": 1209,
+              "y": 900,
+              "width": 75,
+              "height": 90,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.5412752032279968,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "O",
+            "bbox": {
+              "x": 1111,
+              "y": 1040,
+              "width": 85,
+              "height": 92,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.6684389710426331,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "O",
+            "bbox": {
+              "x": 637,
+              "y": 1134,
+              "width": 91,
+              "height": 90,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.645500659942627,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "O",
+            "bbox": {
+              "x": 965,
+              "y": 1133,
+              "width": 90,
+              "height": 90,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.672868013381958,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "O",
+            "bbox": {
+              "x": 800,
+              "y": 1166,
+              "width": 90,
+              "height": 91,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.689898669719696,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "O",
+            "bbox": {
+              "x": 336,
+              "y": 1199,
+              "width": 91,
+              "height": 96,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.5505349040031433,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "O",
+            "bbox": {
+              "x": 1269,
+              "y": 1196,
+              "width": 89,
+              "height": 100,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.5448545813560486,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "O",
+            "bbox": {
+              "x": 801,
+              "y": 1388,
+              "width": 91,
+              "height": 99,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.5121181011199951,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          }
+        ],
+        "has_chinese": false
+      },
+      "labels": [
+        {
+          "label_id": "L001",
+          "label_text_original": "外圈圆形法兰轮廓",
+          "source": "ai",
+          "bbox": {
+            "x": 112,
+            "y": 45,
+            "width": 1468,
+            "height": 1463,
+            "unit": "rendered_crop_px"
+          },
+          "translation_en_simple": "Outer circular flange outline",
+          "translation_en_full": "Outer ring circular flange outline"
+        },
+        {
+          "label_id": "L002",
+          "label_text_original": "中央圆孔",
+          "source": "ai",
+          "bbox": {
+            "x": 461,
+            "y": 394,
+            "width": 765,
+            "height": 766,
+            "unit": "rendered_crop_px"
+          },
+          "translation_en_simple": "Center circular hole",
+          "translation_en_full": "Center circular hole"
+        },
+        {
+          "label_id": "L003",
+          "label_text_original": "外圈安装孔阵列",
+          "source": "ai",
+          "bbox": {
+            "x": 135,
+            "y": 75,
+            "width": 1350,
+            "height": 1396,
+            "unit": "rendered_crop_px"
+          },
+          "translation_en_simple": "Outer mounting hole array",
+          "translation_en_full": "Outer ring mounting hole array"
+        },
+        {
+          "label_id": "L004",
+          "label_text_original": "内圈安装孔阵列",
+          "source": "ai",
+          "bbox": {
+            "x": 375,
+            "y": 306,
+            "width": 873,
+            "height": 914,
+            "unit": "rendered_crop_px"
+          },
+          "translation_en_simple": "Inner mounting hole array",
+          "translation_en_full": "Inner ring mounting hole array"
+        },
+        {
+          "label_id": "L005",
+          "label_text_original": "同心圆环结构",
+          "source": "ai",
+          "bbox": {
+            "x": 282,
+            "y": 213,
+            "width": 1126,
+            "height": 1125,
+            "unit": "rendered_crop_px"
+          },
+          "translation_en_simple": "Concentric ring structure",
+          "translation_en_full": "Concentric annular ring structure"
+        }
+      ],
+      "classification": {
+        "category_name": "mechanical_dimensions",
+        "title_zh": "机械尺寸",
+        "title_en": "Mechanical Dimensions",
+        "category_basis": "用于识别机械结构尺寸类图纸，包括电机/零部件外形轮廓、长宽高、轴径、轴长、键槽、法兰、安装孔、孔距、定位尺寸、三视图、剖视图、局部放大视图、公差、形位公差、基准符号、连接器/线缆/插头的物理安装位置或外形位置。若图中仅展示连接器型号、端子型号、线束走向、接口外形位置，但没有明确的引脚编号、针脚功能、线色或接线表，也归入本类。",
+        "reason": "目标框在完整标注图中位于'二维模型'区域，裁剪图显示圆形机械零件的同心圆轮廓、中央通孔以及内外两圈安装孔阵列，属于机械结构外形和安装孔位置表达；未见针脚功能、接线定义或性能曲线。",
+        "confidence": 0.91,
+        "source": "ai",
+        "category_type": "base"
+      },
+      "title": {
+        "title_zh": "圆形法兰孔阵列二维模型",
+        "title_en": "Circular Flange Hole Pattern 2D Model"
+      },
+      "translation": {
+        "records": [
+          {
+            "label_id": "L001",
+            "label_text_original": "外圈圆形法兰轮廓",
+            "translation_en_simple": "Outer circular flange outline",
+            "translation_en_full": "Outer ring circular flange outline",
+            "bbox": {
+              "x": 112,
+              "y": 45,
+              "width": 1468,
+              "height": 1463,
+              "unit": "rendered_crop_px"
+            }
+          },
+          {
+            "label_id": "L002",
+            "label_text_original": "中央圆孔",
+            "translation_en_simple": "Center circular hole",
+            "translation_en_full": "Center circular hole",
+            "bbox": {
+              "x": 461,
+              "y": 394,
+              "width": 765,
+              "height": 766,
+              "unit": "rendered_crop_px"
+            }
+          },
+          {
+            "label_id": "L003",
+            "label_text_original": "外圈安装孔阵列",
+            "translation_en_simple": "Outer mounting hole array",
+            "translation_en_full": "Outer ring mounting hole array",
+            "bbox": {
+              "x": 135,
+              "y": 75,
+              "width": 1350,
+              "height": 1396,
+              "unit": "rendered_crop_px"
+            }
+          },
+          {
+            "label_id": "L004",
+            "label_text_original": "内圈安装孔阵列",
+            "translation_en_simple": "Inner mounting hole array",
+            "translation_en_full": "Inner ring mounting hole array",
+            "bbox": {
+              "x": 375,
+              "y": 306,
+              "width": 873,
+              "height": 914,
+              "unit": "rendered_crop_px"
+            }
+          },
+          {
+            "label_id": "L005",
+            "label_text_original": "同心圆环结构",
+            "translation_en_simple": "Concentric ring structure",
+            "translation_en_full": "Concentric annular ring structure",
+            "bbox": {
+              "x": 282,
+              "y": 213,
+              "width": 1126,
+              "height": 1125,
+              "unit": "rendered_crop_px"
+            }
+          }
+        ]
+      },
+      "review_ui": {},
+      "errors": [],
+      "source": {
+        "annotated_image": "6a339518f2a32a6f1d53f858---.svg",
+        "source_type": "svg"
+      },
+      "ai_analysis": {
+        "target_image": "storage/data/products_manual/drawings_2d/20260618-100-3sug9/6a339518f2a32a6f1d53f858/regions/R003_ffd700.png",
+        "full_context_image": "storage/data/products_manual/drawings_2d/20260618-100-3sug9/6a339518f2a32a6f1d53f858/context/full_marked_ai.png",
+        "used_full_context_image": true,
+        "error": ""
+      },
+      "has_gb_standard": false,
+      "standard_mark": ""
+    },
+    {
+      "region_id": "R004",
+      "group_name": "配置设置",
+      "group_color": "#8A2BE2",
+      "group_order": 4,
+      "group_item_order": 1,
+      "region_order": 4,
+      "source_bbox": {
+        "x": 60,
+        "y": 1641,
+        "width": 199,
+        "height": 47,
+        "unit": "source_px"
+      },
+      "rendered_crop_bbox": {
+        "x": 300,
+        "y": 8205,
+        "width": 995,
+        "height": 235,
+        "unit": "rendered_px",
+        "scale": 5.0
+      },
+      "origin_src": "regions/R004_8a2be2.png",
+      "target_src": "",
+      "content_type": "table",
+      "content": "<table><tr><td>内径(mm)</td><td>101.6</td></tr><tr><td>外径(mm)</td><td>196.85</td></tr><tr><td>宽度(mm)</td><td>22.22</td></tr></table>",
+      "content_en": "<table><tr><td>Inner diameter(mm)</td><td>101.6</td></tr><tr><td>Outer diameter(mm)</td><td>196.85</td></tr><tr><td>Width(mm)</td><td>22.22</td></tr></table>",
+      "is_structure": false,
+      "structure_candidate": true,
+      "trim_border_px": 0,
+      "border_color_cleanup_px": 0,
+      "trim_applied": false,
+      "crop_rotation": 0,
+      "ocr": {
+        "text": "内径(mm)\n101.6\n外径(mm)\n196.85\n宽度(mm)\n22.22",
+        "items": [
+          {
+            "text": "内径(mm)",
+            "bbox": {
+              "x": 57,
+              "y": 16,
+              "width": 207,
+              "height": 58,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.999929944674174,
+            "has_chinese": true,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "101.6",
+            "bbox": {
+              "x": 830,
+              "y": 21,
+              "width": 114,
+              "height": 45,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9998172760009766,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "外径(mm)",
+            "bbox": {
+              "x": 54,
+              "y": 87,
+              "width": 209,
+              "height": 54,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9998565216859182,
+            "has_chinese": true,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "196.85",
+            "bbox": {
+              "x": 831,
+              "y": 93,
+              "width": 136,
+              "height": 37,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9995711147785187,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "宽度(mm)",
+            "bbox": {
+              "x": 54,
+              "y": 156,
+              "width": 210,
+              "height": 56,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9998423556486765,
+            "has_chinese": true,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          },
+          {
+            "text": "22.22",
+            "bbox": {
+              "x": 829,
+              "y": 162,
+              "width": 114,
+              "height": 42,
+              "unit": "origin_src_px"
+            },
+            "confidence": 0.9999698877334595,
+            "has_chinese": false,
+            "text_direction": "horizontal",
+            "text_angle": 0
+          }
+        ],
+        "has_chinese": true
+      },
+      "labels": [
+        {
+          "label_id": "L001",
+          "label_text_original": "内径(mm)",
+          "source": "ai",
+          "bbox": {
+            "x": 57,
+            "y": 16,
+            "width": 207,
+            "height": 58,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "Inner diameter (mm)",
+          "translation_en_full": "Inner diameter (mm)"
+        },
+        {
+          "label_id": "L002",
+          "label_text_original": "101.6",
+          "source": "ai",
+          "bbox": {
+            "x": 830,
+            "y": 21,
+            "width": 114,
+            "height": 45,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "101.6",
+          "translation_en_full": "101.6",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L003",
+          "label_text_original": "外径(mm)",
+          "source": "ai",
+          "bbox": {
+            "x": 54,
+            "y": 87,
+            "width": 209,
+            "height": 54,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "Outer diameter (mm)",
+          "translation_en_full": "Outer diameter (mm)"
+        },
+        {
+          "label_id": "L004",
+          "label_text_original": "196.85",
+          "source": "ai",
+          "bbox": {
+            "x": 831,
+            "y": 93,
+            "width": 136,
+            "height": 37,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "196.85",
+          "translation_en_full": "196.85",
+          "translation_skipped_reason": "no_chinese"
+        },
+        {
+          "label_id": "L005",
+          "label_text_original": "宽度(mm)",
+          "source": "ai",
+          "bbox": {
+            "x": 54,
+            "y": 156,
+            "width": 210,
+            "height": 56,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "Width (mm)",
+          "translation_en_full": "Width (mm)"
+        },
+        {
+          "label_id": "L006",
+          "label_text_original": "22.22",
+          "source": "ai",
+          "bbox": {
+            "x": 829,
+            "y": 162,
+            "width": 114,
+            "height": 42,
+            "unit": "origin_src_px"
+          },
+          "translation_en_simple": "22.22",
+          "translation_en_full": "22.22",
+          "translation_skipped_reason": "no_chinese"
+        }
+      ],
+      "classification": {
+        "category_name": "mechanical_dimensions",
+        "title_zh": "机械尺寸",
+        "title_en": "Mechanical Dimensions",
+        "category_basis": "用于识别机械结构尺寸类图纸，包括电机/零部件外形轮廓、长宽高、轴径、轴长、键槽、法兰、安装孔、孔距、定位尺寸、三视图、剖视图、局部放大视图、公差、形位公差、基准符号、连接器/线缆/插头的物理安装位置或外形位置。若图中仅展示连接器型号、端子型号、线束走向、接口外形位置，但没有明确的引脚编号、针脚功能、线色或接线表，也归入本类。",
+        "reason": "目标裁剪位于完整源图的配置表中，包含可见尺寸字段'内径(mm)'、'外径(mm)'、'宽度(mm)'及对应数值101.6、196.85、22.22，表达零部件几何尺寸参数，最符合机械尺寸类别。",
+        "confidence": 0.98,
+        "source": "ai",
+        "category_type": "base"
+      },
+      "title": {
+        "title_zh": "内外径及宽度尺寸",
+        "title_en": "Inner Diameter, Outer Diameter and Width Dimensions"
+      },
+      "translation": {
+        "records": [
+          {
+            "label_id": "L001",
+            "label_text_original": "内径(mm)",
+            "translation_en_simple": "Inner diameter (mm)",
+            "translation_en_full": "Inner diameter (mm)",
+            "bbox": {
+              "x": 57,
+              "y": 16,
+              "width": 207,
+              "height": 58,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L002",
+            "label_text_original": "101.6",
+            "translation_en_simple": "101.6",
+            "translation_en_full": "101.6",
+            "bbox": {
+              "x": 830,
+              "y": 21,
+              "width": 114,
+              "height": 45,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L003",
+            "label_text_original": "外径(mm)",
+            "translation_en_simple": "Outer diameter (mm)",
+            "translation_en_full": "Outer diameter (mm)",
+            "bbox": {
+              "x": 54,
+              "y": 87,
+              "width": 209,
+              "height": 54,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L004",
+            "label_text_original": "196.85",
+            "translation_en_simple": "196.85",
+            "translation_en_full": "196.85",
+            "bbox": {
+              "x": 831,
+              "y": 93,
+              "width": 136,
+              "height": 37,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L005",
+            "label_text_original": "宽度(mm)",
+            "translation_en_simple": "Width (mm)",
+            "translation_en_full": "Width (mm)",
+            "bbox": {
+              "x": 54,
+              "y": 156,
+              "width": 210,
+              "height": 56,
+              "unit": "origin_src_px"
+            }
+          },
+          {
+            "label_id": "L006",
+            "label_text_original": "22.22",
+            "translation_en_simple": "22.22",
+            "translation_en_full": "22.22",
+            "bbox": {
+              "x": 829,
+              "y": 162,
+              "width": 114,
+              "height": 42,
+              "unit": "origin_src_px"
+            }
+          }
+        ]
+      },
+      "review_ui": {},
+      "errors": [],
+      "source": {
+        "annotated_image": "6a339518f2a32a6f1d53f858---.svg",
+        "source_type": "svg"
+      },
+      "ai_analysis": {
+        "target_image": "storage/data/products_manual/drawings_2d/20260618-100-3sug9/6a339518f2a32a6f1d53f858/regions/R004_8a2be2.png",
+        "full_context_image": "storage/data/products_manual/drawings_2d/20260618-100-3sug9/6a339518f2a32a6f1d53f858/context/full_marked_ai.png",
+        "used_full_context_image": true,
+        "error": ""
+      },
+      "has_gb_standard": false,
+      "standard_mark": ""
+    }
+  ],
+  "category_dictionary_updates": [
+    {
+      "name": "mechanical_dimensions",
+      "category_type": "base",
+      "source": "system_seed",
+      "action": "skipped"
+    },
+    {
+      "name": "torque_speed_curve",
+      "category_type": "base",
+      "source": "system_seed",
+      "action": "skipped"
+    },
+    {
+      "name": "power_connector_pinout",
+      "category_type": "base",
+      "source": "system_seed",
+      "action": "skipped"
+    },
+    {
+      "name": "feedback_connector_pinout",
+      "category_type": "base",
+      "source": "system_seed",
+      "action": "skipped"
+    }
+  ],
+  "classification_records": [
+    {
+      "product_file_id": "6a339518f2a32a6f1d53f858",
+      "region_id": "R001",
+      "category_name": "mechanical_dimensions",
+      "source": "ai",
+      "action": "inserted"
+    },
+    {
+      "product_file_id": "6a339518f2a32a6f1d53f858",
+      "region_id": "R002",
+      "category_name": "mechanical_dimensions",
+      "source": "ai",
+      "action": "inserted"
+    },
+    {
+      "product_file_id": "6a339518f2a32a6f1d53f858",
+      "region_id": "R003",
+      "category_name": "mechanical_dimensions",
+      "source": "ai",
+      "action": "inserted"
+    },
+    {
+      "product_file_id": "6a339518f2a32a6f1d53f858",
+      "region_id": "R004",
+      "category_name": "mechanical_dimensions",
+      "source": "ai",
+      "action": "inserted"
+    }
+  ],
+  "output_files": {
+    "data_json": "data_v2.json",
+    "classification_json": "structure_classification_v2.json",
+    "text_content_json": "text_content_v2.json"
+  },
+  "quality_control": {
+    "origin_src_is_pre_trim_crop": true,
+    "target_src_is_structure_trimmed_crop": true,
+    "engineering_extraction_skipped": true,
+    "forbidden_engineering_fields_present": [],
+    "json_validated": true,
+    "origin_src_semantics": "5x crop before structure border trim; backend original data image",
+    "target_src_semantics": "structure-only crop after border trim; backend processed data image"
+  },
+  "manual_review": {
+    "required": true,
+    "items": [
+      "抽查 5x 裁切图清晰度和结构图去边效果",
+      "抽查 AI 命名、分类、标签合并、完整翻译和简单翻译质量",
+      "抽查 v2 JSON 是否满足后台拆解对比和人工复核需要"
+    ]
+  },
+  "created_at": "2026-06-23T07:01:37+08:00",
+  "updated_at": "2026-06-23T07:01:37+08:00"
+}
